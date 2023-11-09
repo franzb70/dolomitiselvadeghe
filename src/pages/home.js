@@ -1,5 +1,4 @@
 import React from 'react'
-import Gita from "../Components/Gita"
 import Sidebar from '../Components/Sidebar'
 import '../App.css';
 
@@ -12,7 +11,8 @@ return (
         <div className='col-sm-2'>
           <Sidebar />
         </div>
-        <div className='col-sm-10'>          
+        <div className='col-sm-10'>
+        <img src={require('../img/zoldano/pelmetto.jpg')} alt='Palafavera dal Pelmetto'/>
         </div>  
       </div>        
       </form>         
