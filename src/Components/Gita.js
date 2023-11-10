@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css'
+import { ArrowUp } from 'react-feather'
 
 export default function Gita(props) {
 
@@ -21,7 +22,7 @@ export default function Gita(props) {
                 {props.foto.map((item, index) => (
                   <div key={index}>
                     {item.desc}<br></br>
-                    <img src={require('../img/' + item.path)} alt={item.desc}/><p></p>
+                    <img src={require('../img/' + item.path)} alt={item.desc}/><p><a href="#top"><ArrowUp /></a></p>
                   </div>
                 ))}                
                 </div>
