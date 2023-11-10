@@ -1,5 +1,6 @@
 import React from 'react'
 import '../App.css';
+import Logo from '../img/logo.jpg'
 
 export default function Header() {
 
@@ -7,7 +8,7 @@ export default function Header() {
         <div>
             <div className='row App'>
                 <div className='col-sm-12'>
-                    <img src={require('../img/logo.jpg')} alt='Logo'/>
+                <img src={Logo} alt=''/>
                 </div>  
             </div>
         </div>

@@ -47,6 +47,10 @@
   font-weight: bold;
 }
 
+.pictureHome {
+  padding-top: 16px;
+}
+
 .textLeft {
   text-align: left;
 }

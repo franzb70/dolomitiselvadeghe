@@ -7,7 +7,7 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
-import Logo from '../img/Pale.jpg'
+import Pale from '../img/Pale.jpg'
 import VD from '../img/vd.jpg'
 
 const Sidebar = () => {
@@ -15,9 +15,9 @@ const Sidebar = () => {
   return (
     <>
       <div className="itemLeft">
-          <div className="logotext">
+          <div>
               <p></p>
-              <p><img src={Logo} alt=''/></p>
+              <p><img src={Pale} alt=''/></p>
               <p className='textGita'>Se vi piace il nostro approccio alla montagna acquistate il libro</p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
 		        <img src={VD} alt=''></img></a>
@@ -26,34 +26,34 @@ const Sidebar = () => {
             <div>
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>
-                        <NavLink id="home" className={`${'btn'} ${'buttonSide'} ${'btn-secondary'}`} to="/alpago">Alpago</NavLink>
+                        <NavLink id="home" className={`${'btn'} ${'buttonSide'} ${'btn-primary'}`} to="/alpago">Alpago</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="loadlog" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/cadore">Cadore</NavLink>
+                        <NavLink id="loadlog" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/cadore">Cadore</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="requestlog" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/carniche">Alpi Carniche</NavLink>
+                        <NavLink id="requestlog" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/carniche">Alpi Carniche</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="requestlog" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
+                        <NavLink id="requestlog" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/oltrepiave">Oltre Piave</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/oltrepiave">Oltre Piave</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/pale">Pale di San Martino</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/pale">Pale di San Martino</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/zoldano">Zoldano</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/zoldano">Zoldano</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/bellunesi">Dolomiti Bellunesi</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/bellunesi">Dolomiti Bellunesi</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink id="runtest" className={`${'btn'} ${'btn-secondary'} ${'buttonSide'}`} to="/fassa">Fassa e Marmolada</NavLink>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/fassa">Fassa e Marmolada</NavLink>
                     </li>
                 </ul>
             </div>
