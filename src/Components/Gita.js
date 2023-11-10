@@ -26,7 +26,7 @@ export default function Gita(props) {
                 ))}                
                 </div>
             </div>
-            <div className='row border-bottom'></div>
+            <div className='row textGita border-top'></div>
         </div>
     )   
 }
