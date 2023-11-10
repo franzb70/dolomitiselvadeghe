@@ -6,7 +6,7 @@ export default function home() {
 
 return (
   <div className='row App'>
-    <div className='col-sm-2 colLeft'>
+    <div className={`${'col-sm-2'} ${'colLeft'}`}>
           <Sidebar />
         </div>
         <div className='col-sm-10'>
