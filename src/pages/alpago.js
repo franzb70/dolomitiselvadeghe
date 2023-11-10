@@ -15,7 +15,7 @@ export default function Alpago() {
     fotoAntander.push(foto4)
     let descAntander = `Prima del 
     biv.Toffolon si prende l'ampio ghiaione sulla sinistra. Si risale fino 
-    in cresta, puntando leggermete a destra della cima per ripidi pendii 
+    in cresta, puntando leggermente a destra della cima per ripidi pendii 
     erbosi intervallati da qualche roccetta. Poi brevemente in cima sulla 
     cresta (50m). Salita facile ma incontaminata. Qualche passaggio di I 
     grado evitabile.`
@@ -35,7 +35,8 @@ export default function Alpago() {
     let foto7 = {path: 'alpago/Colombera02.jpg', desc: 'Verso il Cavallo'}
     fotoColombera.push(foto6)
     fotoColombera.push(foto7)
-    let descColombera = `Percorso elemntare, Tentativo di cresta nord verso il Cimon di Palantina.Tornato indietro a metà perchè troppo esposta da farsi in solitaria`
+    let descColombera = `Percorso elementare, Tentativo di cresta nord verso il Cimon di Palantina.
+    Tornato indietro a metà perchè troppo esposta da farsi in solitaria.`
 
     let fotoSestier = []
     let foto8 = {path: 'alpago/Sestier_2012-a.jpg', desc: 'Discesa dal Sestier'}

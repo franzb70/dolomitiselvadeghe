@@ -16,7 +16,7 @@ const Sidebar = () => {
     <>
       <div className="itemLeft">
           <div className="logotext">
-              <b>Dolomiti Selvadeghe</b><p></p>
+              <p></p>
               <p><img src={Logo} alt=''/></p>
               <p className='textGita'>Se vi piace il nostro approccio alla montagna acquistate il libro</p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">

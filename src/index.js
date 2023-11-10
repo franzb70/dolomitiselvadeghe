@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 
+import Header from "./Components/Header.js"
 import Home from "./pages/home.js"
 import Alpago from "./pages/alpago.js"
 import Cadore from "./pages/cadore.js"
@@ -19,6 +20,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <BrowserRouter>
+    <Header />
       <Routes>
         <Route path="/" element={ <Home /> } />
         <Route path="/alpago" element={ <Alpago /> } />
