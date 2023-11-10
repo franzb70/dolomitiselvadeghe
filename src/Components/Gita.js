@@ -1,5 +1,5 @@
 import React from 'react'
-import '../App.css';
+import '../App.css'
 
 export default function Gita(props) {
 
@@ -26,6 +26,7 @@ export default function Gita(props) {
                 ))}                
                 </div>
             </div>
+            <div className='row border-bottom'></div>
         </div>
-    );    
+    )   
 }
