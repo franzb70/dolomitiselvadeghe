@@ -24,17 +24,13 @@ export default function Giulie() {
   elementare con solo alcuni tratti appoggiati provvisti di fune metallica.`
 
 return (
-    <div className="App">
-      <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-      <div className='row'>
-        <div className='col-sm-2'>
+  <div className='row App'>
+    <div className='col-sm-2 colLeft'>
           <Sidebar />
         </div>
         <div className='col-sm-10'>    
         <Gita title='Monte Mangart'  quota='2677m' dislivello='680m'  difficolta='I/EEA'  descrizione={descMangart}  foto={fotoMangart} ></Gita>
         </div>  
-      </div>        
-      </form>         
-    </div>
-    );
+    </div>        
+  );
 }

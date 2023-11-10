@@ -21,17 +21,14 @@ export default function Brenta() {
   scendere 2 calate in doppia da 10/15 metri.`
 
 return (
-    <div className="App">
-      <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-      <div className='row'>
-        <div className='col-sm-2'>
+    <div className='row App'>
+    <div className='col-sm-2 colLeft'>
           <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Cima Tosa'  quota='3172m' dislivello='750m'  difficolta='II+/II'  descrizione={descTosa}  foto={fotoTosa} ></Gita>
         </div>  
-      </div>        
-      </form>         
-    </div>
-    );
+    </div>        
+              
+  );
 }

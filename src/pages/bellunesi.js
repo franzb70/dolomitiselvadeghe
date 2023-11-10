@@ -31,18 +31,13 @@ export default function Bellunesi() {
     e' sembrata molto delicata (osservando un alpinista che l'ha percorsa).`
 
 return (
-    <div className="App">
-        <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-        <div className='row'>
-        <div className='col-sm-2'>
+    <div className='row App'>
+        <div className='col-sm-2 colLeft'>
         <Sidebar />
         </div>
         <div className='col-sm-10'>Bellunesi          
         <Gita title='Sass de Mura - Cima Ovest'  quota='2520m' dislivello='~1500m'  difficolta='II/II-'  descrizione={descSassMura}  foto={fotoSassMura} ></Gita>
         </div>  
         </div>        
-
-        </form>       
-    </div>
     );
 }

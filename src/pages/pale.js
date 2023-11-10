@@ -15,17 +15,13 @@ export default function Pale() {
   vetta.`
 
 return (
-    <div className="App">
-      <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-      <div className='row'>
-        <div className='col-sm-2'>
+  <div className='row App'>
+    <div className='col-sm-2 colLeft'>
           <Sidebar />
         </div>
         <div className='col-sm-10'>     
         <Gita title='Monte Agner'  quota='2872m' dislivello='1150m'  difficolta='I+/II-'  descrizione={descAgner}  foto={fotoAgner} ></Gita>
         </div>  
-      </div>        
-      </form>        
-    </div>
-    );
+    </div>                     
+  );
 }

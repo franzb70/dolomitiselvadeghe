@@ -31,15 +31,6 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 .textGita {
   font-size: 14px;
 }
@@ -66,12 +57,16 @@
   --bs-btn-active-color: #515151;
   --bs-btn-hover-bg: #DDD;
   --bs-btn-hover-color:#515151;
-  width: 200px;
   font-weight: bold;
+  min-width: 200px;
 }
 
 .itemLeft {
   flex: 0 1 auto;
   padding-left: 10px;
   text-align: left;
+}
+
+.colLeft {
+  min-width: 200px;
 }

@@ -20,18 +20,14 @@ export default function Alpago() {
     fotoColNudo.push(foto5)
 
     return (
-    <div className="App">
-        <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-        <div className='row'>
-        <div className='col-sm-2'>
-        <Sidebar />
-        </div>
-        <div className='col-sm-10'>          
-        <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione='Salita al bivacco Toffolon in Alpago.'  foto={fotoToffolon} ></Gita>
-        <Gita title='Col Nudo'  quota='2472m' dislivello='1470m'  difficolta='EE'  descrizione='Percorso faticoso ed elemntare fino alla anticima'  foto={fotoColNudo} ></Gita>
-        </div>  
-        </div>        
-        </form>       
-    </div>
+        <div className='row App'>
+            <div className='col-sm-2 colLeft'>
+            <Sidebar />
+            </div>
+            <div className='col-sm-10'>          
+            <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione='Salita al bivacco Toffolon in Alpago.'  foto={fotoToffolon} ></Gita>
+            <Gita title='Col Nudo'  quota='2472m' dislivello='1470m'  difficolta='EE'  descrizione='Percorso faticoso ed elemntare fino alla anticima'  foto={fotoColNudo} ></Gita>
+            </div>  
+        </div>         
     );
 }

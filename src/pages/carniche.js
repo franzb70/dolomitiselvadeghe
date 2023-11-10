@@ -17,17 +17,13 @@ export default function Carniche() {
   eccessivi rischi oggettivi.`
 
 return (
-    <div className="App">
-      <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-      <div className='row'>
-        <div className='col-sm-2'>
+  <div className='row App'>
+    <div className='col-sm-2 colLeft'>
           <Sidebar />
         </div>
         <div className='col-sm-10'>
         <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m'  difficolta='I+'  descrizione={descBrentoni}  foto={fotoBrentoni} ></Gita>
         </div>  
-      </div>        
-      </form>        
-    </div>
-    );
+    </div>        
+  );
 }

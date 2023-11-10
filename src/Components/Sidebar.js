@@ -1,6 +1,5 @@
 //import useState hook to create menu collapse state
-import React, { useState } from "react";
-import { useNavigate } from 'react-router-dom'
+import React from "react";
 import { NavLink } from 'react-router-dom'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
@@ -20,7 +19,7 @@ const Sidebar = () => {
               <b>Dolomiti Selvadeghe</b><p></p>
               <p><img src={Logo} alt=''/></p>
               <p className='textGita'>Se vi piace il nostro approccio alla montagna acquistate il libro</p>
-              <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail">
+              <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
 		        <img src={VD} alt=''></img></a>
             </div>
           <nav className={`navbar`}>

@@ -15,17 +15,11 @@ export default function Cadore() {
   fotoAiarnola.push(foto4)
 
   let fotoBelPra = []
-  let foto5 = {path: 'cadore/BelPra01.JPG', desc: 'Dolomiti di Sesto'}
-  let foto6 = {path: 'cadore/BelPra02.JPG', desc: 'Facili canalini'}
   let foto7 = {path: 'cadore/BelPra03.JPG', desc: 'Cengia ghiacciata'}
-  let foto8 = {path: 'cadore/BelPra04.JPG', desc: 'Duranno e Preti'}
   let foto9 = {path: 'cadore/BelPra05.JPG', desc: 'Cengia'}
   let foto10 = {path: 'cadore/BelPra06.JPG', desc: 'Torretta finale'}
-  let foto11 = {path: 'cadore/BelPra07.JPG', desc: 'Tofane'}
-  let foto12 = {path: 'cadore/BelPra08.JPG', desc: 'Duranno e Preti'}
   let foto13 = {path: 'cadore/BelPra09.JPG', desc: 'Antelao'}
   let foto14 = {path: 'cadore/BelPra10.JPG', desc: 'Torretta finale'}
-  let foto15 = {path: 'cadore/BelPra11.JPG', desc: 'Tofane'}
   let foto16 = {path: 'cadore/BelPra12.JPG', desc: 'Torre Sabbioni'}
   fotoBelPra.push(foto7)
   fotoBelPra.push(foto9)
@@ -62,18 +56,14 @@ export default function Cadore() {
   fotoBelPra.push(foto15)*/
 
 return (
-    <div className="App">
-      <form id="upload_form2" action="/" method="POST" encType="multipart/form-data">
-      <div className='row'>
-        <div className='col-sm-2'>
+  <div className='row App'>
+    <div className='col-sm-2 colLeft'>
           <Sidebar />
         </div>
         <div className='col-sm-10'>
         <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m'  difficolta='EE/F'  descrizione='Salita al Monte Aiarnola.'  foto={fotoAiarnola} ></Gita>
         <Gita title='Cima Belprà'  quota='2917m' dislivello='150+1150m'  difficolta='II-'  descrizione={descBelpra}  foto={fotoBelPra} ></Gita>
         </div>  
-      </div>        
-      </form>         
-    </div>
-    );
+    </div>        
+  );
 }
