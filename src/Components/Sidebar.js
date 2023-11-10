@@ -7,7 +7,7 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
-import Pale from '../img/Pale.jpg'
+import Logo from '../img/Pale.jpg'
 import VD from '../img/vd.jpg'
 
 const Sidebar = () => {
@@ -15,9 +15,9 @@ const Sidebar = () => {
   return (
     <>
       <div className="itemLeft">
-          <div>
+          <div className="logotext">
               <p></p>
-              <p><img src={Pale} alt=''/></p>
+              <p><img src={Logo} alt=''/></p>
               <p className='textGita'>Se vi piace il nostro approccio alla montagna acquistate il libro</p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
 		        <img src={VD} alt=''></img></a>
@@ -26,7 +26,7 @@ const Sidebar = () => {
             <div>
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>
-                        <NavLink id="home" className={`${'btn'} ${'buttonSide'} ${'btn-primary'}`} to="/alpago">Alpago</NavLink>
+                        <NavLink id="home" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/alpago">Alpago</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
                         <NavLink id="loadlog" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/cadore">Cadore</NavLink>

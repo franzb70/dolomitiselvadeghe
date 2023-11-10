@@ -8,7 +8,7 @@ export default function Header() {
         <div>
             <div className='row App'>
                 <div className='col-sm-12'>
-                <a target="_blank" href="/"><img src={Logo} alt=''/></a>
+                    <a target="_blank" href="/"><img src={Logo} alt=''/></a>
                 </div>  
             </div>
         </div>

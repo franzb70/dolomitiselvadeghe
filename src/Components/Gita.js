@@ -9,9 +9,9 @@ export default function Gita(props) {
                 <div className='col-sm-12'>{props.title}</div>            
             </div>        
             <div className='row textGita border-top'>
-                <div className='col-sm-2'>Quota: {props.quota}</div>            
-                <div className='col-sm-2'>Dislivello: {props.dislivello}</div>            
-                <div className='col-sm-2'>Difficoltà: {props.difficolta}</div>            
+                <div className='col-sm-2'><b>Quota: </b>{props.quota}</div>            
+                <div className='col-sm-2'><b>Dislivello: </b>{props.dislivello}</div>            
+                <div className='col-sm-2'><b>Difficoltà: </b>{props.difficolta}</div>            
             </div>
             <div className='row textGita border-top'>
                 <div className='col-sm-12'>{props.descrizione}</div>            
@@ -20,7 +20,7 @@ export default function Gita(props) {
                 <div className='col'>
                 {props.foto.map((item, index) => (
                   <div key={index}>
-                    {item.desc}<p></p>
+                    {item.desc}<br></br>
                     <img src={require('../img/' + item.path)} alt={item.desc}/><p></p>
                   </div>
                 ))}                
