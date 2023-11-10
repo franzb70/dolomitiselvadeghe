@@ -13,16 +13,29 @@ export default function Alpago() {
     fotoAntander.push(foto2)
     fotoAntander.push(foto3)
     fotoAntander.push(foto4)
+    let descAntander = `Prima del 
+    biv.Toffolon si prende l'ampio ghiaione sulla sinistra. Si risale fino 
+    in cresta, puntando leggermete a destra della cima per ripidi pendii 
+    erbosi intervallati da qualche roccetta. Poi brevemente in cima sulla 
+    cresta (50m). Salita facile ma incontaminata. Qualche passaggio di I 
+    grado evitabile.`
 
     let fotoColNudo = []
     let foto5 = {path: 'alpago/ColNudo01.jpg', desc: 'Cresta del Col Nudo'}
     fotoColNudo.push(foto5)
+    let descColNudo = `Percorso faticoso ed elementare sino all'anticima. Dopo bisogna 
+    percorrere un centinaio di metri in cresta (roccia martoriata dai 
+    fulmini). C'e' un passaggio di 3m da fare in arrampicata scendendo in 
+    una fessura (I+) e dopo la cresta presenta tratti aerei con in 
+    particolare un passaggio alquanto esposto (sconsigliabile a chi soffre 
+    di vertigini).`
 
     let fotoColombera = []
-    let foto6 = {path: 'alpago/Colombera01.jpg', desc: 'Cima Manera e Cimon dei Furlani'}
-    let foto7 = {path: 'alpago/Colombera02.jpg', desc: 'Cima Manera e Cimon dei Furlani'}
+    let foto6 = {path: 'alpago/Colombera01.jpg', desc: 'Da casera Palantina'}
+    let foto7 = {path: 'alpago/Colombera02.jpg', desc: 'Verso il Cavallo'}
     fotoColombera.push(foto6)
     fotoColombera.push(foto7)
+    let descColombera = `Percorso elemntare, Tentativo di cresta nord verso il Cimon di Palantina.Tornato indietro a metà perchè troppo esposta da farsi in solitaria`
 
     let fotoSestier = []
     let foto8 = {path: 'alpago/Sestier_2012-a.jpg', desc: 'Discesa dal Sestier'}
@@ -84,9 +97,9 @@ export default function Alpago() {
             <Sidebar />
             </div>
             <div className='col-sm-10'>          
-            <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione='Salita al bivacco Antander in Alpago.'  foto={fotoAntander} ></Gita>
-            <Gita title='Col Nudo'  quota='2472m' dislivello='1470m'  difficolta='EE'  descrizione='Percorso faticoso ed elementare fino alla anticima'  foto={fotoColNudo} ></Gita>
-            <Gita title='Colombera'  quota='2066m' dislivello='~9000m'  difficolta='EE'  descrizione='Percorso elemntare, Tentativo di cresta nord verso il Cimon di Palantina.Tornato indietro a metà perchè troppo esposta da farsi in solitaria'  foto={fotoColombera} ></Gita>
+            <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione={descAntander}  foto={fotoAntander} ></Gita>
+            <Gita title='Col Nudo'  quota='2472m' dislivello='1470m'  difficolta='EE'  descrizione={descColNudo}   foto={fotoColNudo} ></Gita>
+            <Gita title='Colombera'  quota='2066m' dislivello='~9000m'  difficolta='EE'  descrizione={descColombera}  foto={fotoColombera} ></Gita>
             <Gita title='Monte Sestier'  quota='2084m' dislivello='1200m'  difficolta='EE'  descrizione={descSestier}  foto={fotoSestier} ></Gita>
             <Gita title='Monte Teverone'  quota='2328m' dislivello='1300m'  difficolta='EE'  descrizione={descTeverone}  foto={fotoTeverone} ></Gita>
             <Gita title='Monte Venal'  quota='2212m' dislivello='1070m'  difficolta='EE'  descrizione={descVenal}  foto={fotoVenal} ></Gita>
