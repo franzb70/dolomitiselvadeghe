@@ -32,7 +32,7 @@ export default function Varie() {
   return (
     <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Gran Paradiso'  quota='4061m' dislivello='780+1350m'  difficolta='EE/F'  descrizione={descGranPa}  foto={fotoGranPa} ></Gita>

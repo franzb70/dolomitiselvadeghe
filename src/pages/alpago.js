@@ -95,7 +95,7 @@ export default function Alpago() {
     return (
         <div className='row App'>
             <div className='col-sm-2 colLeft'>
-            <Sidebar />
+        <Sidebar />
             </div>
             <div className='col-sm-10'>          
             <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione={descAntander}  foto={fotoAntander} ></Gita>

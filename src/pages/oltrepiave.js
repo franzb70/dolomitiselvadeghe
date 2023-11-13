@@ -29,7 +29,7 @@ export default function Oltrepiave() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Cima Emilia'  quota='2369m' dislivello='~1300m'  difficolta='I+'  descrizione={descEmilia}  foto={fotoEmilia} ></Gita>

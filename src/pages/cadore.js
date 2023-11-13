@@ -58,7 +58,7 @@ export default function Cadore() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>
         <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m'  difficolta='EE/F'  descrizione='Salita al Monte Aiarnola.'  foto={fotoAiarnola} ></Gita>

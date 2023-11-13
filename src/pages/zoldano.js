@@ -30,7 +30,7 @@ export default function Zoldano() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Cima delle Forzelete'  quota='2448m' dislivello='~1100m'  difficolta='I+'  descrizione={descForzelete}  foto={fotoForzelete} ></Gita>

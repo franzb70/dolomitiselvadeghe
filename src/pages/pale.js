@@ -76,8 +76,10 @@ export default function Pale() {
   let fotoAgner = []
   let foto11 = {path: 'pale/agner01.jpg', desc: 'Dalla cima dell\'Agner'}
   let foto12 = {path: 'pale/agner02.jpg', desc: 'Dalla cima dell\'Agner II'}
+  let foto31 = {path: 'pale/bivaccoBiasin.jpg', desc: 'Pale dal Biv. Biasin'}
   fotoAgner.push(foto11)
   fotoAgner.push(foto12)
+  fotoAgner.push(foto31)
 
   let descAgner = `Tratti di I sulle placche e prima del Biv. 
   Biasin; corda metallica esposta, poi I e un passaggio di II per la 
@@ -99,16 +101,95 @@ export default function Pale() {
 	ed un ulteriore risalto di II, su roccia comunque buona e senza esposizione. 
 	La cima consegna un ripagante panorama sul versante sud delle Pale.`
 
-  
+  let fotoTodesco = []
+  let foto18 = {path: 'pale/SassoTodesco_01.jpg', desc: 'La normale'}
+  let foto19 = {path: 'pale/SassoTodesco_02.jpg', desc: 'Cima Zopel'}
+  let foto20 = {path: 'pale/SassoTodesco_03.jpg', desc: 'Focobon e Campido'}
+  let foto21 = {path: 'pale/SassoTodesco_04.jpg', desc: 'Altipiano'}
+  fotoTodesco.push(foto18)
+  fotoTodesco.push(foto19)
+  fotoTodesco.push(foto20)
+  fotoTodesco.push(foto21)
+
+  let descTodesco = `Da Gares si 
+	sale al favoloso pian di Campido, attraversato il quale si attacca la parete 
+	appoggiata del Sasso Todesco in corrispondenza di un canale ad intaglio e 
+	poi uscendo un po' in esposizione per un 5m verso destra (I+, passaggio 
+	chiave) su roccia sempre solida, pur macchiata da zolle. Raggiunta una banca 
+	semi-erbosa, da li le difficoltà svaniscono con solo qualche altro breve 
+	tratto sul I per guadagnare l'ampia e tondeggiante sommità.`
+
+  let fotoFradusta = []
+  let foto22 = {path: 'pale/fradusta01.jpg', desc: 'Altipiano delle Pale'}
+  let foto23 = {path: 'pale/fradusta02.jpg', desc: 'La Pala di San Martino'}
+  let foto24 = {path: 'pale/fradusta03.jpg', desc: 'Ghiacciaio della Fradusta'}
+  fotoFradusta.push(foto22)
+  fotoFradusta.push(foto23)
+  fotoFradusta.push(foto24)
+
+  let descFradusta = `Siamo saliti a lato del ghiacciaio sul lato 
+  ovest della cresta, con passaggi di I grado su terreno instabile.`
+
+  let fotoCampido = []
+  let foto25 = {path: 'pale/Campido-01.JPG', desc: 'Agner la sera'}
+  let foto26 = {path: 'pale/Campido-02.JPG', desc: '...e la mattina'}
+  let foto27 = {path: 'pale/Campido-03.JPG', desc: 'Canalone al Passo Zopel'}
+  let foto28 = {path: 'pale/Campido-04.JPG', desc: 'Ultimi metri'}
+  let foto29 = {path: 'pale/Campido-05.JPG', desc: 'Attacco della normale'}
+  let foto30 = {path: 'pale/Campido-06.JPG', desc: 'Passo Zopel'}
+  fotoCampido.push(foto25)
+  fotoCampido.push(foto26)
+  fotoCampido.push(foto27)
+  fotoCampido.push(foto29)
+  fotoCampido.push(foto28)
+  fotoCampido.push(foto30)
+
+  let descCampido = `Salita entusiasmante, 
+  sempre nei limiti dell'escursionismo. All'imbocco del Pian di Campido si 
+  lascia il sentiero diretto al Passo delle Fede, per scartare a destra 
+  nell'ampio canalone del Passo Zopel. Prima per zolle e ghiaie sulla 
+  destra, quindi passando più sul versante sinistro anche arrampicando per 
+  qualche decina di metri (nemmeno I, ma con detrito) si supera il primo 
+  tratto che risulta il più ripido. Già in vista della Cima si risale 
+  tutto il ripido pendio, evitando sul finale il passo Zopel per piegare a 
+  sinistra, seguendo gli ometti che conducono al canale di accesso alla 
+  normale. Scalato senza problemi un passo iniziale di I+ si procede 
+  lungamente per il canale fino in cresta, I discontinuo. In vista del 
+  Mulaz si attacca la cresta est, mantenendosi comunque distanziati dal 
+  filo, percorso sempre guidato da ometti. Gli ultimi 30m impegnano un po' 
+  di più su terreno meno solido, conviene piegare a destra verso la parete 
+  nord per poi chiudere in vetta sempre da nord. Panoramica stupenda sulle 
+  cime principali delle Pale e di fronte tutte le dolomiti fassane.`
+
+  let fotoBureloni = []
+  let foto32 = {path: 'pale/Bureloni_00.jpg', desc: 'Bureloni a sinistra'}
+  let foto33 = {path: 'pale/Bureloni_01.jpg', desc: 'Residui di ghiacciaio delle Zirocole'}
+  let foto34 = {path: 'pale/Bureloni_02.jpg', desc: 'Cima di Valgrande'}
+  let foto35 = {path: 'pale/Bureloni_03.jpg', desc: 'Cima di Valgrande e anticima'}
+  let foto36 = {path: 'pale/Bureloni_04.jpg', desc: 'Vezzana e Cimon dalla vetta'}
+  let foto37 = {path: 'pale/Bureloni_05.jpg', desc: 'Campido e Focobon'}
+  fotoBureloni.push(foto32)
+  fotoBureloni.push(foto33)
+  fotoBureloni.push(foto34)
+  fotoBureloni.push(foto35)
+  fotoBureloni.push(foto36)
+  fotoBureloni.push(foto37)
+
+  let descBureloni = `Via normale dalla val Venegia, Mulaz, Passo delle Farangole, dove si possono evitare i tratti attrezzati percorrendo il fondo del canale.`
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>     
         <Gita title='Cima della Beta'  quota='2723m' dislivello='1600m'  difficolta='II+/III-/PD+'  descrizione={descBeta}  foto={fotoBeta} ></Gita>
         <Gita title='Monte Agner'  quota='2872m' dislivello='1150m'  difficolta='I+/II-'  descrizione={descAgner}  foto={fotoAgner} ></Gita>
         <Gita title='Sass di Ortiga'  quota='2649m' dislivello='1350m'  difficolta='II+/II/PD'  descrizione={descOrtiga}  foto={fotoOrtiga} ></Gita>
+        <Gita title='Sasso Todesco'  quota='2541m' dislivello='~1400m'  difficolta='I+/F+'  descrizione={descTodesco}  foto={fotoTodesco} ></Gita>
+        <Gita title='La Fradusta'  quota='2919m' dislivello='1400m'  difficolta='I/F'  descrizione={descFradusta}  foto={fotoFradusta} ></Gita>
+        <Gita title='Cima di Campido'  quota='3001m' dislivello='300+1250m'  difficolta='I+/F+'  descrizione={descCampido}  foto={fotoCampido} ></Gita>
+        <Gita title='Cima dei Bureloni'  quota='3130m' dislivello='1600m'  difficolta='I/EE'  descrizione={descBureloni}  foto={fotoBureloni} ></Gita>
         </div>  
     </div>                     
   );

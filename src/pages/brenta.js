@@ -54,7 +54,7 @@ export default function Brenta() {
   return (
     <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Cima Tosa'  quota='3172m' dislivello='750m'  difficolta='II+/II'  descrizione={descTosa}  foto={fotoTosa} ></Gita>

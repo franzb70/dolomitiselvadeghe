@@ -19,7 +19,7 @@ export default function Carniche() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>
         <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m'  difficolta='I+'  descrizione={descBrentoni}  foto={fotoBrentoni} ></Gita>

@@ -77,7 +77,7 @@ export default function Fassa() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <Gita title='Torre Nord del Vajolet'  quota='2810m' dislivello='~900m'  difficolta='II-'  descrizione={descTooreNord}  foto={fotoTooreNord} ></Gita>

@@ -48,7 +48,7 @@ export default function Giulie() {
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-          <Sidebar />
+      <Sidebar />
         </div>
         <div className='col-sm-10'>    
         <Gita title='Monte Mangart'  quota='2677m' dislivello='680m'  difficolta='I/EEA'  descrizione={descMangart}  foto={fotoMangart} ></Gita>
