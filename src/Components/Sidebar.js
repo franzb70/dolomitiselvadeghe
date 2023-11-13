@@ -54,6 +54,9 @@ const Sidebar = () => {
                     </li><p></p>
                     <li className={`nav-item active`}>
                         <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/fassa">Fassa e Marmolada</NavLink>
+                    </li><p></p>
+                    <li className={`nav-item active`}>
+                        <NavLink id="runtest" className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/varie">Varie</NavLink>
                     </li>
                 </ul>
             </div>

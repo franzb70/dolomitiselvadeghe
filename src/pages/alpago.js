@@ -100,7 +100,7 @@ export default function Alpago() {
             <div className='col-sm-10'>          
             <Gita title='Monte Antander'  quota='1987m' dislivello='920m'  difficolta='EE'  descrizione={descAntander}  foto={fotoAntander} ></Gita>
             <Gita title='Col Nudo'  quota='2472m' dislivello='1470m'  difficolta='EE'  descrizione={descColNudo}   foto={fotoColNudo} ></Gita>
-            <Gita title='Colombera'  quota='2066m' dislivello='~9000m'  difficolta='EE'  descrizione={descColombera}  foto={fotoColombera} ></Gita>
+            <Gita title='Colombera'  quota='2066m' dislivello='~900m'  difficolta='EE'  descrizione={descColombera}  foto={fotoColombera} ></Gita>
             <Gita title='Monte Sestier'  quota='2084m' dislivello='1200m'  difficolta='EE'  descrizione={descSestier}  foto={fotoSestier} ></Gita>
             <Gita title='Monte Teverone'  quota='2328m' dislivello='1300m'  difficolta='EE'  descrizione={descTeverone}  foto={fotoTeverone} ></Gita>
             <Gita title='Monte Venal'  quota='2212m' dislivello='1070m'  difficolta='EE'  descrizione={descVenal}  foto={fotoVenal} ></Gita>

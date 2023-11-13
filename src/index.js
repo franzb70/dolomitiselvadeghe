@@ -15,6 +15,7 @@ import Zoldano from "./pages/zoldano.js"
 import Bellunesi from "./pages/bellunesi.js"
 import Brenta from "./pages/brenta.js"
 import Fassa from "./pages/fassa.js"
+import Varie from "./pages/varie.js"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,6 +34,7 @@ root.render(
         <Route path="/bellunesi" element={<Bellunesi />} />
         <Route path="/brenta" element={<Brenta />} />
         <Route path="/fassa" element={<Fassa />} />
+        <Route path="/varie" element={<Varie />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>
