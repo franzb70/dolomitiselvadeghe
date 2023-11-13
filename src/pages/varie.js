@@ -5,12 +5,12 @@ import Sidebar from '../Components/Sidebar'
 export default function Varie() {
 
   let fotoGranPa = []
-  let foto1 = {path: 'varie/granPa01.jpg', desc: 'Verso l\'attacco a Cima GranPa'}
-  let foto2 = {path: 'varie/granPa02.jpg', desc: 'Il camino sulla normale'}
-  let foto3 = {path: 'varie/granPa03.jpg', desc: 'Cima GranPa'}
-  let foto4 = {path: 'varie/granPa04.jpg', desc: 'Il camino sulla normale'}
-  let foto5 = {path: 'varie/granPa05.jpg', desc: 'Il Campanil Basso da est'}
-  let foto6 = {path: 'varie/granPa06.jpg', desc: 'Il Campanil Basso da sud-ovest'}
+  let foto1 = {path: 'varie/granPa01.jpg', desc: 'Verso sud, 5 di mattina'}
+  let foto2 = {path: 'varie/granPa02.jpg', desc: 'Cordate sul ghiacciaio'}
+  let foto3 = {path: 'varie/granPa03.jpg', desc: 'Michele in vetta'}
+  let foto4 = {path: 'varie/granPa04.jpg', desc: 'Scendendo la cresta finale'}
+  let foto5 = {path: 'varie/granPa05.jpg', desc: 'Di ritorno al rifugio'}
+  let foto6 = {path: 'varie/granPa06.jpg', desc: 'Il Cianforon al tramonto'}
   fotoGranPa.push(foto1)
   fotoGranPa.push(foto2)
   fotoGranPa.push(foto3)
