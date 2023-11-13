@@ -7,7 +7,7 @@ export default function Header() {
     return (
     <div className='row'>
         <div className='col-sm-12 App'>
-            <a target="_blank" href="/"><img src={Logo} alt=''/></a>
+            <a target="_blank" href="/"><img src={Logo} alt='Dolomiti Selvadeghe...ma non solo!'/></a>
         </div>  
     </div>
     );    

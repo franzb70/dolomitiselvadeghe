@@ -123,6 +123,48 @@ export default function Bellunesi() {
     indicata sulla Tabacco, per poi rientrare sul segnavia CAI in 
     corrispondenza della malga già incontrata all'andata.`
 
+    let fotoCajada = []
+    let foto19 = {path: 'bellunesi/pelfDaCajada.jpg', desc: 'Il Pelf da Cajada'}
+    let foto20 = {path: 'bellunesi/moschesinDaCajada.jpg', desc: 'Moschesin/Pramper da Cajada'}
+    fotoCajada.push(foto19)
+    fotoCajada.push(foto20)
+  
+    let descCajada = `Arrivati fino nei pressi delle rampe finali. Ritirati per raffiche di 
+    vento e pendio nevoso molto ripido con esposizione a nord (senza ramponi 
+    e piccozza). A scendere percorso libero prima di arrivare alle selle di 
+    Gravedel su erba bagnata e canali innevati.`
+
+    let fotoPinei = []
+    let foto21 = {path: 'bellunesi/pinei01.jpg', desc: 'Discesa attrezzata'}
+    let foto22 = {path: 'bellunesi/pinei02.jpg', desc: 'Su placche'}
+    fotoPinei.push(foto21)
+    fotoPinei.push(foto22)
+  
+    let descPinei = `Da forcella Mompiana spostandosi verso il 
+    Tiron si perviene ad un'ulteriore forcella da dove parte il troi de 
+    panza (cartello in legno). Il percorso e' piuttosto selvaggio e segnato 
+    a vernice gialla, ma richiede un po' di attenzione per non perdere la 
+    traccia. Si devono effettuare parecchi sali-scendi e superare un tratto 
+    attrezzato. Dopo 4 ore da forcella mompiana e superati alcuni passaggi 
+    un po' esposti, ci siamo fermati in una delle svariate gole che 
+    scendono dalle pale dei Pinei. Occorreva scendere una rampa molto ripida 
+    e friabile senza alcuna possibilita' di assicurazione e con circa 100m 
+    di salto sotto. Probabilmente affrontando il giro dal lato opposto si 
+    alleviano le difficolta' (partendo dal VII Alpini). Al ritorno siamo 
+    scesi direttamente per bosco in val d'Art, trovando una gola che ha 
+    consentito di evitare dei salti rocciosi. Dieci ore di cammino quasi 
+    ininterrotte.`
+
+    let fotoPizzocco = []
+    let foto23 = {path: 'bellunesi/pizocco01.jpg', desc: '3 Pietre'}
+    let foto24 = {path: 'bellunesi/pizocco02.jpg', desc: 'Schiara'}
+    fotoPizzocco.push(foto23)
+    fotoPizzocco.push(foto24)
+  
+    let descPizzocco = `Saliti dalla chiesetta di S. Felice. Usciti dalle nuvole 
+    quasi al rifugio Ere, poi giornata stupenda e visuale importante dalla 
+    cima, con le Pale schierate a nord e tutta la val Belluna sotto di noi.`
+
 
 return (
     <div className='row App'>
@@ -136,7 +178,10 @@ return (
         <Gita title='Burel'  quota='2281m' dislivello='~1800m'  difficolta='I/II-/F+'  descrizione={descBurel}  foto={fotoBurel} ></Gita>
         <Gita title='Fratta del Moro'  quota='1673m' dislivello='1380m'  difficolta='EE'  descrizione={descFratta}  foto={fotoFratta} ></Gita>
         <Gita title='Monte Neva'  quota='2228m' dislivello='1110m'  difficolta='I+/EE'  descrizione={descNeva}  foto={fotoNeva} ></Gita>
+        <Gita title='Tentativo al Zimon (Cajada)'  quota='1750m' dislivello='~700m'  difficolta='EE'  descrizione={descCajada}  foto={fotoCajada} ></Gita>
+        <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo'  quota='~1700m' dislivello='~1400m'  difficolta='I+/II-'  descrizione={descPinei}  foto={fotoPinei} ></Gita>
+        <Gita title='Pizzocco'  quota='2186m' dislivello='1350m'  difficolta='I+/II-'  descrizione={descPizzocco}  foto={fotoPizzocco} ></Gita>
         </div>  
-        </div>        
+    </div>        
     );
 }
