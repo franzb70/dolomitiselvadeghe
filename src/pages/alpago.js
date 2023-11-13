@@ -5,7 +5,7 @@ import Sidebar from '../Components/Sidebar'
 export default function Alpago() {
 
     let fotoAntander = []
-    let foto1 = {path: 'alpago/antander01.jpg', desc: 'Bivacco Antander'}
+    let foto1 = {path: 'alpago/antander01.jpg', desc: 'Bivacco Toffolon'}
     let foto2 = {path: 'alpago/antander02.jpg', desc: 'Duranno e Cima Preti'}
     let foto3 = {path: 'alpago/antander03.jpg', desc: 'Ultimi metri in cresta'}
     let foto4 = {path: 'alpago/antander04.jpg', desc: 'Pelmo'}

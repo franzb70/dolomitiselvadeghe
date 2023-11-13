@@ -64,6 +64,65 @@ export default function Bellunesi() {
     incontrano tratti alquanto ripidi, sui 45% che sconsigliano assolutamente
     la caduta. Personalmente nella discesa ho indossato i ramponi per un tratto.`
 
+    let fotoBurel = []
+    let foto11 = {path: 'bellunesi/burel1.jpg', desc: 'Ore 9 in cima al Burel'}
+    let foto12 = {path: 'bellunesi/cimaBurel01.jpg', desc: 'Il Burel'}
+    fotoBurel.push(foto11)
+    fotoBurel.push(foto12)
+  
+    let descBurel = `Dal Bianchet, forcella del Balcon (tratti di I) poi attraverso ghiaioni al van del 
+    Burel. Primo canalino a sx 4m con passaggio di II, poi traversata su 
+    cengia e secondo canalino (I e 3m II), si esce in cresta prossimi alla 
+    cima. A scendere risalita a forcella Sperti e poi ferrata Sperti fino al 
+    VII Alpini.`
+
+    let fotoFratta = []
+    let foto13 = {path: 'bellunesi/frattaDelMoro01.jpg', desc: 'In vista del Burel'}
+    let foto14 = {path: 'bellunesi/frattaDelMoro02.jpg', desc: 'Sulla cengia in Val Ru da Molin'}
+    fotoFratta.push(foto13)
+    fotoFratta.push(foto14)
+  
+    let descFratta = `Percorsa tutta Val Ru da Molin, poi a 
+    destra verso il Forzelon. Giunti in vista dela forcella prima di 
+    traversare un torrente si piega a sinistra. Salita molto faticosa, 
+    ultimi 200m con neve alta. Visione paurosa dalla sommità est verso la 
+    parete ovest del Burel e verso Val de Piero. La Val Ru da Molin 
+    presenta una cengia molto aerea in alcuni tratti, e nella zona centrale 
+    un paio di passaggi sempre su cengia abbastanza impegnativi per 
+    l'esposizione.`
+
+    let fotoNeva = []
+    let foto15 = {path: 'bellunesi/MonteNeva-01.jpg', desc: 'Inizio del canale'}
+    let foto16 = {path: 'bellunesi/MonteNeva-02.jpg', desc: 'Balze'}
+    let foto17 = {path: 'bellunesi/MonteNeva-03.jpg', desc: 'Passo del gatto'}
+    let foto18 = {path: 'bellunesi/MonteNeva-04.jpg', desc: 'Piz de Mez'}
+    fotoNeva.push(foto15)
+    fotoNeva.push(foto16)
+    fotoNeva.push(foto17)
+    fotoNeva.push(foto18)
+    let descNeva = `Il percorso doveva essere 
+    teoricamente segnato ma, pure avevo un ricordo di una deviazione 
+    segnalata tornando dalla cima ovest del Sass de mura, proseguiamo troppo 
+    oltre verso la forcella Neva senza trovare il punto di scarto. 
+    Consultiamo la Tabacco e l'indicazione ci porta a ridiscendere un tratto 
+    ed attaccare un ampio canalone senza traccia di passaggio/ometti. 
+    Evitiamo un primo colatoio piuttosto ripido tenendoci sulle loppe alla 
+    destra e poi traversiamo un 50m tra baranci per riportarci nel greto, 
+    ora più abbordabile. L'idea che non possa essere la via normale di 
+    salita prende corpo, nondimeno guadagniamo quota mirando alla forcella 
+    che intaglia la cresta sommitale. Alcuni passaggi risultano un po' 
+    scabrosetti con abbondante detrito sotto le suole (I, qualche passo I+). 
+    Ad un possible bivio notiamo qualcosa somigliante ad un ometto giusto 
+    all'uscita di un'esile cengetta (destra salendo). Superatala con passo 
+    del gatto e bagnato, si accede velocemente alla calotta finale, dove 
+    finalmente si torna in posizione bipede. Ancora una occhiata alla 
+    cartina e ci convinciamo che deve esserci un altra via per scendere. 
+    Infatti proseguendo in direzione ovest sulla cresta ci si trova subito a 
+    percorrere una traccia di sentiero ben evidente. Il giro sarà quindi ad 
+    anello, ma con una curva verso ovest molto più pronunciata di quella 
+    indicata sulla Tabacco, per poi rientrare sul segnavia CAI in 
+    corrispondenza della malga già incontrata all'andata.`
+
 
 return (
     <div className='row App'>
@@ -74,6 +133,9 @@ return (
         <Gita title='Sass de Mura - Cima Ovest'  quota='2520m' dislivello='~1500m'  difficolta='II/II-'  descrizione={descSassMura}  foto={fotoSassMura} ></Gita>
         <Gita title='Monte Tre Pietre'  quota='1965m' dislivello='1670m'  difficolta='II-'  descrizione={desc3Pietre}  foto={foto3Pietre} ></Gita>
         <Gita title='Boca de Rosp'  quota='1635m' dislivello='600m'  difficolta='F-'  descrizione={descBocaRosp}  foto={fotoBocaRosp} ></Gita>
+        <Gita title='Burel'  quota='2281m' dislivello='~1800m'  difficolta='I/II-/F+'  descrizione={descBurel}  foto={fotoBurel} ></Gita>
+        <Gita title='Fratta del Moro'  quota='1673m' dislivello='1380m'  difficolta='EE'  descrizione={descFratta}  foto={fotoFratta} ></Gita>
+        <Gita title='Monte Neva'  quota='2228m' dislivello='1110m'  difficolta='I+/EE'  descrizione={descNeva}  foto={fotoNeva} ></Gita>
         </div>  
         </div>        
     );

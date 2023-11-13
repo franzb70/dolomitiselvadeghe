@@ -22,7 +22,8 @@ export default function Gita(props) {
                 {props.foto.map((item, index) => (
                   <div key={index}>
                     {item.desc}<br></br>
-                    <img src={require('../img/' + item.path)} alt={item.desc}/><p><a href="#top"><ArrowUp /></a></p>
+                    <img src={require('../img/' + item.path)} alt={item.desc}/>
+                    <p><a href="#top"><ArrowUp /></a></p>
                   </div>
                 ))}                
                 </div>
