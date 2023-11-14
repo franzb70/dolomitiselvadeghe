@@ -73,6 +73,49 @@ export default function Fassa() {
 	15m di I all'inizio, poi una bancata con zolle e una breve crestina 
 	terminale.`
 
+  let fotoVernale = []
+  let foto19 = {path: 'fassa/vernale01.jpg', desc: 'Marmolada dal Vernale'}
+  fotoVernale.push(foto19)
+
+  let descVernale = `Cresta finale 
+  tra le rovine della grande guerra, sempre max I-.`
+
+  let fotoSassDlaCrusc = []
+  let foto20 = {path: 'fassa/sassDlaCrusc01.jpg', desc: 'Verso le Odle'}
+  let foto21 = {path: 'fassa/sassDlaCrusc02.jpg', desc: 'Sulla cengia in parete ovest'}
+  fotoSassDlaCrusc.push(foto20)
+  fotoSassDlaCrusc.push(foto21)
+
+  let descSassDlaCrusc = `La salita si 
+  sviluppa per cengia e risalti attrezzati piuttosto facili, l'esposizione 
+  e' quasi sempre trascurabile. Poi la cresta e' molto semplice e non 
+  molto ripida. Per la cima del Sass dle Diesc occorre affrontare un 
+  tratto di attrezzata con corda verticale alquanto esposto.`
+
+  let fotoSassRigais = []
+  let foto22 = {path: 'fassa/Puez01.jpg', desc: 'Puez'}
+  let foto23 = {path: 'fassa/Furcheta01.jpg', desc: 'La Furcheta dal Sass Rigais'}
+  fotoSassRigais.push(foto22)
+  fotoSassRigais.push(foto23)
+
+  let descSassRigais = `Salita per la ferrata Ovest, discesa per la ferrata sud. Entrambe 
+  piuttosto facili. Sulla sud si devono superare dei tratti sul I grado 
+  (mai esposti) senza cavo. Giornata splendida con panorama a 360 gradi.`
+
+  let fotoMarmolada = []
+  let foto24 = {path: 'fassa/marmolada01.jpg', desc: 'Sassolungo e Roda de Mulon al tramonto'}
+  let foto25 = {path: 'fassa/marmolada02.jpg', desc: 'Ghiacciao verso le Tofane'}
+  fotoMarmolada.push(foto24)
+  fotoMarmolada.push(foto25)
+
+  let descMarmolada = `Ferrata per cresta Ovest a salire, nevaio del Vernel 
+  senza problemi. La ferrata e' lunga ma ben attrezzata. A scendere per la 
+  normale. Terminata la schiena non ripida occorre scendere arrampicando 
+  per circa 200m fino al ghiacciao sottostante; una serie di canalini con 
+  tratti di I+ e I continuo, con roccia spesso levigata dall'uso. Il 
+  ghiacciao era alquanto molle (neve) e solo in una occasione e' stato 
+  necessario saltare un piccolo crepaccetto.`
+
 
 return (
   <div className='row App'>
@@ -84,6 +127,10 @@ return (
         <Gita title='Cima di Auta Est'  quota='2624m' dislivello='1350m'  difficolta='I+/EEA'  descrizione={descAutaEst}  foto={fotoAutaEst} ></Gita>
         <Gita title='Punta del Ciadin'  quota='2919m' dislivello='1020m'  difficolta='I/I+'  descrizione={descCiadin}  foto={fotoCiadin} ></Gita>
         <Gita title='Mugoni Cima di Mezzo'  quota='2750m' dislivello='800m'  difficolta='I'  descrizione={descMugoniMezzo}  foto={fotoMugoniMezzo} ></Gita>
+        <Gita title='Sasso Vernale'  quota='3058m' dislivello='~1100m'  difficolta='I-'  descrizione={descVernale}  foto={fotoVernale} ></Gita>
+        <Gita title='Sass dla Crusc'  quota='2907m' dislivello='~1200m'  difficolta='EE'  descrizione={descSassDlaCrusc}  foto={fotoSassDlaCrusc} ></Gita>
+        <Gita title='Sass Rigais'  quota='3025m' dislivello='940m'  difficolta='EEA'  descrizione={descSassRigais}  foto={fotoSassRigais} ></Gita>
+        <Gita title='Marmolada'  quota='3343m' dislivello='650+850m'  difficolta='EEA'  descrizione={descMarmolada}  foto={fotoMarmolada} ></Gita>
         </div>  
     </div>                   
   );
