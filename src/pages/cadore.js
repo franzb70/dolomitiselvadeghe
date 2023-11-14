@@ -154,7 +154,49 @@ export default function Cadore() {
   molto faticosa per l'avvicinamento, segnalata a vernice rossa fina a 
   forcella Froppa e poi con ometti; consigliabile farla in due giorni.`
 
+  let fotoDoge = []
+  let foto37 = {path: 'cadore/CornoDelDoge-01.jpg', desc: 'Il profilo del Corno'}
+  let foto38 = {path: 'cadore/CornoDelDoge-02.jpg', desc: 'Parete gialla in cengia'}
+  let foto39 = {path: 'cadore/CornoDelDoge-03.jpg', desc: 'Il passaggio chiave'}
+  let foto40 = {path: 'cadore/CornoDelDoge-04.jpg', desc: 'I pendii terminali'}
+  fotoDoge.push(foto37)
+  fotoDoge.push(foto38)
+  fotoDoge.push(foto39)
+  fotoDoge.push(foto40)
 
+
+  let descDoge = `Da Ponte degli 
+	Alberi presso Palus San Marco Si imbocca la sterrata, sentiero CAI 226, che 
+	per oltre un chilometro e mezzo scorre pianeggiante nel bosco e si seguono 
+	ai bivii le indicazioni per il Bivacco Voltolina. Risalita una ripida 
+	faggeta con percorso a zig-zag si perde poi un po' di quota prima della 
+	biforcazione che porta a seguire il sentiero CAI 278. Superata una parete 
+	appoggiata con attrezzature fisse si giunge in breve in vista del bivacco. 
+	Prestando attenzione a delle segnalazioni su di un masso si volge ora a 
+	destra in direzione della cengia erbose ben evidente che taglia la parete 
+	est del Corno del Doge. Per circa un centinaio di metri si segue il sentiero 
+	CAI 280, Alta via Numero 5, e lo si abbandona quasi subito quando i mughi 
+	lasciano spazio alla sinistra ad una paretina dove si scorge a sinistra un 
+	ometto circa 10 m sopra la traccia. Si sale così su pendio prevalentemente 
+	erboso, tenendo la destra dovendo intercettare la cengia proprio al suo 
+	inizio. Si percorre ora lungamente la cengia, sempre comoda ed in leggera 
+	pendenza ascendente, passando sotto bellissimi appichi di roccia gialla 
+	solidissima. Quando si apre un canale accessibile sulla destra è il momento 
+	di abbandonare la cornice erbosa, rimontando facili salti, sempre con zolle 
+	affioranti, mantenendo la destra come direzione dominante. I radi ometti 
+	portano ad un bel ballatoio erboso dal quale si scorge il tratto chiave 
+	della salita. Ci si abbassa un po' su cengia fino alla placca verticale che 
+	interrompe il percorso. Sono 4 m di roccia buona da percorrersi in 
+	orizzontale con buoni appigli per le mani, piccole scaglie, mentrei per i 
+	piedi serve qualche appoggio in aderenza. L'esposizione è consistente 
+	pertanto conviene attrezzare una breve corda fissa. All'uscita si doppia uno 
+	spigolo su roccia solida (II-) sempre in orizzontale per poi infilare un 
+	canalone detritico che si risale lungamente per uscirne sulla destra. 
+	Rimontati ancora ripidi pendii erbosi si approccia la dorsale che scende 
+	dalla cima, ormai in vista, e faticosamente senza percorso fisso si 
+	raggiunge la cresta ormai a poche decine di metri dalla vetta.`
+
+  
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -166,6 +208,7 @@ return (
         <Gita title='Pelmetto'  quota='2990m' dislivello='1480m'  difficolta='II-/IV-/AD-'  descrizione={descPelmetto}  foto={fotoPelmetto} ></Gita>
         <Gita title='La Cesta'  quota='2768m' dislivello='970m'  difficolta='I+/II-/PD-'  descrizione={descCesta}  foto={fotoCesta} ></Gita>
         <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m'  difficolta='II-/III/PD+'  descrizione={descFroppa}  foto={fotoFroppa} ></Gita>
+        <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
         </div>  
     </div>        
   );
