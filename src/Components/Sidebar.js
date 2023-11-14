@@ -7,7 +7,6 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 //import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
-import Logo from '../img/Pale.jpg'
 import VD from '../img/vd.jpg'
 
 const Sidebar = () => {
@@ -15,14 +14,14 @@ const Sidebar = () => {
     let disclaimer = `Questo il libro per voi...se vi piace il nostro approccio alla montagna`
     return (
     <>
-      <div className="itemLeft">
+      <div className="itemLeft sidebar">
           <div className="logotext">
               <p></p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
 		        <img src={VD} alt=''></img></a>
                 <p className='textLogo'>{disclaimer}</p>
            </div>
-          <nav className={`navbar`}>
+          <nav className="navbar">
             <div>
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>

@@ -8,42 +8,11 @@ body {
   background-color: #0f2755;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-
 .App {
   text-align: left;
   color: white;
   font-size: calc(3px + 2vmin);
   background-color: #0f2755;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
 }
 
 .textGita {
@@ -55,7 +24,6 @@ code {
   font-size: 12px;
   max-width: 180px;
 }
-
 
 .textTitleFoto {
   font-size: 16px;
@@ -95,4 +63,14 @@ code {
 
 .colLeft {
   min-width: 200px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;  
+}
+
+.header {
+  background-color: #0f2755;
 }
