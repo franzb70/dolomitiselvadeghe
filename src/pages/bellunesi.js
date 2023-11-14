@@ -65,8 +65,8 @@ export default function Bellunesi() {
     la caduta. Personalmente nella discesa ho indossato i ramponi per un tratto.`
 
     let fotoBurel = []
-    let foto11 = {path: 'bellunesi/burel1.jpg', desc: 'Ore 9 in cima al Burel'}
-    let foto12 = {path: 'bellunesi/cimaBurel01.jpg', desc: 'Il Burel'}
+    let foto11 = {path: 'bellunesi/cimaBurel01.jpg', desc: 'Ore 9 in cima al Burel'}
+    let foto12 = {path: 'bellunesi/burel1.jpg', desc: 'Il Burel'}
     fotoBurel.push(foto11)
     fotoBurel.push(foto12)
   

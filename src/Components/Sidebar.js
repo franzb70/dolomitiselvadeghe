@@ -12,16 +12,16 @@ import VD from '../img/vd.jpg'
 
 const Sidebar = () => {
 
-  return (
+    let disclaimer = `Questo il libro per voi...se vi piace il nostro approccio alla montagna`
+    return (
     <>
       <div className="itemLeft">
           <div className="logotext">
               <p></p>
-              <p><img src={Logo} alt=''/></p>
-              <p className='textGita'>Se vi piace il nostro approccio alla montagna acquistate il libro</p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
 		        <img src={VD} alt=''></img></a>
-            </div>
+                <p className='textLogo'>{disclaimer}</p>
+           </div>
           <nav className={`navbar`}>
             <div>
                 <ul className={`navbar-nav mr-auto`}>

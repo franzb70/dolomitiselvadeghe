@@ -51,6 +51,12 @@ code {
   max-width: 1030px;
 }
 
+.textLogo {
+  font-size: 12px;
+  max-width: 180px;
+}
+
+
 .textTitleFoto {
   font-size: 16px;
   padding-top: 20px;
