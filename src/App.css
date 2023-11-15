@@ -46,11 +46,10 @@ body {
 }
 
 .buttonSide {
-  background-color: #72a3ffd2;
+  background-color: #72a3ff;
   --bs-btn-active-bg: #a0e8fa;
-  --bs-btn-active-color: #515151;
+  --bs-btn-active-color: #3306ad;
   --bs-btn-hover-bg: #DDD;
-  --bs-btn-hover-color:#515151;
   font-weight: bold;
   min-width: 185px;
 }

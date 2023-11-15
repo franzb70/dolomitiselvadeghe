@@ -1,10 +1,7 @@
-//import useState hook to create menu collapse state
 import React from "react";
 import { NavLink } from 'react-router-dom'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
-
-//import sidebar css from react-pro-sidebar module and our custom css 
 import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
 import VD from '../img/vd.jpg'
@@ -22,7 +19,7 @@ const Sidebar = () => {
           <div className="logotext">
               <p></p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
-		        <img src={VD} alt=''></img></a>
+		        <img src={VD} alt='ViviDolomiti'></img></a>
                 <p className='textLogo'>{disclaimer}</p>
            </div>
           <nav className="navbar">
