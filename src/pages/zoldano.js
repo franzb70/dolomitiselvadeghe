@@ -102,6 +102,20 @@ export default function Zoldano() {
   visione d'infilata verso le cime che a sud-est vanno verso il Pramper e
   ottimo balcone panoramico per le pareti degli Spiz.`
 
+  let fotoSasse = []
+  let foto21 = {path: 'zoldano/sasse01.jpg', desc: 'Arrampicando sulla parete appoggiata'}
+  let foto22 = {path: 'zoldano/sasse02.jpg', desc: 'Cengioni detritici'}
+  let foto23 = {path: 'zoldano/sasse03.jpg', desc: 'Biv. Carnielli'}
+  let foto24 = {path: 'zoldano/sasse04.jpg', desc: 'Piccolo Civetta e Civetta'}
+  let foto25 = {path: 'zoldano/sasse05.jpg', desc: 'Pelmo e Antelao dalla vetta'}
+  fotoSasse.push(foto21)
+  fotoSasse.push(foto22)
+  fotoSasse.push(foto23)
+  fotoSasse.push(foto24)
+  fotoSasse.push(foto25)
+
+  let descSasse = `Salita molto divertente con una lunga parete di I/I+ continuo priva di reale esposizione.`
+
 
 
 return (
@@ -114,6 +128,7 @@ return (
         <Gita title='Pramperet'  quota='2337m' dislivello='1300m'  difficolta='II-/F+'  descrizione={descPramperet}  foto={fotoPramperet} ></Gita>
         <Gita title='Sasso di Toanella'  quota='2430m' dislivello='1720m'  difficolta='II-/F+'  descrizione={descToanella}  foto={fotoToanella} ></Gita>
         <Gita title='Dente de la Fopa'  quota='2161m' dislivello='960m'  difficolta='I+/F'  descrizione={descDenteFopa}  foto={fotoDenteFopa} ></Gita>
+        <Gita title='Cima delle Sasse'  quota='2878m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descSasse}  foto={fotoSasse} ></Gita>
         </div>  
     </div>        
   );
