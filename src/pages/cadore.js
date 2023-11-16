@@ -213,6 +213,28 @@ export default function Cadore() {
 
   let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.`
 
+  let fotoCristallo = []
+  let foto47 = {path: 'cadore/Cristallo_00.jpg', desc: 'Baraccamenti grande guerra'}
+  let foto48 = {path: 'cadore/Cristallo_01.jpg', desc: 'Passaggio in cengia'}
+  let foto49 = {path: 'cadore/Cristallo_02.jpg', desc: 'Canale con passaggio di III-'}
+  let foto50 = {path: 'cadore/Cristallo_03.jpg', desc: 'Caratteristico uovo'}
+  let foto51 = {path: 'cadore/Cristallo_04.jpg', desc: 'Cortina in basso'}
+  let foto52 = {path: 'cadore/Cristallo_05.jpg', desc: 'La lasta'}
+  let foto53 = {path: 'cadore/Cristallo_06.jpg', desc: 'Nevaietto'}
+  let foto54 = {path: 'cadore/Cristallo_07.jpg', desc: 'Il Piz Popena'}
+  fotoCristallo.push(foto47)
+  fotoCristallo.push(foto48)
+  fotoCristallo.push(foto49)
+  fotoCristallo.push(foto50)
+  fotoCristallo.push(foto51)
+  fotoCristallo.push(foto52)
+  fotoCristallo.push(foto53)
+  fotoCristallo.push(foto54)
+
+  let descCristallo = `Dal Passo Tre Croci pernottato con sacco a pelo al Col da Varda. Via normale arcigna da affrontare col massimo rispetto.
+  Attrezzatura alpinistica consigliata sia per eventualmente assicurarsi in alcuni passaggi in salita che per le doppie in discesa. 
+  Occorre prestare molta attenzione all'orientamento nella vasta parete, alcuni ometti possono fuorviare, magari dedicati a postazioni da corda doppia in discesa.`
+
 
 
 return (
@@ -228,6 +250,7 @@ return (
         <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m'  difficolta='II-/III/PD+'  descrizione={descFroppa}  foto={fotoFroppa} ></Gita>
         <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
         <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m'  difficolta='II+/AD-'  descrizione={descPopena}  foto={fotoPopena} ></Gita>
+        <Gita title='Monte Cristallo'  quota='3221m' dislivello='~1450m'  difficolta='II+/PD'  descrizione={descCristallo}  foto={fotoCristallo} ></Gita>
         </div>  
     </div>        
   );

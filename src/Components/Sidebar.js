@@ -32,12 +32,6 @@ const Sidebar = () => {
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/cadore">Cadore</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/carniche">Alpi Carniche</NavLink>
-                    </li><p></p>
-                    <li className={`nav-item active`}>
-                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
-                    </li><p></p>
-                    <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/oltrepiave">Oltre Piave</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
@@ -50,10 +44,16 @@ const Sidebar = () => {
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/bellunesi">Dolomiti Bellunesi</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/fassa">Fassa/Badia/Gardena</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
-                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/fassa">Fassa e Marmolada</NavLink>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/carniche">Alpi Carniche</NavLink>
+                    </li><p></p>
+                    <li className={`nav-item active`}>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
+                    </li><p></p>
+                    <li className={`nav-item active`}>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/varie">Varie</NavLink>
