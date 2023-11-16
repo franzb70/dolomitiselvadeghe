@@ -165,6 +165,19 @@ export default function Bellunesi() {
     quasi al rifugio Ere, poi giornata stupenda e visuale importante dalla 
     cima, con le Pale schierate a nord e tutta la val Belluna sotto di noi.`
 
+    let fotoBalconi = []
+    let foto25 = {path: 'bellunesi/balconi01.jpg', desc: 'Calata nel canalone bagnato'}
+    let foto26 = {path: 'bellunesi/balconi02.jpg', desc: 'La parete appoggiata da risalire'}
+    let foto27 = {path: 'bellunesi/balconi03.jpg', desc: 'Il Cor'}
+    let foto28 = {path: 'bellunesi/balconi04.jpg', desc: 'Catena dell\'Agner verso sud'}
+    let foto29 = {path: 'bellunesi/balconi05.jpg', desc: 'Catena settentrionale delle Pale di San Martino'}
+    fotoBalconi.push(foto25)
+    fotoBalconi.push(foto26)
+    fotoBalconi.push(foto27)
+    fotoBalconi.push(foto28)
+    fotoBalconi.push(foto29)
+    let descBalconi = `Saliti da Gares, casera Campigat, e giro ad anello per le Pale dei Balconi. Consigliato l'uso della corda nella discesa del canalone bagnato.`
+
 
 return (
     <div className='row App'>
@@ -181,6 +194,7 @@ return (
         <Gita title='Tentativo al Zimon (Cajada)'  quota='1750m' dislivello='~700m'  difficolta='EE'  descrizione={descCajada}  foto={fotoCajada} ></Gita>
         <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo'  quota='~1700m' dislivello='~1400m'  difficolta='I+/II-'  descrizione={descPinei}  foto={fotoPinei} ></Gita>
         <Gita title='Pizzocco'  quota='2186m' dislivello='1350m'  difficolta='I+/II-'  descrizione={descPizzocco}  foto={fotoPizzocco} ></Gita>
+        <Gita title='Cima dei Balconi/Cor/Pale dei Balconi'  quota='2621m' dislivello='~1400m'  difficolta='II/I/F+'  descrizione={descBalconi}  foto={fotoBalconi} ></Gita>
         </div>  
     </div>        
     );

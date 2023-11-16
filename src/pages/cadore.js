@@ -196,7 +196,25 @@ export default function Cadore() {
 	dalla cima, ormai in vista, e faticosamente senza percorso fisso si 
 	raggiunge la cresta ormai a poche decine di metri dalla vetta.`
 
-  
+
+  let fotoPopena = []
+  let foto41 = {path: 'cadore/popena00.jpg', desc: 'Ruderi rif. Popena'}
+  let foto42 = {path: 'cadore/popena01.jpg', desc: 'Nel canalone con neve perenne'}
+  let foto43 = {path: 'cadore/popena02.jpg', desc: 'In parete tra le nebbie'}
+  let foto44 = {path: 'cadore/popena03.jpg', desc: 'Dalla cima verso Sorapiss ed Antelao'}
+  let foto45 = {path: 'cadore/popena04.jpg', desc: 'Discese in corda doppia'}
+  let foto46 = {path: 'cadore/popena05.jpg', desc: 'Disarrampicando sul I continuo'}
+  fotoPopena.push(foto41)
+  fotoPopena.push(foto42)
+  fotoPopena.push(foto43)
+  fotoPopena.push(foto44)
+  fotoPopena.push(foto45)
+  fotoPopena.push(foto46)
+
+  let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.`
+
+
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -209,6 +227,7 @@ return (
         <Gita title='La Cesta'  quota='2768m' dislivello='970m'  difficolta='I+/II-/PD-'  descrizione={descCesta}  foto={fotoCesta} ></Gita>
         <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m'  difficolta='II-/III/PD+'  descrizione={descFroppa}  foto={fotoFroppa} ></Gita>
         <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
+        <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m'  difficolta='II+/AD-'  descrizione={descPopena}  foto={fotoPopena} ></Gita>
         </div>  
     </div>        
   );
