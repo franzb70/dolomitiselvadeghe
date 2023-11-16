@@ -243,6 +243,20 @@ export default function Oltrepiave() {
   nell'esile vetta. Nella discesa si può attrezzare una doppia nel camino 
   intermedio sfruttando il moschettone in loco. `
 
+  let fotoPussa = []
+  let foto57 = {path: 'oltrepiave/pussa01.jpg', desc: 'Il Torrione di forcella Pussa'}
+  let foto58 = {path: 'oltrepiave/pussa02.jpg', desc: 'Su placche inclinate'}
+  let foto59 = {path: 'oltrepiave/pussa03.jpg', desc: 'Passaggio in cresta'}
+  let foto60 = {path: 'oltrepiave/pussa04.jpg', desc: 'Cima di San Francesco'}
+  let foto61 = {path: 'oltrepiave/pussa05.jpg', desc: 'Verso Cima di Bortolusc'}
+  fotoPussa.push(foto57)
+  fotoPussa.push(foto58)
+  fotoPussa.push(foto59)
+  fotoPussa.push(foto60)
+  fotoPussa.push(foto61)
+
+  let descPussa = `Salita in ambiente isolato, con difficoltà ed esposizione limitate, affrontabile in assetto escursionistico.`
+
 
 return (
   <div className='row App'>
@@ -259,6 +273,7 @@ return (
         <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m'  difficolta='II/PD'  descrizione={descPinoSudo}  foto={fotoPinoSudo} ></Gita>
         <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m'  difficolta='II-/F+'  descrizione={descPecoli}  foto={fotoPecoli} ></Gita>
         <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m'  difficolta='II+/PD'  descrizione={descMonfalconDM}  foto={fotoMonfalconDM} ></Gita>
+        <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descPussa}  foto={fotoPussa} ></Gita>
         </div>  
     </div>                   
   );
