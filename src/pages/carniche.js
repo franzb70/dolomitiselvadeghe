@@ -70,10 +70,10 @@ export default function Carniche() {
       <Sidebar />
         </div>
         <div className='col-sm-10'>
-        <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m'  difficolta='I+'  descrizione={descBrentoni}  foto={fotoBrentoni} ></Gita>
-        <Gita title='Terza Grande'  quota='2583m' dislivello='1200m'  difficolta='II-'  descrizione={descTerzaGrande}  foto={fotoTerzaGrande} ></Gita>
-        <Gita title='Terza Piccola'  quota='2334m' dislivello='1150m'  difficolta='I+'  descrizione={descTerzaPiccola}  foto={fotoTerzaPiccola} ></Gita>
-        <Gita title='Monte Zermula'  quota='2145m' dislivello='590m'  difficolta='EEA'  descrizione={descZermula}  foto={fotoZermula} ></Gita>
+        <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m' difficolta='I+' descrizione={descBrentoni} foto={fotoBrentoni} ></Gita>
+        <Gita title='Terza Grande'  quota='2583m' dislivello='1200m' difficolta='II-' descrizione={descTerzaGrande} foto={fotoTerzaGrande} ></Gita>
+        <Gita title='Terza Piccola'  quota='2334m' dislivello='1150m' difficolta='I+' descrizione={descTerzaPiccola} foto={fotoTerzaPiccola} ></Gita>
+        <Gita title='Monte Zermula'  quota='2145m' dislivello='590m' difficolta='EEA' descrizione={descZermula} foto={fotoZermula} ></Gita>
         </div>  
     </div>        
   );

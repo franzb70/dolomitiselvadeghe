@@ -138,15 +138,15 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Torre Nord del Vajolet'  quota='2810m' dislivello='~900m'  difficolta='II-'  descrizione={descTooreNord}  foto={fotoTooreNord} ></Gita>
-        <Gita title='Cima di Auta Est'  quota='2624m' dislivello='1350m'  difficolta='I+/EEA'  descrizione={descAutaEst}  foto={fotoAutaEst} ></Gita>
-        <Gita title='Punta del Ciadin'  quota='2919m' dislivello='1020m'  difficolta='I/I+'  descrizione={descCiadin}  foto={fotoCiadin} ></Gita>
-        <Gita title='Mugoni Cima di Mezzo'  quota='2750m' dislivello='800m'  difficolta='I'  descrizione={descMugoniMezzo}  foto={fotoMugoniMezzo} ></Gita>
-        <Gita title='Sasso Vernale'  quota='3058m' dislivello='~1100m'  difficolta='I-'  descrizione={descVernale}  foto={fotoVernale} ></Gita>
-        <Gita title='Sass dla Crusc'  quota='2907m' dislivello='~1200m'  difficolta='EE'  descrizione={descSassDlaCrusc}  foto={fotoSassDlaCrusc} ></Gita>
-        <Gita title='Sass Rigais'  quota='3025m' dislivello='940m'  difficolta='EEA'  descrizione={descSassRigais}  foto={fotoSassRigais} ></Gita>
-        <Gita title='Marmolada'  quota='3343m' dislivello='650+850m'  difficolta='EEA'  descrizione={descMarmolada}  foto={fotoMarmolada} ></Gita>
-        <Gita title='Cima Scalieret'  quota='2889m' dislivello='1480m'  difficolta='EE'  descrizione={descScalieret}  foto={fotoScalieret} ></Gita>
+        <Gita title='Torre Nord del Vajolet'  quota='2810m' dislivello='~900m' difficolta='II-' descrizione={descTooreNord} foto={fotoTooreNord} ></Gita>
+        <Gita title='Cima di Auta Est'  quota='2624m' dislivello='1350m' difficolta='I+/EEA' descrizione={descAutaEst} foto={fotoAutaEst} ></Gita>
+        <Gita title='Punta del Ciadin'  quota='2919m' dislivello='1020m' difficolta='I/I+' descrizione={descCiadin} foto={fotoCiadin} ></Gita>
+        <Gita title='Mugoni Cima di Mezzo'  quota='2750m' dislivello='800m' difficolta='I' descrizione={descMugoniMezzo} foto={fotoMugoniMezzo} ></Gita>
+        <Gita title='Sasso Vernale'  quota='3058m' dislivello='~1100m' difficolta='I-' descrizione={descVernale} foto={fotoVernale} ></Gita>
+        <Gita title='Sass dla Crusc'  quota='2907m' dislivello='~1200m' difficolta='EE' descrizione={descSassDlaCrusc} foto={fotoSassDlaCrusc} ></Gita>
+        <Gita title='Sass Rigais'  quota='3025m' dislivello='940m' difficolta='EEA' descrizione={descSassRigais} foto={fotoSassRigais} ></Gita>
+        <Gita title='Marmolada'  quota='3343m' dislivello='650+850m' difficolta='EEA' descrizione={descMarmolada} foto={fotoMarmolada} ></Gita>
+        <Gita title='Cima Scalieret'  quota='2889m' dislivello='1480m' difficolta='EE' descrizione={descScalieret} foto={fotoScalieret} ></Gita>
         </div>  
     </div>                   
   );

@@ -124,11 +124,11 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Cima delle Forzelete'  quota='2448m' dislivello='~1100m'  difficolta='I+'  descrizione={descForzelete}  foto={fotoForzelete} ></Gita>
-        <Gita title='Pramperet'  quota='2337m' dislivello='1300m'  difficolta='II-/F+'  descrizione={descPramperet}  foto={fotoPramperet} ></Gita>
-        <Gita title='Sasso di Toanella'  quota='2430m' dislivello='1720m'  difficolta='II-/F+'  descrizione={descToanella}  foto={fotoToanella} ></Gita>
-        <Gita title='Dente de la Fopa'  quota='2161m' dislivello='960m'  difficolta='I+/F'  descrizione={descDenteFopa}  foto={fotoDenteFopa} ></Gita>
-        <Gita title='Cima delle Sasse'  quota='2878m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descSasse}  foto={fotoSasse} ></Gita>
+        <Gita title='Cima delle Forzelete'  quota='2448m' dislivello='~1100m' difficolta='I+' descrizione={descForzelete} foto={fotoForzelete} ></Gita>
+        <Gita title='Pramperet'  quota='2337m' dislivello='1300m' difficolta='II-/F+' descrizione={descPramperet} foto={fotoPramperet} ></Gita>
+        <Gita title='Sasso di Toanella'  quota='2430m' dislivello='1720m' difficolta='II-/F+' descrizione={descToanella} foto={fotoToanella} ></Gita>
+        <Gita title='Dente de la Fopa'  quota='2161m' dislivello='960m' difficolta='I+/F' descrizione={descDenteFopa} foto={fotoDenteFopa} ></Gita>
+        <Gita title='Cima delle Sasse'  quota='2878m' dislivello='1250m' difficolta='I+/F+' descrizione={descSasse} foto={fotoSasse} ></Gita>
         </div>  
     </div>        
   );

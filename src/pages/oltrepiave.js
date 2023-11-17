@@ -278,17 +278,17 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Cima Toro'  quota='2355m' dislivello='1250m'  difficolta='II/II+/PD+'  descrizione={descCimaToro}  foto={fotoCimaToro} ></Gita>
-        <Gita title='Cima Emilia'  quota='2369m' dislivello='~1300m'  difficolta='I+'  descrizione={descEmilia}  foto={fotoEmilia} ></Gita>
-        <Gita title='Cima di Bortolusc'  quota='2160m' dislivello='1150m'  difficolta='I+/II-'  descrizione={descBortolusc}  foto={fotoBortolusc} ></Gita>
-        <Gita title='Cima Vacalizza'  quota='2266m' dislivello='1650m'  difficolta='III-/II/PD+'  descrizione={descVacalizza}  foto={fotoVacalizza} ></Gita>
-        <Gita title='Spalla del Duranno/Sent. Zandonella'  quota='2234m' dislivello='1300m'  difficolta='I/EEA'  descrizione={descSpallaDuranno}  foto={fotoSpallaDuranno} ></Gita>
-        <Gita title='Cime Postegae'  quota='2313/2358m' dislivello='~1500m'  difficolta='EE'  descrizione={descPostegae}  foto={fotoPostegae} ></Gita>
-        <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m'  difficolta='II/PD'  descrizione={descPinoSudo}  foto={fotoPinoSudo} ></Gita>
-        <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m'  difficolta='II-/F+'  descrizione={descPecoli}  foto={fotoPecoli} ></Gita>
-        <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m'  difficolta='II+/PD'  descrizione={descMonfalconDM}  foto={fotoMonfalconDM} ></Gita>
-        <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descPussa}  foto={fotoPussa} ></Gita>
-        <Gita title='Torre Postegae sud'  quota='2346m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descPostegaeSud}  foto={fotoPostegaeSud} ></Gita>
+        <Gita title='Cima Toro'  quota='2355m' dislivello='1250m' difficolta='II/II+/PD+' descrizione={descCimaToro} foto={fotoCimaToro} ></Gita>
+        <Gita title='Cima Emilia'  quota='2369m' dislivello='~1300m' difficolta='I+' descrizione={descEmilia} foto={fotoEmilia} ></Gita>
+        <Gita title='Cima di Bortolusc'  quota='2160m' dislivello='1150m' difficolta='I+/II-' descrizione={descBortolusc} foto={fotoBortolusc} ></Gita>
+        <Gita title='Cima Vacalizza'  quota='2266m' dislivello='1650m' difficolta='III-/II/PD+' descrizione={descVacalizza} foto={fotoVacalizza} ></Gita>
+        <Gita title='Spalla del Duranno/Sent. Zandonella'  quota='2234m' dislivello='1300m' difficolta='I/EEA' descrizione={descSpallaDuranno} foto={fotoSpallaDuranno} ></Gita>
+        <Gita title='Cime Postegae'  quota='2313/2358m' dislivello='~1500m' difficolta='EE' descrizione={descPostegae} foto={fotoPostegae} ></Gita>
+        <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m' difficolta='II/PD' descrizione={descPinoSudo} foto={fotoPinoSudo} ></Gita>
+        <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m' difficolta='II-/F+' descrizione={descPecoli} foto={fotoPecoli} ></Gita>
+        <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m' difficolta='II+/PD' descrizione={descMonfalconDM} foto={fotoMonfalconDM} ></Gita>
+        <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m' difficolta='I+/F+' descrizione={descPussa} foto={fotoPussa} ></Gita>
+        <Gita title='Torre Postegae sud'  quota='2346m' dislivello='1250m' difficolta='I+/F+' descrizione={descPostegaeSud} foto={fotoPostegaeSud} ></Gita>
         </div>  
     </div>                   
   );

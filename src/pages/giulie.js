@@ -51,9 +51,9 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>    
-        <Gita title='Monte Mangart'  quota='2677m' dislivello='680m'  difficolta='I/EEA'  descrizione={descMangart}  foto={fotoMangart} ></Gita>
-        <Gita title='Jof Fuart'  quota='2666m' dislivello='800m'  difficolta='I+/EEA'  descrizione={descFuart}  foto={fotoFuart} ></Gita>
-        <Gita title='Jof di Montasio'  quota='2666m' dislivello='800m'  difficolta='I+/EEA'  descrizione={descMontasio}  foto={fotoMontasio} ></Gita>
+        <Gita title='Monte Mangart'  quota='2677m' dislivello='680m' difficolta='I/EEA' descrizione={descMangart} foto={fotoMangart} ></Gita>
+        <Gita title='Jof Fuart'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descFuart} foto={fotoFuart} ></Gita>
+        <Gita title='Jof di Montasio'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descMontasio} foto={fotoMontasio} ></Gita>
         </div>  
     </div>        
   );

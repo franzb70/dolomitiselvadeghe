@@ -178,23 +178,143 @@ export default function Bellunesi() {
     fotoBalconi.push(foto29)
     let descBalconi = `Saliti da Gares, casera Campigat, e giro ad anello per le Pale dei Balconi. Consigliato l'uso della corda nella discesa del canalone bagnato.`
 
+    let fotoPaleMola = []
+    let foto30 = {path: 'bellunesi/ReceDelGat_01.jpg', desc: 'Cartello vintage'}
+    let foto31 = {path: 'bellunesi/ReceDelGat_02.jpg', desc: 'Ripido finale'}
+    let foto32 = {path: 'bellunesi/ReceDelGat_03.jpg', desc: 'Sas de Mel'}
+    let foto33 = {path: 'bellunesi/ReceDelGat_04.jpg', desc: 'Sud della Schiara'}
+    fotoPaleMola.push(foto30)
+    fotoPaleMola.push(foto31)
+    fotoPaleMola.push(foto32)
+    fotoPaleMola.push(foto33)
+    let descPaleMola = `La salita 
+	inizia a Ponte Mariano in val d'Art a circa mezz'ora da case Bortot. 
+	Risaliamo la Pala Bernarda per bosco di faggi e conifere fino a sbucare nei 
+	paraggi del Biv. Medassa. Dal ricovero, incassato nella roccia, si 
+	stacca il sentiero che porta alla forcella Pis Pilon. Lo si segue fino ad un 
+	evidente abete rosso, ove conviene virare a sinistra su per l'invitante pala 
+	erbosa. Si mantiene la destra del declivio piuttosto ripido per poi puntare 
+	la sommità più alta in faticosa arrampicata vegeto-minerale, su loppe ripide 
+	ma non impossibili. Si guadagna così la recia più alta che offre una 
+	visione ideale sulla sud della Schiara. Scendendo si può facilmente calcare 
+	la sommità minore (a sud).`
 
+    let fotoZimonTerne = []
+    let foto34 = {path: 'bellunesi/ZimonTerne01.jpg', desc: 'Schiara e Pelf'}
+    let foto35 = {path: 'bellunesi/ZimonTerne02.jpg', desc: 'Passaggio assicurato'}
+    let foto36 = {path: 'bellunesi/ZimonTerne03.jpg', desc: 'Pala bassa verso Bus Del Diaol e Agner'}
+    let foto37 = {path: 'bellunesi/ZimonTerne04.jpg', desc: 'Burel'}
+    let foto38 = {path: 'bellunesi/ZimonTerne05.jpg', desc: 'Assicurazione su larice'}
+    let foto39 = {path: 'bellunesi/ZimonTerne06.jpg', desc: 'Parete nord-ovest'}
+    fotoZimonTerne.push(foto34)
+    fotoZimonTerne.push(foto35)
+    fotoZimonTerne.push(foto36)
+    fotoZimonTerne.push(foto37)
+    fotoZimonTerne.push(foto38)
+    fotoZimonTerne.push(foto39)
+  
+    let descZimonTerne = `Da forcella Mompiana si prende la cresta del Terne aggirando a sinistra (est)
+    un primo risalto, per poi attaccare una ripida pala mista loppa-roccette.
+    A meta' di questa abbiam fatto assicurazione su albero, superando un paio
+    di metri di II. Alternativamente si puo' stare piu' a sinistra ma senza
+    assicurazione. Quindi, verso sinistra si costeggia un risalto roccioso
+    abbastanza ripidamente per poi sbucare ancora in cresta. Dopo un po' di
+    saliscendi e superato anche un tratto a dorso di mulo si
+    perviene ad una cengetta esposta sul versante ovest. Dopo questa si scende
+    di una ventina di metri per poi risalire all'ultimo intaglio che conduce
+    alla rampa terminale della montagna. Anche quest'ultima assume pendenza
+    considerevole prima delle ultime roccette finali. Panorama superbo verso
+    nord, circa 4h in salita e 1 e mezza in discesa da sud.`
+
+    let fotoTalvena = []
+    let foto40 = {path: 'bellunesi/Talvena01.jpg', desc: 'Formazioni sulle cime di Zita'}
+    let foto41 = {path: 'bellunesi/Talvena02.jpg', desc: 'In cima alla Talvena '}
+    fotoTalvena.push(foto40)
+    fotoTalvena.push(foto41)
+  
+    let descTalvena = `Avvicinamento 
+    lungo dalla Val Pramper per la Costa del Barancion, forc. de Zita' Sud, 
+    forc. degli Erbandoi. La cresta e' facile (forse qualche passo di I-) 
+    ma un po' malsicura per le roccette instabili. Panorama grandioso.`
+
+    let fotoTanzon = []
+    let foto42 = {path: 'bellunesi/Tanzon02.jpg', desc: 'Cengia Pala Bassana'}
+    let foto43 = {path: 'bellunesi/Tanzon01.jpg', desc: 'Sas de Mel'}
+    fotoTanzon.push(foto42)
+    fotoTanzon.push(foto43)
+  
+    let descTanzon = `Da Cajada si prosegue per F.lla Caneva per poi piegare a
+    destra nel bosco senza tracce nei pressi dei ruderi di casera. Faticosamente
+    si perviene ai salti che conducono all'erbosa cengia della Pala Bassana.Si
+    devono guadagnare un 7/8 m alternativamente passando per ripida cengetta
+    erbosa esposta, o salendo in un canale (II) o ancora spostandosi piu' avanti
+    e risalendo la spalla rocciosa (II-, appoggiato, appigli piccoli ma
+    abbondanti). Si arriva quindi nei pressi di un camino verticale di una
+    ventina di metri. La via sale a destra per misto erba roccia con scarse
+    possibilita' di assicurazione ed esposizione nei primi metri. Qui siamo
+    tornati per poi salire a cima Tanzon da forcella Caneva e ritorno per
+    forcella Tanzon.`
+
+    let fotoSpizGalina = []
+    let foto44 = {path: 'bellunesi/spizGalina01.jpg', desc: 'In cima'}
+    fotoSpizGalina.push(foto44)
+  
+    let descSpizGalina = `La via parte ad uno stretto intaglio sul 
+    versante sud-est. Aiutandosi con una catena si supera un salto verticale 
+    di 5m. Poi ci si inerpica per un costone, nel nostro caso ghiacciato con 
+    sicurezza di corda. Dopo un tratto nel bosco meno ripido si arriva alla 
+    base del canale erboso principale. Circa 150m di loppe e radi mughi o 
+    carpini. La pendenza e' molto elevata. Abbiamo fatto tre tiri di corda 
+    da 50m circa. Si esce quindi in cresta da dove ci si sposta verso la 
+    vetta tenendosi sul versante est (percorso obbligato). L'ultimo tratto 
+    e' alquanto vertiginoso. Altrenativamente si possono salire gli ultimi 
+    metri affrontando un salto di 3m meno esposto (III). A scendere sempre 
+    con la corda fino alla catena.`
+
+    let fotoColSiron = []
+    let foto45 = {path: 'bellunesi/Siron1.jpg', desc: 'Il Col Siron da ovest'}
+    let foto46 = {path: 'bellunesi/Siron2.jpg', desc: 'Ripidi prati a est del Col Siron'}
+    let foto47 = {path: 'bellunesi/Siron3.jpg', desc: 'La cresta di salita da sud'}
+    let foto48 = {path: 'bellunesi/Siron4.jpg', desc: 'Gruppo del Bosconero innevato'}
+    fotoColSiron.push(foto45)
+    fotoColSiron.push(foto46)
+    fotoColSiron.push(foto47)
+    fotoColSiron.push(foto48)
+    let descColSiron = `Lasciata 
+	l'auto al parcheggio di Olantreghe si prende la comoda mulattiera diretta a 
+	casera Busnik. Giunti in località Col, presenza di segnavia CAI, si piega 
+	liberamente a sinistra nel bosco, superando in saliscendi alcune doline che 
+	portano alla base dei ripidi prati, macchiati di mughi, sul versante est del 
+	Col Siron. Si individua subito lo stretto intaglio di forcella, tra i verdi, 
+	alla sinistra del corpo principale delle verticali pareti est del monte. Si 
+	risale verso la forcella evitando i mughi e si prende, la cresta sud, prima 
+	aggirando in versante oves un torrione e poi seguendo i rari tagli tra i 
+	mughi, fino alla base del cocuzzolo finale, da attaccare in versante ovest 
+	per evitare alcuni spuntoni rocciosi.`
+
+    
 return (
     <div className='row App'>
         <div className='col-sm-2 colLeft'>
         <Sidebar />
         </div>
         <div className='col-sm-10'>         
-        <Gita title='Sass de Mura - Cima Ovest'  quota='2520m' dislivello='~1500m'  difficolta='II/II-'  descrizione={descSassMura}  foto={fotoSassMura} ></Gita>
-        <Gita title='Monte Tre Pietre'  quota='1965m' dislivello='1670m'  difficolta='II-'  descrizione={desc3Pietre}  foto={foto3Pietre} ></Gita>
-        <Gita title='Boca de Rosp'  quota='1635m' dislivello='600m'  difficolta='F-'  descrizione={descBocaRosp}  foto={fotoBocaRosp} ></Gita>
-        <Gita title='Burel'  quota='2281m' dislivello='~1800m'  difficolta='I/II-/F+'  descrizione={descBurel}  foto={fotoBurel} ></Gita>
-        <Gita title='Fratta del Moro'  quota='1673m' dislivello='1380m'  difficolta='EE'  descrizione={descFratta}  foto={fotoFratta} ></Gita>
-        <Gita title='Monte Neva'  quota='2228m' dislivello='1110m'  difficolta='I+/EE'  descrizione={descNeva}  foto={fotoNeva} ></Gita>
-        <Gita title='Tentativo al Zimon (Cajada)'  quota='1750m' dislivello='~700m'  difficolta='EE'  descrizione={descCajada}  foto={fotoCajada} ></Gita>
-        <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo'  quota='~1700m' dislivello='~1400m'  difficolta='I+/II-'  descrizione={descPinei}  foto={fotoPinei} ></Gita>
-        <Gita title='Pizzocco'  quota='2186m' dislivello='1350m'  difficolta='I+/II-'  descrizione={descPizzocco}  foto={fotoPizzocco} ></Gita>
-        <Gita title='Cima dei Balconi/Cor/Pale dei Balconi'  quota='2621m' dislivello='~1400m'  difficolta='II/I/F+'  descrizione={descBalconi}  foto={fotoBalconi} ></Gita>
+        <Gita title='Sass de Mura - Cima Ovest'  quota='2520m' dislivello='~1500m' difficolta='II/II-' descrizione={descSassMura} foto={fotoSassMura} ></Gita>
+        <Gita title='Monte Tre Pietre'  quota='1965m' dislivello='1670m' difficolta='II-' descrizione={desc3Pietre} foto={foto3Pietre} ></Gita>
+        <Gita title='Boca de Rosp'  quota='1635m' dislivello='600m' difficolta='F-' descrizione={descBocaRosp} foto={fotoBocaRosp} ></Gita>
+        <Gita title='Burel'  quota='2281m' dislivello='~1800m' difficolta='I/II-/F+' descrizione={descBurel} foto={fotoBurel} ></Gita>
+        <Gita title='Fratta del Moro'  quota='1673m' dislivello='1380m' difficolta='EE' descrizione={descFratta} foto={fotoFratta} ></Gita>
+        <Gita title='Monte Neva'  quota='2228m' dislivello='1110m' difficolta='I+/EE' descrizione={descNeva} foto={fotoNeva} ></Gita>
+        <Gita title='Tentativo al Zimon (Cajada)'  quota='1750m' dislivello='~700m' difficolta='EE' descrizione={descCajada} foto={fotoCajada} ></Gita>
+        <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo'  quota='~1700m' dislivello='~1400m' difficolta='I+/II-' descrizione={descPinei} foto={fotoPinei} ></Gita>
+        <Gita title='Pizzocco'  quota='2186m' dislivello='1350m' difficolta='I+/II-' descrizione={descPizzocco} foto={fotoPizzocco} ></Gita>
+        <Gita title='Cima dei Balconi/Cor/Pale dei Balconi'  quota='2621m' dislivello='~1400m' difficolta='II/I/F+' descrizione={descBalconi} foto={fotoBalconi} ></Gita>
+        <Gita title='Pale de la Mola'  quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descPaleMola} foto={fotoPaleMola} ></Gita>
+        <Gita title='Zimon del Terne'  quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descZimonTerne} foto={fotoZimonTerne} ></Gita>
+        <Gita title='La Talvena'  quota='2542m' dislivello='~1500m' difficolta='EE' descrizione={descTalvena} foto={fotoTalvena} ></Gita>
+        <Gita title='Cima Tanzon / Tentativo cengia Pala Bassana'  quota='1926m' dislivello='900m' difficolta='E' descrizione={descTanzon} foto={fotoTanzon} ></Gita>
+        <Gita title='Spiz Galina'  quota='1545m' dislivello='870m' difficolta='II/PD' descrizione={descSpizGalina} foto={fotoSpizGalina} ></Gita>
+        <Gita title='Col Siron'  quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
         </div>  
     </div>        
     );

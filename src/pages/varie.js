@@ -35,7 +35,7 @@ export default function Varie() {
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Gran Paradiso'  quota='4061m' dislivello='780+1350m'  difficolta='EE/F'  descrizione={descGranPa}  foto={fotoGranPa} ></Gita>
+        <Gita title='Gran Paradiso'  quota='4061m' dislivello='780+1350m' difficolta='EE/F' descrizione={descGranPa} foto={fotoGranPa} ></Gita>
         </div>  
     </div>        
               

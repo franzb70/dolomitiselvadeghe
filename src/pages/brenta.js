@@ -57,9 +57,9 @@ export default function Brenta() {
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Cima Tosa'  quota='3172m' dislivello='750m'  difficolta='II+/II'  descrizione={descTosa}  foto={fotoTosa} ></Gita>
-        <Gita title='Cima Brenta'  quota='3572m' dislivello='700m'  difficolta='I+/II-'  descrizione={descBrenta}  foto={fotoBrenta} ></Gita>
-        <Gita title='Cima Grostè'  quota='2905m' dislivello='1350m'  difficolta='I+/II-'  descrizione={descGroste}  foto={fotoGroste} ></Gita>
+        <Gita title='Cima Tosa'  quota='3172m' dislivello='750m' difficolta='II+/II' descrizione={descTosa} foto={fotoTosa} ></Gita>
+        <Gita title='Cima Brenta'  quota='3572m' dislivello='700m' difficolta='I+/II-' descrizione={descBrenta} foto={fotoBrenta} ></Gita>
+        <Gita title='Cima Grostè'  quota='2905m' dislivello='1350m' difficolta='I+/II-' descrizione={descGroste} foto={fotoGroste} ></Gita>
         </div>  
     </div>        
               

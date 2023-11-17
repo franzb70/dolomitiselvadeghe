@@ -250,22 +250,101 @@ export default function Cadore() {
   let descSorapiss = `Via lunga con bolli rossi sbiaditi, un passaggio III (12 m. di doppia 
 		a scendere), per lo più I friabile e passi di II, lunghe cenge detritiche e a tratti esposte.`
 
+    let fotoCimaValdarcia = []
+    let foto60 = {path: 'cadore/CimaValdarcia01.jpg', desc: 'Cima di Val d\'Arcia'}
+    fotoCimaValdarcia.push(foto60)
+  
+    let descCimaValdarcia = `Da 
+		F.lla Valdarcia si sale un canale ghiaioso appena sul lato nord e si 
+		attacca una paretina di 10 m, o per cresta, appigli non molto grandi ma solidi (II, II-) poi ci si infila in un 
+		diedro di una ventina di metri, già più detritico, comunque stando sulle 
+		scaglie del diedro si sale bene (I+). 
+		Quindi si esce in cresta che fortunatamente non e' mai esposta. Si alternano tratti meno ripidi su sfasciumi 
+		(occorre non muovere sassi per evitare finiscano in testa a quelli che risalgono la f.lla Valdarcia) o su 
+		placchette di pochi metri, appoggiate, da scalare anche in aderenza con 
+		gli scarponi. Gli ultimi metri sono 
+		su cresta molto solida. (30/40 min dalla forcella. Panorama ottimo, 
+		pochi ometti e roccia pressochè vergine.`
 
+    let fotoPuntaNera = []
+    let foto61 = {path: 'cadore/PuntaNera_01.jpg', desc: 'Attacco della breve via'}
+    let foto62 = {path: 'cadore/PuntaNera_02.jpg', desc: 'Terreno instabile'}
+    let foto63 = {path: 'cadore/PuntaNera_03.jpg', desc: 'In cresta'}
+    let foto64 = {path: 'cadore/PuntaNera_04.jpg', desc: 'Tutta la dorsale da forcella di Punta Nera'}
+    fotoPuntaNera.push(foto61)
+    fotoPuntaNera.push(foto62)
+    fotoPuntaNera.push(foto63)
+    fotoPuntaNera.push(foto64)
+  
+    let descPuntaNera = `Facile via normale in ambiente grandioso al cospetto del Sorapiss. Rientro per l'affollato Lago.`
+  
+    let fotoSassolungoCibiana = []
+    let foto65 = {path: 'cadore/SassolungoCibiana01.jpg', desc: 'Sotto la dorsale sud'}
+    let foto66 = {path: 'cadore/SassolungoCibiana02.jpg', desc: 'Passaggio su roccette'}
+    let foto67 = {path: 'cadore/SassolungoCibiana03.jpg', desc: 'In cresta'}
+    let foto68 = {path: 'cadore/SassolungoCibiana04.jpg', desc: 'Ultimo canale prima della cupola sommitale'}
+    fotoSassolungoCibiana.push(foto65)
+    fotoSassolungoCibiana.push(foto66)
+    fotoSassolungoCibiana.push(foto67)
+    fotoSassolungoCibiana.push(foto68)
+  
+    let descSassolungoCibiana = `Via normale 
+    per la dorsale sud. Dl passo di Cibiana si sale a Forc. Bela per poi perdere 
+    quota in versante Campestrin. Puntando una traccia sotto le pareti della 
+    bastionata sud del Sassolungo si contorna il catino ghiaioso e si prosegue 
+    in leggera pendenza sotto i canaloni che scendono dalla linea di cresta. 
+    Superate delle placchette rocciose si affronta con decisione a sinistra una 
+    pala ricoperta di mughi, forzando i passaggi ostruiti. La traccia è precaria. 
+    Raggiunta faticosamente la cresta la si percorre lungamente senza difficoltà 
+    apprezzabili fino al grande cocuzzolo finale che si guadagna risalendo un 
+    facile canalone con alcuni passi di I (bolli rossi). Discesa per la stessa 
+    via prestando attenzione al momento di ridiscendere verso il Campestrin.`
+  
+    let fotoPopera = []
+    let foto69 = {path: 'cadore/popera01.JPG', desc: 'Cima Undici e cresta Zsigmondy'}
+    let foto70 = {path: 'cadore/popera02.JPG', desc: 'Croda dei Toni'}
+    let foto71 = {path: 'cadore/popera03.JPG', desc: 'Via Normale'}
+    let foto72 = {path: 'cadore/popera04.JPG', desc: 'Tre Cime'}
+    fotoPopera.push(foto69)
+    fotoPopera.push(foto70)
+    fotoPopera.push(foto71)
+    fotoPopera.push(foto72)
+  
+    let descPopera = `Prima di forcella Giralba, 
+		versante Val Fiscalina, si prende a sinistra la Strada degli Alpini 
+		fino a superare un piccolo orrido su comoda cengia in discesa. Da li si 
+		abbandona per inoltrarsi a destra nella Busa di Dentro. La si 
+		risale tutta prima su falsopiano e poi su ripido ghiaione fino a 
+		portarsi alla base dei terrazzamenti rocciosi che conducono alla cresta 
+		del Popera. Per facili balze e cenge ci si sposta sul lato destro della 
+		parete ove la normale segue una crestina appoggiata di circa 40m, I 
+		continuo con alcuni passi I+, roccia buona. Alternativamente si può 
+		risalire il canale detritico che si sviluppa appena alla destra dello 
+		spigolo. In vista dell'ampia cresta terminale le difficoltà diminuiscono 
+		e si cammina quasi sempre, arrivando velocemente alla croce di vetta con 
+		impagabili panorami su Cima Undici, Croda dei Toni, Tre Scarperi...`
+
+
+    
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
       <Sidebar />
         </div>
         <div className='col-sm-10'>
-        <Gita title='La Cesta'  quota='2768m' dislivello='970m'  difficolta='I+/II-/PD-'  descrizione={descCesta}  foto={fotoCesta} ></Gita>
-        <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m'  difficolta='EE/F'  descrizione='Salita al Monte Aiarnola.'  foto={fotoAiarnola} ></Gita>
-        <Gita title='Cima Belprà'  quota='2917m' dislivello='150+1150m'  difficolta='II-'  descrizione={descBelpra}  foto={fotoBelPra} ></Gita>
-        <Gita title='Pelmetto'  quota='2990m' dislivello='1480m'  difficolta='II-/IV-/AD-'  descrizione={descPelmetto}  foto={fotoPelmetto} ></Gita>
-        <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m'  difficolta='II-/III/PD+'  descrizione={descFroppa}  foto={fotoFroppa} ></Gita>
-        <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
-        <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m'  difficolta='II+/AD-'  descrizione={descPopena}  foto={fotoPopena} ></Gita>
-        <Gita title='Monte Cristallo'  quota='3221m' dislivello='~1450m'  difficolta='II+/PD'  descrizione={descCristallo}  foto={fotoCristallo} ></Gita>
-        <Gita title='Sorapiss'  quota='3205m' dislivello='~1600m'  difficolta='II-/III/PD'  descrizione={descSorapiss}  foto={fotoSorapiss} ></Gita>
+        <Gita title='La Cesta'  quota='2768m' dislivello='970m' difficolta='I+/II-/PD-' descrizione={descCesta} foto={fotoCesta} ></Gita>
+        <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m' difficolta='EE/F' descrizione='Salita al Monte Aiarnola.' foto={fotoAiarnola} ></Gita>
+        <Gita title='Cima Belprà'  quota='2917m' dislivello='150+1150m' difficolta='II-' descrizione={descBelpra} foto={fotoBelPra} ></Gita>
+        <Gita title='Pelmetto'  quota='2990m' dislivello='1480m' difficolta='II-/IV-/AD-' descrizione={descPelmetto} foto={fotoPelmetto} ></Gita>
+        <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m' difficolta='II-/III/PD+' descrizione={descFroppa} foto={fotoFroppa} ></Gita>
+        <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m' difficolta='II-/F+' descrizione={descDoge} foto={fotoDoge} ></Gita>
+        <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m' difficolta='II+/AD-' descrizione={descPopena} foto={fotoPopena} ></Gita>
+        <Gita title='Monte Cristallo'  quota='3221m' dislivello='~1450m' difficolta='II+/PD' descrizione={descCristallo} foto={fotoCristallo} ></Gita>
+        <Gita title='Sorapiss'  quota='3205m' dislivello='~1600m' difficolta='II-/III/PD' descrizione={descSorapiss} foto={fotoSorapiss} ></Gita>
+        <Gita title='Cima di Valdarcia + giro del Pelmo'  quota='2624m' dislivello='~1000m' difficolta='II-/F+' descrizione={descCimaValdarcia} foto={fotoCimaValdarcia} ></Gita>
+        <Gita title='Punta Nera'  quota='2847m' dislivello='1100m' difficolta='II-/F+' descrizione={descPuntaNera} foto={fotoPuntaNera} ></Gita>
+        <Gita title='Sassolungo di Cibiana'  quota='2413m' dislivello='1400m' difficolta='I/EE' descrizione={descSassolungoCibiana} foto={fotoSassolungoCibiana} ></Gita>
+        <Gita title='Monte Popera'  quota='3046m' dislivello='1000+800m' difficolta='I+/F+' descrizione={descPopera} foto={fotoPopera} ></Gita>
         </div>  
     </div>        
   );
