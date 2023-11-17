@@ -74,12 +74,14 @@ export default function Pale() {
 	nella profonda Valle d'Angheraz.`
 
   let fotoAgner = []
-  let foto11 = {path: 'pale/agner01.jpg', desc: 'Dalla cima dell\'Agner'}
-  let foto12 = {path: 'pale/agner02.jpg', desc: 'Dalla cima dell\'Agner II'}
-  let foto31 = {path: 'pale/bivaccoBiasin.jpg', desc: 'Pale dal Biv. Biasin'}
+  let foto11 = {path: 'pale/agner01.jpg', desc: 'Dalla cima dell\'Agner Civetta e Moiazza'}
+  let foto12 = {path: 'pale/agner02.jpg', desc: 'Dalla cima dell\'Agner, Marmolada'}
+  let foto31 = {path: 'pale/bivaccoBiasin.jpg', desc: 'Pale dal Biv. Biasin all\'alba'}
+  let foto38 = {path: 'pale/agner10.jpg', desc: 'Pale dal Biv. Biasin al tramonto'}
   fotoAgner.push(foto11)
   fotoAgner.push(foto12)
   fotoAgner.push(foto31)
+  fotoAgner.push(foto38)
 
   let descAgner = `Tratti di I sulle placche e prima del Biv. 
   Biasin; corda metallica esposta, poi I e un passaggio di II per la 

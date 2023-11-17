@@ -235,6 +235,20 @@ export default function Cadore() {
   Attrezzatura alpinistica consigliata sia per eventualmente assicurarsi in alcuni passaggi in salita che per le doppie in discesa. 
   Occorre prestare molta attenzione all'orientamento nella vasta parete, alcuni ometti possono fuorviare, magari dedicati a postazioni da corda doppia in discesa.`
 
+  let fotoSorapiss = []
+  let foto55 = {path: 'cadore/sorapiss01.jpg', desc: 'Cima Bel Prà e Antelao'}
+  let foto56 = {path: 'cadore/sorapiss02.jpg', desc: 'Torre Sabbioni'}
+  let foto57 = {path: 'cadore/sorapiss03.jpg', desc: 'Sistema di cenge in parete'}
+  let foto58 = {path: 'cadore/sorapiss04.jpg', desc: 'Verso ovest...'}
+  let foto59 = {path: 'cadore/sorapiss05.jpg', desc: 'Camino di III in discesa'}
+  fotoSorapiss.push(foto55)
+  fotoSorapiss.push(foto56)
+  fotoSorapiss.push(foto57)
+  fotoSorapiss.push(foto58)
+  fotoSorapiss.push(foto59)
+
+  let descSorapiss = `Via lunga con bolli rossi sbiaditi, un passaggio III (12 m. di doppia 
+		a scendere), per lo più I friabile e passi di II, lunghe cenge detritiche e a tratti esposte.`
 
 
 return (
@@ -251,6 +265,7 @@ return (
         <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
         <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m'  difficolta='II+/AD-'  descrizione={descPopena}  foto={fotoPopena} ></Gita>
         <Gita title='Monte Cristallo'  quota='3221m' dislivello='~1450m'  difficolta='II+/PD'  descrizione={descCristallo}  foto={fotoCristallo} ></Gita>
+        <Gita title='Sorapiss'  quota='3205m' dislivello='~1600m'  difficolta='II-/III/PD'  descrizione={descSorapiss}  foto={fotoSorapiss} ></Gita>
         </div>  
     </div>        
   );
