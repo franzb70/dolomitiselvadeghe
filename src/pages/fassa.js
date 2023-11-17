@@ -116,6 +116,21 @@ export default function Fassa() {
   ghiacciao era alquanto molle (neve) e solo in una occasione e' stato 
   necessario saltare un piccolo crepaccetto.`
 
+  let fotoScalieret = []
+  let foto26 = {path: 'fassa/scalieret00.jpg', desc: 'Cima Scalieret dal passo delle Scalette'}
+  let foto27 = {path: 'fassa/scalieret01.jpg', desc: 'Val del Larsech'}
+  let foto28 = {path: 'fassa/scalieret02.jpg', desc: 'Larsech e cima delle Pope sud'}
+  let foto29 = {path: 'fassa/scalieret03.jpg', desc: 'Catinaccio e Torri del Vajolet'}
+  fotoScalieret.push(foto26)
+  fotoScalieret.push(foto27)
+  fotoScalieret.push(foto28)
+  fotoScalieret.push(foto29)
+
+  let descScalieret = `Partito da Muncion, data la chiusura degli impianti e tagliato da La Regolina a destra verso il sentiero 583 delle Scalette.
+  Dal passo si gira a sinistra per la solitaria val del Larsech e poi si prosegue in fondo a destra fino al passo delle Pope, da cui si risale faticosamente la dorsale est della cima.
+  A scendere ho preferito la dorsale nord fino al passo d'Antermoia, per poi rientrare al Preuss e a Gardeccia.`
+
+
 
 return (
   <div className='row App'>
@@ -131,6 +146,7 @@ return (
         <Gita title='Sass dla Crusc'  quota='2907m' dislivello='~1200m'  difficolta='EE'  descrizione={descSassDlaCrusc}  foto={fotoSassDlaCrusc} ></Gita>
         <Gita title='Sass Rigais'  quota='3025m' dislivello='940m'  difficolta='EEA'  descrizione={descSassRigais}  foto={fotoSassRigais} ></Gita>
         <Gita title='Marmolada'  quota='3343m' dislivello='650+850m'  difficolta='EEA'  descrizione={descMarmolada}  foto={fotoMarmolada} ></Gita>
+        <Gita title='Cima Scalieret'  quota='2889m' dislivello='1480m'  difficolta='EE'  descrizione={descScalieret}  foto={fotoScalieret} ></Gita>
         </div>  
     </div>                   
   );
