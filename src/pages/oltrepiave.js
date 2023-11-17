@@ -278,10 +278,10 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
+        <Gita title='Cima Toro'  quota='2355m' dislivello='1250m'  difficolta='II/II+/PD+'  descrizione={descCimaToro}  foto={fotoCimaToro} ></Gita>
         <Gita title='Cima Emilia'  quota='2369m' dislivello='~1300m'  difficolta='I+'  descrizione={descEmilia}  foto={fotoEmilia} ></Gita>
         <Gita title='Cima di Bortolusc'  quota='2160m' dislivello='1150m'  difficolta='I+/II-'  descrizione={descBortolusc}  foto={fotoBortolusc} ></Gita>
         <Gita title='Cima Vacalizza'  quota='2266m' dislivello='1650m'  difficolta='III-/II/PD+'  descrizione={descVacalizza}  foto={fotoVacalizza} ></Gita>
-        <Gita title='Cima Toro'  quota='2355m' dislivello='1250m'  difficolta='II/II+/PD+'  descrizione={descCimaToro}  foto={fotoCimaToro} ></Gita>
         <Gita title='Spalla del Duranno/Sent. Zandonella'  quota='2234m' dislivello='1300m'  difficolta='I/EEA'  descrizione={descSpallaDuranno}  foto={fotoSpallaDuranno} ></Gita>
         <Gita title='Cime Postegae'  quota='2313/2358m' dislivello='~1500m'  difficolta='EE'  descrizione={descPostegae}  foto={fotoPostegae} ></Gita>
         <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m'  difficolta='II/PD'  descrizione={descPinoSudo}  foto={fotoPinoSudo} ></Gita>

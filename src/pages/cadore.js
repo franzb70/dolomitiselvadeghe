@@ -243,10 +243,10 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>
+        <Gita title='La Cesta'  quota='2768m' dislivello='970m'  difficolta='I+/II-/PD-'  descrizione={descCesta}  foto={fotoCesta} ></Gita>
         <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m'  difficolta='EE/F'  descrizione='Salita al Monte Aiarnola.'  foto={fotoAiarnola} ></Gita>
         <Gita title='Cima Belprà'  quota='2917m' dislivello='150+1150m'  difficolta='II-'  descrizione={descBelpra}  foto={fotoBelPra} ></Gita>
         <Gita title='Pelmetto'  quota='2990m' dislivello='1480m'  difficolta='II-/IV-/AD-'  descrizione={descPelmetto}  foto={fotoPelmetto} ></Gita>
-        <Gita title='La Cesta'  quota='2768m' dislivello='970m'  difficolta='I+/II-/PD-'  descrizione={descCesta}  foto={fotoCesta} ></Gita>
         <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m'  difficolta='II-/III/PD+'  descrizione={descFroppa}  foto={fotoFroppa} ></Gita>
         <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m'  difficolta='II-/F+'  descrizione={descDoge}  foto={fotoDoge} ></Gita>
         <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m'  difficolta='II+/AD-'  descrizione={descPopena}  foto={fotoPopena} ></Gita>
