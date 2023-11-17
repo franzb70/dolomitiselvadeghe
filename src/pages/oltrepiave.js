@@ -257,6 +257,20 @@ export default function Oltrepiave() {
 
   let descPussa = `Salita in ambiente isolato, con difficoltà ed esposizione limitate, affrontabile in assetto escursionistico.`
 
+  let fotoPostegaeSud = []
+  let foto62 = {path: 'oltrepiave/postegaeSud03.jpg', desc: 'Risalita tra sfaciumi a Forc. Sciol de Mont'}
+  let foto63 = {path: 'oltrepiave/postegaeSud00.jpg', desc: 'Si punta il canalone di attacco'}
+  let foto64 = {path: 'oltrepiave/postegaeSud01.jpg', desc: 'Risalita del canalone molto franoso'}
+  let foto65 = {path: 'oltrepiave/postegaeSud02.jpg', desc: 'Passaggio poco sotto la vetta'}
+  fotoPostegaeSud.push(foto62)
+  fotoPostegaeSud.push(foto63)
+  fotoPostegaeSud.push(foto64)
+  fotoPostegaeSud.push(foto65)
+
+  let descPostegaeSud = `La via più breve risale lo Sciol de Mont. Si piega poi verso est in direzione delle Cime Postegae. Poco sotto la spalla si piega a sinistra (est)
+  fino a giungere in vista del canalone detritico che separa le due sommità della Torre Postegae sud. La principale è quella di destra che si raggiunge con alcuni metri sul I+ nel finale.`
+
+
 
 return (
   <div className='row App'>
@@ -274,6 +288,7 @@ return (
         <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m'  difficolta='II-/F+'  descrizione={descPecoli}  foto={fotoPecoli} ></Gita>
         <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m'  difficolta='II+/PD'  descrizione={descMonfalconDM}  foto={fotoMonfalconDM} ></Gita>
         <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descPussa}  foto={fotoPussa} ></Gita>
+        <Gita title='Torre Postegae sud'  quota='2346m' dislivello='1250m'  difficolta='I+/F+'  descrizione={descPostegaeSud}  foto={fotoPostegaeSud} ></Gita>
         </div>  
     </div>                   
   );
