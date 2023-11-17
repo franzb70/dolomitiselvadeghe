@@ -5,6 +5,7 @@ import '../../node_modules/bootstrap/dist/js/bootstrap.bundle.min'
 import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
 import VD from '../img/vd.jpg'
+import Logo from '../img/logo.jpg'
 
 const Sidebar = () => {
 
@@ -16,6 +17,8 @@ const Sidebar = () => {
     return (
     <>
       <div className={`${'itemLeft'} ${largeScreen ? 'sidebar' : ''}`}>
+      <a href="/"><img src={Logo} alt='Dolomiti Selvadeghe...ma non solo!'/></a>
+
           <div className="logotext">
               <p></p>
               <a target="_blank" href="http://www.vividolomiti.it/pubblicazioni/wild-dolomiti-3-detail" rel="noreferrer">
