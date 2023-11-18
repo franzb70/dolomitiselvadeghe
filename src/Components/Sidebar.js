@@ -6,6 +6,8 @@ import "react-pro-sidebar/dist/css/styles.css";
 import "../App.css";
 import VD from '../img/vd.jpg'
 import Logo from '../img/logo.jpg'
+import { Mail } from 'react-feather'
+
 
 const Sidebar = () => {
 
@@ -26,7 +28,7 @@ const Sidebar = () => {
                 <p className='textLogo'>{disclaimer}</p>
            </div>
           <nav className="navbar">
-            <div>
+            <div className="textCenter">
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/alpago">Alpago</NavLink>
@@ -50,14 +52,17 @@ const Sidebar = () => {
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/fassa">Fassa/Badia/Gardena</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
+                    </li><p></p>
+                    <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/carniche">Alpi Carniche</NavLink>
                     </li><p></p>
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
                     </li><p></p>
-                    <li className={`nav-item active`}>
-                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/brenta">Dolomiti di Brenta</NavLink>
-                    </li><p></p>
+                    <li>
+                        <a href="mailto:franzb70@gmail.com"><Mail/></a>
+                    </li>
                 </ul>
             </div>
         </nav> 

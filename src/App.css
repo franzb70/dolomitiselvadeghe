@@ -45,6 +45,11 @@ body {
   text-align: left;
 }
 
+.textCenter {
+  text-align: center;
+  vertical-align: middle;
+}
+
 .buttonSide {
   background-color: #72a3ff;
   --bs-btn-active-bg: #a0e8fa;
