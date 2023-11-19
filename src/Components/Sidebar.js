@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <p className='textLogo'>{disclaimer}</p>
            </div>
           <nav className="navbar">
-            <div className="textCenter">
+            <div className="textCenter App">
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/alpago">Alpago</NavLink>
