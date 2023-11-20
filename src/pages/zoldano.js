@@ -243,6 +243,27 @@ export default function Zoldano() {
   cima offre un buon punto di osservazione centrale verso Pelmo, Civetta, 
   Antelao a nord-est con bei scorci sui vicini Tamer piccolo e grande.`
 
+  let fotoPramper = []
+  let foto47 = {path: 'zoldano/pramper01.jpg', desc: 'Verso Forc. Palon'}
+  let foto48 = {path: 'zoldano/pramper02.jpg', desc: 'La cresta, a scendere'}
+  fotoPramper.push(foto47)
+  fotoPramper.push(foto48)
+
+  let descPramper = `Dal Rif. Pramperet si prende il sentiero 521 sino a Forcella Piccola. Da qui
+  si scende per pochi metri e si segue subito una evidente traccia verso
+  sinistra che, attraverso mughi prima e poi su bancate misto erbose, ci porta
+  in direzione della forcella del Palon. Poche decine di metri prima della
+  forcella conviene risalire l'evidente canale molto ripido che porta in
+  cresta. Da qui si sale a sinistra lungo la dorsale, sempre abbastanza ampia.
+  Si seguono gli ometti per evitare salti rocciosi, con solo alcuni passi di
+  I. Quasi in vetta occorre scendere da un terrazzo per 2m (I+ non esposto).
+  Nella discesa, arrivato alla forcella del Palon, sono sceso direttamente in
+  val Pramper. Il canalone richiede attenzione soprattutto nei primi 100/200m
+  di discesa (ripido e friabile). Poi bisogna seguire le tracce poco evidenti
+  per trovare il percorso più agevole. Nella parte mediana il canale diventa
+  greto di ruscello, quindi molto scivoloso. La parte finale e' più facile,
+  su ghiaione, ma ormai troppo poco ripido per accelerare la discesa.`
+
 
   
 return (
@@ -261,7 +282,8 @@ return (
         <Gita title='Spigol Del Palon'  quota='2314m' dislivello='1300m' difficolta='I+/F' descrizione={descSpigolDelPalon} foto={fotoSpigolDelPalon} ></Gita>
         <Gita title='Spiz di Belvedere'  quota='2150m' dislivello='1000m' difficolta='I+/F' descrizione={descspizBelvedere} foto={fotospizBelvedere} ></Gita>
         <Gita title='Monte Civetta'  quota='3221m' dislivello='750+1200m' difficolta='II-/PD-' descrizione={descCivetta} foto={fotoCivetta} ></Gita>
-        <Gita title='Cima Nord di San Sebastiano'  quota='2488m' dislivello='980m' difficolta='I/F' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
+        <Gita title='Cima Nord di San Sebastiano'  quota='2488m' dislivello='980m' difficolta='I/EE' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
+        <Gita title='Pramper'  quota='2409m' dislivello='1350m' difficolta='I/F' descrizione={descPramper} foto={fotoPramper} ></Gita>
         </div>  
     </div>        
   );
