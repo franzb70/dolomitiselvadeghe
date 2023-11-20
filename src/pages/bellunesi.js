@@ -303,6 +303,17 @@ export default function Bellunesi() {
     Si abbandona il 503 quando attraversa il torrente, per volgere a sinstra su tracce in direzione di Casere Vescovà. Prima di raggingerle si piega ancora a sinistra per ripide pale erbose e girando
     in direzione di Val vescovà si entra nei van creati dalle varie quote delle Cime dei Pez...si può decidere quali salire fino alle sommità, sempre su loppe ripide.`
 
+    let fotoMonteCoro = []
+    let foto52 = {path: 'bellunesi/monteCoro01.jpg', desc: 'Finalmente si svalica...'}
+    let foto53 = {path: 'bellunesi/monteCoro02.jpg', desc: 'Uscita del Boral de l\'Ors'}
+    let foto54 = {path: 'bellunesi/monteCoro03.jpg', desc: 'Canalino verso la vetta'}
+    let foto55 = {path: 'bellunesi/monteCoro04.jpg', desc: 'La Spirlonga sotto di noi'}
+    fotoMonteCoro.push(foto52)
+    fotoMonteCoro.push(foto53)
+    fotoMonteCoro.push(foto54)
+    fotoMonteCoro.push(foto55)
+    let descMonteCoro = `Si parte dal Bus de la Pissa in val Cordevole, prendendo le scalette del sentiero si che ricongiunge alla strada del Bianchet.
+    Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso desta (ovest). Escursione molto lunga dovendo rirnttrare quasi fino alla testata della val Cordevole.`
 
     
 return (
@@ -328,6 +339,7 @@ return (
         <Gita title='Spiz Galina'  quota='1545m' dislivello='870m' difficolta='II/PD' descrizione={descSpizGalina} foto={fotoSpizGalina} ></Gita>
         <Gita title='Col Siron'  quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
         <Gita title='Cime dei Pez'  quota='2075m' dislivello='~1700m' difficolta='EE' descrizione={descCimePez} foto={fotoCimePez} ></Gita>
+        <Gita title='Monte Coro'  quota='1985m' dislivello='~1600m' difficolta='EE' descrizione={descMonteCoro} foto={fotoMonteCoro} ></Gita>
         </div>  
     </div>        
     );

@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #0f2755;
 }
 
 .App {
@@ -13,6 +12,7 @@ body {
   color: white;
   font-size: calc(3px + 2vmin);
   background-color: #0f2755;
+  min-height: 1000px;
 }
 
 .textGita {

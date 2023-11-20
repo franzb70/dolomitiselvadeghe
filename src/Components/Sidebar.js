@@ -60,6 +60,9 @@ const Sidebar = () => {
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/giulie">Alpi Giulie</NavLink>
                     </li><p></p>
+                    <li className={`nav-item active`}>
+                        <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/varie">Varie</NavLink>
+                    </li><p></p>
                     <li>
                         <a href="mailto:franzb70@gmail.com"><Mail/></a>
                     </li>
