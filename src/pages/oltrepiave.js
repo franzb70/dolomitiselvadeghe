@@ -270,7 +270,162 @@ export default function Oltrepiave() {
   let descPostegaeSud = `La via più breve risale lo Sciol de Mont. Si piega poi verso est in direzione delle Cime Postegae. Poco sotto la spalla si piega a sinistra (est)
   fino a giungere in vista del canalone detritico che separa le due sommità della Torre Postegae sud. La principale è quella di destra che si raggiunge con alcuni metri sul I+ nel finale.`
 
+  let fotoBorsat = []
+  let foto66 = {path: 'oltrepiave/Borsat-03.jpg', desc: 'Ciol Tramontin'}
+  let foto67 = {path: 'oltrepiave/Borsat-06.jpg', desc: 'Uscita dal Ciol'}
+  let foto68 = {path: 'oltrepiave/Borsat-07.jpg', desc: 'Placca'}
+  let foto69 = {path: 'oltrepiave/Borsat-08.jpg', desc: 'Placca'}
+  let foto70 = {path: 'oltrepiave/Borsat-09.jpg', desc: 'Placca'}
+  let foto71 = {path: 'oltrepiave/Borsat-10.jpg', desc: 'Canalino finale'}
+  let foto72 = {path: 'oltrepiave/Borsat-11.jpg', desc: 'Spia dei Camosci'}
+  let foto73 = {path: 'oltrepiave/Borsat-12.jpg', desc: 'Cima Preti'}
+  let foto74 = {path: 'oltrepiave/Borsat-14.jpg', desc: 'Paretina versante ovest'}
+  fotoBorsat.push(foto66)
+  fotoBorsat.push(foto67)
+  fotoBorsat.push(foto68)
+  fotoBorsat.push(foto69)
+  fotoBorsat.push(foto70)
+  fotoBorsat.push(foto71)
+  fotoBorsat.push(foto72)
+  fotoBorsat.push(foto73)
+  fotoBorsat.push(foto74)
 
+  let descBorsat = `  La piramide del Borsat 
+  incombe fin dalla partenza.
+  Invece di attaccare il ciol Tramontin alla sua base, si può seguire una 
+  traccia che porta a risalire una ripida faggeta, che a un certo punto si 
+  trasforma in muro di baranci simil-verticali. Il ciol Tramontin risulta 
+  decisamente abbordabile, pochi passi sul I grado e con una pendenza che 
+  non affatica troppo. Giunti al secondo serbatoio occorre prendere la 
+  diramazione di destra. Qui la pendenza aumenta progressivamente, anche 
+  su ghiaione. La vista della base della Spia dei Camosci preannuncia la 
+  ormai imminente forcella che si affaccia sulla placca inclinata, punto 
+  chiave della salita. L'assicurazione dalla 
+  forcella risulta praticamente inutile in caso di pendolo. Soprattutto 
+  non si vede neppure un modo affidabile di assicurarsi al ritorno. Si 
+  decide di seguire pertanto un'esile traccia che scende dalla forcella 
+  sul versante ovest (val Cimoliana) contornando il basamento della Spia 
+  dei Camosci. Percorsi un 200m in leggera salita, la parete sembra 
+  abbordabile e si intravede pure qualche ometto malridotto. Si può 
+  attaccare la paretina di I grado, roccia buona, però con 
+  esposizione che cresce guadagnando metri dalla base. Affrontata qualche 
+  cengetta un po' sporca di detrito dopo i primi 50 m la parete si 
+  appoggia con alcune balze/placche da non sottovalutare ancora per il 
+  detrito. Il resto della variante risulta più elementare, con rampe 
+  erbose che permettono di evitare alcune placche anche umide. In vista 
+  della cuspide terminale si punta ad un canale marcissimo con fondo 
+  terroso, circa 40m da sudare in salita, molto meglio la discesa. Si esce 
+  quindi finalmente in cresta, congiungendosi con la normale classica, 
+  quando però si è già a 20m dall'ometto di vetta. Salita nel complesso di 
+  grande soddisfazione escursionistica, con pochi problemi di orientamento 
+  ma decisamente perseverante.`
+
+  let fotoBrica = []
+  let foto75 = {path: 'oltrepiave/brica01.jpg', desc: 'Alta val Brica'}
+  let foto76 = {path: 'oltrepiave/brica02.jpg', desc: ' Cima Brica'}
+  fotoBrica.push(foto75)
+  fotoBrica.push(foto76)
+
+  let descBrica = `Dal parcheggio sotto il rif. Pordenone (quota 1160) si prosegue in
+  piano per quasi 1h lungo la val Meluzzo (dir. Nord). Quindi si sale a destra
+  (indicazioni Cason di Brica) che si raggiunge dopo 500m dislivello. Da qui
+  il percorso si fa parecchio selvaggio. Occorre salire per un centinaio di
+  metri dietro il cason tra mughi fitti praticamente senza traccia. Pervenuti
+  in un ampia e suggestiva conca alla fine di val Brica ci si tiene sulla
+  destra e si inizia a risalire ancora senza traccia su terreno ripido, fino
+  ad imboccare il canale che porta a f.lla Brica. Percorso ripido, faticoso e
+  delicato soprattutto per le pericolose scariche di sassi che si possono
+  creare. Dalla forcella si vede la cima sulla destra (ovest). Si punta
+  l'insellatura erbosa alla base del castello finale. Da qui si prende una
+  cengia in direzione sud (50m qualche ometto fin nei pressi di un banco di
+  mughi, da dove si deve salire un gradone di 3m circa, II- solido. Poi con
+  zig-zag abbastanza libero si perviene in cima, con qualche passo di I e
+  terreno comunque friabile che richiede attenzione soprattutto in discesa.
+  Bella vista sui Monfalconi e Pramaggiore.`
+
+  let fotoCentenere = []
+  let foto77 = {path: 'oltrepiave/centenere_01.jpg', desc: 'Duranno dalla forcella'}
+  let foto78 = {path: 'oltrepiave/centenere_01a.jpg', desc: 'Duranno da Sud'}
+  let foto79 = {path: 'oltrepiave/centenere_02.jpg', desc: 'Piccolo di stambecco'}
+  let foto80 = {path: 'oltrepiave/centenere_03.jpg', desc: 'Gruppo dei cima Preti'}
+  fotoCentenere.push(foto77)
+  fotoCentenere.push(foto78)
+  fotoCentenere.push(foto79)
+  fotoCentenere.push(foto80)
+
+  let descCentenere = `Dal Rif. Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
+  Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
+  Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
+  più a sud. Occorre scendere con cautela fino al sentiero che porta a casera Lodina (2m I+ forse evitabili) per poi rimontare 
+  l'evidente cresta stavolta per lo piu' rocciosa senza 
+  Difficoltà alcuna (15 min). La zona è popolata da molti stambecchi (per lo 
+  più femmine con cuccioli), che si lasciano avvicinare senza timore.`
+
+  let fotoCiazze = []
+  let foto81 = {path: 'oltrepiave/ciazze.jpg', desc: 'Verso cima Preti'}
+  let foto82 = {path: 'oltrepiave/ciazze2.jpg', desc: 'La cresta finale'}
+  fotoCiazze.push(foto81)
+  fotoCiazze.push(foto82)
+
+  let descCiazze = `Dal ponte Scandoler in Val montanaia (m. 950) si risale il 
+  vallone dello s'ciol de Tarsia fino a quota 1330, poco dopo evidenti 
+  cascate sulla sinistra. Si risalta su una bancata di mughi e poi per 
+  canalone di sfasciumi. Si incontra quindi una prima zona rocciosa con 
+  colatoi e marmitte (attraversamento delicato con piedi in aderenza, I+ 
+  8m in orizzontale). Si guadagna poi qualche centinaio di metri fino alla 
+  fine degli scivoli rocciosi, tenedosi a destra. Per accedere al cadin 
+  alto si attraversa a destra il piccolo ruscello e ci si alza per mughi 
+  fino in vista dell'affilata cima dei Cantoni. Da qui inizia un tratto 
+  piu' facile, misto ghiaioni, puntando una bancata di mughi che fa da 
+  cappello ad un costone roccioso. Da li (1930m) si piega a sinistra 
+  infilando un canalone articolato in roccia (I frequante con qualche 
+  passaggio I+), puntando ormai l'evidente cresta. Giunti in vista della 
+  val Compol si piega a sinistra seguendo la cresta fino all'anticima 
+  (2240) ove iniziano le difficolta su massi seghettati, verso la Cima 
+  delle Ciazze alte (sud-est). Noi ci siamo fermati qui, vista la 
+  esposizione elevatissima del tratto finale, che consigliava sicurezza di 
+  corda...ma ormai si faceva pure tardi. Nel complesso la salita è molto 
+  avventurosa e richiede parecchia attenzione nel tenere la traccia, 
+  peraltro quasi assente. Gli ometti talora potrebbero portare fuori via. 
+  Anche l'impegno fisico è notevole, con circa 1000m di dislivello 
+  praticamente senza sentiero. Le fatiche sono ripagate da 
+  un'ambientazione grandiosa, sin da quando si accede al cadin delle 
+  Ciazze Alte.`
+
+  let fotoCiolSass = []
+  let foto83 = {path: 'oltrepiave/Cima_Ciol_Sass01.jpg', desc: 'Salti nel Ciol'}
+  let foto84 = {path: 'oltrepiave/Cima_Ciol_Sass02.jpg', desc: 'Risalendo il Ciol'}
+  let foto85 = {path: 'oltrepiave/Cima_Ciol_Sass03.jpg', desc: 'Barriere da aggirare'}
+  let foto86 = {path: 'oltrepiave/Cima_Ciol_Sass04.jpg', desc: 'Landro'}
+  let foto87 = {path: 'oltrepiave/Cima_Ciol_Sass05.jpg', desc: 'In vista della stretta forcella di Val Piovin'}
+  let foto88 = {path: 'oltrepiave/Cima_Ciol_Sass06.jpg', desc: 'Ultimi pendii'}
+  let foto89 = {path: 'oltrepiave/Cima_Ciol_Sass07.jpg', desc: 'Forcella'}
+  let foto90 = {path: 'oltrepiave/Cima_Ciol_Sass08.jpg', desc: 'Si risale la cresta'}
+  let foto91 = {path: 'oltrepiave/Cima_Ciol_Sass09.jpg', desc: 'Cima'}
+  let foto92 = {path: 'oltrepiave/Cima_Ciol_Sass10.jpg', desc: 'Discesa in Val Piovin'}
+  fotoCiolSass.push(foto83)
+  fotoCiolSass.push(foto84)
+  fotoCiolSass.push(foto85)
+  fotoCiolSass.push(foto86)
+  fotoCiolSass.push(foto87)
+  fotoCiolSass.push(foto88)
+  fotoCiolSass.push(foto89)
+  fotoCiolSass.push(foto90)
+  fotoCiolSass.push(foto91)
+  fotoCiolSass.push(foto92)
+
+  let descCiolSass = ``
+
+  let fotoLaste = []
+  let foto93 = {path: 'oltrepiave/cimaLaste01.jpg', desc: 'Verso cima Preti'}
+  let foto94 = {path: 'oltrepiave/cimaLaste02.jpg', desc: 'La cresta finale'}
+  fotoLaste.push(foto93)
+  fotoLaste.push(foto94)
+
+  let descLaste = `La via e' breve, 
+  facilmente individuabile con gli ometti, con alcuni passaggi di I grado 
+  ed alcune rampe/cenge piuttosto detritiche che richiedono molta 
+  attenzione in discesa.`
 
 return (
   <div className='row App'>
@@ -289,6 +444,12 @@ return (
         <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m' difficolta='II+/PD' descrizione={descMonfalconDM} foto={fotoMonfalconDM} ></Gita>
         <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m' difficolta='I+/F+' descrizione={descPussa} foto={fotoPussa} ></Gita>
         <Gita title='Torre Postegae sud'  quota='2346m' dislivello='1250m' difficolta='I+/F+' descrizione={descPostegaeSud} foto={fotoPostegaeSud} ></Gita>
+        <Gita title='Punta del Borsat'  quota='2220m' dislivello='1400m' difficolta='I+/F+' descrizione={descBorsat} foto={fotoBorsat} ></Gita>
+        <Gita title='Cima Brica'  quota='2362m' dislivello='1200m' difficolta='I+/II-/F' descrizione={descBrica} foto={fotoBrica} ></Gita>
+        <Gita title='Cime Centenere'  quota='2295/2275m' dislivello='~1150m' difficolta='EE' descrizione={descCentenere} foto={fotoCentenere} ></Gita>
+        <Gita title='Cima delle Ciazze Alte (Tentativo)'  quota='~2240m' dislivello='1530m' difficolta='I+/II-/PD' descrizione={descCiazze} foto={fotoCiazze} ></Gita>
+        <Gita title='Cima di Ciol de Sass'  quota='2072m' dislivello='1250' difficolta='I/F' descrizione={descCiolSass} foto={fotoCiolSass} ></Gita>
+        <Gita title='Cima Laste (gruppo Duranno Cima Preti)'  quota='2555m' dislivello='950+700m' difficolta='I/F' descrizione={descLaste} foto={fotoLaste} ></Gita>
         </div>  
     </div>                   
   );

@@ -264,8 +264,139 @@ export default function Zoldano() {
   greto di ruscello, quindi molto scivoloso. La parte finale e' più facile,
   su ghiaione, ma ormai troppo poco ripido per accelerare la discesa.`
 
+  let fotoMoschesin = []
+  let foto49 = {path: 'zoldano/Moschesin01.jpg', desc: 'Sulla normale al Moschesin'}
+  let foto50 = {path: 'zoldano/Moschesin02.jpg', desc: 'Passaggio di II'}
+  fotoMoschesin.push(foto49)
+  fotoMoschesin.push(foto50)
 
-  
+  let descMoschesin = `Salita durissima a forcella Larga da ovest. 
+  Il primo camino presenta Difficoltà di I e I+ con un passo di II in 
+  uscita. Sulla seconda paretina I+ continuo per 15 metri circa. La via è 
+  segnata con minio rosso. Splendida architettura di montagna isolata nel 
+  contesto Zoldano.`
+
+  let fotoCostonGard = []
+  let foto51 = {path: 'zoldano/costonGard00.jpg', desc: 'Il canalone selvaggio da risalire'}
+  let foto52 = {path: 'zoldano/costonGard01.jpg', desc: 'Talvena e Castello di Moschesin'}
+  let foto53 = {path: 'zoldano/costonGard02.jpg', desc: 'La Gardesana'}
+  let foto54 = {path: 'zoldano/costonGard03.jpg', desc: 'Gruppo degli Spiz'}
+  fotoCostonGard.push(foto51)
+  fotoCostonGard.push(foto52)
+  fotoCostonGard.push(foto53)
+  fotoCostonGard.push(foto54)
+
+  let descCostonGard = `Selvaggio canalone da Pian dei Palui, con sbiaditi bolli rossi, per sbucare nel Van della Gardesana.`
+
+  let fotoCrestaSanSebastiano = []
+  let foto55 = {path: 'zoldano/CrestaSanSebastiano01.jpg', desc: 'Quota maggiore'}
+  let foto56 = {path: 'zoldano/CrestaSanSebastiano02.jpg', desc: 'I tre Tamer'}
+  let foto57 = {path: 'zoldano/CrestaSanSebastiano03.jpg', desc: 'Cresta Sud'}
+  fotoCrestaSanSebastiano.push(foto55)
+  fotoCrestaSanSebastiano.push(foto56)
+  fotoCrestaSanSebastiano.push(foto57)
+
+  let descCrestaSanSebastiano = `Il percorso si stacca dal 
+  sentiero che porta alla forc. di San Sebastiano all'altezza di un ampio 
+  canalone ghiaioso che appare subito evidente sulla destra. Si risale 
+  tutto il canale scegliendo il percorso a piacimento con eventuali 
+  passaggi di I evitabili. Dalla forcella per raggiungere la quota 
+  maggiore si va a destra e per facili terrazzamenti e bancate si perviene 
+  sull'isolata cima (ancora qualche passo di I mai esposto). La quota 2405 
+  si raggiunge tornando alla forcella e proseguendo in cresta fin sotto la 
+  torretta sommitale che si guadagna facilmente seguendo gli ometti che 
+  indicano una comoda cengetta. La cima è decisamente angusta e in tre si 
+  sta stretti.`
+
+  let fotoTamer = []
+  let foto58 = {path: 'zoldano/Tamer01.jpg', desc: 'Sulla cengia del Tamer'}
+  fotoTamer.push(foto58)
+
+  let descTamer = `Dopo il cengione 
+  si sale per gole ripide e abbastanza franose, un passaggio piu difficile 
+  in corrispondenza di un salto di 5m (I+ delicato).`
+
+  let fotoCimaVenier = []
+  let foto59 = {path: 'zoldano/CimaVenier01.jpg', desc: 'Rampa di accesso al Viaz sora la Fopa'}
+  let foto60 = {path: 'zoldano/CimaVenier02.jpg', desc: 'Salto di II in discesa per guadagnare la cengia'}
+  let foto61 = {path: 'zoldano/CimaVenier03.jpg', desc: 'Strettoia della cengia'}
+  let foto62 = {path: 'zoldano/CimaVenier04.jpg', desc: 'Versante est del monte prima dei prati terminali'}
+  fotoCimaVenier.push(foto59)
+  fotoCimaVenier.push(foto60)
+  fotoCimaVenier.push(foto61)
+  fotoCimaVenier.push(foto62)
+
+  let descCimaVenier = `Via di salita 
+	per il Viaz sora la Fopa che si attacca al bivio per il biv. Carnielli de 
+	Marchi rimontando la rampa ghiaiosa verso destra. Giunti su uno spallone, in 
+	presenza di un grosso gendarme, gli ometti fanno perdere quota fino ad un 
+	fitto di mughi. qui serve calarsi per una decina di metri, i primi con 
+	l'aiuto dei mughi stessi, poi altri 5m di II solido per guadagnare una 
+	selletta che segna l'inizio del Viaz. La cengia è spesso molto larga e 
+	assume i connotati di una bancata ascendente. Anche le poche strettoie non 
+	creano particolari patemi. I passi un po' più delicati in uscita, ormai in 
+	vista della forcella Sagrona. Poco prima della forcella, ove la cengia si 
+	interrompe, si prende il canale ghiaioso che scende evidente dalla sinistra. 
+	Il camino si restringe e oppone alcuni passi sul I+ fino ad un 
+	caratteristico foro che si imbocca per discendere in vista della forcella, 
+	spostandosi ora sul versante est. Si resta poi alti su cengia prativa e 
+	aggirando, ancora verso est si risalgono alcune decine di metri facili, 
+	qualche passo di I forse, per poi affrontare gli ampi prati terminali che, 
+	ripidamente portano alla bianca torretta della cima.`
+
+  let fotoBosconero = []
+  let foto63 = {path: 'zoldano/bosconero01.jpg', desc: 'Verso Toanella e Rocchetta'}
+  let foto64 = {path: 'zoldano/bosconero02.jpg', desc: 'Verso il viaz de l\'Ors'}
+  let foto65 = {path: 'zoldano/bosconero03.jpg', desc: 'In vista di forcella Toanella'}
+  let foto66 = {path: 'zoldano/bosconero04.jpg', desc: 'Cima'}
+  fotoBosconero.push(foto63)
+  fotoBosconero.push(foto64)
+  fotoBosconero.push(foto65)
+  fotoBosconero.push(foto66)
+
+  let descBosconero = `Risalita abbastanza dura fino a forcella Toanella, 
+  compensata da panorami dolomitici esaltanti. Dalla forcella alla vetta 
+  sono 330m di dislivello su sentiero ben evidente (ometti e qualche 
+  sbiadito segnavia rosso). Lo sviluppo e' abbastanza lungo anche su 
+  cengia (un solo punto richiede un po' di attenzione). Gli ultimi 20m 
+  sono su blocchi accatastati (passaggi di I). Cima estremamente 
+  panoramica ed isolata.`
+
+  let fotoFonch = []
+  let foto67 = {path: 'zoldano/fonch01.jpg', desc: 'Verso la Rocchetta'}
+  let foto68 = {path: 'zoldano/fonch02.jpg', desc: 'Viaz del Fonch'}
+  fotoFonch.push(foto67)
+  fotoFonch.push(foto68)
+
+  let descFonch = `Da passo Cibiana per forcella Ciavazole e poi seguendo la normale allo
+  Sfornioi Nord si arriva all'attacco del Viaz. Si scende per decine di metri,
+  poi la cengia diventa pressochè orizzontale. Nella discesa occorre
+  scendere un 3m circa di II . più avanti ci sono un paio di passaggi critici, anche
+  esposti con scarsa possibilità di assicurazione. Si risale poi con passaggi di I alla Forcella Dantre Sfornioi.
+  Abbiamo poi proseguito in discesa per il versante Campestrin in direzione
+  Forcella del Matt. Anche in questo tratto di percorso ci sono passaggi un po' delicati. La risalita a forcella del Matt 
+  è piuttosto faticosa nelcanalone rotto di massi. Discesa poi al rif. Bosconero.`
+
+  let fotoSfornioiNord = []
+  let foto69 = {path: 'zoldano/sfornioiNord01.jpg', desc: 'Dalla cima dello Sfornioi Nord'}
+  fotoSfornioiNord.push(foto69)
+
+  let descSfornioiNord = `Da passo Cibiana per forcella Ciavazole. I e II nei due canali friabili sul castello 
+  sommitale.`
+
+  let fotoCoro = []
+  let foto70 = {path: 'zoldano/coro01.jpg', desc: 'Giaron de la Fopa'}
+  let foto71 = {path: 'zoldano/coro02.jpg', desc: 'Verso il Pramper'}
+  fotoCoro.push(foto70)
+  fotoCoro.push(foto71)
+
+  let descCoro = `Risalito lungamente tutto il Giaron de la Fopa fino a forcella del Coro. Il
+  percorso è misto tra ghiaioni, massi e tratti più compatti con pendenze
+  elevate nel tratto finale. La segnalazioni sono inesistenti. Dalla forcella
+  si aggira il primo spuntone tenendosi sul versante orientale per poi
+  guadagnare l'ampia cresta che porta alla vetta senza difficoltà alcuna.`
+
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -284,6 +415,15 @@ return (
         <Gita title='Monte Civetta'  quota='3221m' dislivello='750+1200m' difficolta='II-/PD-' descrizione={descCivetta} foto={fotoCivetta} ></Gita>
         <Gita title='Cima Nord di San Sebastiano'  quota='2488m' dislivello='980m' difficolta='I/EE' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
         <Gita title='Pramper'  quota='2409m' dislivello='1350m' difficolta='I/F' descrizione={descPramper} foto={fotoPramper} ></Gita>
+        <Gita title='Castello di Moschesin'  quota='2499m' dislivello='~1150m' difficolta='I+/II-/F+' descrizione={descMoschesin} foto={fotoMoschesin} ></Gita>
+        <Gita title='Coston della Gardesana'  quota='2165m' dislivello='1000m' difficolta='EE' descrizione={descCostonGard} foto={fotoCostonGard} ></Gita>
+        <Gita title='Cresta Sud di San Sebastiano'  quota='2405/2420m' dislivello='950m' difficolta='I/F' descrizione={descCrestaSanSebastiano} foto={fotoCrestaSanSebastiano} ></Gita>
+        <Gita title='Tamer Grande'  quota='2547m' dislivello='950m' difficolta='I+/F+' descrizione={descTamer} foto={fotoTamer} ></Gita>
+        <Gita title='Cima del Venier'  quota='2237m' dislivello='1100m' difficolta='I/F' descrizione={descCimaVenier} foto={fotoCimaVenier} ></Gita>
+        <Gita title='Sasso di Bosconero'  quota='2468m' dislivello='1670m' difficolta='I/EE' descrizione={descBosconero} foto={fotoBosconero} ></Gita>
+        <Gita title='Viaz del Fonch'  quota='~2200m' dislivello='1100m' difficolta='II/F+' descrizione={descFonch} foto={fotoFonch} ></Gita>
+        <Gita title='Sfornioi Nord'  quota='2410m' dislivello='900m' difficolta='II/F+' descrizione={descSfornioiNord} foto={fotoSfornioiNord} ></Gita>
+        <Gita title='Coro (Val Pamper)'  quota='2326m' dislivello='1160m' difficolta='EE' descrizione={descCoro} foto={fotoCoro} ></Gita>
         </div>  
     </div>        
   );
