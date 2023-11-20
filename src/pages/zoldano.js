@@ -116,8 +116,135 @@ export default function Zoldano() {
 
   let descSasse = `Salita molto divertente con una lunga parete di I/I+ continuo priva di reale esposizione.`
 
+  let fotoGardesana = []
+  let foto26 = {path: 'zoldano/gardesana01.jpg', desc: 'Per cenge'}
+  let foto27 = {path: 'zoldano/gardesana02.jpg', desc: 'Cima'}
+  fotoGardesana.push(foto26)
+  fotoGardesana.push(foto27)
+
+  let descGardesana = `Da Pian de Caleda, dopo lungo avvicinamento in 
+  falsopiano si risale la ripida f.lla Larga. Quindi ci gira il massiccio 
+  della Gardesana verso est (val Pramper) fino a giungere alla cresta. Da 
+  qui si prosegue per cenge e pendii detritici sul versante nord-est (1 
+  passaggio esposto, anche evitabile). Si perviene quindi sotto una 
+  bastinata rocciosa. Qui si prende la cengia che per un 20m prosegue 
+  verso sinistra ( si torna sul versante est), fino ad affacciarsi ad un 
+  profondo canale. Questo tratto richiede di scendere alcuni metri per 
+  roccette friabili e un po' esposte I+). Quindi si risale un pendio 
+  semi-erboso per poi piegare decisamente a destra su per un facile canale 
+  (ometto). All'uscita conviene spostarsi ulteriormente a destra e montare 
+  in cresta finale (2m di I+). Alternativamente si puo' proseguire dritti 
+  arrampicando su roccia abbastanza buona (alcuni passaggi II-). La cima 
+  e' estremamente panoramica e la salita e' nel complesso abbastanza 
+  vergine e solitaria. Tornando siamo saliti sino a F.lla Forzelete, e 
+  c'e' chi ha fatto anche questa cima (65m dislivello dalla forcella)..`
+
+  let fotoSpiz = []
+  let foto28 = {path: 'zoldano/Spiz01.jpg', desc: 'Spiz di Mezzo da Spiz Sud'}
+  let foto29 = {path: 'zoldano/Spiz02.jpg', desc: 'Verso lo Spiz Nord'}
+  let foto30 = {path: 'zoldano/Spiz03.jpg', desc: 'Spiz Est'}
+  let foto31 = {path: 'zoldano/Spiz04.jpg', desc: 'Moschesin e Tamer'}
+  fotoSpiz.push(foto28)
+  fotoSpiz.push(foto29)
+  fotoSpiz.push(foto30)
+  fotoSpiz.push(foto31)
+
+  let descSpiz = `Al biv. Carnielli si perviene affrontando qualche passo esposto in cengia e 
+  rimontando circa 200m di rocce sul I grado discontinuo (1 passaggio I+). 
+  Dal bivacco si risale l'intaglio tra i due Spiz verso sinistra, 
+  guadagnado qualche decina di metri su sentiero. Poi si puo' continuare a 
+  sinistra nel fondo del canalone con difficolta max I+ fin sotto un masso 
+  incastrato. Li occorre infilarsi in una stretta fessura e forzare il 
+  passaggio (III). Alternativamente alla base del canalone si segue la 
+  traccia verso destra e quindi si rimonta una parete di circa 30m. Anche 
+  qui piu' varianti, passaggi anche di II+ esposti. Raggiunto un gendarme 
+  si risale con difficolta' minori sino ad un'altra paretina in vista 
+  della cengia di salita. Si puo' scalare la paretina o piu' a sinistra 
+  dentro il canale (10m, II). Poi la cengia si presenta stretta solo in un 
+  paio di punti. La cresta finale e' sul I grado o terreno inclinato e 
+  friabile che richiede molta attenzione. Il concatenamento allo Spiz di 
+  Mezzo prevede di risalire un canale sulla zona nord-est del torrione. 
+  Ancora piu' friabile dello Spiz Sud, difficolta' max I+. Per la discesa 
+  si trovano anelli di cordino per calate su un pino mugo, con varie altre 
+  possibilità di assicurazione su spuntoni o clessidre.`
+
+  let fotoSpigolDelPalon = []
+  let foto32 = {path: 'zoldano/SpigolDelPalon-01.jpg', desc: 'La profonda Val Costa dei Nass'}
+  let foto33 = {path: 'zoldano/SpigolDelPalon-02.jpg', desc: 'Spigol Del Palon e Coro'}
+  let foto34 = {path: 'zoldano/SpigolDelPalon-03.jpg', desc: 'Temporale in arrivo'}
+  let foto35 = {path: 'zoldano/SpigolDelPalon-04.jpg', desc: 'Antecima'}
+  let foto36 = {path: 'zoldano/SpigolDelPalon-05.jpg', desc: 'Ultimi metri su terreno infido'}
+  fotoSpigolDelPalon.push(foto32)
+  fotoSpigolDelPalon.push(foto33)
+  fotoSpigolDelPalon.push(foto34)
+  fotoSpigolDelPalon.push(foto35)
+  fotoSpigolDelPalon.push(foto36)
+
+  let descSpigolDelPalon = `Il rif. Pramperet è il punto di partenza ideale. Si segue il 521 abbassandosi 
+  non poco in val Costa dei Nass, per poi risalire a forcella Piccola che 
+  offre una splendida apertura sulla conca di Cornia. In vista della cima 
+  si segue una traccia tra i mughi che consente di stare in quota sino ad 
+  imboccare la ripida rampa erbosa che porta alla forcella Sagretta a nord dello 
+  Spigol. Da qui si prosegue per cenge e piccoli risalti, con passaggi di 
+  I anche esposto. Si perviene ad un'ampia cupola rocciosa che fa da 
+  anticima. Quindi occorre scendere per una ventina di metri, ancora su 
+  terreno delicato e friabile, per poi imboccare una cengia sempre più 
+  larga che conduce sino in cresta. Gli ultimi 50 m sono ancora meritevoli 
+  di attenzione, su cresta rotta dalle intemperie. Rientro avventuroso, sino a 
+  congiungersi al canale di salita della via normale al Coro.`
+
+  let fotospizBelvedere = []
+  let foto37 = {path: 'zoldano/spizBelvedere01.jpg', desc: 'Spiz nord-ovest e nord-est'}
+  let foto38 = {path: 'zoldano/spizBelvedere02.jpg', desc: 'Canale di I+'}
+  fotospizBelvedere.push(foto37)
+  fotospizBelvedere.push(foto38)
+
+  let descspizBelvedere = `Dal Rif Angelini sora l'Sass si prosegue sul 532 fin in vista della forcella La Porta. 
+  In corrispondenza dell'alto campanile detto "il Prete" si svolta a sinistra e, per ripido ghiaione si punta alla forcella Belvedere 
+  (attenzione alle scariche di sassi). Circa 70m sotto la forcella si inizia ad attaccare le balze semi-erbose alla sinistra cercando 
+  un evidente canale che si tiene al margine destro delle rocce. Si risale lo stesso fin quasi alla fine (15m I+) per uscirne verso 
+  sinistra e proseguendo in modesta pendenza (mughi) per una ventina di metri. Con pochi passi si guadagna il filo di cresta, ma il risalto 
+  più elevato resta una trentina di metri a destra. Per raggiungere l'appicco finale si prosegue in quota su una sorta di cengetta 
+  sempre sul versante degli Spiz, qualche passo un po' delicato. La cima si raggiunge o scalando gli ultimi 5/6m su II- solido 
+  oppure proseguendo ancora qualche metro in cenga, fino in vista di forcella Belvedere. Si sale poi sul ripido e marcio, 
+  guadagnando la cima con solo gli ultimi 2m in arrampicata. Il sasso di vetta 
+  è molto limitato e non ci stanno più di due persone.`
+
+  let fotoCivetta = []
+  let foto39 = {path: 'zoldano/civetta01.jpg', desc: 'In cima al Civetta'}
+  let foto40 = {path: 'zoldano/civetta02.jpg', desc: 'Il lago Coldai dall\'omonima cima'}
+  let foto41 = {path: 'zoldano/civetta03.jpg', desc: 'Il profilo del Pelmo all\'alba'}
+  let foto42 = {path: 'zoldano/civetta04.jpg', desc: 'Su cima Coldai la sera prima'}
+  fotoCivetta.push(foto39)
+  fotoCivetta.push(foto40)
+  fotoCivetta.push(foto41)
+  fotoCivetta.push(foto42)
+
+  let descCivetta = `Percorso faticoso (sentiero Tivan). Tratti 
+  di I e passaggi di II, qualche cavo metallico verticale per evitare il 
+  fondo dei canali detritici.`
+
+  let fotoSanSebastiano = []
+  let foto43 = {path: 'zoldano/SanSebastiano01.jpg', desc: 'Van di Caleda'}
+  let foto44 = {path: 'zoldano/SanSebastiano02.jpg', desc: 'Cresta finale'}
+  let foto45 = {path: 'zoldano/SanSebastiano03.jpg', desc: 'I Tamer'}
+  let foto46 = {path: 'zoldano/SanSebastiano04.jpg', desc: 'Corvo'}
+  fotoSanSebastiano.push(foto43)
+  fotoSanSebastiano.push(foto44)
+  fotoSanSebastiano.push(foto45)
+  fotoSanSebastiano.push(foto46)
+
+  let descSanSebastiano = `Da Ponte Caleda si sale al 
+  van di Caleda per sentiero ripido con alcuni tratti di I grado su 
+  terreno tranquillo. Si prende quindi la diramazione verso sinistra che 
+  punta alla forcella di San Sebastiano, ove si perviene risalendo con 
+  fatica i ghiaioni. Da qui restano 20/25 minuti di cresta con sentiero 
+  alternato a brevi tratti di I grado divertente anche su placchette. La 
+  cima offre un buon punto di osservazione centrale verso Pelmo, Civetta, 
+  Antelao a nord-est con bei scorci sui vicini Tamer piccolo e grande.`
 
 
+  
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -129,6 +256,12 @@ return (
         <Gita title='Sasso di Toanella'  quota='2430m' dislivello='1720m' difficolta='II-/F+' descrizione={descToanella} foto={fotoToanella} ></Gita>
         <Gita title='Dente de la Fopa'  quota='2161m' dislivello='960m' difficolta='I+/F' descrizione={descDenteFopa} foto={fotoDenteFopa} ></Gita>
         <Gita title='Cima delle Sasse'  quota='2878m' dislivello='1250m' difficolta='I+/F+' descrizione={descSasse} foto={fotoSasse} ></Gita>
+        <Gita title='Cima della Gardesana'  quota='2446m' dislivello='1300m' difficolta='II-/F+' descrizione={descGardesana} foto={fotoGardesana} ></Gita>
+        <Gita title='Spiz Sud / Spiz di Mezzo'  quota='2309/2324m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descSpiz} foto={fotoSpiz} ></Gita>
+        <Gita title='Spigol Del Palon'  quota='2314m' dislivello='1300m' difficolta='I+/F' descrizione={descSpigolDelPalon} foto={fotoSpigolDelPalon} ></Gita>
+        <Gita title='Spiz di Belvedere'  quota='2150m' dislivello='1000m' difficolta='I+/F' descrizione={descspizBelvedere} foto={fotospizBelvedere} ></Gita>
+        <Gita title='Monte Civetta'  quota='3221m' dislivello='750+1200m' difficolta='II-/PD-' descrizione={descCivetta} foto={fotoCivetta} ></Gita>
+        <Gita title='Cima Nord di San Sebastiano'  quota='2488m' dislivello='980m' difficolta='I/F' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
         </div>  
     </div>        
   );

@@ -292,6 +292,18 @@ export default function Bellunesi() {
 	mughi, fino alla base del cocuzzolo finale, da attaccare in versante ovest 
 	per evitare alcuni spuntoni rocciosi.`
 
+    let fotoCimePez = []
+    let foto49 = {path: 'bellunesi/cimePez01.jpg', desc: 'La catena delle Cime dei Pez'}
+    let foto50 = {path: 'bellunesi/cimePez02.jpg', desc: 'Il Burel ammantato di neve'}
+    let foto51 = {path: 'bellunesi/cimePez03.jpg', desc: 'L\'imponente Talvena da sud'}
+    fotoCimePez.push(foto49)
+    fotoCimePez.push(foto50)
+    fotoCimePez.push(foto51)
+    let descCimePez = `Si parte dal Bus de la Pissa in val Cordevole, prendendo le scalette del sentiero si che ricongiunge alla strada del Bianchet.
+    Si abbandona il 503 quando attraversa il torrente, per volgere a sinstra su tracce in direzione di Casere Vescovà. Prima di raggingerle si piega ancora a sinistra per ripide pale erbose e girando
+    in direzione di Val vescovà si entra nei van creati dalle varie quote delle Cime dei Pez...si può decidere quali salire fino alle sommità, sempre su loppe ripide.`
+
+
     
 return (
     <div className='row App'>
@@ -315,6 +327,7 @@ return (
         <Gita title='Cima Tanzon / Tentativo cengia Pala Bassana'  quota='1926m' dislivello='900m' difficolta='E' descrizione={descTanzon} foto={fotoTanzon} ></Gita>
         <Gita title='Spiz Galina'  quota='1545m' dislivello='870m' difficolta='II/PD' descrizione={descSpizGalina} foto={fotoSpizGalina} ></Gita>
         <Gita title='Col Siron'  quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
+        <Gita title='Cime dei Pez'  quota='2075m' dislivello='~1700m' difficolta='EE' descrizione={descCimePez} foto={fotoCimePez} ></Gita>
         </div>  
     </div>        
     );
