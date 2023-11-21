@@ -427,6 +427,133 @@ export default function Oltrepiave() {
   ed alcune rampe/cenge piuttosto detritiche che richiedono molta 
   attenzione in discesa.`
 
+  let fotoBocciardata = []
+  let foto95 = {path: 'oltrepiave/bocciardata_VC_01.JPG', desc: 'Testata Val del Drap'}
+  let foto96 = {path: 'oltrepiave/bocciardata_VC_02.JPG', desc: 'Placche'}
+  let foto97 = {path: 'oltrepiave/bocciardata_VC_03.JPG', desc: 'Verso est'}
+  let foto98 = {path: 'oltrepiave/bocciardata_VC_04.JPG', desc: 'La Bocciarda'}
+  fotoBocciardata.push(foto95)
+  fotoBocciardata.push(foto96)
+  fotoBocciardata.push(foto97)
+  fotoBocciardata.push(foto98)
+
+  let descBocciardata = `Uscita lavorativa in 
+  ottima compagnia. Divertente la paretina che porta a f.lla dei 
+  Cacciatori, buon I/I+ continuo, più ripido nella zona basale sopra il 
+  nevaio.`
+
+  let fotoCimaSpe = []
+  let foto99  = {path: 'oltrepiave/cimaSpe_01.JPG', desc: 'Sent. Marini, cengia'}
+  let foto100 = {path: 'oltrepiave/cimaSpe_02.JPG', desc: 'Sent. Marini, esposizione'}
+  let foto101 = {path: 'oltrepiave/cimaSpe_03.JPG', desc: 'Sent. Marini, frana'}
+  let foto102 = {path: 'oltrepiave/cimaSpe_04.JPG', desc: 'Cima Spe'}
+  let foto103 = {path: 'oltrepiave/cimaSpe_05.JPG', desc: 'Canalone finale'}
+  let foto104 = {path: 'oltrepiave/cimaSpe_06.JPG', desc: 'Spunta il Cadin degli Elmi'}
+  fotoCimaSpe.push(foto99)
+  fotoCimaSpe.push(foto100)
+  fotoCimaSpe.push(foto101)
+  fotoCimaSpe.push(foto102)
+  fotoCimaSpe.push(foto103)
+  fotoCimaSpe.push(foto104)
+
+  let descCimaSpe = `Sentiero A. 
+	Marini dal parcheggio del Rif. Pordenone. Il sentiero presenta alcuni brevi 
+	passaggi in cengia un po' esposti, ma il tratto più scabroso è in 
+	corrispondenza dei canali franati di sabbia cementata che scendono dai 
+	Cadini, nella parte finale del percorso già prossimi al biv. Gervasutti. Da 
+	forcella Spe la salita alla cima non presenta ne problemi di orientamento, 
+	sempre in cresta fino al testone finale, ne difficoltà di rilievo. 
+	Arrivati in prossimità della cupola terminale ci si sposta a destra sul 
+	versante nord per una facile cengetta fino ad imboccare un canalone di massi 
+	rotti che porta in cima senza percorso obbligato (passi I pure evitabili).`
+
+  let fotoCimaStalla = []
+  let foto105 = {path: 'oltrepiave/cimaStalla-01.JPG', desc: 'Ambiente, dopo la forcella'}
+  let foto106 = {path: 'oltrepiave/cimaStalla-02.JPG', desc: 'Mughi'}
+  fotoCimaStalla.push(foto105)
+  fotoCimaStalla.push(foto106)
+
+  let descCimaStalla = `Dal rif. Pordenone si prende 
+  il sentiero che conduce alla forc. del Leone e lo si abbandona quando si 
+  apre a destra il canale di forcella Stalla. La risalita del canalone è 
+  alquanto selvaggia e pericolosa per le scariche di sassi, più evitabili 
+  costeggiando il versante sinistro. Giunti alla forcella occorre 
+  spostarsi sulla destra per guadagnare il successivo intaglio, circa 40m 
+  molto ripidi, da affrontare tenendosi alla parete. La discesa sul 
+  versante est diventa subito esposta dopo i primi 10m. Possibilità di far 
+  sicura sui mughi fino a raggiungere il colletto con ometto ben visibile. 
+  Da li si fa un tiro tra i mughi spostandosi a sinistra in direzione 
+  della parete nord-est, per poi uscire su un ulteriore ballatoio sempre 
+  tra la vegetazione. Segue un ulteriore tiro più ripido, circa 50m con 
+  passaggi di I... ma da qui non è certa la bontà della descrizione. Si 
+  finisce sotto un gradino di circa 3m (II+ almeno) su una bancata che fa 
+  da cengia erbosa, aggirante ancora verso la direzione della forcella 
+  (ovest). Qui abbiamo individuato un nut alcuni metri dalla base, 
+  provando così la risalita in cordata. Superati alcuni metri sul II- le 
+  difficoltà poi però aumentavano considerevolmente dopo un secondo chiodo 
+  (III+, IV-), pertanto, nella quasi certezza di aver sbagliato via siamo 
+  discesi per la via appena percorsa in salita.`
+
+  let fotoForni = []
+  let foto107 = {path: 'oltrepiave/Forni01.jpg', desc: 'Spigolo vivo del Sigaro'}
+  let foto108 = {path: 'oltrepiave/Forni02.jpg', desc: 'Sulla paretina finale'}
+  let foto109 = {path: 'oltrepiave/Forni03.jpg', desc: 'Coston di Giaf'}
+  let foto110 = {path: 'oltrepiave/Forni04.jpg', desc: 'Monfalcon di Forni'}
+  fotoForni.push(foto110)
+  fotoForni.push(foto107)
+  fotoForni.push(foto108)
+  fotoForni.push(foto109)
+
+  let descForni = `Dal rif. Pordenone si perviene a Forcella Cimoliana seguendo
+  il sentiero per il biv. Marchi-Granzotto. Da qui a sinistra verso il
+  Monfalcon di Cimoliana si sale un 50 m, per poi ridiscendere e puntare la
+  forc. del Leone. Quindi si scende verso nord-ovest in versante d'Arade,
+  seguendo le tracce che costeggiano la parete del Monfalcon di Forni. Si
+  imbocca l'evidente canale verso destra e da qui, saliti per un 70 m (1
+  passaggio II-) due possibilita': 
+   a) una trentina di metri prima della fine del canale si sale
+  a destra per un ulteriore canale detritico fino ad una paretina di 5m (bolli
+  rossi). Si supera il salto di II pieno e si prosegue verso la parete
+  appoggiata finale.
+   b) si risale tutto il canale e si affronta la parete
+  appoggiata a destra (segnalazione rossa) che si mantiene sul I+ costante
+  (attenzione ai sassi), per poi sbucare allo stesso punto della
+  variante precedente.
+  Quindi si sale liberamente verso la torretta terminale
+  (sentiero e I). Qui attenzione che ad una quindicina di metri dalla vetta si
+  presentano difficolta' superiori a quelle descritte in letteratura. I segni
+  rossi portano verso sinistra ad infilare un canalino, 7m di I friablie fin
+  dove si chiude e si deve arrampicare una fessura per 3m di III-. In
+  alternativa si puo' scalare direttamente la crestina con un 4/5m iniziali di
+  II abbondante e poi comunque sbucare in vetta. Nel ritorno, prima della
+  forc. del Leone abbiamo tagliato in quota per i ghiaioni in direzione di
+  forcella Montanaia, per poi risalire la forcella Ferrucci tra Punta Koegel e Cima
+  d'Arade (solo qualche traccia, molto faticoso, 150m di salita con qualche
+  metro di I+ nel finale) per infine ridiscendere in Val Cimoliana.`
+
+  let fotoCimaGea = []
+  let foto111 = {path: 'oltrepiave/gea01.jpg', desc: 'La parte finale (Desc. 1)'}
+  let foto112 = {path: 'oltrepiave/gea02.jpg', desc: 'Cima Gea e Antelao'}
+  let foto113 = {path: 'oltrepiave/gea03.jpg', desc: 'Cima Sella'}
+  let foto114 = {path: 'oltrepiave/gea04.jpg', desc: 'Il Cadin di Gea'}
+  fotoCimaGea.push(foto112)
+  fotoCimaGea.push(foto111)
+  fotoCimaGea.push(foto113)
+  fotoCimaGea.push(foto114)
+
+  let descCimaGea = `Dalla Val montanaia si sale alla casera Laghet de Sora, e
+  poi alla forcella Val de Frassin. Quindi si prende una traccia in quota
+  verso sinistra (ovest). Arrivati gia' in vista della cima Gea si deve
+  scendere per un 80m nel cadin sotto la porta di Gea, per poi risalire il
+  ripido pendio erboso che porta alla base della roccia terminale. Da qui
+  parte l'arrampicata su misto roccia/erba abbastanza malsicura, con due
+  possibilita':
+   1- praticamente dritti verso la cresta con circa 20m sul II
+  grado, eventualmente proteggibile dall'alto su dei mughi
+   2- tagliando obliquamente verso sinistra con prevalenza di
+  erba e scarse possibilita' di appigli (I+ piuttosto problematico in
+  esposizione). Io mi sono fermato alla base, gli altri in vetta.`
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -450,6 +577,11 @@ return (
         <Gita title='Cima delle Ciazze Alte (Tentativo)'  quota='~2240m' dislivello='1530m' difficolta='I+/II-/PD' descrizione={descCiazze} foto={fotoCiazze} ></Gita>
         <Gita title='Cima di Ciol de Sass'  quota='2072m' dislivello='1250' difficolta='I/F' descrizione={descCiolSass} foto={fotoCiolSass} ></Gita>
         <Gita title='Cima Laste (gruppo Duranno Cima Preti)'  quota='2555m' dislivello='950+700m' difficolta='I/F' descrizione={descLaste} foto={fotoLaste} ></Gita>
+        <Gita title='Bocciardata F.lla dei Cacciatori (Alta via nr.6)'  quota='2173m' dislivello='1270m' difficolta='I+/F+' descrizione={descBocciardata} foto={fotoBocciardata} ></Gita>
+        <Gita title='Cima Spe'  quota='2314m' dislivello='~1300m' difficolta='I/F' descrizione={descCimaSpe} foto={fotoCimaSpe} ></Gita>
+        <Gita title='Cima Stalla (Tentativo)'  quota='~1950m' dislivello='~800m' difficolta='II+/PD+' descrizione={descCimaStalla} foto={fotoCimaStalla} ></Gita>
+        <Gita title='Monfalcon di Forni'  quota='2453m' dislivello='~1500m' difficolta='II-/II+/F+' descrizione={descForni} foto={fotoForni} ></Gita>
+        <Gita title='Cima Gea'  quota='2265m' dislivello='~1400m' difficolta='II/PD-' descrizione={descCimaGea} foto={fotoCimaGea} ></Gita>
         </div>  
     </div>                   
   );
