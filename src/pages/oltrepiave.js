@@ -554,6 +554,167 @@ export default function Oltrepiave() {
   erba e scarse possibilita' di appigli (I+ piuttosto problematico in
   esposizione). Io mi sono fermato alla base, gli altri in vetta.`
 
+  let fotoCridola = []
+  let foto115 = {path: 'oltrepiave/uovoCridola.jpg', desc: 'Uovo del Cridola'}
+  let foto116 = {path: 'oltrepiave/cridola.jpg', desc: 'Discesa normale al Cridola'}
+  fotoCridola.push(foto115)
+  fotoCridola.push(foto116)
+
+  let descCridola = `Neve sulla 
+  cengia iniziale rivolta ai Gendarmi della Val Cridola. Neve anche in 
+  corrispondenza del muretto di II grado nei pressi dell'uovo. Nel 
+  complesso i 300md della via si mantengono attorno al I grado con brevi 
+  traversate elementari e tre tratti di 4-6 m attorno al II grado, dei 
+  quali l'ultimo anche superiore ed abbastanza esposto.`
+
+  let fotoFerrara = []
+  let foto117 = {path: 'oltrepiave/ferrara01.jpg', desc: 'Antecima sud e cima principale del Monte Ferrara'}
+  let foto118 = {path: 'oltrepiave/ferrara02.jpg', desc: 'Il Turlon'}
+  fotoFerrara.push(foto117)
+  fotoFerrara.push(foto118)
+
+  let descFerrara = `Dalla forcella che precede f.lla Savalons si prende a sinistra, 
+  indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'anti-cima sud. 
+  Ancora pochi minuti per la cima principale. Per abbreviare il ritorno si può proseguire sccendendo verso la cresta nord 
+  in direzione della fisibile f.lla S'ciol de Mont. Dopo alcune decine di metri si abbandona la linea di cresta e 
+  ci si districa tra mughi anche fitti indovinando i passaggi pi� convenienti. Talora si incrocia qualche confortante ometto, 
+  benchè la forcella di destinazione resti quasi sempre visibile il che riduce i patemi di sbagliare completamente percorso. 
+  Guadagnata la forcella si torna a pian di Meluzzo discendendo il dissestato vallone, parzialmente invaso da nevaio, 
+  senza grandi opportunità di accelerare i movimenti.`
+
+  let fotoPorgeit = []
+  let foto119 = {path: 'oltrepiave/porgeit01.jpg', desc: 'Duranno e Preti'}
+  let foto120 = {path: 'oltrepiave/porgeit02.jpg', desc: 'Il Borgà'}
+  fotoPorgeit.push(foto119)
+  fotoPorgeit.push(foto120)
+
+  let descPorgeit = `Da casera Galvana si va alla forcella (5 min) e si prende a destra risalendo
+  il cono terminale per ripida loppa. Al ritorno, 50m sotto la forcella ho
+  preso il sentiero che in costa, con ripetuti sali-scendi anche consistenti, porta al rif.
+  Maniago (1720 m).`
+
+  let fotoZerten = []
+  let foto121 = {path: 'oltrepiave/Zerten01.jpg', desc: 'Erto'}
+  let foto122 = {path: 'oltrepiave/Zerten02.jpg', desc: 'Ultimi metri'}
+  let foto123 = {path: 'oltrepiave/Zerten03.jpg', desc: 'Col Nudo da nord'}
+  let foto124 = {path: 'oltrepiave/Zerten04.jpg', desc: 'Zerten'}
+  fotoZerten.push(foto121)
+  fotoZerten.push(foto122)
+  fotoZerten.push(foto123)
+  fotoZerten.push(foto124)
+
+  let descZerten = `La parte finale della salita nel van esposto a nord si 
+  è svolta in parte su neve anche fonda. La leggera foschia ha pregiudicato in
+  parte la visione delle imponenti bastionate nord del Col Nudo.`
+
+  let fotoZita = []
+  let foto125 = {path: 'oltrepiave/Zita01.jpg', desc: 'Il Duranno'}
+  let foto126 = {path: 'oltrepiave/Zita02.jpg', desc: 'Parete della Palazza'}
+  fotoZita.push(foto125)
+  fotoZita.push(foto126)
+
+  let descZita = `Si segue la strada/sentiero che porta a casera Bedin, 
+  fino ad evidenti segnalazioni verso forcella Zita (sinistra) che si raggiunge dopo 
+  faticoso pendio erboso - m 1960. Dalla forcella si prosegue a destra per lo 
+  più in cresta, con la traccia che si incanala tra i mughi. La cima è solitaria ed isolata, 
+  offrendo un bel colpo d'occhio verso le dolomiti di sinistra Piave da un lato, Bosconero, Sfornioi e Cibiana dall'altro.`
+
+  let fotoUrtisielEst = []
+  let foto127 = {path: 'oltrepiave/UrtisielEst-01.JPG', desc: 'La cima'}
+  let foto128 = {path: 'oltrepiave/UrtisielEst-02.JPG', desc: 'Rampa di salita'}
+  fotoUrtisielEst.push(foto127)
+  fotoUrtisielEst.push(foto128)
+
+  let descUrtisielEst = `Dal parcheggio 
+	del rif. Pordenone in Val Montanaia si segue in piano verso Casera Valmenon. 
+	Quindi, sempre per sentiero CAI (361) si giunge in prossimità di f.lla 
+	Urtisiel. Abbandonare il sentiero circa 50m sotto la forcella e salire a 
+	destra per una banca di zolle contornata da mughi. Si punta verso destra una 
+	insellatura che, valicata, conduce brevemente alla rampa finale senza 
+	difficoltà alcuna.`
+
+  let fotoUrtisielOvest = []
+  let foto129 = {path: 'oltrepiave/UrtisielOvest01.jpg', desc: 'Su ripido detrito'}
+  let foto130 = {path: 'oltrepiave/UrtisielOvest02.jpg', desc: 'Campanile Gambet'}
+  fotoUrtisielOvest.push(foto129)
+  fotoUrtisielOvest.push(foto130)
+
+  let descUrtisielOvest = `La salita dal 
+	versante sud, per un lungo e diramato canalone detritico non ha portato alla 
+	vetta. Si abbandona il sentiero diretto a Casera Val Binon (o Val Menon) 
+	appena usciti dal bosco, in corrispondenza di un ripido pendio misto di 
+	mughi, oltre il quale si identifica l'ampio svaso detritico che sale 
+	all'articolato castello della cima Urtisiel Ovest. Tenendo sempre la 
+	sinistra alle successive diramazioni, su ghiaione ripido ma non infido, si 
+	dovrebbe potersi collegare alla via normale che sale da Forcella Pecoli.`
+
+  let fotoTurlon = []
+  let foto131 = {path: 'oltrepiave/TurlonTent01.JPG', desc: 'Placca inclinata'}
+  let foto132 = {path: 'oltrepiave/TurlonTent02.JPG', desc: 'Alti sulla Val Settimana'}
+  let foto133 = {path: 'oltrepiave/TurlonTent03.JPG', desc: 'Profili in controluce'}
+  let foto134 = {path: 'oltrepiave/TurlonTent04.JPG', desc: 'La cresta del Turlon'}
+  fotoTurlon.push(foto131)
+  fotoTurlon.push(foto132)
+  fotoTurlon.push(foto133)
+  fotoTurlon.push(foto134)
+
+  let descTurlon = `Dalla Stai de 
+	Nuci in Val Settimana si prende il ripidissimo sentiero che sale dietro la 
+	stalla e per diverse centinaia di metri di dislivello si arranca su bosco 
+	quasi verticale. Superato un passaggio di I, alcuni metri su placca rocciosa 
+	in discesa si riprende la salita ora su bosco più rado per poi guadagnare un 
+	primo filo di cresta con vista sulla sella del Turlon. Traversato in quota 
+	con leggera pendenza tra i mughi si accede alla sella da ripidi prati. Ora 
+	ci si sposta sulla cresta prativa in saliscendi e conviene abbandonarla, 
+	scendendo sul versante ovest prima di imbattersi in due torrioni rocciosi 
+	meno agibili. (to be continued).`
+
+  let fotoToc = []
+  let foto135 = {path: 'oltrepiave/Toc_01.jpg', desc: 'Detriti'}
+  let foto136 = {path: 'oltrepiave/Toc_02.jpg', desc: 'Placche'}
+  let foto137 = {path: 'oltrepiave/Toc_03.jpg', desc: 'Crolli'}
+  let foto138 = {path: 'oltrepiave/Toc_04.jpg', desc: 'Cima Mora dal Toc'}
+  fotoToc.push(foto135)
+  fotoToc.push(foto136)
+  fotoToc.push(foto137)
+  fotoToc.push(foto138)
+
+  let descToc = `Lasciata l'auto poco dopo l'imbocco della 
+  strada che porta in val Mesaz (dopo la diga del Vajont) abbiamo risalito 
+  il fianco destro detritico delle ultime placche della frana verso ovest. 
+  Alla fine dei blocchi franati siamo saliti per un 20m su placche per poi 
+  entrare nel bosco evitando inutili pericoli. Ripreso poi il sentiero 
+  principale in vetta, aggirando anche un po' di neve nel cadin tra cima 
+  Mora e Toc. Numerosi crolli recenti di alberi anche lungo il sentiero e 
+  sciami di zanzare tigre nel bosco, consigliatissimo del repellente.`
+
+  let fotoSFrancesco = []
+  let foto139 = {path: 'oltrepiave/SFrancesco00.jpg', desc: 'Cima di San Francesco col recente distacco'}
+  let foto140 = {path: 'oltrepiave/SFrancesco01.jpg', desc: 'Il remoto Ciadin di Gasparin'}
+  let foto141 = {path: 'oltrepiave/SFrancesco02.jpg', desc: 'Inizio delle  Inizio delle placconate'}
+  let foto142 = {path: 'oltrepiave/SFrancesco03.jpg', desc: 'Verso Cima Pussa'}
+  fotoSFrancesco.push(foto139)
+  fotoSFrancesco.push(foto140)
+  fotoSFrancesco.push(foto141)
+  fotoSFrancesco.push(foto142)
+
+  let descSFrancesco = `Cima dirimpettaia alle Caserine, remota e per nulla frequentata.
+  Salendo dal Ciadin di Gasparin risulta obbligatorio scalare una paretina detritica per raggingere le placconate del distacco. 
+  Ci siamo fermati a metà della suddetta per mancanza di attrezzatura da assicurazione.`
+
+  let fotoPalazzaZemola = []
+  let foto143 = {path: 'oltrepiave/PalazzaZemola01.jpg', desc: 'Borgà'}
+  let foto144 = {path: 'oltrepiave/PalazzaZemola02.jpg', desc: 'Duranno e Cima Preti'}
+  fotoPalazzaZemola.push(foto143)
+  fotoPalazzaZemola.push(foto144)
+
+  let descPalazzaZemola = `Dopo la galleria verso Casera Bedin si prende a destra
+  ripidamente su per la pala erbosa puntando i massi bianchi dell'anticima.
+  Giunti li si scende per un 20 metri e poi si aggira a sinstra (ovest) la
+  piramide finale, passando per una brevissima cengetta.`
+
+
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -582,6 +743,17 @@ return (
         <Gita title='Cima Stalla (Tentativo)'  quota='~1950m' dislivello='~800m' difficolta='II+/PD+' descrizione={descCimaStalla} foto={fotoCimaStalla} ></Gita>
         <Gita title='Monfalcon di Forni'  quota='2453m' dislivello='~1500m' difficolta='II-/II+/F+' descrizione={descForni} foto={fotoForni} ></Gita>
         <Gita title='Cima Gea'  quota='2265m' dislivello='~1400m' difficolta='II/PD-' descrizione={descCimaGea} foto={fotoCimaGea} ></Gita>
+        <Gita title='Cridola'  quota='2581m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descCridola} foto={fotoCridola} ></Gita>
+        <Gita title='Monte Ferrara'  quota='2258m' dislivello='1100m' difficolta='EE' descrizione={descFerrara} foto={fotoFerrara} ></Gita>
+        <Gita title='Monte Porgeit'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descPorgeit} foto={fotoPorgeit} ></Gita>
+        <Gita title='Monte Zerten'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descZerten} foto={fotoZerten} ></Gita>
+        <Gita title='Monte Zita (Val Zemola)'  quota='2190m' dislivello='1000m' difficolta='E' descrizione={descZita} foto={fotoZita} ></Gita>
+        <Gita title='Cima Urtisiel Est'  quota='2119m' dislivello='1000m' difficolta='E' descrizione={descUrtisielEst} foto={fotoUrtisielEst} ></Gita>
+        <Gita title='Cima Urtisiel Ovest (Tentativo)'  quota='~2100m' dislivello='950m' difficolta='I+/F+' descrizione={descUrtisielOvest} foto={fotoUrtisielOvest} ></Gita>
+        <Gita title='Monte Turlon (Tentativo)'  quota='~2160m' dislivello='1950m' difficolta='I+/F+' descrizione={descTurlon} foto={fotoTurlon} ></Gita>
+        <Gita title='Monte Toc'  quota='1920m' dislivello='1180m' difficolta='EE' descrizione={descToc} foto={fotoToc} ></Gita>
+        <Gita title='Cima di San Francesco (Tentativo)'  quota='~2160m' dislivello='1950m' difficolta='I/F' descrizione={descSFrancesco} foto={fotoSFrancesco} ></Gita>
+        <Gita title='Cima della Palazza (Val Zemola)'  quota='2210m' dislivello='1050m' difficolta='E' descrizione={descPalazzaZemola} foto={fotoPalazzaZemola} ></Gita>
         </div>  
     </div>                   
   );
