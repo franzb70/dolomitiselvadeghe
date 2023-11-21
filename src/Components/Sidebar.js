@@ -18,7 +18,7 @@ const Sidebar = () => {
     let disclaimer = `Questo il libro per voi...se vi piace il nostro approccio alla montagna`
     return (
     <>
-      <div className={`${'itemLeft'} ${largeScreen ? 'sidebar' : ''}`}>
+      <div className={`${'itemLeft'} ${'App'} ${largeScreen ? 'sidebar' : ''}`}>
       <a href="/"><img src={Logo} alt='Dolomiti Selvadeghe...ma non solo!'/></a>
 
           <div className="logotext">
@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <p className='textLogo'>{disclaimer}</p>
            </div>
           <nav className="navbar">
-            <div className="textCenter App">
+            <div className="textCenter">
                 <ul className={`navbar-nav mr-auto`}>
                     <li className={`nav-item active`}>
                         <NavLink className={`${'btn'} ${'btn-primary'} ${'buttonSide'}`} to="/alpago">Alpago</NavLink>
