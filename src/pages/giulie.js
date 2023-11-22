@@ -45,6 +45,67 @@ export default function Giulie() {
   corrispondenza della scala Pipan. Superati alcuni passaggi di I e un 
   paio di I+, oltre a una cengia un po' esposta nella deviazione dei Verts.`
 
+  let fotoBrentoni = []
+  let foto9 = {path: 'giulie/Brentoni01.jpg', desc: 'Dalla normale al Monte Brentoni'}
+  let foto10 = {path: 'giulie/Brentoni02.jpg', desc: 'Diedro del Monte Brentoni'}
+  fotoBrentoni.push(foto9)
+  fotoBrentoni.push(foto10)
+
+  let descBrentoni = `Prima di forcella Brentoni 10m di I, passaggio I+. Dalla forcella parte 
+  una rampa di circa 100m, sulla prima parte ben articolata I grado, nel 
+  tratto finale più liscia (II-). Tre chiodi già in loco per eventuali 
+  manovre di corda. Salita nel complesso molto varia e divertente, senza 
+  eccessivi rischi oggettivi.`
+
+  let fotoTerzaGrande = []
+  let foto11 = {path: 'giulie/TerzaGrande01.jpg', desc: 'Ultimo canale'}
+  let foto12 = {path: 'giulie/TerzaGrande02.jpg', desc: 'Gino Buscaini in vetta'}
+  let foto13 = {path: 'giulie/TerzaGrande03.jpg', desc: 'Con Gino e Silvia'}
+  fotoTerzaGrande.push(foto11)
+  fotoTerzaGrande.push(foto12)
+  fotoTerzaGrande.push(foto13)
+
+  let descTerzaGrande = `Dopo un lungo avvicinamento la via si 
+  sviluppa per 350m di dislivello sul versante sud orientale della 
+  montagna. Si tratta quasi sempre di sentiero con un paio di passaggi sul 
+  I grado. Prima della cresta finale si supera un canale di 40/50m di II- 
+  discontinuo con gli ultimi 5m di II. Segue una breve cresta finale con 
+  alcuni passi di I friabile; l'esposizione è praticamente assente su 
+  tutto il percorso. Impressiona l'imponenza della montagna percorrendo il 
+  tratto da Casera Razzo al passo di Ciampigotto.`
+
+  let fotoTerzaPiccola = []
+  let foto14 = {path: 'giulie/TerzaPiccola_01.jpg', desc: 'Forcella terza Piccola'}
+  let foto15 = {path: 'giulie/TerzaPiccola_02.jpg', desc: 'Imbocco del canale'}
+  let foto16 = {path: 'giulie/TerzaPiccola_03.jpg', desc: 'Il masso incastrato'}
+  let foto17 = {path: 'giulie/TerzaPiccola_04.jpg', desc: 'La crestina esposta'}
+  fotoTerzaPiccola.push(foto14)
+  fotoTerzaPiccola.push(foto15)
+  fotoTerzaPiccola.push(foto16)
+  fotoTerzaPiccola.push(foto17)
+
+  let descTerzaPiccola = `Via normale 
+	per il canalone est da Lerpa. Dopo lungo percorso su strada sterrata nel 
+	bosco si percorre l'ampio cadin che conduce a Forc. Terza Piccola. La via 
+	inizia aggirando a destra un caratteristico dente roccioso per poi infilarsi 
+	in un canale detritico che va risalito per un centinaio di metri, solo un 
+	passaggio di I in una strozzatura a metà. Si perviene quindi al masso 
+	incastrato che chiude il canale, da superarsi passando sotto dello stesso 
+	con facile arrampicata, 4m di I+. Pochi metri sopra inizia una breve 
+	crestina esposta, circa 30m con un paio di passaggi molto delicati per 
+	l'esposizione ma non difficili, in sostanza si cammina usando le mani solo 
+	per equilibrio. La vetta è a portata di mano, risalendo neanche 50m di 
+	prato. Spettacolare visione sulle montagne di Sappada e sulle altre due 
+	Terze.`
+
+  let fotoZermula = []
+  let foto18 = {path: 'giulie/Zermula01.jpg', desc: 'In ferrata sul bagnato'}
+  fotoZermula.push(foto18)
+
+  let descZermula = `Ferrata per la parete nord, su placche 
+  inclinate, resa scivolosa dalla pioggia, altrimenti decisamente facile.`
+
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -54,6 +115,10 @@ return (
         <Gita title='Monte Mangart'  quota='2677m' dislivello='680m' difficolta='I/EEA' descrizione={descMangart} foto={fotoMangart} ></Gita>
         <Gita title='Jof Fuart'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descFuart} foto={fotoFuart} ></Gita>
         <Gita title='Jof di Montasio'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descMontasio} foto={fotoMontasio} ></Gita>
+        <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m' difficolta='I+' descrizione={descBrentoni} foto={fotoBrentoni} ></Gita>
+        <Gita title='Terza Grande'  quota='2583m' dislivello='1200m' difficolta='II-' descrizione={descTerzaGrande} foto={fotoTerzaGrande} ></Gita>
+        <Gita title='Terza Piccola'  quota='2334m' dislivello='1150m' difficolta='I+' descrizione={descTerzaPiccola} foto={fotoTerzaPiccola} ></Gita>
+        <Gita title='Monte Zermula'  quota='2145m' dislivello='590m' difficolta='EEA' descrizione={descZermula} foto={fotoZermula} ></Gita>
         </div>  
     </div>        
   );

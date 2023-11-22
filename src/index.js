@@ -7,7 +7,6 @@ import Header from "./Components/Header.js"
 import Home from "./pages/home.js"
 import Alpago from "./pages/alpago.js"
 import Cadore from "./pages/cadore.js"
-import Carniche from "./pages/carniche.js"
 import Giulie from "./pages/giulie.js"
 import Oltrepiave from "./pages/oltrepiave.js"
 import Pale from "./pages/pale.js"
@@ -26,7 +25,6 @@ root.render(
         <Route path="/" element={ <Home /> } />
         <Route path="/alpago" element={ <Alpago /> } />
         <Route path="/cadore" element={ <Cadore /> } />
-        <Route path="/carniche" element={ <Carniche /> } />
         <Route path="/giulie" element={<Giulie />} />
         <Route path="/oltrepiave" element={<Oltrepiave />} />
         <Route path="/pale" element={<Pale />} />
