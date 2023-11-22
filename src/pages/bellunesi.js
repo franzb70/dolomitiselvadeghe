@@ -324,7 +324,7 @@ export default function Bellunesi() {
     fotoPeverele.push(foto57)
     fotoPeverele.push(foto58)
     fotoPeverele.push(foto59)
-    let descPeverele = `Da Cajada, per casera Zervoi. Si superano alcuni passaggi di I e tratti con loppe ripide (consigiliati ramponcini).
+    let descPeverele = `Da Cajada, per casera Zervoi. Si superano alcuni passaggi di I e tratti con loppe ripide (consigliati ramponcini).
     Proseguito poi in discesa e lungo la impressionante parete nord del Serva (ancora I delicato e una calata in doppia evitabile) per ricongiungerci
     al viaz nord-orientale del Serva, e poi sul mansueto versante sud fino al Cargador (servono 2 auto). `
 

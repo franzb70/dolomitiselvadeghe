@@ -130,6 +130,19 @@ export default function Fassa() {
   Dal passo si gira a sinistra per la solitaria val del Larsech e poi si prosegue in fondo a destra fino al passo delle Pope, da cui si risale faticosamente la dorsale est della cima.
   A scendere ho preferito la dorsale nord fino al passo d'Antermoia, per poi rientrare al Preuss e a Gardeccia.`
 
+  let fotoRodaDiaol = []
+  let foto30 = {path: 'fassa/RodaDiaol01.jpg', desc: 'Approcciando il tratto ferrato'}
+  let foto31 = {path: 'fassa/RodaDiaol02.jpg', desc: 'Torre Finestra'}
+  let foto32 = {path: 'fassa/RodaDiaol03.jpg', desc: 'Roda di Vael dalla cima'}
+  let foto33 = {path: 'fassa/RodaDiaol04.jpg', desc: 'Gruppo del Catinaccio verso est'}
+  fotoRodaDiaol.push(foto30)
+  fotoRodaDiaol.push(foto31)
+  fotoRodaDiaol.push(foto33)
+  fotoRodaDiaol.push(foto32)
+
+  let descRodaDiaol = `Dal rif. Roda di Vael si seguono le indicazioni per la ferrata che si superà con modeste difficoltà. 
+  In vista della Torre finestra si piega a nord puntando la forcella a destra. 
+  Da lì si risale la cresta est della Roda con qualche passaggio massimo di I+ senza esposizione.`
 
 
 return (
@@ -147,6 +160,7 @@ return (
         <Gita title='Sass Rigais'  quota='3025m' dislivello='940m' difficolta='EEA' descrizione={descSassRigais} foto={fotoSassRigais} ></Gita>
         <Gita title='Marmolada'  quota='3343m' dislivello='650+850m' difficolta='EEA' descrizione={descMarmolada} foto={fotoMarmolada} ></Gita>
         <Gita title='Cima Scalieret'  quota='2889m' dislivello='1480m' difficolta='EE' descrizione={descScalieret} foto={fotoScalieret} ></Gita>
+        <Gita title='Roda del Diavolo'  quota='2723m' dislivello='600m' difficolta='I+/EEA' descrizione={descRodaDiaol} foto={fotoRodaDiaol} ></Gita>
         </div>  
     </div>                   
   );

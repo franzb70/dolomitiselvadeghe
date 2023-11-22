@@ -379,7 +379,11 @@ export default function Zoldano() {
 
   let fotoSfornioiNord = []
   let foto69 = {path: 'zoldano/sfornioiNord01.jpg', desc: 'Dalla cima dello Sfornioi Nord'}
+  let foto78 = {path: 'zoldano/SfornioiNord02.jpg', desc: 'Gruppo del Bosconero verso sud'}
+  let foto79 = {path: 'zoldano/SfornioiNord03.jpg', desc: 'Spunta il Sassolungo di Cibiana'}
   fotoSfornioiNord.push(foto69)
+  fotoSfornioiNord.push(foto78)
+  fotoSfornioiNord.push(foto79)
 
   let descSfornioiNord = `Da passo Cibiana per forcella Ciavazole. I e II nei due canali friabili sul castello 
   sommitale.`
