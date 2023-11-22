@@ -13,7 +13,7 @@ export default function Alpago() {
     fotoAntander.push(foto2)
     fotoAntander.push(foto3)
     fotoAntander.push(foto4)
-    let descAntander = `Prima del 
+    let descAntander = `Da Pian di Formosa si segue il sentiero 979. Prima del 
     biv.Toffolon si prende l'ampio ghiaione sulla sinistra. Si risale fino 
     in cresta, puntando leggermente a destra della cima per ripidi pendii 
     erbosi intervallati da qualche roccetta. Poi brevemente in cima sulla 
@@ -63,7 +63,7 @@ export default function Alpago() {
     let foto13 = {path: 'alpago/teverone02.jpg', desc: 'Ultimi metri'}
     fotoTeverone.push(foto12)
     fotoTeverone.push(foto13)
-    let descTeverone = `Molto faticoso. Sbagliato percorso dopo la prima ripida 
+    let descTeverone = `Salita molto faticosa nel complesso. Sbagliato percorso dopo la prima ripida 
     pala boschiva, abbiamo seguito vecchi bolli rossi verso sinistra 
     fermandoci dopo 50m. Seguire segnavia bianco-rossi verso destra.`
 

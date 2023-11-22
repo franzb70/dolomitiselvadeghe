@@ -26,7 +26,13 @@ export default function Fassa() {
   fotoTooreNord.push(foto9)
   fotoTooreNord.push(foto10)
 
-  let descTooreNord = `Via normale Torre nord del Vajolet da Gardeccia.`
+  let descTooreNord = `Dal rif. Vajolet si prosegue verso il Passo Principe (nord) fino in corrispondenza del ghiaione che scende
+  da sinsitra (est) dal Passo del Vajolet. Lo si risale quasi tutto per prendere la cengia che si genera a sinistra. Si percorre abbastanza lungamente
+  la facile cengia sino all'evidente canalone che separa la Torre Nord dalla Torre Est (ometto). Qui si inizia a scalare seguendo gli ometti
+  sempre sul I/I+ continuo ma solido. Il tratto chiave è un muretto di circa 5/6m di II a metà del canale e poi il superamento
+  di un masso incastrato passando sotto. Giunti alla forcella bisogna subito piegare a destra imboccando un largo canalone, 
+  ignorando la bella cengia che svolta nel settore ovest della Torre. Ultime difficoltà alla fine del canale, piegando
+  a destra su balze di I+ e sbucando sull'esile e breve crestina finale, tornando a sinistra in direzione delle Torri Winkler e Stabeler.`
 
   let fotoAutaEst = []
   let foto11 = {path: 'fassa/CimaAutaEst_01.jpg', desc: 'Tratto finale con attrezzature'}
@@ -77,7 +83,7 @@ export default function Fassa() {
   let foto19 = {path: 'fassa/vernale01.jpg', desc: 'Marmolada dal Vernale'}
   fotoVernale.push(foto19)
 
-  let descVernale = `Cresta finale 
+  let descVernale = `Un 3000 facile, dal lungo avvicinamento. Cresta finale 
   tra le rovine della grande guerra, sempre max I-.`
 
   let fotoSassDlaCrusc = []
@@ -87,7 +93,7 @@ export default function Fassa() {
   fotoSassDlaCrusc.push(foto21)
 
   let descSassDlaCrusc = `La salita si 
-  sviluppa per cengia e risalti attrezzati piuttosto facili, l'esposizione 
+  sviluppa per cengia e risalti attrezzati alquanto facili, l'esposizione 
   e' quasi sempre trascurabile. Poi la cresta e' molto semplice e non 
   molto ripida. Per la cima del Sass dle Diesc occorre affrontare un 
   tratto di attrezzata con corda verticale alquanto esposto.`

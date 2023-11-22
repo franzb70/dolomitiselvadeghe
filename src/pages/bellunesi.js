@@ -176,7 +176,12 @@ export default function Bellunesi() {
     fotoBalconi.push(foto27)
     fotoBalconi.push(foto28)
     fotoBalconi.push(foto29)
-    let descBalconi = `Saliti da Gares, casera Campigat, e giro ad anello per le Pale dei Balconi. Consigliato l'uso della corda nella discesa del canalone bagnato.`
+    let descBalconi = `Saliti da Gares per casera Campigat, e giro ad anello per le Pale dei Balconi. 
+    Consigliato l'uso della corda nella discesa del canalone bagnato. La parete nord poi può presentare
+    problemi di orientamento, mentre le difficoltà si mantengono massimo sul I, misto erba. Dal Cor la risalita alla
+    Cima dei Balconi oppone ancor difficoltà di I, mentre la discesa in versante ovest verso le Pale dei Balconi
+    si sviluppa su cengia molto stretta ed esposta in un paio di circostanze. Da lì in poi l'anello si chiude con
+    impegno escursionistico.`
 
     let fotoPaleMola = []
     let foto30 = {path: 'bellunesi/ReceDelGat_01.jpg', desc: 'Cartello vintage'}
@@ -313,7 +318,8 @@ export default function Bellunesi() {
     fotoMonteCoro.push(foto54)
     fotoMonteCoro.push(foto55)
     let descMonteCoro = `Si parte dal Bus de la Pissa in val Cordevole, prendendo le scalette del sentiero si che ricongiunge alla strada del Bianchet.
-    Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso desta (ovest). Escursione molto lunga dovendo rirnttrare quasi fino alla testata della val Cordevole.`
+    Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso desta (ovest). 
+    Escursione molto lunga dovendo rientrare quasi fino alla testata della val Cordevole per calcare la Cima.`
 
     let fotoPeverele = []
     let foto56 = {path: 'bellunesi/peverele01.jpg', desc: 'Verso le Peverele'}
@@ -325,8 +331,9 @@ export default function Bellunesi() {
     fotoPeverele.push(foto58)
     fotoPeverele.push(foto59)
     let descPeverele = `Da Cajada, per casera Zervoi. Si superano alcuni passaggi di I e tratti con loppe ripide (consigliati ramponcini).
-    Proseguito poi in discesa e lungo la impressionante parete nord del Serva (ancora I delicato e una calata in doppia evitabile) per ricongiungerci
-    al viaz nord-orientale del Serva, e poi sul mansueto versante sud fino al Cargador (servono 2 auto). `
+    Proseguito poi in discesa per verdi e poi a prendere la traccia che taglia l'impressionante parete nord del Serva 
+    (ancora I delicato e una calata in doppia evitabile). Ci troviamo quindi a percorrere il
+    viaz nord-orientale del Serva con marcati sali-scendi, e poi sul mansueto versante sud fino al Cargador (servono 2 auto). `
 
 
     

@@ -211,7 +211,14 @@ export default function Cadore() {
   fotoPopena.push(foto45)
   fotoPopena.push(foto46)
 
-  let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.`
+  let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.
+  Da Misurina si prende il sentiero che porta ai ruderi del rif. Popena. In vista della montagna si perde quota in Val popena 
+  per affrontare il lungo ghiaione, al termine del quale si imbocca a sinistra la prima cengia della parete da percorrere
+  fino in corrispondenza dell'ampio canalone innevato che divide la parete. Lo si risale in sicura e al termine si prende ancora a sinistra
+  la seconda cengia che ci conduce ad un ampio anfiteatro di parete appoggiata da scalare sul I/I+ continuo.
+  Le difficoltà aumentano più in alto sbucando verso sinistra ad un diedro/parete da scalare sul II/II+ fino
+  a un movimento ancora in cengia verso sinistra per accedere alla cresta finale che oppone ancora passaggi in arrampicata
+  più facili e non esposti. Discesa attrezzando alcune doppie nei tratti più difficili.`
 
   let fotoCristallo = []
   let foto47 = {path: 'cadore/Cristallo_00.jpg', desc: 'Baraccamenti grande guerra'}
