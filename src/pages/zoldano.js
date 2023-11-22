@@ -396,6 +396,27 @@ export default function Zoldano() {
   si aggira il primo spuntone tenendosi sul versante orientale per poi
   guadagnare l'ampia cresta che porta alla vetta senza difficoltà alcuna.`
 
+  let fotoMontAltoPelsa = []
+  let foto72 = {path: 'zoldano/MontAltoPelsa01.jpg', desc: 'Verso il Civetta'}
+  let foto73 = {path: 'zoldano/MontAltoPelsa02.jpg', desc: 'Torre Venezia'}
+  fotoMontAltoPelsa.push(foto72)
+  fotoMontAltoPelsa.push(foto73)
+
+  let descMontAltoPelsa = `Da Capanna Trieste a Casera di Pelsa per sentiero 555 e 560, passando per il rif. Vazzoler.
+  Quindi si sale per tracce in direzione nord forzando frequentemente attraversamenti di mughi, fino a sbucare
+  nelle alte e ripide zone prative e proseguendo per ante-cime fino alla sommità principale. Al rientro siamo scesi per ripidi alla Sella di Pelsa.`
+
+  let fotoPetorgnon = []
+  let foto74 = {path: 'zoldano/petorgnon01.jpg', desc: 'Il Pramper'}
+  let foto75 = {path: 'zoldano/petorgnon02.jpg', desc: 'Il Pelmo'}
+  let foto76 = {path: 'zoldano/petorgnon03.jpg', desc: 'Gardesana, Forzelete e Tamer'}
+  let foto77 = {path: 'zoldano/petorgnon04.jpg', desc: 'Catena degli Spiz di Mezzodì'}
+  fotoPetorgnon.push(foto74)
+  fotoPetorgnon.push(foto75)
+  fotoPetorgnon.push(foto76)
+  fotoPetorgnon.push(foto77)
+
+  let descPetorgnon = `Salita facile, tipicamente primaverile o autunnale, con vista panoramica a 360° sulle montagne del Zoldano..`
 
 return (
   <div className='row App'>
@@ -424,6 +445,8 @@ return (
         <Gita title='Viaz del Fonch'  quota='~2200m' dislivello='1100m' difficolta='II/F+' descrizione={descFonch} foto={fotoFonch} ></Gita>
         <Gita title='Sfornioi Nord'  quota='2410m' dislivello='900m' difficolta='II/F+' descrizione={descSfornioiNord} foto={fotoSfornioiNord} ></Gita>
         <Gita title='Coro (Val Pamper)'  quota='2326m' dislivello='1160m' difficolta='EE' descrizione={descCoro} foto={fotoCoro} ></Gita>
+        <Gita title='Mont Alt de Pelsa'  quota='2417m' dislivello='1350m' difficolta='EE' descrizione={descMontAltoPelsa} foto={fotoMontAltoPelsa} ></Gita>
+        <Gita title='Petrognon'  quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
         </div>  
     </div>        
   );

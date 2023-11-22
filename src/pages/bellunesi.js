@@ -315,6 +315,20 @@ export default function Bellunesi() {
     let descMonteCoro = `Si parte dal Bus de la Pissa in val Cordevole, prendendo le scalette del sentiero si che ricongiunge alla strada del Bianchet.
     Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso desta (ovest). Escursione molto lunga dovendo rirnttrare quasi fino alla testata della val Cordevole.`
 
+    let fotoPeverele = []
+    let foto56 = {path: 'bellunesi/peverele01.jpg', desc: 'Verso le Peverele'}
+    let foto57 = {path: 'bellunesi/peverele02.jpg', desc: 'Scorcio sulla Schiara'}
+    let foto58 = {path: 'bellunesi/peverele03.jpg', desc: 'Viaz nord-orientale'}
+    let foto59 = {path: 'bellunesi/peverele04.jpg', desc: 'Parete nord del Serva'}
+    fotoPeverele.push(foto56)
+    fotoPeverele.push(foto57)
+    fotoPeverele.push(foto58)
+    fotoPeverele.push(foto59)
+    let descPeverele = `Da Cajada, per casera Zervoi. Si superano alcuni passaggi di I e tratti con loppe ripide (consigiliati ramponcini).
+    Proseguito poi in discesa e lungo la impressionante parete nord del Serva (ancora I delicato e una calata in doppia evitabile) per ricongiungerci
+    al viaz nord-orientale del Serva, e poi sul mansueto versante sud fino al Cargador (servono 2 auto). `
+
+
     
 return (
     <div className='row App'>
@@ -340,6 +354,7 @@ return (
         <Gita title='Col Siron'  quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
         <Gita title='Cime dei Pez'  quota='2075m' dislivello='~1700m' difficolta='EE' descrizione={descCimePez} foto={fotoCimePez} ></Gita>
         <Gita title='Monte Coro'  quota='1985m' dislivello='~1600m' difficolta='EE' descrizione={descMonteCoro} foto={fotoMonteCoro} ></Gita>
+        <Gita title='Peverele (Serva)'  quota='1851m' dislivello='~900m' difficolta='I/F' descrizione={descPeverele} foto={fotoPeverele} ></Gita>
         </div>  
     </div>        
     );

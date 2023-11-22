@@ -105,6 +105,17 @@ export default function Giulie() {
   let descZermula = `Ferrata per la parete nord, su placche 
   inclinate, resa scivolosa dalla pioggia, altrimenti decisamente facile.`
 
+  let fotoPeralba = []
+  let foto19 = {path: 'giulie/peralba01.jpg', desc: 'Effetti di Vaja'}
+  let foto20 = {path: 'giulie/peralba02.jpg', desc: 'Sulla normale spallone W'}
+  let foto21 = {path: 'giulie/peralba03.jpg', desc: 'Panorama verso le Carniche dalla vetta'}
+  let foto22 = {path: 'giulie/peralba04.jpg', desc: 'Scaletta sulla ferrata Sartor'}
+  fotoPeralba.push(foto19)
+  fotoPeralba.push(foto20)
+  fotoPeralba.push(foto21)
+  fotoPeralba.push(foto22)
+
+  let descPeralba = `Salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. Discesa per la facile ferrata Sartor.`
 
 return (
   <div className='row App'>
@@ -119,6 +130,7 @@ return (
         <Gita title='Terza Grande'  quota='2583m' dislivello='1200m' difficolta='II-' descrizione={descTerzaGrande} foto={fotoTerzaGrande} ></Gita>
         <Gita title='Terza Piccola'  quota='2334m' dislivello='1150m' difficolta='I+' descrizione={descTerzaPiccola} foto={fotoTerzaPiccola} ></Gita>
         <Gita title='Monte Zermula'  quota='2145m' dislivello='590m' difficolta='EEA' descrizione={descZermula} foto={fotoZermula} ></Gita>
+        <Gita title='Monte Peralba'  quota='2694m' dislivello='870m' difficolta='I/EEA' descrizione={descPeralba} foto={fotoPeralba} ></Gita>
         </div>  
     </div>        
   );
