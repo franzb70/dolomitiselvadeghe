@@ -713,6 +713,15 @@ export default function Oltrepiave() {
   Giunti li si scende per un 20 metri e poi si aggira a sinstra (ovest) la
   piramide finale, passando per una brevissima cengetta.`
 
+  let fotoFrati = []
+  let foto145 = {path: 'oltrepiave/Frati01.jpg', desc: 'In cima Frati, col Duranno alle spalle e un po\' di preoccupazione per la discesa'}
+  fotoFrati.push(foto145)
+
+  let descFrati = `Splendida via da 
+  trovare, si risolve con un canale inizialmente II, poi I+ molto 
+  friabile, infine una costa rocciosa alquanto instabile porta in vetta. 
+  Consigliabile corda da almeno 35/40 m.`
+
 
 
 return (
@@ -746,6 +755,7 @@ return (
         <Gita title='Cridola'  quota='2581m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descCridola} foto={fotoCridola} ></Gita>
         <Gita title='Monte Ferrara'  quota='2258m' dislivello='1100m' difficolta='EE' descrizione={descFerrara} foto={fotoFerrara} ></Gita>
         <Gita title='Monte Porgeit'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descPorgeit} foto={fotoPorgeit} ></Gita>
+        <Gita title='Cima Frati'  quota='2355m' dislivello='1650m' difficolta='II/PD+' descrizione={descFrati} foto={fotoFrati} ></Gita>
         <Gita title='Monte Zerten'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descZerten} foto={fotoZerten} ></Gita>
         <Gita title='Monte Zita (Val Zemola)'  quota='2190m' dislivello='1000m' difficolta='E' descrizione={descZita} foto={fotoZita} ></Gita>
         <Gita title='Cima Urtisiel Est'  quota='2119m' dislivello='1000m' difficolta='E' descrizione={descUrtisielEst} foto={fotoUrtisielEst} ></Gita>

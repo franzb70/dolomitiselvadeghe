@@ -144,6 +144,18 @@ export default function Fassa() {
   In vista della Torre finestra si piega a nord puntando la forcella a destra. 
   Da lì si risale la cresta est della Roda con qualche passaggio massimo di I+ senza esposizione.`
 
+  let fotoCimaUomo = []
+  let foto34 = {path: 'fassa/CimaUomo01.jpg', desc: 'Avvicinando la parete est di Cima Uomo'}
+  let foto35 = {path: 'fassa/CimaUomo02.jpg', desc: 'Verso il Gran Vernel'}
+  let foto36 = {path: 'fassa/CimaUomo03.jpg', desc: 'In cima con mio zio'}
+  fotoCimaUomo.push(foto34)
+  fotoCimaUomo.push(foto35)
+  fotoCimaUomo.push(foto36)
+
+  let descCimaUomo = `Dal Passo San Pellegrino si prendono le indicazioni per la via Attrezzata Bepi Zac, che si abbandonano a 2/3 del ghiaione
+  procedendo verso destra e superando le prime balze di roccia fino a raggiungere il basamento della parete. Seguendo gli ometti si procede fino a raggiongere l'inizio
+  della dorsale sud che si scala senza difficoltà di rilievo. Salita nel complesso ai limiti dell'escursionismo, da non sottovalutare.`
+
 
 return (
   <div className='row App'>
@@ -161,6 +173,7 @@ return (
         <Gita title='Marmolada'  quota='3343m' dislivello='650+850m' difficolta='EEA' descrizione={descMarmolada} foto={fotoMarmolada} ></Gita>
         <Gita title='Cima Scalieret'  quota='2889m' dislivello='1480m' difficolta='EE' descrizione={descScalieret} foto={fotoScalieret} ></Gita>
         <Gita title='Roda del Diavolo'  quota='2723m' dislivello='600m' difficolta='I+/EEA' descrizione={descRodaDiaol} foto={fotoRodaDiaol} ></Gita>
+        <Gita title='Cima Uomo'  quota='3010m' dislivello='1070m' difficolta='I+/F+' descrizione={descCimaUomo} foto={fotoCimaUomo} ></Gita>
         </div>  
     </div>                   
   );

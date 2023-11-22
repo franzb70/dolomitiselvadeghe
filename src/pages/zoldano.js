@@ -386,7 +386,7 @@ export default function Zoldano() {
   fotoSfornioiNord.push(foto79)
 
   let descSfornioiNord = `Da passo Cibiana per forcella Ciavazole. I e II nei due canali friabili sul castello 
-  sommitale.`
+  sommitale. Affrontabile in assetto escursionistico con la massima cautela.`
 
   let fotoCoro = []
   let foto70 = {path: 'zoldano/coro01.jpg', desc: 'Giaron de la Fopa'}
