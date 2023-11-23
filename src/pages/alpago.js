@@ -74,7 +74,7 @@ export default function Alpago() {
     nord di Messer e Antander. Dall'alta via N.6 ci si stacca in 
     corrispondenza di un canale erboso che appare facilmente percorribile. 
     Si perviene in cima dopo circa 250md con nessuna difficolta', prestando 
-    pero' attenzione alle &quot;loppe&quot; ripide pensili sopra i saltini rocciosi 
+    pero' attenzione alle loppe ripide pensili sopra i saltini rocciosi 
     appena aggirati.`
 
     let fotoCresteColNudo = []

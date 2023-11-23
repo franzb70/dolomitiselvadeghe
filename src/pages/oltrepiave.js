@@ -722,8 +722,37 @@ export default function Oltrepiave() {
   friabile, infine una costa rocciosa alquanto instabile porta in vetta. 
   Consigliabile corda da almeno 35/40 m.`
 
+  let fotoSent50esimo = []
+  let foto146 = {path: 'oltrepiave/sent50esimo01.jpg', desc: 'Discesa chiave nel sentiero del 50°'}
+  let foto147 = {path: 'oltrepiave/sent50esimo02.jpg', desc: 'Ago del Cridola'}
+  let foto148 = {path: 'oltrepiave/sent50esimo03.jpg', desc: 'Cima principale del Cridola'}
+  let foto149 = {path: 'oltrepiave/sent50esimo04.jpg', desc: 'In discesa sotto cima Herberg'}
+  fotoSent50esimo.push(foto146)
+  fotoSent50esimo.push(foto147)
+  fotoSent50esimo.push(foto148)
+  fotoSent50esimo.push(foto149)
 
+  let descSent50esimo = `Dal Rif. Padova si sale fin quasi alla Tacca del Cridola per ghiaione ripido. Poco prima della forcella si 
+  volge a sinistra per imboccare la cengia che costituisce Il Sentiero del Cinquantesimo. Il tratto chiave si incontra presto, 
+  dovendo scalare in discesa un 8m sul II-. Abbiamo pi tentato di salire all'Ago del Cridola, con rarissimi ometti di traccia,
+  passaggi di I e I+, fino alla base della torretta finale, dove l'esposizione estrema e la roccia in pessimo stato ha consigliato
+  di lasciar perdere. Rientrati poi al Padova per ripidi ghiaioni sotto Cima Herbert e Crodon di Scodavacca.` 
 
+  let fotoMontanel = []
+  let foto150 = {path: 'oltrepiave/Montanel01.jpg', desc: 'Sui ripidi prati sottostanti il Montanel'}
+  let foto151 = {path: 'oltrepiave/Montanel02.jpg', desc: 'Cengia'}
+  let foto152 = {path: 'oltrepiave/Montanel03.jpg', desc: 'Montagne del Cadore'}
+  let foto153 = {path: 'oltrepiave/Montanel04.jpg', desc: 'Verso il Cridola'}
+  fotoMontanel.push(foto150)
+  fotoMontanel.push(foto151)
+  fotoMontanel.push(foto152)
+  fotoMontanel.push(foto153)
+
+  let descMontanel = `Dal Rif. Cercenà si prende per il Biv. Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
+  Risalito lo spallone puntando a sinistra si raggiungono i ripidi prati che danno sulla val del Piave, e al termine degli stessi si volge a destra per cengia
+  facile fino alla frastagliata serie di torrette finali, da scalare con qualche passo di I e I+.` 
+
+  
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -764,6 +793,8 @@ return (
         <Gita title='Monte Toc'  quota='1920m' dislivello='1180m' difficolta='EE' descrizione={descToc} foto={fotoToc} ></Gita>
         <Gita title='Cima di San Francesco (Tentativo)'  quota='~2160m' dislivello='1950m' difficolta='I/F' descrizione={descSFrancesco} foto={fotoSFrancesco} ></Gita>
         <Gita title='Cima della Palazza (Val Zemola)'  quota='2210m' dislivello='1050m' difficolta='E' descrizione={descPalazzaZemola} foto={fotoPalazzaZemola} ></Gita>
+        <Gita title='Ago del Cridola (Tentativo) Sentiero del 50esimo'  quota='~2370m' dislivello='1250m' difficolta='II-/F+' descrizione={descSent50esimo} foto={fotoSent50esimo} ></Gita>
+        <Gita title='Montanel'  quota='2461m' dislivello='1410m' difficolta='I+/F+' descrizione={descMontanel} foto={fotoMontanel} ></Gita>
         </div>  
     </div>                   
   );
