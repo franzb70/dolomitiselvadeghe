@@ -22,7 +22,7 @@ export default function Gita(props) {
                 {props.foto.map((item, index) => (
                   <div key={index}>
                     {item.desc}<br></br>
-                    <img src={require('../img/' + item.path)} alt={item.desc}/>
+                    <img src={require('../img/' + item.path)} resizeMode="contain" alt={item.desc}/>
                     <p><a href="#top"><ArrowUp /></a></p>
                   </div>
                 ))}                
