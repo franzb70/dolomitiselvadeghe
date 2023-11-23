@@ -26,7 +26,7 @@ export default function Gita(props) {
                 {props.foto.map((item, index) => (
                   <div key={index}>
                     {item.desc}<br></br>
-                    <img src={require('../img/' + item.path)} alt={item.desc} className={`${largeScreen ? 'pictureResize' : ''}`}/>
+                    <img src={require('../img/' + item.path)} alt={item.desc} className={`${largeScreen ? '' : 'pictureResize'}`}/>
                     <p><a href="#top"><ArrowUp /></a></p>
                   </div>
                 ))}                
