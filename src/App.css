@@ -30,6 +30,12 @@ body {
   max-width: 1030px;
 }
 
+.pictureResize {
+  width: 100%;
+  height: auto;
+  background-size: contain;
+}
+
 .textDescGita {
   font-size: 20px;
   padding-top: 30px;

@@ -4,6 +4,10 @@ import { ArrowUp } from 'react-feather'
 
 export default function Gita(props) {
 
+    let largeScreen = true
+    if (window.innerWidth < 1200)
+        largeScreen = false
+
     return (
         <div className="App">
             <div className='row textDescGita'>
@@ -22,7 +26,7 @@ export default function Gita(props) {
                 {props.foto.map((item, index) => (
                   <div key={index}>
                     {item.desc}<br></br>
-                    <img src={require('../img/' + item.path)} resizeMode="contain" alt={item.desc}/>
+                    <img src={require('../img/' + item.path)} alt={item.desc} className={`${largeScreen ? 'pictureResize' : ''}`}/>
                     <p><a href="#top"><ArrowUp /></a></p>
                   </div>
                 ))}                
