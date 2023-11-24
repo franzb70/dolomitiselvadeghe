@@ -13,7 +13,6 @@ export default function Zoldano() {
   fotoForzelete.push(foto2)
   fotoForzelete.push(foto3)
   fotoForzelete.push(foto4)
-
   let descForzelete = `Da Ponte di Caleda si segue il sentiero diretto al Pramperet fino ad evidente segnalazione a sinistra per F.lla Larga (di Moschesin), 1h circa. 
   Risalire faticosamente tutto il ghiaione, tenendosi prevalentemente sulla destra negli ultimi 100m, 1h circa. 
   Da qui si attacca decisamente il ghiaione a sinistra che scende dalle Forzelete. Si prosegue duramente accanto alla barriera rocciosa fin quando si apre una conca. 
@@ -43,7 +42,6 @@ export default function Zoldano() {
   fotoPramperet.push(foto10)
   fotoPramperet.push(foto11)
   fotoPramperet.push(foto12)
-
   let descPramperet = `Via normale al Pramperet.`
 
   let fotoToanella = []
@@ -55,7 +53,6 @@ export default function Zoldano() {
   fotoToanella.push(foto14)
   fotoToanella.push(foto15)
   fotoToanella.push(foto16)
-
   let descToanella = `Escursione fantastica. Da Pontesei si punta al il rifugio Bosconero e oltrepassatolo si
   procede alla forcella della Toanella (m 2100 circa, 1300 dislivello). Da qui
   si scende verso destra, abbandonando subito il sentiero che porterebbe al
@@ -82,7 +79,6 @@ export default function Zoldano() {
   fotoDenteFopa.push(foto18)
   fotoDenteFopa.push(foto19)
   fotoDenteFopa.push(foto20)
-
   let descDenteFopa = `Si
   lascia l'auto in val Pramper al parcheggio a 1200m e si prende il ripido
   sentiero che va al biv. Carnielli. La nostra cima e' ben visibile col suo
@@ -113,7 +109,6 @@ export default function Zoldano() {
   fotoSasse.push(foto23)
   fotoSasse.push(foto24)
   fotoSasse.push(foto25)
-
   let descSasse = `Salita molto divertente con una lunga parete di I/I+ continuo priva di reale esposizione.`
 
   let fotoGardesana = []
@@ -121,7 +116,6 @@ export default function Zoldano() {
   let foto27 = {path: 'zoldano/gardesana02.jpg', desc: 'Cima'}
   fotoGardesana.push(foto26)
   fotoGardesana.push(foto27)
-
   let descGardesana = `Da Pian de Caleda, dopo lungo avvicinamento in 
   falsopiano si risale la ripida f.lla Larga. Quindi ci gira il massiccio 
   della Gardesana verso est (val Pramper) fino a giungere alla cresta. Da 
@@ -148,7 +142,6 @@ export default function Zoldano() {
   fotoSpiz.push(foto29)
   fotoSpiz.push(foto30)
   fotoSpiz.push(foto31)
-
   let descSpiz = `Al biv. Carnielli si perviene affrontando qualche passo esposto in cengia e 
   rimontando circa 200m di rocce sul I grado discontinuo (1 passaggio I+). 
   Dal bivacco si risale l'intaglio tra i due Spiz verso sinistra, 
@@ -179,7 +172,6 @@ export default function Zoldano() {
   fotoSpigolDelPalon.push(foto34)
   fotoSpigolDelPalon.push(foto35)
   fotoSpigolDelPalon.push(foto36)
-
   let descSpigolDelPalon = `Il rif. Pramperet è il punto di partenza ideale. Si segue il 521 abbassandosi 
   non poco in val Costa dei Nass, per poi risalire a forcella Piccola che 
   offre una splendida apertura sulla conca di Cornia. In vista della cima 
@@ -198,7 +190,6 @@ export default function Zoldano() {
   let foto38 = {path: 'zoldano/spizBelvedere02.jpg', desc: 'Canale di I+'}
   fotospizBelvedere.push(foto37)
   fotospizBelvedere.push(foto38)
-
   let descspizBelvedere = `Dal Rif Angelini sora l'Sass si prosegue sul 532 fin in vista della forcella La Porta. 
   In corrispondenza dell'alto campanile detto "il Prete" si svolta a sinistra e, per ripido ghiaione si punta alla forcella Belvedere 
   (attenzione alle scariche di sassi). Circa 70m sotto la forcella si inizia ad attaccare le balze semi-erbose alla sinistra cercando 
@@ -219,7 +210,6 @@ export default function Zoldano() {
   fotoCivetta.push(foto40)
   fotoCivetta.push(foto41)
   fotoCivetta.push(foto42)
-
   let descCivetta = `Percorso faticoso (sentiero Tivan). Tratti 
   di I e passaggi di II, qualche cavo metallico verticale per evitare il 
   fondo dei canali detritici.`
@@ -233,7 +223,6 @@ export default function Zoldano() {
   fotoSanSebastiano.push(foto44)
   fotoSanSebastiano.push(foto45)
   fotoSanSebastiano.push(foto46)
-
   let descSanSebastiano = `Da Ponte Caleda si sale al 
   van di Caleda per sentiero ripido con alcuni tratti di I grado su 
   terreno tranquillo. Si prende quindi la diramazione verso sinistra che 
@@ -248,7 +237,6 @@ export default function Zoldano() {
   let foto48 = {path: 'zoldano/pramper02.jpg', desc: 'La cresta, a scendere'}
   fotoPramper.push(foto47)
   fotoPramper.push(foto48)
-
   let descPramper = `Dal Rif. Pramperet si prende il sentiero 521 sino a Forcella Piccola. Da qui
   si scende per pochi metri e si segue subito una evidente traccia verso
   sinistra che, attraverso mughi prima e poi su bancate misto erbose, ci porta
@@ -269,7 +257,6 @@ export default function Zoldano() {
   let foto50 = {path: 'zoldano/Moschesin02.jpg', desc: 'Passaggio di II'}
   fotoMoschesin.push(foto49)
   fotoMoschesin.push(foto50)
-
   let descMoschesin = `Salita durissima a forcella Larga da ovest. 
   Il primo camino presenta Difficoltà di I e I+ con un passo di II in 
   uscita. Sulla seconda paretina I+ continuo per 15 metri circa. La via è 
@@ -285,7 +272,6 @@ export default function Zoldano() {
   fotoCostonGard.push(foto52)
   fotoCostonGard.push(foto53)
   fotoCostonGard.push(foto54)
-
   let descCostonGard = `Selvaggio canalone da Pian dei Palui, con sbiaditi bolli rossi, per sbucare nel Van della Gardesana.`
 
   let fotoCrestaSanSebastiano = []
@@ -295,7 +281,6 @@ export default function Zoldano() {
   fotoCrestaSanSebastiano.push(foto55)
   fotoCrestaSanSebastiano.push(foto56)
   fotoCrestaSanSebastiano.push(foto57)
-
   let descCrestaSanSebastiano = `Il percorso si stacca dal 
   sentiero che porta alla forc. di San Sebastiano all'altezza di un ampio 
   canalone ghiaioso che appare subito evidente sulla destra. Si risale 
@@ -311,7 +296,6 @@ export default function Zoldano() {
   let fotoTamer = []
   let foto58 = {path: 'zoldano/Tamer01.jpg', desc: 'Sulla cengia del Tamer'}
   fotoTamer.push(foto58)
-
   let descTamer = `Dopo il cengione 
   si sale per gole ripide e abbastanza franose, un passaggio piu difficile 
   in corrispondenza di un salto di 5m (I+ delicato).`
@@ -325,7 +309,6 @@ export default function Zoldano() {
   fotoCimaVenier.push(foto60)
   fotoCimaVenier.push(foto61)
   fotoCimaVenier.push(foto62)
-
   let descCimaVenier = `Via di salita 
 	per il Viaz sora la Fopa che si attacca al bivio per il biv. Carnielli de 
 	Marchi rimontando la rampa ghiaiosa verso destra. Giunti su uno spallone, in 
@@ -353,7 +336,6 @@ export default function Zoldano() {
   fotoBosconero.push(foto64)
   fotoBosconero.push(foto65)
   fotoBosconero.push(foto66)
-
   let descBosconero = `Risalita abbastanza dura fino a forcella Toanella, 
   compensata da panorami dolomitici esaltanti. Dalla forcella alla vetta 
   sono 330m di dislivello su sentiero ben evidente (ometti e qualche 
@@ -367,7 +349,6 @@ export default function Zoldano() {
   let foto68 = {path: 'zoldano/fonch02.jpg', desc: 'Viaz del Fonch'}
   fotoFonch.push(foto67)
   fotoFonch.push(foto68)
-
   let descFonch = `Da passo Cibiana per forcella Ciavazole e poi seguendo la normale allo
   Sfornioi Nord si arriva all'attacco del Viaz. Si scende per decine di metri,
   poi la cengia diventa pressochè orizzontale. Nella discesa occorre
@@ -384,7 +365,6 @@ export default function Zoldano() {
   fotoSfornioiNord.push(foto69)
   fotoSfornioiNord.push(foto78)
   fotoSfornioiNord.push(foto79)
-
   let descSfornioiNord = `Da passo Cibiana per forcella Ciavazole. I e II nei due canali friabili sul castello 
   sommitale. Affrontabile in assetto escursionistico con la massima cautela.`
 
@@ -393,7 +373,6 @@ export default function Zoldano() {
   let foto71 = {path: 'zoldano/coro02.jpg', desc: 'Verso il Pramper'}
   fotoCoro.push(foto70)
   fotoCoro.push(foto71)
-
   let descCoro = `Risalito lungamente tutto il Giaron de la Fopa fino a forcella del Coro. Il
   percorso è misto tra ghiaioni, massi e tratti più compatti con pendenze
   elevate nel tratto finale. La segnalazioni sono inesistenti. Dalla forcella
@@ -405,7 +384,6 @@ export default function Zoldano() {
   let foto73 = {path: 'zoldano/MontAltoPelsa02.jpg', desc: 'Torre Venezia'}
   fotoMontAltoPelsa.push(foto72)
   fotoMontAltoPelsa.push(foto73)
-
   let descMontAltoPelsa = `Da Capanna Trieste a Casera di Pelsa per sentiero 555 e 560, passando per il rif. Vazzoler.
   Quindi si sale per tracce in direzione nord forzando frequentemente attraversamenti di mughi, fino a sbucare
   nelle alte e ripide zone prative e proseguendo per ante-cime fino alla sommità principale. Al rientro siamo scesi per ripidi alla Sella di Pelsa.`
@@ -419,8 +397,22 @@ export default function Zoldano() {
   fotoPetorgnon.push(foto75)
   fotoPetorgnon.push(foto76)
   fotoPetorgnon.push(foto77)
-
   let descPetorgnon = `Salita facile, tipicamente primaverile o autunnale, con vista panoramica a 360° sulle montagne del Zoldano..`
+
+  let fotoTorreDaCamp = []
+  let foto80 = {path: 'zoldano/TorreDaCamp00.jpg', desc: 'Prima Torre da Camp tra le nuvole'}
+  let foto81 = {path: 'zoldano/TorreDaCamp01.jpg', desc: 'Canale di attacco'}
+  let foto82 = {path: 'zoldano/TorreDaCamp02.jpg', desc: 'Su cenge'}
+  let foto83 = {path: 'zoldano/TorreDaCamp03.jpg', desc: 'Cocuzzolo finale'}
+  fotoTorreDaCamp.push(foto80)
+  fotoTorreDaCamp.push(foto81)
+  fotoTorreDaCamp.push(foto82)
+  fotoTorreDaCamp.push(foto83)
+  let descTorreDaCamp = `Da Malga Framont si prosegue sul 552 in direzione della Moiazza (Biv. Ghedini) e lo
+  si lascia per piegare a sinistra già in prossimità delle pareti. La via inizia con un canalino stretto che oppone passaggi di I e I+
+  fino a guadagnare una cengia verso sinistra (umido) che si segue attorniando la Terza e Seconda Torre da Camp, con un passaggio
+  molto esposto aiutato da un cordino. La via si conclude con una breve arrampicata della torretta finale, anche qui aiutata da un
+  vecchio cordino metallico (II altrimenti).`
 
 return (
   <div className='row App'>
@@ -450,7 +442,8 @@ return (
         <Gita title='Sfornioi Nord'  quota='2410m' dislivello='900m' difficolta='II/F+' descrizione={descSfornioiNord} foto={fotoSfornioiNord} ></Gita>
         <Gita title='Coro (Val Pamper)'  quota='2326m' dislivello='1160m' difficolta='EE' descrizione={descCoro} foto={fotoCoro} ></Gita>
         <Gita title='Mont Alt de Pelsa'  quota='2417m' dislivello='1350m' difficolta='EE' descrizione={descMontAltoPelsa} foto={fotoMontAltoPelsa} ></Gita>
-        <Gita title='Petrognon'  quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
+        <Gita title='Petorgnon'  quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
+        <Gita title='Prima Torre da Camp'  quota='2281m' dislivello='700m' difficolta='I+/F+/EEA' descrizione={descTorreDaCamp} foto={fotoTorreDaCamp} ></Gita>
         </div>  
     </div>        
   );
