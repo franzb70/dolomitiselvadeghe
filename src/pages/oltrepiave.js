@@ -752,6 +752,32 @@ export default function Oltrepiave() {
   Risalito lo spallone puntando a sinistra si raggiungono i ripidi prati che danno sulla val del Piave, e al termine degli stessi si volge a destra per cengia
   facile fino alla frastagliata serie di torrette finali, da scalare con qualche passo di I e I+.` 
 
+  let fotoVedorcia = []
+  let foto154 = {path: 'oltrepiave/Vedorcia01.jpg', desc: 'Salto di II al termine del canalone di accesso a f.lla Vedorcia'}
+  let foto155 = {path: 'oltrepiave/Vedorcia02.jpg', desc: 'Sulla paretina di II+ alla fine della cengia'}
+  let foto156 = {path: 'oltrepiave/Vedorcia03.jpg', desc: 'La cengia col masso da superare in aderenza'}
+  let foto157 = {path: 'oltrepiave/Vedorcia04.jpg', desc: 'Il camino di III'}
+  let foto158 = {path: 'oltrepiave/Vedorcia05.jpg', desc: 'Cridola in distanza'}
+  let foto159 = {path: 'oltrepiave/Vedorcia06.jpg', desc: 'Discesa in doppia'}
+  let foto160 = {path: 'oltrepiave/Vedorcia07.jpg', desc: 'Il Cadin degli Elmi'}
+  let foto161 = {path: 'oltrepiave/Vedorcia08.jpg', desc: 'Castello di Vedorcia e Spalti di Toro'}
+  fotoVedorcia.push(foto154)
+  fotoVedorcia.push(foto156)
+  fotoVedorcia.push(foto155)
+  fotoVedorcia.push(foto157)
+  fotoVedorcia.push(foto158)
+  fotoVedorcia.push(foto159)
+  fotoVedorcia.push(foto160)
+  fotoVedorcia.push(foto161)
+
+  let descVedorcia = `Dal Rif. Padova al Rif. Tita Barba, dove abbiamo pernottato.
+  La prima difficoltà si trova nel rimontare la paretina prima di forcella Vedorcia, II delicato, 5m.
+  La cengia poi è facile, se si esclude il passaggio su un masso inclinato dove ci siamo assicurati. 
+  All'uscita della cengia si deve iniziare a scalare su balze fino a una paretina di II/II+, per poi muoversi verso la cuspide finale
+  tagliata dal canalone che si scala con 4 tiri fino al III°. La roccia nel camino diventa migliore. A scendere si sfruttano
+  gli ancoraggi per alcune doppie. Cima poco frequentata da affrontare in assetto alpinistico.` 
+
+
   
 return (
   <div className='row App'>
@@ -765,6 +791,7 @@ return (
         <Gita title='Cima Vacalizza'  quota='2266m' dislivello='1650m' difficolta='III-/II/PD+' descrizione={descVacalizza} foto={fotoVacalizza} ></Gita>
         <Gita title='Spalla del Duranno/Sent. Zandonella'  quota='2234m' dislivello='1300m' difficolta='I/EEA' descrizione={descSpallaDuranno} foto={fotoSpallaDuranno} ></Gita>
         <Gita title='Cime Postegae'  quota='2313/2358m' dislivello='~1500m' difficolta='EE' descrizione={descPostegae} foto={fotoPostegae} ></Gita>
+        <Gita title='Cadin di Vedorcia'  quota='2403m' dislivello='1250m' difficolta='III/AD-' descrizione={descVedorcia} foto={fotoVedorcia} ></Gita>
         <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m' difficolta='II/PD' descrizione={descPinoSudo} foto={fotoPinoSudo} ></Gita>
         <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m' difficolta='II-/F+' descrizione={descPecoli} foto={fotoPecoli} ></Gita>
         <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m' difficolta='II+/PD' descrizione={descMonfalconDM} foto={fotoMonfalconDM} ></Gita>
