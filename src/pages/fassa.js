@@ -25,7 +25,6 @@ export default function Fassa() {
   fotoTooreNord.push(foto8)
   fotoTooreNord.push(foto9)
   fotoTooreNord.push(foto10)
-
   let descTooreNord = `Dal rif. Vajolet si prosegue verso il Passo Principe (nord) fino in corrispondenza del ghiaione che scende
   da sinsitra (est) dal Passo del Vajolet. Lo si risale quasi tutto per prendere la cengia che si genera a sinistra. Si percorre abbastanza lungamente
   la facile cengia sino all'evidente canalone che separa la Torre Nord dalla Torre Est (ometto). Qui si inizia a scalare seguendo gli ometti
@@ -43,7 +42,6 @@ export default function Fassa() {
   fotoAutaEst.push(foto12)
   fotoAutaEst.push(foto13)
   fotoAutaEst.push(foto14)
-
   let descAutaEst = `Via normale alla Cima d'Auta Est da località Colmean.`
 
   let fotoCiadin = []
@@ -51,7 +49,6 @@ export default function Fassa() {
   let foto16 = {path: 'fassa/PuntaDelCiadin_02.JPG', desc: 'Cime di Auta'}
   fotoCiadin.push(foto15)
   fotoCiadin.push(foto16)
-
   let descCiadin = `Da Passo S.	Pellegrino (chiesetta) si segue per la normale a cima Uomo fino alla 
 	deviazione, poi gli ultimi 100m verso la forcella sono veramente fastidiosi 
 	per la	pendenza ed il marciume. Arrivati in vista dei segni dell'alta via Bepi Zac 
@@ -69,7 +66,6 @@ export default function Fassa() {
   let foto18 = {path: 'fassa/MugoniCimaDiMezzo_02.jpg', desc: 'Verso sud dalla cima'}
   fotoMugoniMezzo.push(foto17)
   fotoMugoniMezzo.push(foto18)
-
   let descMugoniMezzo = `Dalla Busa de Vael si individua il canale che spacca la parete ovest dei Mugoni. Qualche 
 	passo di I all'inizio, poi solo ripido e friabile. Nessuna traccia o ometto.
   A metà canale lo troviamo completamente invaso da una lingua di neve. 
@@ -82,7 +78,6 @@ export default function Fassa() {
   let fotoVernale = []
   let foto19 = {path: 'fassa/vernale01.jpg', desc: 'Marmolada dal Vernale'}
   fotoVernale.push(foto19)
-
   let descVernale = `Un 3000 facile, dal lungo avvicinamento. Cresta finale 
   tra le rovine della grande guerra, sempre max I-.`
 
@@ -91,7 +86,6 @@ export default function Fassa() {
   let foto21 = {path: 'fassa/sassDlaCrusc02.jpg', desc: 'Sulla cengia in parete ovest'}
   fotoSassDlaCrusc.push(foto20)
   fotoSassDlaCrusc.push(foto21)
-
   let descSassDlaCrusc = `La salita si 
   sviluppa per cengia e risalti attrezzati alquanto facili, l'esposizione 
   e' quasi sempre trascurabile. Poi la cresta e' molto semplice e non 
@@ -103,7 +97,6 @@ export default function Fassa() {
   let foto23 = {path: 'fassa/Furcheta01.jpg', desc: 'La Furcheta dal Sass Rigais'}
   fotoSassRigais.push(foto22)
   fotoSassRigais.push(foto23)
-
   let descSassRigais = `Salita per la ferrata Ovest, discesa per la ferrata sud. Entrambe 
   piuttosto facili. Sulla sud si devono superare dei tratti sul I grado 
   (mai esposti) senza cavo. Giornata splendida con panorama a 360 gradi.`
@@ -113,7 +106,6 @@ export default function Fassa() {
   let foto25 = {path: 'fassa/marmolada02.jpg', desc: 'Ghiacciao verso le Tofane'}
   fotoMarmolada.push(foto24)
   fotoMarmolada.push(foto25)
-
   let descMarmolada = `Ferrata per cresta Ovest a salire, nevaio del Vernel 
   senza problemi. La ferrata e' lunga ma ben attrezzata. A scendere per la 
   normale. Terminata la schiena non ripida occorre scendere arrampicando 
@@ -131,7 +123,6 @@ export default function Fassa() {
   fotoScalieret.push(foto27)
   fotoScalieret.push(foto28)
   fotoScalieret.push(foto29)
-
   let descScalieret = `Partito da Muncion, data la chiusura degli impianti e tagliato da La Regolina a destra verso il sentiero 583 delle Scalette.
   Dal passo si gira a sinistra per la solitaria val del Larsech e poi si prosegue in fondo a destra fino al passo delle Pope, da cui si risale faticosamente la dorsale est della cima.
   A scendere ho preferito la dorsale nord fino al passo d'Antermoia, per poi rientrare al Preuss e a Gardeccia.`
@@ -145,7 +136,6 @@ export default function Fassa() {
   fotoRodaDiaol.push(foto31)
   fotoRodaDiaol.push(foto33)
   fotoRodaDiaol.push(foto32)
-
   let descRodaDiaol = `Dal rif. Roda di Vael si seguono le indicazioni per la ferrata che si superà con modeste difficoltà. 
   In vista della Torre finestra si piega a nord puntando la forcella a destra. 
   Da lì si risale la cresta est della Roda con qualche passaggio massimo di I+ senza esposizione.`
@@ -157,7 +147,6 @@ export default function Fassa() {
   fotoCimaUomo.push(foto34)
   fotoCimaUomo.push(foto35)
   fotoCimaUomo.push(foto36)
-
   let descCimaUomo = `Dal Passo San Pellegrino si prendono le indicazioni per la via Attrezzata Bepi Zac, che si abbandonano a 2/3 del ghiaione
   procedendo verso destra e superando le prime balze di roccia fino a raggiungere il basamento della parete. Seguendo gli ometti si procede fino a raggiongere l'inizio
   della dorsale sud che si scala senza difficoltà di rilievo. Salita nel complesso ai limiti dell'escursionismo, da non sottovalutare.`

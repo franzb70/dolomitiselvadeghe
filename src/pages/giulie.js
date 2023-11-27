@@ -13,7 +13,6 @@ export default function Giulie() {
   fotoMangart.push(foto2)
   fotoMangart.push(foto3)
   fotoMangart.push(foto4)
-
   let descMangart = `Al termine della strada carrozzabile del Mangart si risale
   la cresta con orride visioni sulla ferrata italiana che sale da nord. Al
   bivio abbiam preso a destra verso la ferrata slovena che si sviluppa
@@ -28,7 +27,6 @@ export default function Giulie() {
   let foto6 = {path: 'giulie/fuart02.jpg', desc: 'Jof Fuart dal sentiero A. Goitan'}
   fotoFuart.push(foto5)
   fotoFuart.push(foto6)
-
   let descFuart = `Salita dal Corsi, normale e poi Anita Goitan a scendere. Tutti i punti piu 
   impegnativi sono attrezzati. Nel nostro caso nevicava e le cengette del 
   castello sommitale erano ghiacciate.`
@@ -38,7 +36,6 @@ export default function Giulie() {
   let foto8 = {path: 'giulie/montasio02.jpg', desc: 'Parete sud del Montasio'}
   fotoMontasio.push(foto7)
   fotoMontasio.push(foto8)
-
   let descMontasio = `Salita del 14-ottobre, neanche una nuvola caldo quasi fastidioso (!). Si è 
   preferito fare la via dei Verts da Brazzà sia in salita che in discesa, 
   visto l'affollamento e le scariche di sassi che si verificavano in 
@@ -50,7 +47,6 @@ export default function Giulie() {
   let foto10 = {path: 'giulie/Brentoni02.jpg', desc: 'Diedro del Monte Brentoni'}
   fotoBrentoni.push(foto9)
   fotoBrentoni.push(foto10)
-
   let descBrentoni = `Prima di forcella Brentoni 10m di I, passaggio I+. Dalla forcella parte 
   una rampa di circa 100m, sulla prima parte ben articolata I grado, nel 
   tratto finale più liscia (II-). Tre chiodi già in loco per eventuali 
@@ -64,7 +60,6 @@ export default function Giulie() {
   fotoTerzaGrande.push(foto11)
   fotoTerzaGrande.push(foto12)
   fotoTerzaGrande.push(foto13)
-
   let descTerzaGrande = `Dopo un lungo avvicinamento la via si 
   sviluppa per 350m di dislivello sul versante sud orientale della 
   montagna. Si tratta quasi sempre di sentiero con un paio di passaggi sul 
@@ -83,7 +78,6 @@ export default function Giulie() {
   fotoTerzaPiccola.push(foto15)
   fotoTerzaPiccola.push(foto16)
   fotoTerzaPiccola.push(foto17)
-
   let descTerzaPiccola = `Via normale 
 	per il canalone est da Lerpa. Dopo lungo percorso su strada sterrata nel 
 	bosco si percorre l'ampio cadin che conduce a Forc. Terza Piccola. La via 
@@ -101,7 +95,6 @@ export default function Giulie() {
   let fotoZermula = []
   let foto18 = {path: 'giulie/Zermula01.jpg', desc: 'In ferrata sul bagnato'}
   fotoZermula.push(foto18)
-
   let descZermula = `Ferrata per la parete nord, su placche 
   inclinate, resa scivolosa dalla pioggia, altrimenti decisamente facile.`
 
@@ -114,7 +107,6 @@ export default function Giulie() {
   fotoPeralba.push(foto20)
   fotoPeralba.push(foto21)
   fotoPeralba.push(foto22)
-
   let descPeralba = `Salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. Discesa per la facile ferrata Sartor.`
 
 return (

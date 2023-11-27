@@ -16,7 +16,7 @@ export default function Varie() {
   fotoGranPa.push(foto3)
   fotoGranPa.push(foto4)
   fotoGranPa.push(foto5)
-  fotoGranPa.push(foto6)
+  fotoGranPa.push(foto6)  
   let descGranPa = `Dal rif. Vittorio Emanuele II si seguono le tracce che
   puntano verso nord. Attraversato un vallone con massi (attenzione per la
   carenza di luce) si prende una crestina che si segue lungamente per poi
@@ -37,14 +37,14 @@ export default function Varie() {
   fotoBeccoFiladonna.push(foto7)
   fotoBeccoFiladonna.push(foto8)
   fotoBeccoFiladonna.push(foto9)
-  fotoBeccoFiladonna.push(foto10)
+  fotoBeccoFiladonna.push(foto10)  
   let descBeccoFiladonna = `Partenza dal ristorante Sindech, passando per il Rif. Casarota.`
 
   let fotoSassBrusai = []
   let foto11 = {path: 'varie/SassBrusai_01.jpg', desc: 'Il M. Boccaor'}
   let foto12 = {path: 'varie/SassBrusai_02.jpg', desc: 'Ponte tibetano'}
   fotoSassBrusai.push(foto11)
-  fotoSassBrusai.push(foto12)
+  fotoSassBrusai.push(foto12)  
   let descSassBrusai = `Abbiamo
   raggiunto la cima per la ferrata del Sass Brusai. Si arriva all'attacco dopo
   circa 500m di dislivello per bosco anche ripido. C'e' un primo strappo quasi
@@ -61,7 +61,7 @@ export default function Varie() {
   let foto15 = {path: 'varie/cornetto03.jpg', desc: 'Gruppo del Carega verso ovest'}
   fotoCornetto.push(foto13)
   fotoCornetto.push(foto14)
-  fotoCornetto.push(foto15)
+  fotoCornetto.push(foto15)  
   let descCornetto = `Le difficoltà sono concentrate nella breve normale al Baffelan, con alcune balze di I/I+ ed un movimento (passaggio chiave) di II.`
 
   return (

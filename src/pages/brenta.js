@@ -21,7 +21,6 @@ export default function Brenta() {
   fotoTosa.push(foto8)
   fotoTosa.push(foto9)
   fotoTosa.push(foto10)
-
   let descTosa = `Lo zoccolo prima del camino I grado un 
   passaggio II, poi il camino/spigolo 25 metri II e passaggi II+ sul 
   verticale, appigli abbondanti ma lisciati dall'uso. Sopra solo passi di 
@@ -33,7 +32,6 @@ export default function Brenta() {
   let foto6 = {path: 'brenta/cimaBrenta02.jpg', desc: 'Via normale alla Cima Brenta'}
   fotoBrenta.push(foto5)
   fotoBrenta.push(foto6)
-
   let descBrenta = `Ottima via 
   facile su roccia stupenda nel primo canale (I+, II-), piu' delicato 
   l'attraversamento della forcella che da sullo scivolo ghiacciato a nord. 
@@ -42,7 +40,6 @@ export default function Brenta() {
   let fotoGroste = []
   let foto11 = {path: 'brenta/Groste01.jpg', desc: 'Cima Faulkner da cima Grostè'}
   fotoGroste.push(foto11)
-
   let descGroste = `Si lascia il sentiero che porta alla ferrata 
   Benini, salendo a destra per banche rocciose e cenge anche mediamente 
   esposte. Si sale un primo camino di 20 metri, molto chiuso, con salti di 

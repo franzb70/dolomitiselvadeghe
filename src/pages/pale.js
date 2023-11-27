@@ -27,7 +27,6 @@ export default function Pale() {
   fotoBeta.push(foto7)
   fotoBeta.push(foto9)
   fotoBeta.push(foto10)
-
   let descBeta = `Seguendo il 
 	sentiero CAI 771 si giunge alla stazione sommitale della ormai dismessa 
 	seggiovia e in breve alla sella erbosa sopra Malga Losch, lasciando sulla 
@@ -82,7 +81,6 @@ export default function Pale() {
   fotoAgner.push(foto12)
   fotoAgner.push(foto31)
   fotoAgner.push(foto38)
-
   let descAgner = `Tratti di I sulle placche e prima del Biv. 
   Biasin; corda metallica esposta, poi I e un passaggio di II per la 
   vetta.`
@@ -96,7 +94,6 @@ export default function Pale() {
   fotoOrtiga.push(foto15)
   fotoOrtiga.push(foto17)
   fotoOrtiga.push(foto16)
-
   let descOrtiga = `La via normale presenta subito il tratto chiave con 2m di II+ e 
 	una rampa esposta che finisce ad una sosta con catena. Consigliata la doppia 
 	a scendere per circa 15m. Il resto della salita comporta vari passaggi di I 
@@ -112,7 +109,6 @@ export default function Pale() {
   fotoTodesco.push(foto19)
   fotoTodesco.push(foto20)
   fotoTodesco.push(foto21)
-
   let descTodesco = `Da Gares si 
 	sale al favoloso pian di Campido, attraversato il quale si attacca la parete 
 	appoggiata del Sasso Todesco in corrispondenza di un canale ad intaglio e 
@@ -128,7 +124,6 @@ export default function Pale() {
   fotoFradusta.push(foto22)
   fotoFradusta.push(foto23)
   fotoFradusta.push(foto24)
-
   let descFradusta = `Siamo saliti a lato del ghiacciaio sul lato 
   ovest della cresta, con passaggi di I grado su terreno instabile.`
 
@@ -145,7 +140,6 @@ export default function Pale() {
   fotoCampido.push(foto29)
   fotoCampido.push(foto28)
   fotoCampido.push(foto30)
-
   let descCampido = `Salita entusiasmante, 
   sempre nei limiti dell'escursionismo. All'imbocco del Pian di Campido si 
   lascia il sentiero diretto al Passo delle Fede, per scartare a destra 
@@ -176,7 +170,6 @@ export default function Pale() {
   fotoBureloni.push(foto35)
   fotoBureloni.push(foto36)
   fotoBureloni.push(foto37)
-
   let descBureloni = `Via normale dalla val Venegia, Mulaz, Passo delle Farangole, dove si possono evitare i tratti attrezzati percorrendo il fondo del canale.`
 
 return (

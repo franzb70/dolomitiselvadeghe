@@ -26,7 +26,7 @@ export default function Cadore() {
   fotoBelPra.push(foto10)
   fotoBelPra.push(foto14)
   fotoBelPra.push(foto13)
-  fotoBelPra.push(foto16)
+  fotoBelPra.push(foto16)  
   let descBelpra = `Il rifugio S. Marco serve come punto di partenza per la Forcella Grande. Si cammina quindi 
 	in falsopiano per una traccia che corre lungo i ghiaioni alla base della 
 	Torre Sabbioni, fino ad aggirarla completamente sul lato nord. Risulta a 
@@ -62,7 +62,6 @@ export default function Cadore() {
   fotoPelmetto.push(foto20)
   fotoPelmetto.push(foto21)
   fotoPelmetto.push(foto22)
-
   let descPelmetto = `Da Coi in 1h si arriva all'attacco del canalone della fissura. Si rimonta un
   risalato di mughi per poi risalire lungamente per ghiaione o su facili balze
   rocciose alla destra del canale. A 2/3 del canalone bisogna superare un
@@ -99,7 +98,6 @@ export default function Cadore() {
   fotoCesta.push(foto28)
   fotoCesta.push(foto29)
   fotoCesta.push(foto30)
-
   let descCesta = `Dal Passo Tre Croci si 
   imbocca la carrareccia (sent. 213) che sale molto dolcemente in versante 
   Faloria. Al bivio con il sentiero 216 si prende a destra in 
@@ -138,7 +136,6 @@ export default function Cadore() {
   fotoFroppa.push(foto34)
   fotoFroppa.push(foto35)
   fotoFroppa.push(foto36)
-
   let descFroppa = `Salendo dal 
   Bivacco Tiziano verso forcella Froppa l'ultimo tratto è molto ripido e 
   friabile, ci sono corde metalliche per superare uno spallone roccioso. 
@@ -163,7 +160,6 @@ export default function Cadore() {
   fotoDoge.push(foto38)
   fotoDoge.push(foto39)
   fotoDoge.push(foto40)
-
 
   let descDoge = `Da Ponte degli 
 	Alberi presso Palus San Marco Si imbocca la sterrata, sentiero CAI 226, che 
@@ -210,7 +206,6 @@ export default function Cadore() {
   fotoPopena.push(foto44)
   fotoPopena.push(foto45)
   fotoPopena.push(foto46)
-
   let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.
   Da Misurina si prende il sentiero che porta ai ruderi del rif. Popena. In vista della montagna si perde quota in Val popena 
   per affrontare il lungo ghiaione, al termine del quale si imbocca a sinistra la prima cengia della parete da percorrere
@@ -237,7 +232,6 @@ export default function Cadore() {
   fotoCristallo.push(foto52)
   fotoCristallo.push(foto53)
   fotoCristallo.push(foto54)
-
   let descCristallo = `Dal Passo Tre Croci pernottato con sacco a pelo al Col da Varda. Via normale arcigna da affrontare col massimo rispetto.
   Attrezzatura alpinistica consigliata sia per eventualmente assicurarsi in alcuni passaggi in salita che per le doppie in discesa. 
   Occorre prestare molta attenzione all'orientamento nella vasta parete, alcuni ometti possono fuorviare, magari dedicati a postazioni da corda doppia in discesa.`
@@ -253,7 +247,6 @@ export default function Cadore() {
   fotoSorapiss.push(foto57)
   fotoSorapiss.push(foto58)
   fotoSorapiss.push(foto59)
-
   let descSorapiss = `Via lunga con bolli rossi sbiaditi, un passaggio III (12 m. di doppia 
 		a scendere), per lo più I friabile e passi di II, lunghe cenge detritiche e a tratti esposte.`
 

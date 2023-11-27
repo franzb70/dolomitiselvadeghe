@@ -12,8 +12,7 @@ export default function Oltrepiave() {
   fotoEmilia.push(foto1)
   fotoEmilia.push(foto2)
   fotoEmilia.push(foto3)
-  fotoEmilia.push(foto4)
-
+  fotoEmilia.push(foto4)  
   let descEmilia = `Dal rif. Padova a forcella Montanaia (1050m dislivello). Si scende tenendo
   la destra, tracce alla base di Cima Both, fino alla forcella del campanile.
   Qui si prende la cresta nord superando con facili passaggi di
@@ -42,9 +41,8 @@ export default function Oltrepiave() {
   fotoBortolusc.push(foto9)
   fotoBortolusc.push(foto10)
   fotoBortolusc.push(foto11)
-  fotoBortolusc.push(foto12)
-
-  let descBortolusc = `Via normale.`
+  fotoBortolusc.push(foto12)  
+  let descBortolusc = `Via normale, per il canale Fradeloni, con difficoltà che non arrivano mai al II.`
 
   let fotoVacalizza = []
   let foto13 = {path: 'oltrepiave/vacalizza00.JPG', desc: 'Forcella in lontananza'}
@@ -62,8 +60,7 @@ export default function Oltrepiave() {
   fotoVacalizza.push(foto14)
   fotoVacalizza.push(foto18)
   fotoVacalizza.push(foto20)
-  fotoVacalizza.push(foto19)
-
+  fotoVacalizza.push(foto19)  
   let descVacalizza = `Cima isolata in ambiente 
   selvaggio, nonostante il percorso sia segnalato da sbiaditi bolli rossi 
   fino all'anticima principale. Impegno ai limiti dell'escursionismo, con 
@@ -93,15 +90,14 @@ export default function Oltrepiave() {
   fotoCimaToro.push(foto27)
   fotoCimaToro.push(foto28)
   fotoCimaToro.push(foto29)
-  fotoCimaToro.push(foto30)
-
+  fotoCimaToro.push(foto30)  
   let descCimaToro = `Stupenda Cima, la maggiore tra gli Spalti di Toro, affiancata a sud dalla sinuosa Punta Pia. Dal Biv. Perugini 
   si prende il sentiero diretto a forcella segnata e lo si abbandona poche decine di metri prima della stessa piegando a 
   sinistra per uno scosceso canale. Superate alcune strettoie e dei saliscendi si attacca la normale sotto la cengia principale, 
   che si guadagna scalando con attenzione 10m appoggiati con detrito (I delicato). La cengia avvolge tutto il versante est e sud del monte, 
   senza particolari difficoltà, dovendo scendere in arrampicata per qualche metro poco prima dell'attacco, già in vista di Punta Pia. 
   La via si svolge con alcuni tiri di corda, inizialmente II poi I su gradoni verso sinistra, quindi sormontando il passaggio chiave, 
-  4m III strapiombante. Si prosegue quindi per facili gradoni detritici fino sotto la torretta finale, 
+  4m III- strapiombante. Si prosegue quindi per facili gradoni detritici fino sotto la torretta finale, 
   che si scala con un breve tiro di 15/20m sul II grado. Discesa seguendo la via di salita con alcune doppie nei punti verticali.`
 
   let fotoSpallaDuranno = []
@@ -112,8 +108,7 @@ export default function Oltrepiave() {
   fotoSpallaDuranno.push(foto32)
   fotoSpallaDuranno.push(foto33)
   fotoSpallaDuranno.push(foto34)
-  fotoSpallaDuranno.push(foto35)
-
+  fotoSpallaDuranno.push(foto35)  
   let descSpallaDuranno = `Per il sentiero attrezzato Zandonella in Val Zemola.`
 
   let fotoPostegae = []
@@ -124,8 +119,7 @@ export default function Oltrepiave() {
   fotoPostegae.push(foto36)
   fotoPostegae.push(foto37)
   fotoPostegae.push(foto38)
-  fotoPostegae.push(foto39)
-
+  fotoPostegae.push(foto39)  
   let descPostegae = `Dal parcheggio 
 	in Val Cimoliana sotto il Rif. Pordenone si prosegue per il facile sentiero 
 	diretto al Passo Pramaggiore. Giunti sull'ampia insellatura erbosa si 
@@ -155,9 +149,7 @@ export default function Oltrepiave() {
   fotoPinoSudo.push(foto43)
   fotoPinoSudo.push(foto44)
   fotoPinoSudo.push(foto41)
-  fotoPinoSudo.push(foto46)
-
-
+  fotoPinoSudo.push(foto46)  
   let descPinoSudo = `Le selvagge cime di Pino coronano a nord l'imponente Col Nudo. 
   Lungamente vagheggiata la cima Sud si approccia da Casera Ditta. La salita è molto lunga, 
   circa 1700m di dislivello inclusi i frequenti sali-scendi. L'orientamento non è facile e 
@@ -183,9 +175,7 @@ export default function Oltrepiave() {
   fotoPecoli.push(foto45)
   fotoPecoli.push(foto48)
   fotoPecoli.push(foto51)
-  fotoPecoli.push(foto52)
-
-
+  fotoPecoli.push(foto52)  
   let descPecoli = `Interessante salita di media difficoltà, affrontabile senza l&#39;utilizzo di materiale 
   con la giusta dose di accortezza. Si abbandona il sentiero che porta al biv. Marchi Granzotto quando, in 
   prossimità di due laghetti alla sinistra, si nota ben stagliata la finestra naturale che segna l'inizio della via normale. 
@@ -202,8 +192,7 @@ export default function Oltrepiave() {
   fotoMonfalconDM.push(foto53)
   fotoMonfalconDM.push(foto54)
   fotoMonfalconDM.push(foto55)
-  fotoMonfalconDM.push(foto56)
-
+  fotoMonfalconDM.push(foto56)  
   let descMonfalconDM = `Salita remunerativa ma che 
   richiede impegno fisico e determinazione. Dal rif. Pordenone si prende 
   il sentiero che conduce alla forc. del Leone, prima nel bosco in 
@@ -253,8 +242,7 @@ export default function Oltrepiave() {
   fotoPussa.push(foto58)
   fotoPussa.push(foto59)
   fotoPussa.push(foto60)
-  fotoPussa.push(foto61)
-
+  fotoPussa.push(foto61)  
   let descPussa = `Salita in ambiente isolato, con difficoltà ed esposizione limitate, affrontabile in assetto escursionistico.`
 
   let fotoPostegaeSud = []
@@ -265,8 +253,7 @@ export default function Oltrepiave() {
   fotoPostegaeSud.push(foto62)
   fotoPostegaeSud.push(foto63)
   fotoPostegaeSud.push(foto64)
-  fotoPostegaeSud.push(foto65)
-
+  fotoPostegaeSud.push(foto65)  
   let descPostegaeSud = `La via più breve risale lo Sciol de Mont. Si piega poi verso est in direzione delle Cime Postegae. Poco sotto la spalla si piega a sinistra (est)
   fino a giungere in vista del canalone detritico che separa le due sommità della Torre Postegae sud. La principale è quella di destra che si raggiunge con alcuni metri sul I+ nel finale.`
 
@@ -288,8 +275,7 @@ export default function Oltrepiave() {
   fotoBorsat.push(foto71)
   fotoBorsat.push(foto72)
   fotoBorsat.push(foto73)
-  fotoBorsat.push(foto74)
-
+  fotoBorsat.push(foto74)  
   let descBorsat = `  La piramide del Borsat 
   incombe fin dalla partenza.
   Invece di attaccare il ciol Tramontin alla sua base, si può seguire una 
@@ -324,8 +310,7 @@ export default function Oltrepiave() {
   let foto75 = {path: 'oltrepiave/brica01.jpg', desc: 'Alta val Brica'}
   let foto76 = {path: 'oltrepiave/brica02.jpg', desc: ' Cima Brica'}
   fotoBrica.push(foto75)
-  fotoBrica.push(foto76)
-
+  fotoBrica.push(foto76)  
   let descBrica = `Dal parcheggio sotto il rif. Pordenone (quota 1160) si prosegue in
   piano per quasi 1h lungo la val Meluzzo (dir. Nord). Quindi si sale a destra
   (indicazioni Cason di Brica) che si raggiunge dopo 500m dislivello. Da qui
@@ -352,7 +337,6 @@ export default function Oltrepiave() {
   fotoCentenere.push(foto78)
   fotoCentenere.push(foto79)
   fotoCentenere.push(foto80)
-
   let descCentenere = `Dal Rif. Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
   Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
   Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
@@ -365,8 +349,7 @@ export default function Oltrepiave() {
   let foto81 = {path: 'oltrepiave/ciazze.jpg', desc: 'Verso cima Preti'}
   let foto82 = {path: 'oltrepiave/ciazze2.jpg', desc: 'La cresta finale'}
   fotoCiazze.push(foto81)
-  fotoCiazze.push(foto82)
-
+  fotoCiazze.push(foto82)  
   let descCiazze = `Dal ponte Scandoler in Val montanaia (m. 950) si risale il 
   vallone dello s'ciol de Tarsia fino a quota 1330, poco dopo evidenti 
   cascate sulla sinistra. Si risalta su una bancata di mughi e poi per 
@@ -412,16 +395,15 @@ export default function Oltrepiave() {
   fotoCiolSass.push(foto89)
   fotoCiolSass.push(foto90)
   fotoCiolSass.push(foto91)
-  fotoCiolSass.push(foto92)
-
-  let descCiolSass = ``
+  fotoCiolSass.push(foto92)  
+  let descCiolSass = `Partiti da C.ra Settefontane verso c.ra Ciol de Sass. Salita la cima e ridiscesi per la Val Piovin. 
+  Ambiente preservato e ricerca del percorso che richiede la giusta attenzione.`
 
   let fotoLaste = []
   let foto93 = {path: 'oltrepiave/cimaLaste01.jpg', desc: 'Verso cima Preti'}
   let foto94 = {path: 'oltrepiave/cimaLaste02.jpg', desc: 'La cresta finale'}
   fotoLaste.push(foto93)
   fotoLaste.push(foto94)
-
   let descLaste = `La via e' breve, 
   facilmente individuabile con gli ometti, con alcuni passaggi di I grado 
   ed alcune rampe/cenge piuttosto detritiche che richiedono molta 
@@ -436,7 +418,6 @@ export default function Oltrepiave() {
   fotoBocciardata.push(foto96)
   fotoBocciardata.push(foto97)
   fotoBocciardata.push(foto98)
-
   let descBocciardata = `Uscita lavorativa in 
   ottima compagnia. Divertente la paretina che porta a f.lla dei 
   Cacciatori, buon I/I+ continuo, più ripido nella zona basale sopra il 
@@ -455,7 +436,6 @@ export default function Oltrepiave() {
   fotoCimaSpe.push(foto102)
   fotoCimaSpe.push(foto103)
   fotoCimaSpe.push(foto104)
-
   let descCimaSpe = `Sentiero A. 
 	Marini dal parcheggio del Rif. Pordenone. Il sentiero presenta alcuni brevi 
 	passaggi in cengia un po' esposti, ma il tratto più scabroso è in 
@@ -472,7 +452,6 @@ export default function Oltrepiave() {
   let foto106 = {path: 'oltrepiave/cimaStalla-02.JPG', desc: 'Mughi'}
   fotoCimaStalla.push(foto105)
   fotoCimaStalla.push(foto106)
-
   let descCimaStalla = `Dal rif. Pordenone si prende 
   il sentiero che conduce alla forc. del Leone e lo si abbandona quando si 
   apre a destra il canale di forcella Stalla. La risalita del canalone è 
@@ -503,7 +482,6 @@ export default function Oltrepiave() {
   fotoForni.push(foto107)
   fotoForni.push(foto108)
   fotoForni.push(foto109)
-
   let descForni = `Dal rif. Pordenone si perviene a Forcella Cimoliana seguendo
   il sentiero per il biv. Marchi-Granzotto. Da qui a sinistra verso il
   Monfalcon di Cimoliana si sale un 50 m, per poi ridiscendere e puntare la
@@ -540,7 +518,6 @@ export default function Oltrepiave() {
   fotoCimaGea.push(foto111)
   fotoCimaGea.push(foto113)
   fotoCimaGea.push(foto114)
-
   let descCimaGea = `Dalla Val montanaia si sale alla casera Laghet de Sora, e
   poi alla forcella Val de Frassin. Quindi si prende una traccia in quota
   verso sinistra (ovest). Arrivati gia' in vista della cima Gea si deve
@@ -559,7 +536,6 @@ export default function Oltrepiave() {
   let foto116 = {path: 'oltrepiave/cridola.jpg', desc: 'Discesa normale al Cridola'}
   fotoCridola.push(foto115)
   fotoCridola.push(foto116)
-
   let descCridola = `Neve sulla 
   cengia iniziale rivolta ai Gendarmi della Val Cridola. Neve anche in 
   corrispondenza del muretto di II grado nei pressi dell'uovo. Nel 
@@ -572,7 +548,6 @@ export default function Oltrepiave() {
   let foto118 = {path: 'oltrepiave/ferrara02.jpg', desc: 'Il Turlon'}
   fotoFerrara.push(foto117)
   fotoFerrara.push(foto118)
-
   let descFerrara = `Dalla forcella che precede f.lla Savalons si prende a sinistra, 
   indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'anti-cima sud. 
   Ancora pochi minuti per la cima principale. Per abbreviare il ritorno si può proseguire sccendendo verso la cresta nord 
@@ -587,7 +562,6 @@ export default function Oltrepiave() {
   let foto120 = {path: 'oltrepiave/porgeit02.jpg', desc: 'Il Borgà'}
   fotoPorgeit.push(foto119)
   fotoPorgeit.push(foto120)
-
   let descPorgeit = `Da casera Galvana si va alla forcella (5 min) e si prende a destra risalendo
   il cono terminale per ripida loppa. Al ritorno, 50m sotto la forcella ho
   preso il sentiero che in costa, con ripetuti sali-scendi anche consistenti, porta al rif.
@@ -602,7 +576,6 @@ export default function Oltrepiave() {
   fotoZerten.push(foto122)
   fotoZerten.push(foto123)
   fotoZerten.push(foto124)
-
   let descZerten = `La parte finale della salita nel van esposto a nord si 
   è svolta in parte su neve anche fonda. La leggera foschia ha pregiudicato in
   parte la visione delle imponenti bastionate nord del Col Nudo.`
@@ -612,7 +585,6 @@ export default function Oltrepiave() {
   let foto126 = {path: 'oltrepiave/Zita02.jpg', desc: 'Parete della Palazza'}
   fotoZita.push(foto125)
   fotoZita.push(foto126)
-
   let descZita = `Si segue la strada/sentiero che porta a casera Bedin, 
   fino ad evidenti segnalazioni verso forcella Zita (sinistra) che si raggiunge dopo 
   faticoso pendio erboso - m 1960. Dalla forcella si prosegue a destra per lo 
@@ -624,7 +596,6 @@ export default function Oltrepiave() {
   let foto128 = {path: 'oltrepiave/UrtisielEst-02.JPG', desc: 'Rampa di salita'}
   fotoUrtisielEst.push(foto127)
   fotoUrtisielEst.push(foto128)
-
   let descUrtisielEst = `Dal parcheggio 
 	del rif. Pordenone in Val Montanaia si segue in piano verso Casera Valmenon. 
 	Quindi, sempre per sentiero CAI (361) si giunge in prossimità di f.lla 
@@ -638,7 +609,6 @@ export default function Oltrepiave() {
   let foto130 = {path: 'oltrepiave/UrtisielOvest02.jpg', desc: 'Campanile Gambet'}
   fotoUrtisielOvest.push(foto129)
   fotoUrtisielOvest.push(foto130)
-
   let descUrtisielOvest = `La salita dal 
 	versante sud, per un lungo e diramato canalone detritico non ha portato alla 
 	vetta. Si abbandona il sentiero diretto a Casera Val Binon (o Val Menon) 
@@ -657,7 +627,6 @@ export default function Oltrepiave() {
   fotoTurlon.push(foto132)
   fotoTurlon.push(foto133)
   fotoTurlon.push(foto134)
-
   let descTurlon = `Dalla Stai de 
 	Nuci in Val Settimana si prende il ripidissimo sentiero che sale dietro la 
 	stalla e per diverse centinaia di metri di dislivello si arranca su bosco 
@@ -678,7 +647,6 @@ export default function Oltrepiave() {
   fotoToc.push(foto136)
   fotoToc.push(foto137)
   fotoToc.push(foto138)
-
   let descToc = `Lasciata l'auto poco dopo l'imbocco della 
   strada che porta in val Mesaz (dopo la diga del Vajont) abbiamo risalito 
   il fianco destro detritico delle ultime placche della frana verso ovest. 
@@ -697,7 +665,6 @@ export default function Oltrepiave() {
   fotoSFrancesco.push(foto140)
   fotoSFrancesco.push(foto141)
   fotoSFrancesco.push(foto142)
-
   let descSFrancesco = `Cima dirimpettaia alle Caserine, remota e per nulla frequentata.
   Salendo dal Ciadin di Gasparin risulta obbligatorio scalare una paretina detritica per raggingere le placconate del distacco. 
   Ci siamo fermati a metà della suddetta per mancanza di attrezzatura da assicurazione.`
@@ -707,7 +674,6 @@ export default function Oltrepiave() {
   let foto144 = {path: 'oltrepiave/PalazzaZemola02.jpg', desc: 'Duranno e Cima Preti'}
   fotoPalazzaZemola.push(foto143)
   fotoPalazzaZemola.push(foto144)
-
   let descPalazzaZemola = `Dopo la galleria verso Casera Bedin si prende a destra
   ripidamente su per la pala erbosa puntando i massi bianchi dell'anticima.
   Giunti li si scende per un 20 metri e poi si aggira a sinstra (ovest) la
@@ -716,7 +682,6 @@ export default function Oltrepiave() {
   let fotoFrati = []
   let foto145 = {path: 'oltrepiave/Frati01.jpg', desc: 'In cima Frati, col Duranno alle spalle e un po\' di preoccupazione per la discesa'}
   fotoFrati.push(foto145)
-
   let descFrati = `Splendida via da 
   trovare, si risolve con un canale inizialmente II, poi I+ molto 
   friabile, infine una costa rocciosa alquanto instabile porta in vetta. 
@@ -731,7 +696,6 @@ export default function Oltrepiave() {
   fotoSent50esimo.push(foto147)
   fotoSent50esimo.push(foto148)
   fotoSent50esimo.push(foto149)
-
   let descSent50esimo = `Dal Rif. Padova si sale fin quasi alla Tacca del Cridola per ghiaione ripido. Poco prima della forcella si 
   volge a sinistra per imboccare la cengia che costituisce Il Sentiero del Cinquantesimo. Il tratto chiave si incontra presto, 
   dovendo scalare in discesa un 8m sul II-. Abbiamo pi tentato di salire all'Ago del Cridola, con rarissimi ometti di traccia,
@@ -747,7 +711,6 @@ export default function Oltrepiave() {
   fotoMontanel.push(foto151)
   fotoMontanel.push(foto152)
   fotoMontanel.push(foto153)
-
   let descMontanel = `Dal Rif. Cercenà si prende per il Biv. Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
   Risalito lo spallone puntando a sinistra si raggiungono i ripidi prati che danno sulla val del Piave, e al termine degli stessi si volge a destra per cengia
   facile fino alla frastagliata serie di torrette finali, da scalare con qualche passo di I e I+.` 
@@ -769,7 +732,6 @@ export default function Oltrepiave() {
   fotoVedorcia.push(foto159)
   fotoVedorcia.push(foto160)
   fotoVedorcia.push(foto161)
-
   let descVedorcia = `Dal Rif. Padova al Rif. Tita Barba, dove abbiamo pernottato.
   La prima difficoltà si trova nel rimontare la paretina prima di forcella Vedorcia, II delicato, 5m.
   La cengia poi è facile, se si esclude il passaggio su un masso inclinato dove ci siamo assicurati. 
