@@ -739,6 +739,22 @@ export default function Oltrepiave() {
   tagliata dal canalone che si scala con 4 tiri fino al III°. La roccia nel camino diventa migliore. A scendere si sfruttano
   gli ancoraggi per alcune doppie. Cima poco frequentata da affrontare in assetto alpinistico.` 
 
+  let fotoCollalto = []
+  let foto162 = {path: 'oltrepiave/Collalto00.jpg', desc: 'La forcella da salire dopo attraversamento di nevaio'}
+  let foto163 = {path: 'oltrepiave/Collalto01.jpg', desc: 'Torrioni da aggirare'}
+  let foto164 = {path: 'oltrepiave/Collalto02.jpg', desc: 'Spalti di Toro dalla cima'}
+  let foto165 = {path: 'oltrepiave/Collalto03.jpg', desc: 'Facendosi largo tra i mughi'}
+  fotoCollalto.push(foto162)
+  fotoCollalto.push(foto165)
+  fotoCollalto.push(foto163)
+  fotoCollalto.push(foto164)
+  let descCollalto = `Dal Rif. Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
+  Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
+  Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
+  più a sud. Occorre scendere con cautela fino al sentiero che porta a casera Lodina (2m I+ forse evitabili) per poi rimontare 
+  l'evidente cresta stavolta per lo piu' rocciosa senza 
+  Difficoltà alcuna (15 min). La zona è popolata da molti stambecchi (per lo 
+  più femmine con cuccioli), che si lasciano avvicinare senza timore.`
 
   
 return (
@@ -784,6 +800,7 @@ return (
         <Gita title='Cima della Palazza (Val Zemola)'  quota='2210m' dislivello='1050m' difficolta='E' descrizione={descPalazzaZemola} foto={fotoPalazzaZemola} ></Gita>
         <Gita title='Ago del Cridola (Tentativo) Sentiero del 50esimo'  quota='~2370m' dislivello='1250m' difficolta='II-/F+' descrizione={descSent50esimo} foto={fotoSent50esimo} ></Gita>
         <Gita title='Montanel'  quota='2461m' dislivello='1410m' difficolta='I+/F+' descrizione={descMontanel} foto={fotoMontanel} ></Gita>
+        <Gita title='Collalto'  quota='2100m' dislivello='800m' difficolta='EE' descrizione={descCollalto} foto={fotoCollalto} ></Gita>
         </div>  
     </div>                   
   );
