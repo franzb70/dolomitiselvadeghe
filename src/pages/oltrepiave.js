@@ -748,13 +748,9 @@ export default function Oltrepiave() {
   fotoCollalto.push(foto165)
   fotoCollalto.push(foto163)
   fotoCollalto.push(foto164)
-  let descCollalto = `Dal Rif. Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
-  Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
-  Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
-  più a sud. Occorre scendere con cautela fino al sentiero che porta a casera Lodina (2m I+ forse evitabili) per poi rimontare 
-  l'evidente cresta stavolta per lo piu' rocciosa senza 
-  Difficoltà alcuna (15 min). La zona è popolata da molti stambecchi (per lo 
-  più femmine con cuccioli), che si lasciano avvicinare senza timore.`
+  let descCollalto = `Dal Rif. Padova si prende il sentiero per Forc. Segnata e lo si abbandona a metà del grande catino ai piedi degli Spalti.
+  Da lì abbiamo attraversato un nevaio per approcciare la ripida forcella Alta di Collalto (tracce). SI prosegue aggirando Torrioni e anche a difficoltà tra i mughi fino
+  alla massima elevazione, che offre un ripagante panorama sulle più note cime d'attorno.`
 
   
 return (
