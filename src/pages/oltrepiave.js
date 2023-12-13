@@ -109,7 +109,8 @@ export default function Oltrepiave() {
   fotoSpallaDuranno.push(foto33)
   fotoSpallaDuranno.push(foto34)
   fotoSpallaDuranno.push(foto35)  
-  let descSpallaDuranno = `Per il sentiero attrezzato Zandonella in Val Zemola.`
+  let descSpallaDuranno = `Per il sentiero attrezzato Zandonella in Val Zemola. Giro dallo sviluppo notevole ma che offre la possibilità
+  di sosta al Rif. Pordenone. I tratti attgrezzati sono quasi elementari, pertanto da valutare se portarsi dietro l'attrezzatura da ferrata.`
 
   let fotoPostegae = []
   let foto36 = {path: 'oltrepiave/Postegae_01.jpg', desc: 'Cima Cadin'}
@@ -123,7 +124,7 @@ export default function Oltrepiave() {
   let descPostegae = `Dal parcheggio 
 	in Val Cimoliana sotto il Rif. Pordenone si prosegue per il facile sentiero 
 	diretto al Passo Pramaggiore. Giunti sull'ampia insellatura erbosa si 
-	prosegue a sinistra per facile cresta ed in breve si risale l'appicco 
+	prosegue a destra per comoda cresta ed in breve si risale l'appicco 
 	terminale, più ripido, della panoramica Cima Cadin. La traversata prosegue 
 	per cresta, scendendo ora su ripido pendio erboso e poi in continuo 
 	saliscendi per facile percorso spesso sabbioso. In questo tratto si 
