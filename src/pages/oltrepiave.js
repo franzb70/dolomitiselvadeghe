@@ -752,7 +752,25 @@ export default function Oltrepiave() {
   let descCollalto = `Dal Rif. Padova si prende il sentiero per Forc. Segnata e lo si abbandona a metà del grande catino ai piedi degli Spalti.
   Da lì abbiamo attraversato un nevaio per approcciare la ripida forcella Alta di Collalto (tracce). SI prosegue aggirando Torrioni e anche a difficoltà tra i mughi fino
   alla massima elevazione, che offre un ripagante panorama sulle più note cime d'attorno.`
-
+ 
+  let fotoCimaPreti = []
+  let foto166 = {path: 'oltrepiave/preti01.JPG', desc: 'La Cima Frati all\'alba'}
+  let foto167 = {path: 'oltrepiave/preti02.JPG', desc: 'Il Duranno tra le nuvole basse'}
+  let foto168 = {path: 'oltrepiave/preti03.JPG', desc: 'Attacco del canale principale'}
+  let foto169 = {path: 'oltrepiave/preti04.JPG', desc: 'Lungo il canale'}
+  let foto170 = {path: 'oltrepiave/preti_05.JPG', desc: 'I Monfalconi dalla cima'}
+  fotoCimaPreti.push(foto166)
+  fotoCimaPreti.push(foto167)
+  fotoCimaPreti.push(foto168)
+  fotoCimaPreti.push(foto169)
+  fotoCimaPreti.push(foto170)
+  let descCimaPreti = `Salita per la via considerata come normale classica dalla Val Compol, Costa dei Tass e Biv. Greselin, dove si pernotta.
+  Si risale il pendio erboso alle spalle del bivacco, puntando un canalone, verso sinistra che intaglia la bastionata che protegge il Cadin Basso.
+  Un volta raggiunto lo si aggira lungamente in senso orario per accedere all'evidente canale di salita (ignorare bolli rossi presenti prima).
+  Il passaggio chiave è proprio all'imbocco del canale, non tanto per le difficoltà, 10m di II- solido, quanto per l'esposizione notevole
+  che consiglia l'uso della corda, sia salendo che al ritorno. Il canale poi comporta un 150m di divertente arrampicata sul I+ continuo, ma ben
+  incassati tra le pareti. Sbucati nel Cadin Alto si raggiunge in breve la cima senza più difficoltà. Da considerare che la via più semplice
+  di salita risulta essere invece per la Val dei Cantoni e forc. Compol.`
   
 return (
   <div className='row App'>
@@ -798,6 +816,7 @@ return (
         <Gita title='Ago del Cridola (Tentativo) Sentiero del 50esimo'  quota='~2370m' dislivello='1250m' difficolta='II-/F+' descrizione={descSent50esimo} foto={fotoSent50esimo} ></Gita>
         <Gita title='Montanel'  quota='2461m' dislivello='1410m' difficolta='I+/F+' descrizione={descMontanel} foto={fotoMontanel} ></Gita>
         <Gita title='Collalto'  quota='2100m' dislivello='800m' difficolta='EE' descrizione={descCollalto} foto={fotoCollalto} ></Gita>
+        <Gita title='Cima Preti' quota='2706m' dislivello='1320+730m' difficolta='II-/PD-' descrizione={descCimaPreti} foto={fotoCimaPreti} ></Gita>
         </div>  
     </div>                   
   );

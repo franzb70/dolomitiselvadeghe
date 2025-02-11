@@ -324,6 +324,22 @@ export default function Cadore() {
 		e si cammina quasi sempre, arrivando velocemente alla croce di vetta con 
 		impagabili panorami su Cima Undici, Croda dei Toni, Tre Scarperi...`
 
+    let fotoMontePelmo = []
+    let foto73 = {path: 'cadore/pelmo_01.jpg', desc: 'Attacco della cengia di Ball'}
+    let foto74 = {path: 'cadore/pelmo_02.jpg', desc: 'Verso l\'imbocco del van'}
+    let foto75 = {path: 'cadore/pelmo_03.jpg', desc: 'Il Pelmetto dalla normale'}
+    let foto76 = {path: 'cadore/pelmo_04.jpg', desc: 'Il passo del gatto'}
+    fotoMontePelmo.push(foto73)
+    fotoMontePelmo.push(foto74)
+    fotoMontePelmo.push(foto75)
+    fotoMontePelmo.push(foto76)
+  
+    let descMontePelmo = `Salita da Coi, in giornata. Andata e ritorno per la ben nota e 
+    documentata cengia di Ball. Si trovano svariati cordini per auto assicurazione di dubbia
+    affidabilità. Personalmente ritengo il Passo dello Stemma, che si incontra nella prima parte
+    della cengia, il passaggio chiave, soprattutto in virtù della esposizione totale. Finita la cengia
+    la parte alta della via, in condizioni estive, è decisamente più facile, ma occorre sempre valutare 
+    che si deve ripercorrere la cengia al ritorno, con un fardello di stanchezza aggiuntivo.` 
 
     
 return (
@@ -345,6 +361,7 @@ return (
         <Gita title='Punta Nera'  quota='2847m' dislivello='1100m' difficolta='II-/F+' descrizione={descPuntaNera} foto={fotoPuntaNera} ></Gita>
         <Gita title='Sassolungo di Cibiana'  quota='2413m' dislivello='1400m' difficolta='I/EE' descrizione={descSassolungoCibiana} foto={fotoSassolungoCibiana} ></Gita>
         <Gita title='Monte Popera'  quota='3046m' dislivello='1000+800m' difficolta='I+/F+' descrizione={descPopera} foto={fotoPopera} ></Gita>
+        <Gita title='Monte Pelmo' quota='3168m' dislivello='1650m' difficolta='II-/PD-' descrizione={descMontePelmo} foto={fotoMontePelmo} ></Gita>
         </div>  
     </div>        
   );
