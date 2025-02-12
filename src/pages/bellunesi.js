@@ -343,25 +343,44 @@ return (
         <Sidebar />
         </div>
         <div className='col-sm-10'>         
-        <Gita title='Sass de Mura - Cima Ovest'  quota='2520m' dislivello='~1500m' difficolta='II/II-' descrizione={descSassMura} foto={fotoSassMura} ></Gita>
-        <Gita title='Monte Tre Pietre'  quota='1965m' dislivello='1670m' difficolta='II-' descrizione={desc3Pietre} foto={foto3Pietre} ></Gita>
-        <Gita title='Boca de Rosp'  quota='1635m' dislivello='600m' difficolta='F-' descrizione={descBocaRosp} foto={fotoBocaRosp} ></Gita>
-        <Gita title='Burel'  quota='2281m' dislivello='~1800m' difficolta='I/II-/F+' descrizione={descBurel} foto={fotoBurel} ></Gita>
-        <Gita title='Fratta del Moro'  quota='1673m' dislivello='1380m' difficolta='EE' descrizione={descFratta} foto={fotoFratta} ></Gita>
-        <Gita title='Monte Neva'  quota='2228m' dislivello='1110m' difficolta='I+/EE' descrizione={descNeva} foto={fotoNeva} ></Gita>
-        <Gita title='Tentativo al Zimon (Cajada)'  quota='1750m' dislivello='~700m' difficolta='EE' descrizione={descCajada} foto={fotoCajada} ></Gita>
-        <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo'  quota='~1700m' dislivello='~1400m' difficolta='I+/II-' descrizione={descPinei} foto={fotoPinei} ></Gita>
-        <Gita title='Pizzocco'  quota='2186m' dislivello='1350m' difficolta='I+/II-' descrizione={descPizzocco} foto={fotoPizzocco} ></Gita>
-        <Gita title='Cima dei Balconi/Cor/Pale dei Balconi'  quota='2621m' dislivello='~1400m' difficolta='II/I/F+' descrizione={descBalconi} foto={fotoBalconi} ></Gita>
-        <Gita title='Pale de la Mola'  quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descPaleMola} foto={fotoPaleMola} ></Gita>
-        <Gita title='Zimon del Terne'  quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descZimonTerne} foto={fotoZimonTerne} ></Gita>
-        <Gita title='La Talvena'  quota='2542m' dislivello='~1500m' difficolta='EE' descrizione={descTalvena} foto={fotoTalvena} ></Gita>
-        <Gita title='Cima Tanzon / Tentativo cengia Pala Bassana'  quota='1926m' dislivello='900m' difficolta='E' descrizione={descTanzon} foto={fotoTanzon} ></Gita>
-        <Gita title='Spiz Galina'  quota='1545m' dislivello='870m' difficolta='II/PD' descrizione={descSpizGalina} foto={fotoSpizGalina} ></Gita>
-        <Gita title='Col Siron'  quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
-        <Gita title='Cime dei Pez'  quota='2075m' dislivello='~1700m' difficolta='EE' descrizione={descCimePez} foto={fotoCimePez} ></Gita>
-        <Gita title='Monte Coro'  quota='1985m' dislivello='~1600m' difficolta='EE' descrizione={descMonteCoro} foto={fotoMonteCoro} ></Gita>
-        <Gita title='Peverele (Serva)'  quota='1851m' dislivello='~900m' difficolta='I/F' descrizione={descPeverele} foto={fotoPeverele} ></Gita>
+        <span id="1"></span>
+        <Gita title='Sass de Mura - Cima Ovest' quota='2520m' dislivello='~1500m' difficolta='II/II-' descrizione={descSassMura} foto={fotoSassMura} ></Gita>
+        <span id="2"></span>
+        <Gita title='Monte Tre Pietre' quota='1965m' dislivello='1670m' difficolta='II-' descrizione={desc3Pietre} foto={foto3Pietre} ></Gita>
+        <span id="3"></span>
+        <Gita title='Boca de Rosp' quota='1635m' dislivello='600m' difficolta='F-' descrizione={descBocaRosp} foto={fotoBocaRosp} ></Gita>
+        <span id="4"></span>
+        <Gita title='Burel' quota='2281m' dislivello='~1800m' difficolta='I/II-/F+' descrizione={descBurel} foto={fotoBurel} ></Gita>
+        <span id="5"></span>
+        <Gita title='Fratta del Moro' quota='1673m' dislivello='1380m' difficolta='EE' descrizione={descFratta} foto={fotoFratta} ></Gita>
+        <span id="6"></span>
+        <Gita title='Monte Neva' quota='2228m' dislivello='1110m' difficolta='I+/EE' descrizione={descNeva} foto={fotoNeva} ></Gita>
+        <span id="7"></span>
+        <Gita title='Tentativo al Zimon (Cajada)' quota='1750m' dislivello='~700m' difficolta='EE' descrizione={descCajada} foto={fotoCajada} ></Gita>
+        <span id="8"></span>
+        <Gita title='Forcella Mompiana e troi de panza Gruppo della Schiara, pale dei Pinei - tentativo' quota='~1700m' dislivello='~1400m' difficolta='I+/II-' descrizione={descPinei} foto={fotoPinei} ></Gita>
+        <span id="9"></span>
+        <Gita title='Pizzocco' quota='2186m' dislivello='1350m' difficolta='I+/II-' descrizione={descPizzocco} foto={fotoPizzocco} ></Gita>
+        <span id="10"></span>
+        <Gita title='Cima dei Balconi/Cor/Pale dei Balconi' quota='2621m' dislivello='~1400m' difficolta='II/I/F+' descrizione={descBalconi} foto={fotoBalconi} ></Gita>
+        <span id="11"></span>
+        <Gita title='Pale de la Mola' quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descPaleMola} foto={fotoPaleMola} ></Gita>
+        <span id="12"></span>
+        <Gita title='Zimon del Terne' quota='1832m' dislivello='~1300m' difficolta='EE' descrizione={descZimonTerne} foto={fotoZimonTerne} ></Gita>
+        <span id="13"></span>
+        <Gita title='La Talvena' quota='2542m' dislivello='~1500m' difficolta='EE' descrizione={descTalvena} foto={fotoTalvena} ></Gita>
+        <span id="14"></span>
+        <Gita title='Cima Tanzon / Tentativo cengia Pala Bassana' quota='1926m' dislivello='900m' difficolta='E' descrizione={descTanzon} foto={fotoTanzon} ></Gita>
+        <span id="15"></span>
+        <Gita title='Spiz Galina' quota='1545m' dislivello='870m' difficolta='II/PD' descrizione={descSpizGalina} foto={fotoSpizGalina} ></Gita>
+        <span id="16"></span>
+        <Gita title='Col Siron' quota='1671m' dislivello='1030m' difficolta='I/F' descrizione={descColSiron} foto={fotoColSiron} ></Gita>
+        <span id="17"></span>
+        <Gita title='Cime dei Pez' quota='2075m' dislivello='~1700m' difficolta='EE' descrizione={descCimePez} foto={fotoCimePez} ></Gita>
+        <span id="18"></span>
+        <Gita title='Monte Coro' quota='1985m' dislivello='~1600m' difficolta='EE' descrizione={descMonteCoro} foto={fotoMonteCoro} ></Gita>
+        <span id="19"></span>
+        <Gita title='Peverele (Serva)' quota='1851m' dislivello='~900m' difficolta='I/F' descrizione={descPeverele} foto={fotoPeverele} ></Gita>
         </div>  
     </div>        
     );

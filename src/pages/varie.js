@@ -70,10 +70,14 @@ export default function Varie() {
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Gran Paradiso'  quota='4061m' dislivello='780+1350m' difficolta='EE/F' descrizione={descGranPa} foto={fotoGranPa} ></Gita>
-        <Gita title='Becco di Filadonna'  quota='2.150m' dislivello='1150m' difficolta='EE' descrizione={descBeccoFiladonna} foto={fotoBeccoFiladonna} ></Gita>
-        <Gita title='Sass Brusai'  quota='1532m' dislivello='950m' difficolta='EEA' descrizione={descSassBrusai} foto={fotoSassBrusai} ></Gita>
-        <Gita title='Baffelan / Cornetto'  quota='1793/1899m' dislivello='750m' difficolta='II-/F+' descrizione={descCornetto} foto={fotoCornetto} ></Gita>
+        <span id="1"></span>
+        <Gita title='Gran Paradiso' quota='4061m' dislivello='780+1350m' difficolta='EE/F' descrizione={descGranPa} foto={fotoGranPa} ></Gita>
+        <span id="2"></span>
+        <Gita title='Becco di Filadonna' quota='2.150m' dislivello='1150m' difficolta='EE' descrizione={descBeccoFiladonna} foto={fotoBeccoFiladonna} ></Gita>
+        <span id="3"></span>
+        <Gita title='Sass Brusai' quota='1532m' dislivello='950m' difficolta='EEA' descrizione={descSassBrusai} foto={fotoSassBrusai} ></Gita>
+        <span id="4"></span>
+        <Gita title='Baffelan / Cornetto' quota='1793/1899m' dislivello='750m' difficolta='II-/F+' descrizione={descCornetto} foto={fotoCornetto} ></Gita>
         </div>  
     </div>        
               

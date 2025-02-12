@@ -420,30 +420,54 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Cima delle Forzelete'  quota='2448m' dislivello='~1100m' difficolta='I+' descrizione={descForzelete} foto={fotoForzelete} ></Gita>
-        <Gita title='Pramperet'  quota='2337m' dislivello='1300m' difficolta='II-/F+' descrizione={descPramperet} foto={fotoPramperet} ></Gita>
-        <Gita title='Sasso di Toanella'  quota='2430m' dislivello='1720m' difficolta='II-/F+' descrizione={descToanella} foto={fotoToanella} ></Gita>
-        <Gita title='Dente de la Fopa'  quota='2161m' dislivello='960m' difficolta='I+/F' descrizione={descDenteFopa} foto={fotoDenteFopa} ></Gita>
-        <Gita title='Cima delle Sasse'  quota='2878m' dislivello='1250m' difficolta='I+/F+' descrizione={descSasse} foto={fotoSasse} ></Gita>
-        <Gita title='Cima della Gardesana'  quota='2446m' dislivello='1300m' difficolta='II-/F+' descrizione={descGardesana} foto={fotoGardesana} ></Gita>
-        <Gita title='Spiz Sud / Spiz di Mezzo'  quota='2309/2324m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descSpiz} foto={fotoSpiz} ></Gita>
-        <Gita title='Spigol Del Palon'  quota='2314m' dislivello='1300m' difficolta='I+/F' descrizione={descSpigolDelPalon} foto={fotoSpigolDelPalon} ></Gita>
-        <Gita title='Spiz di Belvedere'  quota='2150m' dislivello='1000m' difficolta='I+/F' descrizione={descspizBelvedere} foto={fotospizBelvedere} ></Gita>
-        <Gita title='Monte Civetta'  quota='3221m' dislivello='750+1200m' difficolta='II-/PD-' descrizione={descCivetta} foto={fotoCivetta} ></Gita>
-        <Gita title='Cima Nord di San Sebastiano'  quota='2488m' dislivello='980m' difficolta='I/EE' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
-        <Gita title='Pramper'  quota='2409m' dislivello='1350m' difficolta='I/F' descrizione={descPramper} foto={fotoPramper} ></Gita>
-        <Gita title='Castello di Moschesin'  quota='2499m' dislivello='~1150m' difficolta='I+/II-/F+' descrizione={descMoschesin} foto={fotoMoschesin} ></Gita>
-        <Gita title='Coston della Gardesana'  quota='2165m' dislivello='1000m' difficolta='EE' descrizione={descCostonGard} foto={fotoCostonGard} ></Gita>
-        <Gita title='Cresta Sud di San Sebastiano'  quota='2405/2420m' dislivello='950m' difficolta='I/F' descrizione={descCrestaSanSebastiano} foto={fotoCrestaSanSebastiano} ></Gita>
-        <Gita title='Tamer Grande'  quota='2547m' dislivello='950m' difficolta='I+/F+' descrizione={descTamer} foto={fotoTamer} ></Gita>
-        <Gita title='Cima del Venier'  quota='2237m' dislivello='1100m' difficolta='I/F' descrizione={descCimaVenier} foto={fotoCimaVenier} ></Gita>
-        <Gita title='Sasso di Bosconero'  quota='2468m' dislivello='1670m' difficolta='I/EE' descrizione={descBosconero} foto={fotoBosconero} ></Gita>
-        <Gita title='Viaz del Fonch'  quota='~2200m' dislivello='1100m' difficolta='II/F+' descrizione={descFonch} foto={fotoFonch} ></Gita>
-        <Gita title='Sfornioi Nord'  quota='2410m' dislivello='900m' difficolta='II/F+' descrizione={descSfornioiNord} foto={fotoSfornioiNord} ></Gita>
-        <Gita title='Coro (Val Pamper)'  quota='2326m' dislivello='1160m' difficolta='EE' descrizione={descCoro} foto={fotoCoro} ></Gita>
-        <Gita title='Mont Alt de Pelsa'  quota='2417m' dislivello='1350m' difficolta='EE' descrizione={descMontAltoPelsa} foto={fotoMontAltoPelsa} ></Gita>
-        <Gita title='Petorgnon'  quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
-        <Gita title='Prima Torre da Camp'  quota='2281m' dislivello='700m' difficolta='I+/F+/EEA' descrizione={descTorreDaCamp} foto={fotoTorreDaCamp} ></Gita>
+        <span id="1"></span>
+        <Gita title='Cima delle Forzelete' quota='2448m' dislivello='~1100m' difficolta='I+' descrizione={descForzelete} foto={fotoForzelete} ></Gita>
+        <span id="2"></span>
+        <Gita title='Pramperet' quota='2337m' dislivello='1300m' difficolta='II-/F+' descrizione={descPramperet} foto={fotoPramperet} ></Gita>
+        <span id="3"></span>
+        <Gita title='Sasso di Toanella' quota='2430m' dislivello='1720m' difficolta='II-/F+' descrizione={descToanella} foto={fotoToanella} ></Gita>
+        <span id="4"></span>
+        <Gita title='Dente de la Fopa' quota='2161m' dislivello='960m' difficolta='I+/F' descrizione={descDenteFopa} foto={fotoDenteFopa} ></Gita>
+        <span id="5"></span>
+        <Gita title='Cima delle Sasse' quota='2878m' dislivello='1250m' difficolta='I+/F+' descrizione={descSasse} foto={fotoSasse} ></Gita>
+        <span id="6"></span>
+        <Gita title='Cima della Gardesana' quota='2446m' dislivello='1300m' difficolta='II-/F+' descrizione={descGardesana} foto={fotoGardesana} ></Gita>
+        <span id="7"></span>
+        <Gita title='Spiz Sud / Spiz di Mezzo' quota='2309/2324m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descSpiz} foto={fotoSpiz} ></Gita>
+        <span id="8"></span>
+        <Gita title='Spigol Del Palon' quota='2314m' dislivello='1300m' difficolta='I+/F' descrizione={descSpigolDelPalon} foto={fotoSpigolDelPalon} ></Gita>
+        <span id="9"></span>
+        <Gita title='Spiz di Belvedere' quota='2150m' dislivello='1000m' difficolta='I+/F' descrizione={descspizBelvedere} foto={fotospizBelvedere} ></Gita>
+        <span id="10"></span>
+        <Gita title='Monte Civetta' quota='3221m' dislivello='750+1200m' difficolta='II-/PD-' descrizione={descCivetta} foto={fotoCivetta} ></Gita>
+        <span id="11"></span>
+        <Gita title='Cima Nord di San Sebastiano' quota='2488m' dislivello='980m' difficolta='I/EE' descrizione={descSanSebastiano} foto={fotoSanSebastiano} ></Gita>
+        <span id="12"></span>
+        <Gita title='Pramper' quota='2409m' dislivello='1350m' difficolta='I/F' descrizione={descPramper} foto={fotoPramper} ></Gita>
+        <span id="13"></span>
+        <Gita title='Castello di Moschesin' quota='2499m' dislivello='~1150m' difficolta='I+/II-/F+' descrizione={descMoschesin} foto={fotoMoschesin} ></Gita>
+        <span id="14"></span>
+        <Gita title='Coston della Gardesana' quota='2165m' dislivello='1000m' difficolta='EE' descrizione={descCostonGard} foto={fotoCostonGard} ></Gita>
+        <span id="15"></span>
+        <Gita title='Cresta Sud di San Sebastiano' quota='2405/2420m' dislivello='950m' difficolta='I/F' descrizione={descCrestaSanSebastiano} foto={fotoCrestaSanSebastiano} ></Gita>
+        <span id="16"></span>
+        <Gita title='Tamer Grande' quota='2547m' dislivello='950m' difficolta='I+/F+' descrizione={descTamer} foto={fotoTamer} ></Gita>
+        <span id="17"></span>
+        <Gita title='Cima del Venier' quota='2237m' dislivello='1100m' difficolta='I/F' descrizione={descCimaVenier} foto={fotoCimaVenier} ></Gita>
+        <span id="18"></span>
+        <Gita title='Sasso di Bosconero' quota='2468m' dislivello='1670m' difficolta='I/EE' descrizione={descBosconero} foto={fotoBosconero} ></Gita>
+        <span id="19"></span>
+        <Gita title='Viaz del Fonch' quota='~2200m' dislivello='1100m' difficolta='II/F+' descrizione={descFonch} foto={fotoFonch} ></Gita>
+        <span id="20"></span>
+        <Gita title='Sfornioi Nord' quota='2410m' dislivello='900m' difficolta='II/F+' descrizione={descSfornioiNord} foto={fotoSfornioiNord} ></Gita>
+        <span id="21"></span>
+        <Gita title='Coro (Val Pamper)' quota='2326m' dislivello='1160m' difficolta='EE' descrizione={descCoro} foto={fotoCoro} ></Gita>
+        <span id="22"></span>
+        <Gita title='Mont Alt de Pelsa' quota='2417m' dislivello='1350m' difficolta='EE' descrizione={descMontAltoPelsa} foto={fotoMontAltoPelsa} ></Gita>
+        <span id="23"></span>
+        <Gita title='Petorgnon' quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
+        <span id="24"></span>
+        <Gita title='Prima Torre da Camp' quota='2281m' dislivello='700m' difficolta='I+/F+/EEA' descrizione={descTorreDaCamp} foto={fotoTorreDaCamp} ></Gita>
         </div>  
     </div>        
   );

@@ -115,14 +115,22 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>    
-        <Gita title='Monte Mangart'  quota='2677m' dislivello='680m' difficolta='I/EEA' descrizione={descMangart} foto={fotoMangart} ></Gita>
-        <Gita title='Jof Fuart'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descFuart} foto={fotoFuart} ></Gita>
-        <Gita title='Jof di Montasio'  quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descMontasio} foto={fotoMontasio} ></Gita>
-        <Gita title='Monte Brentoni'  quota='2547m' dislivello='800m' difficolta='I+' descrizione={descBrentoni} foto={fotoBrentoni} ></Gita>
-        <Gita title='Terza Grande'  quota='2583m' dislivello='1200m' difficolta='II-' descrizione={descTerzaGrande} foto={fotoTerzaGrande} ></Gita>
-        <Gita title='Terza Piccola'  quota='2334m' dislivello='1150m' difficolta='I+' descrizione={descTerzaPiccola} foto={fotoTerzaPiccola} ></Gita>
-        <Gita title='Monte Zermula'  quota='2145m' dislivello='590m' difficolta='EEA' descrizione={descZermula} foto={fotoZermula} ></Gita>
-        <Gita title='Monte Peralba'  quota='2694m' dislivello='870m' difficolta='I/EEA' descrizione={descPeralba} foto={fotoPeralba} ></Gita>
+        <span id="1"></span>
+        <Gita title='Monte Mangart' quota='2677m' dislivello='680m' difficolta='I/EEA' descrizione={descMangart} foto={fotoMangart} ></Gita>
+        <span id="2"></span>
+        <Gita title='Jof Fuart' quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descFuart} foto={fotoFuart} ></Gita>
+        <span id="3"></span>
+        <Gita title='Jof di Montasio' quota='2666m' dislivello='800m' difficolta='I+/EEA' descrizione={descMontasio} foto={fotoMontasio} ></Gita>
+        <span id="4"></span>
+        <Gita title='Monte Brentoni' quota='2547m' dislivello='800m' difficolta='I+' descrizione={descBrentoni} foto={fotoBrentoni} ></Gita>
+        <span id="5"></span>
+        <Gita title='Terza Grande' quota='2583m' dislivello='1200m' difficolta='II-' descrizione={descTerzaGrande} foto={fotoTerzaGrande} ></Gita>
+        <span id="6"></span>
+        <Gita title='Terza Piccola' quota='2334m' dislivello='1150m' difficolta='I+' descrizione={descTerzaPiccola} foto={fotoTerzaPiccola} ></Gita>
+        <span id="7"></span>
+        <Gita title='Monte Zermula' quota='2145m' dislivello='590m' difficolta='EEA' descrizione={descZermula} foto={fotoZermula} ></Gita>
+        <span id="8"></span>
+        <Gita title='Monte Peralba' quota='2694m' dislivello='870m' difficolta='I/EEA' descrizione={descPeralba} foto={fotoPeralba} ></Gita>
         </div>  
     </div>        
   );

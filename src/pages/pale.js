@@ -178,13 +178,20 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>     
-        <Gita title='Cima della Beta'  quota='2723m' dislivello='1600m' difficolta='II+/III-/PD+' descrizione={descBeta} foto={fotoBeta} ></Gita>
-        <Gita title='Monte Agner'  quota='2872m' dislivello='1150m' difficolta='I+/II-' descrizione={descAgner} foto={fotoAgner} ></Gita>
-        <Gita title='Sass di Ortiga'  quota='2649m' dislivello='1350m' difficolta='II+/II/PD' descrizione={descOrtiga} foto={fotoOrtiga} ></Gita>
-        <Gita title='Sasso Todesco'  quota='2541m' dislivello='~1400m' difficolta='I+/F+' descrizione={descTodesco} foto={fotoTodesco} ></Gita>
-        <Gita title='La Fradusta'  quota='2919m' dislivello='1400m' difficolta='I/F' descrizione={descFradusta} foto={fotoFradusta} ></Gita>
-        <Gita title='Cima di Campido'  quota='3001m' dislivello='300+1250m' difficolta='I+/F+' descrizione={descCampido} foto={fotoCampido} ></Gita>
-        <Gita title='Cima dei Bureloni'  quota='3130m' dislivello='1600m' difficolta='I/EE' descrizione={descBureloni} foto={fotoBureloni} ></Gita>
+        <span id="1"></span>
+        <Gita title='Cima della Beta' quota='2723m' dislivello='1600m' difficolta='II+/III-/PD+' descrizione={descBeta} foto={fotoBeta} ></Gita>
+        <span id="2"></span>
+        <Gita title='Monte Agner' quota='2872m' dislivello='1150m' difficolta='I+/II-' descrizione={descAgner} foto={fotoAgner} ></Gita>
+        <span id="3"></span>
+        <Gita title='Sass di Ortiga' quota='2649m' dislivello='1350m' difficolta='II+/II/PD' descrizione={descOrtiga} foto={fotoOrtiga} ></Gita>
+        <span id="4"></span>
+        <Gita title='Sasso Todesco' quota='2541m' dislivello='~1400m' difficolta='I+/F+' descrizione={descTodesco} foto={fotoTodesco} ></Gita>
+        <span id="5"></span>
+        <Gita title='La Fradusta' quota='2919m' dislivello='1400m' difficolta='I/F' descrizione={descFradusta} foto={fotoFradusta} ></Gita>
+        <span id="6"></span>
+        <Gita title='Cima di Campido' quota='3001m' dislivello='300+1250m' difficolta='I+/F+' descrizione={descCampido} foto={fotoCampido} ></Gita>
+        <span id="7"></span>
+        <Gita title='Cima dei Bureloni' quota='3130m' dislivello='1600m' difficolta='I/EE' descrizione={descBureloni} foto={fotoBureloni} ></Gita>
         </div>  
     </div>                     
   );

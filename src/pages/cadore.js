@@ -348,19 +348,33 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>
-        <Gita title='La Cesta'  quota='2768m' dislivello='970m' difficolta='I+/II-/PD-' descrizione={descCesta} foto={fotoCesta} ></Gita>
-        <Gita title='Monte Aiarnola'  quota='2456m' dislivello='1050m' difficolta='EE/F' descrizione='Salita al Monte Aiarnola.' foto={fotoAiarnola} ></Gita>
-        <Gita title='Cima Belprà'  quota='2917m' dislivello='150+1150m' difficolta='II-' descrizione={descBelpra} foto={fotoBelPra} ></Gita>
-        <Gita title='Pelmetto'  quota='2990m' dislivello='1480m' difficolta='II-/IV-/AD-' descrizione={descPelmetto} foto={fotoPelmetto} ></Gita>
-        <Gita title='Cimon del Froppa'  quota='2932m' dislivello='1250+750m' difficolta='II-/III/PD+' descrizione={descFroppa} foto={fotoFroppa} ></Gita>
-        <Gita title='Corno del Doge'  quota='2615m' dislivello='1600m' difficolta='II-/F+' descrizione={descDoge} foto={fotoDoge} ></Gita>
-        <Gita title='Piz Popena'  quota='3152m' dislivello='~1500m' difficolta='II+/AD-' descrizione={descPopena} foto={fotoPopena} ></Gita>
-        <Gita title='Monte Cristallo'  quota='3221m' dislivello='~1450m' difficolta='II+/PD' descrizione={descCristallo} foto={fotoCristallo} ></Gita>
-        <Gita title='Sorapiss'  quota='3205m' dislivello='~1600m' difficolta='II-/III/PD' descrizione={descSorapiss} foto={fotoSorapiss} ></Gita>
-        <Gita title='Cima di Valdarcia + giro del Pelmo'  quota='2624m' dislivello='~1000m' difficolta='II-/F+' descrizione={descCimaValdarcia} foto={fotoCimaValdarcia} ></Gita>
-        <Gita title='Punta Nera'  quota='2847m' dislivello='1100m' difficolta='II-/F+' descrizione={descPuntaNera} foto={fotoPuntaNera} ></Gita>
-        <Gita title='Sassolungo di Cibiana'  quota='2413m' dislivello='1400m' difficolta='I/EE' descrizione={descSassolungoCibiana} foto={fotoSassolungoCibiana} ></Gita>
-        <Gita title='Monte Popera'  quota='3046m' dislivello='1000+800m' difficolta='I+/F+' descrizione={descPopera} foto={fotoPopera} ></Gita>
+        <span id="1"></span>
+        <Gita title='La Cesta' quota='2768m' dislivello='970m' difficolta='I+/II-/PD-' descrizione={descCesta} foto={fotoCesta} ></Gita>
+        <span id="2"></span>
+        <Gita title='Monte Aiarnola' quota='2456m' dislivello='1050m' difficolta='EE/F' descrizione='Salita al Monte Aiarnola.' foto={fotoAiarnola} ></Gita>
+        <span id="3"></span>
+        <Gita title='Cima Belprà' quota='2917m' dislivello='150+1150m' difficolta='II-' descrizione={descBelpra} foto={fotoBelPra} ></Gita>
+        <span id="4"></span>
+        <Gita title='Pelmetto' quota='2990m' dislivello='1480m' difficolta='II-/IV-/AD-' descrizione={descPelmetto} foto={fotoPelmetto} ></Gita>
+        <span id="5"></span>
+        <Gita title='Cimon del Froppa' quota='2932m' dislivello='1250+750m' difficolta='II-/III/PD+' descrizione={descFroppa} foto={fotoFroppa} ></Gita>
+        <span id="6"></span>
+        <Gita title='Corno del Doge' quota='2615m' dislivello='1600m' difficolta='II-/F+' descrizione={descDoge} foto={fotoDoge} ></Gita>
+        <span id="7"></span>
+        <Gita title='Piz Popena' quota='3152m' dislivello='~1500m' difficolta='II+/AD-' descrizione={descPopena} foto={fotoPopena} ></Gita>
+        <span id="8"></span>
+        <Gita title='Monte Cristallo' quota='3221m' dislivello='~1450m' difficolta='II+/PD' descrizione={descCristallo} foto={fotoCristallo} ></Gita>
+        <span id="9"></span>
+        <Gita title='Sorapiss' quota='3205m' dislivello='~1600m' difficolta='II-/III/PD' descrizione={descSorapiss} foto={fotoSorapiss} ></Gita>
+        <span id="10"></span>
+        <Gita title='Cima di Valdarcia + giro del Pelmo' quota='2624m' dislivello='~1000m' difficolta='II-/F+' descrizione={descCimaValdarcia} foto={fotoCimaValdarcia} ></Gita>
+        <span id="11"></span>
+        <Gita title='Punta Nera' quota='2847m' dislivello='1100m' difficolta='II-/F+' descrizione={descPuntaNera} foto={fotoPuntaNera} ></Gita>
+        <span id="12"></span>
+        <Gita title='Sassolungo di Cibiana' quota='2413m' dislivello='1400m' difficolta='I/EE' descrizione={descSassolungoCibiana} foto={fotoSassolungoCibiana} ></Gita>
+        <span id="13"></span>
+        <Gita title='Monte Popera' quota='3046m' dislivello='1000+800m' difficolta='I+/F+' descrizione={descPopera} foto={fotoPopera} ></Gita>
+        <span id="14"></span>
         <Gita title='Monte Pelmo' quota='3168m' dislivello='1650m' difficolta='II-/PD-' descrizione={descMontePelmo} foto={fotoMontePelmo} ></Gita>
         </div>  
     </div>        

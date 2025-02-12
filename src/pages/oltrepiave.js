@@ -778,44 +778,83 @@ return (
       <Sidebar />
         </div>
         <div className='col-sm-10'>          
-        <Gita title='Cima Toro'  quota='2355m' dislivello='1250m' difficolta='II/II+/PD+' descrizione={descCimaToro} foto={fotoCimaToro} ></Gita>
-        <Gita title='Cima Emilia'  quota='2369m' dislivello='~1300m' difficolta='I+' descrizione={descEmilia} foto={fotoEmilia} ></Gita>
-        <Gita title='Cima di Bortolusc'  quota='2160m' dislivello='1150m' difficolta='I+/II-' descrizione={descBortolusc} foto={fotoBortolusc} ></Gita>
-        <Gita title='Cima Vacalizza'  quota='2266m' dislivello='1650m' difficolta='III-/II/PD+' descrizione={descVacalizza} foto={fotoVacalizza} ></Gita>
-        <Gita title='Spalla del Duranno/Sent. Zandonella'  quota='2234m' dislivello='1300m' difficolta='I/EEA' descrizione={descSpallaDuranno} foto={fotoSpallaDuranno} ></Gita>
-        <Gita title='Cime Postegae'  quota='2313/2358m' dislivello='~1500m' difficolta='EE' descrizione={descPostegae} foto={fotoPostegae} ></Gita>
-        <Gita title='Cadin di Vedorcia'  quota='2403m' dislivello='1250m' difficolta='III/AD-' descrizione={descVedorcia} foto={fotoVedorcia} ></Gita>
-        <Gita title='Cima di Pino Sud'  quota='2057m' dislivello='~1700m' difficolta='II/PD' descrizione={descPinoSudo} foto={fotoPinoSudo} ></Gita>
-        <Gita title='Cima dei Pecoli'  quota='2352m' dislivello='1200m' difficolta='II-/F+' descrizione={descPecoli} foto={fotoPecoli} ></Gita>
-        <Gita title='Monfalcon di Montanaia'  quota='2548m' dislivello='1400m' difficolta='II+/PD' descrizione={descMonfalconDM} foto={fotoMonfalconDM} ></Gita>
-        <Gita title='Cima Pussa'  quota='2169m' dislivello='1250m' difficolta='I+/F+' descrizione={descPussa} foto={fotoPussa} ></Gita>
-        <Gita title='Torre Postegae sud'  quota='2346m' dislivello='1250m' difficolta='I+/F+' descrizione={descPostegaeSud} foto={fotoPostegaeSud} ></Gita>
-        <Gita title='Punta del Borsat'  quota='2220m' dislivello='1400m' difficolta='I+/F+' descrizione={descBorsat} foto={fotoBorsat} ></Gita>
-        <Gita title='Cima Brica'  quota='2362m' dislivello='1200m' difficolta='I+/II-/F' descrizione={descBrica} foto={fotoBrica} ></Gita>
-        <Gita title='Cime Centenere'  quota='2295/2275m' dislivello='~1150m' difficolta='EE' descrizione={descCentenere} foto={fotoCentenere} ></Gita>
-        <Gita title='Cima delle Ciazze Alte (Tentativo)'  quota='~2240m' dislivello='1530m' difficolta='I+/II-/PD' descrizione={descCiazze} foto={fotoCiazze} ></Gita>
-        <Gita title='Cima di Ciol de Sass'  quota='2072m' dislivello='1250' difficolta='I/F' descrizione={descCiolSass} foto={fotoCiolSass} ></Gita>
-        <Gita title='Cima Laste (gruppo Duranno Cima Preti)'  quota='2555m' dislivello='950+700m' difficolta='I/F' descrizione={descLaste} foto={fotoLaste} ></Gita>
-        <Gita title='Bocciardata F.lla dei Cacciatori (Alta via nr.6)'  quota='2173m' dislivello='1270m' difficolta='I+/F+' descrizione={descBocciardata} foto={fotoBocciardata} ></Gita>
-        <Gita title='Cima Spe'  quota='2314m' dislivello='~1300m' difficolta='I/F' descrizione={descCimaSpe} foto={fotoCimaSpe} ></Gita>
-        <Gita title='Cima Stalla (Tentativo)'  quota='~1950m' dislivello='~800m' difficolta='II+/PD+' descrizione={descCimaStalla} foto={fotoCimaStalla} ></Gita>
-        <Gita title='Monfalcon di Forni'  quota='2453m' dislivello='~1500m' difficolta='II-/II+/F+' descrizione={descForni} foto={fotoForni} ></Gita>
-        <Gita title='Cima Gea'  quota='2265m' dislivello='~1400m' difficolta='II/PD-' descrizione={descCimaGea} foto={fotoCimaGea} ></Gita>
-        <Gita title='Cridola'  quota='2581m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descCridola} foto={fotoCridola} ></Gita>
-        <Gita title='Monte Ferrara'  quota='2258m' dislivello='1100m' difficolta='EE' descrizione={descFerrara} foto={fotoFerrara} ></Gita>
-        <Gita title='Monte Porgeit'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descPorgeit} foto={fotoPorgeit} ></Gita>
-        <Gita title='Cima Frati'  quota='2355m' dislivello='1650m' difficolta='II/PD+' descrizione={descFrati} foto={fotoFrati} ></Gita>
-        <Gita title='Monte Zerten'  quota='1864m' dislivello='650m' difficolta='E' descrizione={descZerten} foto={fotoZerten} ></Gita>
-        <Gita title='Monte Zita (Val Zemola)'  quota='2190m' dislivello='1000m' difficolta='E' descrizione={descZita} foto={fotoZita} ></Gita>
-        <Gita title='Cima Urtisiel Est'  quota='2119m' dislivello='1000m' difficolta='E' descrizione={descUrtisielEst} foto={fotoUrtisielEst} ></Gita>
-        <Gita title='Cima Urtisiel Ovest (Tentativo)'  quota='~2100m' dislivello='950m' difficolta='I+/F+' descrizione={descUrtisielOvest} foto={fotoUrtisielOvest} ></Gita>
-        <Gita title='Monte Turlon (Tentativo)'  quota='~2160m' dislivello='1950m' difficolta='I+/F+' descrizione={descTurlon} foto={fotoTurlon} ></Gita>
-        <Gita title='Monte Toc'  quota='1920m' dislivello='1180m' difficolta='EE' descrizione={descToc} foto={fotoToc} ></Gita>
-        <Gita title='Cima di San Francesco (Tentativo)'  quota='~2160m' dislivello='1950m' difficolta='I/F' descrizione={descSFrancesco} foto={fotoSFrancesco} ></Gita>
-        <Gita title='Cima della Palazza (Val Zemola)'  quota='2210m' dislivello='1050m' difficolta='E' descrizione={descPalazzaZemola} foto={fotoPalazzaZemola} ></Gita>
-        <Gita title='Ago del Cridola (Tentativo) Sentiero del 50esimo'  quota='~2370m' dislivello='1250m' difficolta='II-/F+' descrizione={descSent50esimo} foto={fotoSent50esimo} ></Gita>
-        <Gita title='Montanel'  quota='2461m' dislivello='1410m' difficolta='I+/F+' descrizione={descMontanel} foto={fotoMontanel} ></Gita>
-        <Gita title='Collalto'  quota='2100m' dislivello='800m' difficolta='EE' descrizione={descCollalto} foto={fotoCollalto} ></Gita>
+        <span id="1"></span>
+        <Gita title='Cima Toro' quota='2355m' dislivello='1250m' difficolta='II/II+/PD+' descrizione={descCimaToro} foto={fotoCimaToro} ></Gita>
+        <span id="2"></span>
+        <Gita title='Cima Emilia' quota='2369m' dislivello='~1300m' difficolta='I+' descrizione={descEmilia} foto={fotoEmilia} ></Gita>
+        <span id="3"></span>
+        <Gita title='Cima di Bortolusc' quota='2160m' dislivello='1150m' difficolta='I+/II-' descrizione={descBortolusc} foto={fotoBortolusc} ></Gita>
+        <span id="4"></span>
+        <Gita title='Cima Vacalizza' quota='2266m' dislivello='1650m' difficolta='III-/II/PD+' descrizione={descVacalizza} foto={fotoVacalizza} ></Gita>
+        <span id="5"></span>
+        <Gita title='Spalla del Duranno/Sent. Zandonella' quota='2234m' dislivello='1300m' difficolta='I/EEA' descrizione={descSpallaDuranno} foto={fotoSpallaDuranno} ></Gita>
+        <span id="6"></span>
+        <Gita title='Cime Postegae' quota='2313/2358m' dislivello='~1500m' difficolta='EE' descrizione={descPostegae} foto={fotoPostegae} ></Gita>
+        <span id="7"></span>
+        <Gita title='Cadin di Vedorcia' quota='2403m' dislivello='1250m' difficolta='III/AD-' descrizione={descVedorcia} foto={fotoVedorcia} ></Gita>
+        <span id="8"></span>
+        <Gita title='Cima di Pino Sud' quota='2057m' dislivello='~1700m' difficolta='II/PD' descrizione={descPinoSudo} foto={fotoPinoSudo} ></Gita>
+        <span id="9"></span>
+        <Gita title='Cima dei Pecoli' quota='2352m' dislivello='1200m' difficolta='II-/F+' descrizione={descPecoli} foto={fotoPecoli} ></Gita>
+        <span id="10"></span>
+        <Gita title='Monfalcon di Montanaia' quota='2548m' dislivello='1400m' difficolta='II+/PD' descrizione={descMonfalconDM} foto={fotoMonfalconDM} ></Gita>
+        <span id="11"></span>
+        <Gita title='Cima Pussa' quota='2169m' dislivello='1250m' difficolta='I+/F+' descrizione={descPussa} foto={fotoPussa} ></Gita>
+        <span id="12"></span>
+        <Gita title='Torre Postegae sud' quota='2346m' dislivello='1250m' difficolta='I+/F+' descrizione={descPostegaeSud} foto={fotoPostegaeSud} ></Gita>
+        <span id="13"></span>
+        <Gita title='Punta del Borsat' quota='2220m' dislivello='1400m' difficolta='I+/F+' descrizione={descBorsat} foto={fotoBorsat} ></Gita>
+        <span id="14"></span>
+        <Gita title='Cima Brica' quota='2362m' dislivello='1200m' difficolta='I+/II-/F' descrizione={descBrica} foto={fotoBrica} ></Gita>
+        <span id="15"></span>
+        <Gita title='Cime Centenere' quota='2295/2275m' dislivello='~1150m' difficolta='EE' descrizione={descCentenere} foto={fotoCentenere} ></Gita>
+        <span id="16"></span>
+        <Gita title='Cima delle Ciazze Alte (Tentativo)' quota='~2240m' dislivello='1530m' difficolta='I+/II-/PD' descrizione={descCiazze} foto={fotoCiazze} ></Gita>
+        <span id="17"></span>
+        <Gita title='Cima di Ciol de Sass' quota='2072m' dislivello='1250' difficolta='I/F' descrizione={descCiolSass} foto={fotoCiolSass} ></Gita>
+        <span id="18"></span>
+        <Gita title='Cima Laste (gruppo Duranno Cima Preti)' quota='2555m' dislivello='950+700m' difficolta='I/F' descrizione={descLaste} foto={fotoLaste} ></Gita>
+        <span id="19"></span>
+        <Gita title='Bocciardata F.lla dei Cacciatori (Alta via nr.6)' quota='2173m' dislivello='1270m' difficolta='I+/F+' descrizione={descBocciardata} foto={fotoBocciardata} ></Gita>
+        <span id="20"></span>
+        <Gita title='Cima Spe' quota='2314m' dislivello='~1300m' difficolta='I/F' descrizione={descCimaSpe} foto={fotoCimaSpe} ></Gita>
+        <span id="21"></span>
+        <Gita title='Cima Stalla (Tentativo)' quota='~1950m' dislivello='~800m' difficolta='II+/PD+' descrizione={descCimaStalla} foto={fotoCimaStalla} ></Gita>
+        <span id="22"></span>
+        <Gita title='Monfalcon di Forni' quota='2453m' dislivello='~1500m' difficolta='II-/II+/F+' descrizione={descForni} foto={fotoForni} ></Gita>
+        <span id="23"></span>
+        <Gita title='Cima Gea' quota='2265m' dislivello='~1400m' difficolta='II/PD-' descrizione={descCimaGea} foto={fotoCimaGea} ></Gita>
+        <span id="24"></span>
+        <Gita title='Cridola' quota='2581m' dislivello='1300m' difficolta='II/II+/PD' descrizione={descCridola} foto={fotoCridola} ></Gita>
+        <span id="25"></span>
+        <Gita title='Monte Ferrara' quota='2258m' dislivello='1100m' difficolta='EE' descrizione={descFerrara} foto={fotoFerrara} ></Gita>
+        <span id="26"></span>
+        <Gita title='Monte Porgeit' quota='1864m' dislivello='650m' difficolta='E' descrizione={descPorgeit} foto={fotoPorgeit} ></Gita>
+        <span id="27"></span>
+        <Gita title='Cima Frati' quota='2355m' dislivello='1650m' difficolta='II/PD+' descrizione={descFrati} foto={fotoFrati} ></Gita>
+        <span id="28"></span>
+        <Gita title='Monte Zerten' quota='1864m' dislivello='650m' difficolta='E' descrizione={descZerten} foto={fotoZerten} ></Gita>
+        <span id="29"></span>
+        <Gita title='Monte Zita (Val Zemola)' quota='2190m' dislivello='1000m' difficolta='E' descrizione={descZita} foto={fotoZita} ></Gita>
+        <span id="30"></span>
+        <Gita title='Cima Urtisiel Est' quota='2119m' dislivello='1000m' difficolta='E' descrizione={descUrtisielEst} foto={fotoUrtisielEst} ></Gita>
+        <span id="31"></span>
+        <Gita title='Cima Urtisiel Ovest (Tentativo)' quota='~2100m' dislivello='950m' difficolta='I+/F+' descrizione={descUrtisielOvest} foto={fotoUrtisielOvest} ></Gita>
+        <span id="32"></span>
+        <Gita title='Monte Turlon (Tentativo)' quota='~2160m' dislivello='1950m' difficolta='I+/F+' descrizione={descTurlon} foto={fotoTurlon} ></Gita>
+        <span id="33"></span>
+        <Gita title='Monte Toc' quota='1920m' dislivello='1180m' difficolta='EE' descrizione={descToc} foto={fotoToc} ></Gita>
+        <span id="34"></span>
+        <Gita title='Cima di San Francesco (Tentativo)' quota='~2160m' dislivello='1950m' difficolta='I/F' descrizione={descSFrancesco} foto={fotoSFrancesco} ></Gita>
+        <span id="35"></span>
+        <Gita title='Cima della Palazza (Val Zemola)' quota='2210m' dislivello='1050m' difficolta='E' descrizione={descPalazzaZemola} foto={fotoPalazzaZemola} ></Gita>
+        <span id="36"></span>
+        <Gita title='Ago del Cridola (Tentativo) Sentiero del 50esimo' quota='~2370m' dislivello='1250m' difficolta='II-/F+' descrizione={descSent50esimo} foto={fotoSent50esimo} ></Gita>
+        <span id="37"></span>
+        <Gita title='Montanel' quota='2461m' dislivello='1410m' difficolta='I+/F+' descrizione={descMontanel} foto={fotoMontanel} ></Gita>
+        <span id="38"></span>
+        <Gita title='Collalto' quota='2100m' dislivello='800m' difficolta='EE' descrizione={descCollalto} foto={fotoCollalto} ></Gita>
+        <span id="39"></span>
         <Gita title='Cima Preti' quota='2706m' dislivello='1320+730m' difficolta='II-/PD-' descrizione={descCimaPreti} foto={fotoCimaPreti} ></Gita>
         </div>  
     </div>                   
