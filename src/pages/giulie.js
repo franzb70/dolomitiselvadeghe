@@ -107,7 +107,8 @@ export default function Giulie() {
   fotoPeralba.push(foto20)
   fotoPeralba.push(foto21)
   fotoPeralba.push(foto22)
-  let descPeralba = `Salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. Discesa per la facile ferrata Sartor.`
+  let descPeralba = `Dal Rif. Sorgenti del Piave, salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. 
+  Discesa per la facile ferrata Sartor e rientro per il Rif. Calvi.`
 
 return (
   <div className='row App'>

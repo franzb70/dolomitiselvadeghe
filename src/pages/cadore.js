@@ -14,6 +14,11 @@ export default function Cadore() {
   fotoAiarnola.push(foto3)
   fotoAiarnola.push(foto4)
 
+  let descAjarnola = `Si lascia l'auto poco a nord del Passo del Zovo e si segue lungamente, con scarsa pendenza, il sentiero 153.
+  Ormai in vista delle pareti est del Monte Ajarnola si imbocca il sentiero 127 che aggira il monte sul versante sud ovest, offrendo
+  ottimo panorama sulle dolomiti di Sesto. C'è da arrampicare facilmente qualche balza e canalino, mai oltre il I grado e,
+  superate un paio di antecime si guadagna la vetta.`
+
   let fotoBelPra = []
   let foto7 = {path: 'cadore/BelPra03.JPG', desc: 'Cengia ghiacciata'}
   let foto9 = {path: 'cadore/BelPra05.JPG', desc: 'Cengia'}
@@ -263,7 +268,7 @@ export default function Cadore() {
 		(occorre non muovere sassi per evitare finiscano in testa a quelli che risalgono la f.lla Valdarcia) o su 
 		placchette di pochi metri, appoggiate, da scalare anche in aderenza con 
 		gli scarponi. Gli ultimi metri sono 
-		su cresta molto solida. (30/40 min dalla forcella. Panorama ottimo, 
+		su cresta molto solida. 30/40 min dalla forcella. Panorama ottimo, 
 		pochi ometti e roccia pressochè vergine.`
 
     let fotoPuntaNera = []
@@ -276,7 +281,10 @@ export default function Cadore() {
     fotoPuntaNera.push(foto63)
     fotoPuntaNera.push(foto64)
   
-    let descPuntaNera = `Facile via normale in ambiente grandioso al cospetto del Sorapiss. Rientro per l'affollato Lago.`
+    let descPuntaNera = `Facile via normale in ambiente grandioso al cospetto del Sorapiss. Dal Passo Tre croci
+    seguire lungamente il sentiro 213 per poi confluire al 215, che si risale fino a poche decine di metri prima
+    della Sella di Punta Nera, dove inizia la normale arrampicando a destra per facili roccette e canalini fino in cresta.
+    Poi ancora qualche passo di I tra massi appoggiati. Rientro per l'affollato Lago del Sorapiss.`
   
     let fotoSassolungoCibiana = []
     let foto65 = {path: 'cadore/SassolungoCibiana01.jpg', desc: 'Sotto la dorsale sud'}
@@ -351,7 +359,7 @@ return (
         <span id="1"></span>
         <Gita title='La Cesta' quota='2768m' dislivello='970m' difficolta='I+/II-/PD-' descrizione={descCesta} foto={fotoCesta} ></Gita>
         <span id="2"></span>
-        <Gita title='Monte Aiarnola' quota='2456m' dislivello='1050m' difficolta='EE/F' descrizione='Salita al Monte Aiarnola.' foto={fotoAiarnola} ></Gita>
+        <Gita title='Monte Aiarnola' quota='2456m' dislivello='1050m' difficolta='EE/F' descrizione={descAjarnola} foto={fotoAiarnola} ></Gita>
         <span id="3"></span>
         <Gita title='Cima Belprà' quota='2917m' dislivello='150+1150m' difficolta='II-' descrizione={descBelpra} foto={fotoBelPra} ></Gita>
         <span id="4"></span>

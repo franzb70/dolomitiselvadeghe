@@ -318,7 +318,7 @@ export default function Bellunesi() {
     fotoMonteCoro.push(foto54)
     fotoMonteCoro.push(foto55)
     let descMonteCoro = `Si parte dal Bus de la Pissa in val Cordevole, prendendo le scalette del sentiero si che ricongiunge alla strada del Bianchet.
-    Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso desta (ovest). 
+    Dopo il rifugio si seguono le evidenti indicazioni per il Coro verso destra (ovest). 
     Escursione molto lunga dovendo rientrare quasi fino alla testata della val Cordevole per calcare la Cima.`
 
     let fotoPeverele = []

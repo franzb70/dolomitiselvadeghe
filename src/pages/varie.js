@@ -62,7 +62,8 @@ export default function Varie() {
   fotoCornetto.push(foto13)
   fotoCornetto.push(foto14)
   fotoCornetto.push(foto15)  
-  let descCornetto = `Le difficoltà sono concentrate nella breve normale al Baffelan, con alcune balze di I/I+ ed un movimento (passaggio chiave) di II.`
+  let descCornetto = `Le difficoltà sono concentrate nella breve normale al Baffelan, con alcune balze di I/I+ ed un movimento (passaggio chiave) di II.
+  Il dislivello resta limitato pur contemplando il periplo completo del Cornetto, con rientro dal versante occidentale in vista del massiccio del Carega.`
 
   return (
     <div className='row App'>

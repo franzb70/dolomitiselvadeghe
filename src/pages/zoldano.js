@@ -42,7 +42,13 @@ export default function Zoldano() {
   fotoPramperet.push(foto10)
   fotoPramperet.push(foto11)
   fotoPramperet.push(foto12)  
-  let descPramperet = `Via normale al Pramperet.`
+  let descPramperet = `Dal Rif. Sommariva al Pramperet si segue il sent. 521 diretto a casera di Cornia. 
+  Da Forc. piccola puntare decisamente a sinistra per tracce e tra mughi, e risalire faticosamente il
+  ghiaione che si chiude alla forcella tra Pramper e Pramperet. Aggirato un torrione per cengia verso sud,
+  si perviene all'attacco della via, spostandosi a destra di una paretina ed aggirandola per cengia esile
+  ed espostissima (II, passaggio chiave). Si prosegue poi in salita tra massi e canalini fino all'ultima forcelletta
+  che intaglia la cima bicipte del Pramperet. Noi abbiamo salito quella più a sud che da sul Rifugio, con breve
+  utilizzo di corda per sicura (massimo I+).`
 
   let fotoToanella = []
   let foto13 = {path: 'zoldano/toanella01.jpg', desc: 'Sul ripido verso forc. Toanella'}

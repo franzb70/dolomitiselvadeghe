@@ -81,15 +81,15 @@ export default function Pale() {
   fotoAgner.push(foto12)
   fotoAgner.push(foto31)
   fotoAgner.push(foto38)
-  let descAgner = `Tratti di I sulle placche e prima del Biv. 
-  Biasin; corda metallica esposta, poi I e un passaggio di II per la 
-  vetta.`
+  let descAgner = `Dal Rif. Scarpa saliti per la normale originaria (nè canalone, nè ferrata), con tratti di I sulle placche
+  prima del Biv. Biasin. Il secondo giorno, all'epoca di fine anni '90 c'era un solo breve tratto di corda metallica esposta.
+  Poi la via si svolge sul versante ovest con tratti di I e una paretina di II- dopo una fessura da superare con passo deciso.`
 
   let fotoOrtiga = []
   let foto14 = {path: 'pale/SassOrtiga01.JPG', desc: 'Rampa iniziale'}
   let foto15 = {path: 'pale/SassOrtiga02.JPG', desc: 'Paretina di II'}
   let foto16 = {path: 'pale/SassOrtiga03.JPG', desc: 'Calata di doppia finale'}
-  let foto17 = {path: 'pale/SassOrtiga04.JPG', desc: 'Verso Croda Grande'}
+  let foto17 = {path: 'pale/SassOrtiga04.JPG', desc: 'Verso Croda Granda'}
   fotoOrtiga.push(foto14)
   fotoOrtiga.push(foto15)
   fotoOrtiga.push(foto17)

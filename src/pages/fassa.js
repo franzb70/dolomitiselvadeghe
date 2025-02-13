@@ -42,7 +42,9 @@ export default function Fassa() {
   fotoAutaEst.push(foto12)
   fotoAutaEst.push(foto13)
   fotoAutaEst.push(foto14)
-  let descAutaEst = `Via normale alla Cima d'Auta Est da località Colmean.`
+  let descAutaEst = `Via normale alla Cima d'Auta Est da località Colmean. Ignorare i segnali per la via ferrata Paolin Piccolin,
+  risalendo verso destra sotto la parete sud. Dalla forzela dei Negher inizia la normale che presenta numerosi tratti attrezzati,
+  ma oppone comunque alcuni passaggi sul I grado in libera.`
 
   let fotoCiadin = []
   let foto15 = {path: 'fassa/PuntaDelCiadin_01.jpg', desc: 'Cresta finale'}
