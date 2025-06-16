@@ -473,6 +473,8 @@ return (
         <Gita title='Cresta Sud di San Sebastiano' quota='2405/2420m' dislivello='950m' difficolta='I/F' descrizione={descCrestaSanSebastiano} foto={fotoCrestaSanSebastiano} ></Gita>
         <span id="16"></span>
         <Gita title='Tamer Grande' quota='2547m' dislivello='950m' difficolta='I+/F+' descrizione={descTamer} foto={fotoTamer} ></Gita>
+        <span id="25"></span>
+        <Gita title='Spiz de San Piero' quota='2084m' dislivello='600m' difficolta='I/EE' descrizione={descSpizSanPiero} foto={fotoSpizSanPiero} ></Gita>
         <span id="17"></span>
         <Gita title='Cima del Venier' quota='2237m' dislivello='1100m' difficolta='I/F' descrizione={descCimaVenier} foto={fotoCimaVenier} ></Gita>
         <span id="18"></span>
@@ -489,8 +491,6 @@ return (
         <Gita title='Petorgnon' quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
         <span id="24"></span>
         <Gita title='Prima Torre da Camp' quota='2281m' dislivello='700m' difficolta='I+/F+/EEA' descrizione={descTorreDaCamp} foto={fotoTorreDaCamp} ></Gita>
-        <span id="25"></span>
-        <Gita title='Spiz de San Piero' quota='2084m' dislivello='600m' difficolta='I/EE' descrizione={descSpizSanPiero} foto={fotoSpizSanPiero} ></Gita>
         </div>  
     </div>        
   );
