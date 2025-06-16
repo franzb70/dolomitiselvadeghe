@@ -423,8 +423,8 @@ export default function Zoldano() {
   let fotoSpizSanPiero = []
   let foto84 = {path: 'zoldano/SanPiero01.jpg', desc: 'Sforniori e Bosconero'}
   let foto85 = {path: 'zoldano/SanPiero02.jpg', desc: 'Sasso di Toanella e Rocchetta Alta'}
-  let foto86 = {path: 'zoldano/SanPiero03.jpg', desc: 'Ambiente tra i mughi'}
-  let foto87 = {path: 'zoldano/SanPiero04.jpg', desc: 'Traccia della normale alla cima'}
+  let foto86 = {path: 'zoldano/SanPiero04.jpg', desc: 'Ambiente tra i mughi'}
+  let foto87 = {path: 'zoldano/SanPiero03.jpg', desc: 'Traccia della normale alla cima'}
   fotoSpizSanPiero.push(foto84)
   fotoSpizSanPiero.push(foto85)
   fotoSpizSanPiero.push(foto86)
