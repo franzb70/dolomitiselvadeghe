@@ -420,6 +420,21 @@ export default function Zoldano() {
   molto esposto aiutato da un cordino. La via si conclude con una breve arrampicata della torretta finale, anche qui aiutata da un
   vecchio cordino metallico (II altrimenti).`
 
+  let fotoSpizSanPiero = []
+  let foto84 = {path: 'zoldano/SanPiero01.jpg', desc: 'Sforniori e Bosconero'}
+  let foto85 = {path: 'zoldano/SanPiero02.jpg', desc: 'Sasso di Toanella e Rocchetta Alta'}
+  let foto86 = {path: 'zoldano/SanPiero03.jpg', desc: 'Ambiente tra i mughi'}
+  let foto87 = {path: 'zoldano/SanPiero04.jpg', desc: 'Traccia della normale alla cima'}
+  fotoTorreDaCamp.push(foto84)
+  fotoTorreDaCamp.push(foto85)
+  fotoTorreDaCamp.push(foto86)
+  fotoTorreDaCamp.push(foto87)  
+  let descSpizSanPiero = `Dal Passo Cibiana si segue il sentiero verso sud diretto al Rif. Bosconero, prendendo poi la deviazione a destra per casera Darè-Copada.
+  Si inizia ad aggirare lo Spiz da sud per sentiero molto panoramico e pianeggiante fino alla Casera. Si prosegue quindi, anche in lieve discesa per un 10min
+  fino ad incontrare un ometto e bollo rosso che indica la partenza della via normale sul versante ovest dello Spiz. A quel punto la salita tra i mughi è piuttosto ripida, 
+  ma senza difficoltà, fino all'imbocco del canalino di vetta in versante nord. Si tratta di una decina di metri con passaggi di I mai esposti. Il panorama a 360° di vetta,
+  nonostante la quota modesta, offre visuali entusiasmanti su gran parte delle maggiori cime dolomitiche.` 
+
 return (
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
@@ -474,6 +489,8 @@ return (
         <Gita title='Petorgnon' quota='1914m' dislivello='850m' difficolta='E' descrizione={descPetorgnon} foto={fotoPetorgnon} ></Gita>
         <span id="24"></span>
         <Gita title='Prima Torre da Camp' quota='2281m' dislivello='700m' difficolta='I+/F+/EEA' descrizione={descTorreDaCamp} foto={fotoTorreDaCamp} ></Gita>
+        <span id="25"></span>
+        <Gita title='Spiz de San Piero' quota='2084m' dislivello='600m' difficolta='I/EE' descrizione={descSpizSanPiero} foto={fotoSpizSanPiero} ></Gita>
         </div>  
     </div>        
   );
