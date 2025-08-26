@@ -153,6 +153,27 @@ export default function Fassa() {
   procedendo verso destra e superando le prime balze di roccia fino a raggiungere il basamento della parete. Seguendo gli ometti si procede fino a raggiongere l'inizio
   della dorsale sud che si scala senza difficoltà di rilievo. Salita nel complesso ai limiti dell'escursionismo, da non sottovalutare.`
 
+  let fotoSassTasca = []
+  let foto37 = {path: 'fassa/SassTasca_01.jpg', desc: 'Traverso su giaione dalla forcella'}
+  let foto38 = {path: 'fassa/SassTasca_02.jpg', desc: 'Imbocco del canale di salita'}
+  let foto39 = {path: 'fassa/SassTasca_03.jpg', desc: 'Parte alta del canale'}
+  let foto40 = {path: 'fassa/SassTasca_04.jpg', desc: 'Sasso Vernale, Marmolada e Gran Vernel sullo sfondo'}
+  let foto41 = {path: 'fassa/SassTasca_05.jpg', desc: 'Il Laghetto dalla cima'}
+  fotoSassTasca.push(foto37)
+  fotoSassTasca.push(foto38)
+  fotoSassTasca.push(foto39)
+  fotoSassTasca.push(foto40)
+  fotoSassTasca.push(foto41)
+  let descSassTasca = `Dal parcheggio della funivia del Col Margherita, nei pressi del Passo San Pellegrino si segue il sentiero diretto a
+  Fuciade al Passo delle Cirelle fino alla deviazione
+  a sinistra per la Forcella del Laghetto, che si raggiunge per sentiero a tratti dissestato. Dalla Forcella si traversa per ghiaione
+  senza traccia al margine delle rocce, quasi in orizzontale (un centinaio di metri) fino ad individuare una dorsale detritica praticabile
+  per la salita. Si sale per balze instabili inquadrando già il canalone finale da raggiungere sul suo lato destro.
+  Si traversa subito a prendere una lastra con due solchi ai lati verso sinistra con due passi delicati su placca sporca.
+  Risalita la lastra (II-) si deve ri traversare verso destra, ancora con attenzione su detriti, per poi scalare la parte finale del canale
+  più liberamente ma sempre su roccia pessima, quindi attenzione agli appigli ed alle scariche di sassi. Dalla cima buona prospettiva verso
+  il gruppo della Marmolada e sulla vicina Cima Uomo.`
+
 
 return (
   <div className='row App'>
@@ -182,6 +203,8 @@ return (
         <Gita title='Roda del Diavolo' quota='2723m' dislivello='600m' difficolta='I+/EEA' descrizione={descRodaDiaol} foto={fotoRodaDiaol} ></Gita>
         <span id="11"></span>
         <Gita title='Cima Uomo' quota='3010m' dislivello='1070m' difficolta='I+/F+' descrizione={descCimaUomo} foto={fotoCimaUomo} ></Gita>
+        <span id="12"></span>
+        <Gita title='Sasso di Tasca' quota='2866m' dislivello='960m' difficolta='I+/F' descrizione={descSassTasca} foto={fotoSassTasca} ></Gita>
         </div>  
     </div>                   
   );
