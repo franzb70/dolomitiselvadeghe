@@ -154,7 +154,7 @@ export default function Fassa() {
   della dorsale sud che si scala senza difficoltà di rilievo. Salita nel complesso ai limiti dell'escursionismo, da non sottovalutare.`
 
   let fotoSassTasca = []
-  let foto37 = {path: 'fassa/SassTasca_01.jpg', desc: 'Traverso su giaione dalla forcella'}
+  let foto37 = {path: 'fassa/SassTasca_01.jpg', desc: 'Traverso su ghiaione dalla forcella'}
   let foto38 = {path: 'fassa/SassTasca_02.jpg', desc: 'Imbocco del canale di salita'}
   let foto39 = {path: 'fassa/SassTasca_03.jpg', desc: 'Parte alta del canale'}
   let foto40 = {path: 'fassa/SassTasca_04.jpg', desc: 'Sasso Vernale, Marmolada e Gran Vernel sullo sfondo'}
