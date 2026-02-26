@@ -75,7 +75,6 @@ const NavList = styled.ul`
   list-style: none;
   padding: 0;
   margin: 0;
-  flex-grow: 1;
 `;
 
 const StyledNavLink = styled(NavLink)`
@@ -105,10 +104,15 @@ const StyledNavLink = styled(NavLink)`
 
 const Actions = styled.div`
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  /* Centra le icone orizzontalmente nel contenitore */
+  justify-content: center; 
+  /* Centra le icone verticalmente tra loro */
+  align-items: center; 
+  /* Spazio fisso tra le due icone */
+  gap: 40px; 
+  
   padding-top: 1.5rem;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   border-top: 1px solid rgba(255,255,255,0.1);
 
   svg {
@@ -125,7 +129,7 @@ const Actions = styled.div`
 // --- COMPONENT ---
 const Sidebar = () => {
   const navigate = useNavigate();
-  const disclaimer = "Questo il libro per voi...se vi piace il nostro approccio alla montagna";
+  const disclaimer = "Questo è il libro per voi ... se vi piace il nostro approccio alla montagna";
 
   const menuItems = [
     { path: "/alpago", label: "Alpago" },
