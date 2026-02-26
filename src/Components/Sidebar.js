@@ -125,7 +125,7 @@ const Actions = styled.div`
 // --- COMPONENT ---
 const Sidebar = () => {
   const navigate = useNavigate();
-  const disclaimer = "Il libro per chi ama il lato selvaggio delle Dolomiti.";
+  const disclaimer = "Questo il libro per voi...se vi piace il nostro approccio alla montagna";
 
   const menuItems = [
     { path: "/alpago", label: "Alpago" },
