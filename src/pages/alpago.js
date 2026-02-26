@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Alpago() {
 
@@ -93,9 +93,9 @@ export default function Alpago() {
     (usare 2 auto!).`
 
     return (
+    <Layout>
         <div className='row App'>
             <div className='col-sm-2 colLeft'>
-        <Sidebar />
             </div>
             <div className='col-sm-10'>          
             <span id="1"></span>
@@ -114,5 +114,6 @@ export default function Alpago() {
             <Gita title='Col Mat / Cima sora il Ciot / Cima Secca' quota='1981/2318/2350m' dislivello='~1300m' difficolta='EE' descrizione={descCresteColNudo} foto={fotoCresteColNudo} ></Gita>
             </div>  
         </div>         
+    </Layout>      
     );
 }

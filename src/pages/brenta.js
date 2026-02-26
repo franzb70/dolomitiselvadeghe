@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Brenta() {
 
@@ -49,9 +49,9 @@ export default function Brenta() {
 
 
   return (
+    <Layout>
     <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <span id="1"></span>
@@ -62,6 +62,6 @@ export default function Brenta() {
         <Gita title='Cima Grostè' quota='2905m' dislivello='1350m' difficolta='I+/II-' descrizione={descGroste} foto={fotoGroste} ></Gita>
         </div>  
     </div>        
-              
+    </Layout>                    
   );
 }

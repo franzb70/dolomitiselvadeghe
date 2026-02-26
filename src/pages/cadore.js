@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Cadore() {
 
@@ -351,9 +351,9 @@ export default function Cadore() {
 
     
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>
         <span id="1"></span>
@@ -386,5 +386,6 @@ return (
         <Gita title='Monte Pelmo' quota='3168m' dislivello='1650m' difficolta='II-/PD-' descrizione={descMontePelmo} foto={fotoMontePelmo} ></Gita>
         </div>  
     </div>        
+    </Layout>      
   );
 }

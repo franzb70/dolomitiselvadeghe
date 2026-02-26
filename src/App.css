@@ -83,18 +83,15 @@ body {
   text-align: left;
 }
 
-.colLeft {
-  min-width: 200px;
-}
-
-.sidebar {
-  position: fixed;
-  top: 200;
-  left: 0;  
-}
-
 .header {
   background-color: #0f2755;
+}
+
+.pictureHome {
+  background-color: #0f2755;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .textSearch {

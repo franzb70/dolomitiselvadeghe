@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Fassa() {
   
@@ -176,9 +176,9 @@ export default function Fassa() {
 
 
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <span id="1"></span>
@@ -207,5 +207,6 @@ return (
         <Gita title='Sasso di Tasca' quota='2866m' dislivello='960m' difficolta='I+/F' descrizione={descSassTasca} foto={fotoSassTasca} ></Gita>
         </div>  
     </div>                   
+  </Layout>      
   );
 }

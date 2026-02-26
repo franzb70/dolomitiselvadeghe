@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Bellunesi() {
 
@@ -338,10 +338,8 @@ export default function Bellunesi() {
 
     
 return (
+    <Layout>
     <div className='row App'>
-        <div className='col-sm-2 colLeft'>
-        <Sidebar />
-        </div>
         <div className='col-sm-10'>         
         <span id="1"></span>
         <Gita title='Sass de Mura - Cima Ovest' quota='2520m' dislivello='~1500m' difficolta='II/II-' descrizione={descSassMura} foto={fotoSassMura} ></Gita>
@@ -382,6 +380,7 @@ return (
         <span id="19"></span>
         <Gita title='Peverele (Serva)' quota='1851m' dislivello='~900m' difficolta='I/F' descrizione={descPeverele} foto={fotoPeverele} ></Gita>
         </div>  
-    </div>        
+    </div>
+    </Layout>      
     );
 }

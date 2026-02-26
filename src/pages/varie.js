@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Varie() {
 
@@ -66,9 +66,9 @@ export default function Varie() {
   Il dislivello resta limitato pur contemplando il periplo completo del Cornetto, con rientro dal versante occidentale in vista del massiccio del Carega.`
 
   return (
+    <Layout>
     <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <span id="1"></span>
@@ -81,6 +81,6 @@ export default function Varie() {
         <Gita title='Baffelan / Cornetto' quota='1793/1899m' dislivello='750m' difficolta='II-/F+' descrizione={descCornetto} foto={fotoCornetto} ></Gita>
         </div>  
     </div>        
-              
+    </Layout>                    
   );
 }

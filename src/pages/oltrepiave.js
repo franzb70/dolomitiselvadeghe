@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Oltrepiave() {
 
@@ -773,9 +773,9 @@ export default function Oltrepiave() {
   di salita risulta essere invece per la Val dei Cantoni e forc. Compol.`
   
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <span id="1"></span>
@@ -858,5 +858,6 @@ return (
         <Gita title='Cima Preti' quota='2706m' dislivello='1320+730m' difficolta='II-/PD-' descrizione={descCimaPreti} foto={fotoCimaPreti} ></Gita>
         </div>  
     </div>                   
+    </Layout>      
   );
 }

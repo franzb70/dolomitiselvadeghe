@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Pale() {
 
@@ -173,9 +173,9 @@ export default function Pale() {
   let descBureloni = `Via normale dalla val Venegia, Mulaz, Passo delle Farangole, dove si possono evitare i tratti attrezzati percorrendo il fondo del canale.`
 
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>     
         <span id="1"></span>
@@ -194,5 +194,6 @@ return (
         <Gita title='Cima dei Bureloni' quota='3130m' dislivello='1600m' difficolta='I/EE' descrizione={descBureloni} foto={fotoBureloni} ></Gita>
         </div>  
     </div>                     
+    </Layout>      
   );
 }

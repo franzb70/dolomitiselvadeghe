@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Zoldano() {
 
@@ -436,9 +436,9 @@ export default function Zoldano() {
   nonostante la quota modesta, offre visuali entusiasmanti su gran parte delle maggiori cime dolomitiche.` 
 
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>          
         <span id="1"></span>
@@ -493,5 +493,6 @@ return (
         <Gita title='Spiz de San Piero' quota='2084m' dislivello='600m' difficolta='I/EE' descrizione={descSpizSanPiero} foto={fotoSpizSanPiero} ></Gita>
         </div>  
     </div>        
+    </Layout>      
   );
 }

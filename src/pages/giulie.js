@@ -1,6 +1,6 @@
 import React from 'react'
 import Gita from "../Components/Gita"
-import Sidebar from '../Components/Sidebar'
+import Layout from '../Components/Layout'
 
 export default function Giulie() {
 
@@ -111,9 +111,9 @@ export default function Giulie() {
   Discesa per la facile ferrata Sartor e rientro per il Rif. Calvi.`
 
 return (
+  <Layout>
   <div className='row App'>
     <div className='col-sm-2 colLeft'>
-      <Sidebar />
         </div>
         <div className='col-sm-10'>    
         <span id="1"></span>
@@ -134,5 +134,6 @@ return (
         <Gita title='Monte Peralba' quota='2694m' dislivello='870m' difficolta='I/EEA' descrizione={descPeralba} foto={fotoPeralba} ></Gita>
         </div>  
     </div>        
+    </Layout>      
   );
 }
