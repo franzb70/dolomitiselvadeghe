@@ -17,7 +17,7 @@ export default function Varie() {
   fotoGranPa.push(foto4)
   fotoGranPa.push(foto5)
   fotoGranPa.push(foto6)  
-  let descGranPa = `Dal rif. Vittorio Emanuele II si seguono le tracce che
+  let descGranPa = `Dal Rifugio Vittorio Emanuele II si seguono le tracce che
   puntano verso nord. Attraversato un vallone con massi (attenzione per la
   carenza di luce) si prende una crestina che si segue lungamente per poi
   abbandonarla quasi alla fine e scendere a destra in direzione del
@@ -30,7 +30,7 @@ export default function Varie() {
   nel complesso molto faticosa soprattutto per chi non e' abituato alla quota.`
 
   let fotoBeccoFiladonna = []
-  let foto7 = {path: 'varie/BeccoFiladonna01.jpg', desc: 'Sentiero di salita dopo il rif. Casarota'}
+  let foto7 = {path: 'varie/BeccoFiladonna01.jpg', desc: 'Sentiero di salita dopo il Rifugio Casarota'}
   let foto8 = {path: 'varie/BeccoFiladonna02.jpg', desc: 'In vista del cocuzzolo terminale'}
   let foto9 = {path: 'varie/BeccoFiladonna03.jpg', desc: 'Croce e placca di vetta'}
   let foto10 = {path: 'varie/BeccoFiladonna04.jpg', desc: 'Scheletri...'}
@@ -38,7 +38,7 @@ export default function Varie() {
   fotoBeccoFiladonna.push(foto8)
   fotoBeccoFiladonna.push(foto9)
   fotoBeccoFiladonna.push(foto10)  
-  let descBeccoFiladonna = `Partenza dal ristorante Sindech, passando per il Rif. Casarota.`
+  let descBeccoFiladonna = `Partenza dal ristorante Sindech, passando per il Rifugio Casarota.`
 
   let fotoSassBrusai = []
   let foto11 = {path: 'varie/SassBrusai_01.jpg', desc: 'Il M. Boccaor'}
@@ -47,7 +47,7 @@ export default function Varie() {
   fotoSassBrusai.push(foto12)  
   let descSassBrusai = `Abbiamo
   raggiunto la cima per la ferrata del Sass Brusai. Si arriva all'attacco dopo
-  circa 500m di dislivello per bosco anche ripido. C'e' un primo strappo quasi
+  circa 500m di dislivello per bosco anche ripido. C'è un primo strappo quasi
   verticale di circa 20m abbastanza impegnativo. Poi la ferrata e' piuttosto
   discontinua con tratti di sentiero e altri elementari, ma si incontrano pur
   tuttavia dei passaggi ancora impegnativi ma brevi. Poco prima della cima si

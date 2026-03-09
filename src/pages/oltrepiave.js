@@ -5,7 +5,7 @@ import Layout from '../Components/Layout'
 export default function Oltrepiave() {
 
   let fotoEmilia = []
-  let foto1 = {path: 'oltrepiave/CimaEmilia01.jpg', desc: 'Ghiaione di Forc. Montanaia'}
+  let foto1 = {path: 'oltrepiave/CimaEmilia01.jpg', desc: 'Ghiaione di forcella Montanaia'}
   let foto2 = {path: 'oltrepiave/CimaEmilia02.jpg', desc: 'Il Campanile'}
   let foto3 = {path: 'oltrepiave/CimaEmilia03.jpg', desc: 'Sulla normale'}
   let foto4 = {path: 'oltrepiave/CimaEmilia04.jpg', desc: 'Cima Both e il Cridola'}
@@ -13,7 +13,7 @@ export default function Oltrepiave() {
   fotoEmilia.push(foto2)
   fotoEmilia.push(foto3)
   fotoEmilia.push(foto4)  
-  let descEmilia = `Dal rif. Padova a forcella Montanaia (1050m dislivello). Si scende tenendo
+  let descEmilia = `Dal Rifugio Padova a forcella Montanaia (1050m dislivello). Si scende tenendo
   la destra, tracce alla base di Cima Both, fino alla forcella del campanile.
   Qui si prende la cresta nord superando con facili passaggi di
   arrampicata dei saliscendi (passaggi I, esposto in un caso). Percorsa una
@@ -110,7 +110,7 @@ export default function Oltrepiave() {
   fotoSpallaDuranno.push(foto34)
   fotoSpallaDuranno.push(foto35)  
   let descSpallaDuranno = `Per il sentiero attrezzato Zandonella in Val Zemola. Giro dallo sviluppo notevole ma che offre la possibilità
-  di sosta al Rif. Pordenone. I tratti attgrezzati sono quasi elementari, pertanto da valutare se portarsi dietro l'attrezzatura da ferrata.`
+  di sosta al Rifugio Pordenone. I tratti attgrezzati sono quasi elementari, pertanto da valutare se portarsi dietro l'attrezzatura da ferrata.`
 
   let fotoPostegae = []
   let foto36 = {path: 'oltrepiave/Postegae_01.jpg', desc: 'Cima Cadin'}
@@ -122,7 +122,7 @@ export default function Oltrepiave() {
   fotoPostegae.push(foto38)
   fotoPostegae.push(foto39)  
   let descPostegae = `Dal parcheggio 
-	in Val Cimoliana sotto il Rif. Pordenone si prosegue per il facile sentiero 
+	in Val Cimoliana sotto il Rifugio Pordenone si prosegue per il facile sentiero 
 	diretto al Passo Pramaggiore. Giunti sull'ampia insellatura erbosa si 
 	prosegue a destra per comoda cresta ed in breve si risale l'appicco 
 	terminale, più ripido, della panoramica Cima Cadin. La traversata prosegue 
@@ -195,10 +195,10 @@ export default function Oltrepiave() {
   fotoMonfalconDM.push(foto55)
   fotoMonfalconDM.push(foto56)  
   let descMonfalconDM = `Salita remunerativa ma che 
-  richiede impegno fisico e determinazione. Dal rif. Pordenone si prende 
-  il sentiero che conduce alla forc. del Leone, prima nel bosco in 
+  richiede impegno fisico e determinazione. Dal Rifugio Pordenone si prende 
+  il sentiero che conduce alla forcella del Leone, prima nel bosco in 
   falsopiano, poi più faticosamente su ghiaione. Quando il 
-  sentiero migliora e si accosta al torrentino, prima del bivio per forc. 
+  sentiero migliora e si accosta al torrentino, prima del bivio per forcella 
   Cimoliana, conviene risalire direttamente il conoide detritico a 
   sinistra del sentiero, costeggiando i mughi che lo delimitano a destra. 
   Guadagnando velocemente quota si aggira un grande masso bianco verso 
@@ -225,7 +225,7 @@ export default function Oltrepiave() {
   est, inizialmente da non sottovalutare per esposizione, poi molto 
   comoda. Questa parte alta della normale è più facile con solo alcuni 
   tratti di I. Un po' più complicato invece l'orientamento. La salita si 
-  conclude uscendo in versante ovest in vista del rif. Padova. Qui si 
+  conclude uscendo in versante ovest in vista del Rifugio Padova. Qui si 
   supera un 5m di cengia alquanto esposta per poi infilare il canale 
   finale che si mantiene su difficoltà di I+, II-, però su roccia 
   malsicura ed in discreta esposizione. Scarse le possibilità di 
@@ -247,7 +247,7 @@ export default function Oltrepiave() {
   let descPussa = `Salita in ambiente isolato, con difficoltà ed esposizione limitate, affrontabile in assetto escursionistico.`
 
   let fotoPostegaeSud = []
-  let foto62 = {path: 'oltrepiave/postegaeSud03.jpg', desc: 'Risalita tra sfaciumi a Forc. Sciol de Mont'}
+  let foto62 = {path: 'oltrepiave/postegaeSud03.jpg', desc: 'Risalita tra sfaciumi a forcella Sciol de Mont'}
   let foto63 = {path: 'oltrepiave/postegaeSud00.jpg', desc: 'Si punta il canalone di attacco'}
   let foto64 = {path: 'oltrepiave/postegaeSud01.jpg', desc: 'Risalita del canalone molto franoso'}
   let foto65 = {path: 'oltrepiave/postegaeSud02.jpg', desc: 'Passaggio poco sotto la vetta'}
@@ -312,14 +312,14 @@ export default function Oltrepiave() {
   let foto76 = {path: 'oltrepiave/brica02.jpg', desc: ' Cima Brica'}
   fotoBrica.push(foto75)
   fotoBrica.push(foto76)  
-  let descBrica = `Dal parcheggio sotto il rif. Pordenone (quota 1160) si prosegue in
+  let descBrica = `Dal parcheggio sotto il Rifugio Pordenone (quota 1160) si prosegue in
   piano per quasi 1h lungo la val Meluzzo (dir. Nord). Quindi si sale a destra
   (indicazioni Cason di Brica) che si raggiunge dopo 500m dislivello. Da qui
   il percorso si fa parecchio selvaggio. Occorre salire per un centinaio di
   metri dietro il cason tra mughi fitti praticamente senza traccia. Pervenuti
   in un ampia e suggestiva conca alla fine di val Brica ci si tiene sulla
   destra e si inizia a risalire ancora senza traccia su terreno ripido, fino
-  ad imboccare il canale che porta a f.lla Brica. Percorso ripido, faticoso e
+  ad imboccare il canale che porta a forcella Brica. Percorso ripido, faticoso e
   delicato soprattutto per le pericolose scariche di sassi che si possono
   creare. Dalla forcella si vede la cima sulla destra (ovest). Si punta
   l'insellatura erbosa alla base del castello finale. Da qui si prende una
@@ -338,7 +338,7 @@ export default function Oltrepiave() {
   fotoCentenere.push(foto78)
   fotoCentenere.push(foto79)
   fotoCentenere.push(foto80)
-  let descCentenere = `Dal Rif. Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
+  let descCentenere = `Dal Rifugio Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
   Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
   Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
   più a sud. Occorre scendere con cautela fino al sentiero che porta a casera Lodina (2m I+ forse evitabili) per poi rimontare 
@@ -420,7 +420,7 @@ export default function Oltrepiave() {
   fotoBocciardata.push(foto97)
   fotoBocciardata.push(foto98)
   let descBocciardata = `Uscita lavorativa in 
-  ottima compagnia. Divertente la paretina che porta a f.lla dei 
+  ottima compagnia. Divertente la paretina che porta a forcella dei 
   Cacciatori, buon I/I+ continuo, più ripido nella zona basale sopra il 
   nevaio.`
 
@@ -438,7 +438,7 @@ export default function Oltrepiave() {
   fotoCimaSpe.push(foto103)
   fotoCimaSpe.push(foto104)
   let descCimaSpe = `Sentiero A. 
-	Marini dal parcheggio del Rif. Pordenone. Il sentiero presenta alcuni brevi 
+	Marini dal parcheggio del Rifugio Pordenone. Il sentiero presenta alcuni brevi 
 	passaggi in cengia un po' esposti, ma il tratto più scabroso è in 
 	corrispondenza dei canali franati di sabbia cementata che scendono dai 
 	Cadini, nella parte finale del percorso già prossimi al biv. Gervasutti. Da 
@@ -453,8 +453,8 @@ export default function Oltrepiave() {
   let foto106 = {path: 'oltrepiave/cimaStalla-02.JPG', desc: 'Mughi'}
   fotoCimaStalla.push(foto105)
   fotoCimaStalla.push(foto106)
-  let descCimaStalla = `Dal rif. Pordenone si prende 
-  il sentiero che conduce alla forc. del Leone e lo si abbandona quando si 
+  let descCimaStalla = `Dal Rifugio Pordenone si prende 
+  il sentiero che conduce alla forcella del Leone e lo si abbandona quando si 
   apre a destra il canale di forcella Stalla. La risalita del canalone è 
   alquanto selvaggia e pericolosa per le scariche di sassi, più evitabili 
   costeggiando il versante sinistro. Giunti alla forcella occorre 
@@ -483,10 +483,10 @@ export default function Oltrepiave() {
   fotoForni.push(foto107)
   fotoForni.push(foto108)
   fotoForni.push(foto109)
-  let descForni = `Dal rif. Pordenone si perviene a Forcella Cimoliana seguendo
+  let descForni = `Dal Rifugio Pordenone si perviene a Forcella Cimoliana seguendo
   il sentiero per il biv. Marchi-Granzotto. Da qui a sinistra verso il
   Monfalcon di Cimoliana si sale un 50 m, per poi ridiscendere e puntare la
-  forc. del Leone. Quindi si scende verso nord-ovest in versante d'Arade,
+  forcella del Leone. Quindi si scende verso nord-ovest in versante d'Arade,
   seguendo le tracce che costeggiano la parete del Monfalcon di Forni. Si
   imbocca l'evidente canale verso destra e da qui, saliti per un 70 m (1
   passaggio II-) due possibilita': 
@@ -505,7 +505,7 @@ export default function Oltrepiave() {
   dove si chiude e si deve arrampicare una fessura per 3m di III-. In
   alternativa si puo' scalare direttamente la crestina con un 4/5m iniziali di
   II abbondante e poi comunque sbucare in vetta. Nel ritorno, prima della
-  forc. del Leone abbiamo tagliato in quota per i ghiaioni in direzione di
+  forcella del Leone abbiamo tagliato in quota per i ghiaioni in direzione di
   forcella Montanaia, per poi risalire la forcella Ferrucci tra Punta Koegel e Cima
   d'Arade (solo qualche traccia, molto faticoso, 150m di salita con qualche
   metro di I+ nel finale) per infine ridiscendere in Val Cimoliana.`
@@ -549,10 +549,10 @@ export default function Oltrepiave() {
   let foto118 = {path: 'oltrepiave/ferrara02.jpg', desc: 'Il Turlon'}
   fotoFerrara.push(foto117)
   fotoFerrara.push(foto118)
-  let descFerrara = `Dalla forcella che precede f.lla Savalons si prende a sinistra, 
+  let descFerrara = `Dalla forcella che precede forcella Savalons si prende a sinistra, 
   indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'anti-cima sud. 
   Ancora pochi minuti per la cima principale. Per abbreviare il ritorno si può proseguire sccendendo verso la cresta nord 
-  in direzione della fisibile f.lla S'ciol de Mont. Dopo alcune decine di metri si abbandona la linea di cresta e 
+  in direzione della fisibile forcella S'ciol de Mont. Dopo alcune decine di metri si abbandona la linea di cresta e 
   ci si districa tra mughi anche fitti indovinando i passaggi pi� convenienti. Talora si incrocia qualche confortante ometto, 
   benchè la forcella di destinazione resti quasi sempre visibile il che riduce i patemi di sbagliare completamente percorso. 
   Guadagnata la forcella si torna a pian di Meluzzo discendendo il dissestato vallone, parzialmente invaso da nevaio, 
@@ -565,7 +565,7 @@ export default function Oltrepiave() {
   fotoPorgeit.push(foto120)
   let descPorgeit = `Da casera Galvana si va alla forcella (5 min) e si prende a destra risalendo
   il cono terminale per ripida loppa. Al ritorno, 50m sotto la forcella ho
-  preso il sentiero che in costa, con ripetuti sali-scendi anche consistenti, porta al rif.
+  preso il sentiero che in costa, con ripetuti sali-scendi anche consistenti, porta al Rifugio
   Maniago (1720 m).`
 
   let fotoZerten = []
@@ -598,8 +598,8 @@ export default function Oltrepiave() {
   fotoUrtisielEst.push(foto127)
   fotoUrtisielEst.push(foto128)
   let descUrtisielEst = `Dal parcheggio 
-	del rif. Pordenone in Val Montanaia si segue in piano verso Casera Valmenon. 
-	Quindi, sempre per sentiero CAI (361) si giunge in prossimità di f.lla 
+	del Rifugio Pordenone in Val Montanaia si segue in piano verso Casera Valmenon. 
+	Quindi, sempre per sentiero CAI (361) si giunge in prossimità di forcella 
 	Urtisiel. Abbandonare il sentiero circa 50m sotto la forcella e salire a 
 	destra per una banca di zolle contornata da mughi. Si punta verso destra una 
 	insellatura che, valicata, conduce brevemente alla rampa finale senza 
@@ -697,7 +697,7 @@ export default function Oltrepiave() {
   fotoSent50esimo.push(foto147)
   fotoSent50esimo.push(foto148)
   fotoSent50esimo.push(foto149)
-  let descSent50esimo = `Dal Rif. Padova si sale fin quasi alla Tacca del Cridola per ghiaione ripido. Poco prima della forcella si 
+  let descSent50esimo = `Dal Rifugio Padova si sale fin quasi alla Tacca del Cridola per ghiaione ripido. Poco prima della forcella si 
   volge a sinistra per imboccare la cengia che costituisce Il Sentiero del Cinquantesimo. Il tratto chiave si incontra presto, 
   dovendo scalare in discesa un 8m sul II-. Abbiamo pi tentato di salire all'Ago del Cridola, con rarissimi ometti di traccia,
   passaggi di I e I+, fino alla base della torretta finale, dove l'esposizione estrema e la roccia in pessimo stato ha consigliato
@@ -712,12 +712,12 @@ export default function Oltrepiave() {
   fotoMontanel.push(foto151)
   fotoMontanel.push(foto152)
   fotoMontanel.push(foto153)
-  let descMontanel = `Dal Rif. Cercenà si prende per il Biv. Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
+  let descMontanel = `Dal Rifugio Cercenà si prende per il Biv. Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
   Risalito lo spallone puntando a sinistra si raggiungono i ripidi prati che danno sulla val del Piave, e al termine degli stessi si volge a destra per cengia
   facile fino alla frastagliata serie di torrette finali, da scalare con qualche passo di I e I+.` 
 
   let fotoVedorcia = []
-  let foto154 = {path: 'oltrepiave/Vedorcia01.jpg', desc: 'Salto di II al termine del canalone di accesso a f.lla Vedorcia'}
+  let foto154 = {path: 'oltrepiave/Vedorcia01.jpg', desc: 'Salto di II al termine del canalone di accesso a forcella Vedorcia'}
   let foto155 = {path: 'oltrepiave/Vedorcia02.jpg', desc: 'Sulla paretina di II+ alla fine della cengia'}
   let foto156 = {path: 'oltrepiave/Vedorcia03.jpg', desc: 'La cengia col masso da superare in aderenza'}
   let foto157 = {path: 'oltrepiave/Vedorcia04.jpg', desc: 'Il camino di III'}
@@ -733,7 +733,7 @@ export default function Oltrepiave() {
   fotoVedorcia.push(foto159)
   fotoVedorcia.push(foto160)
   fotoVedorcia.push(foto161)
-  let descVedorcia = `Dal Rif. Padova al Rif. Tita Barba, dove abbiamo pernottato.
+  let descVedorcia = `Dal Rifugio Padova al Rifugio Tita Barba, dove abbiamo pernottato.
   La prima difficoltà si trova nel rimontare la paretina prima di forcella Vedorcia, II delicato, 5m.
   La cengia poi è facile, se si esclude il passaggio su un masso inclinato dove ci siamo assicurati. 
   All'uscita della cengia si deve iniziare a scalare su balze fino a una paretina di II/II+, per poi muoversi verso la cuspide finale
@@ -749,7 +749,7 @@ export default function Oltrepiave() {
   fotoCollalto.push(foto165)
   fotoCollalto.push(foto163)
   fotoCollalto.push(foto164)
-  let descCollalto = `Dal Rif. Padova si prende il sentiero per Forc. Segnata e lo si abbandona a metà del grande catino ai piedi degli Spalti.
+  let descCollalto = `Dal Rifugio Padova si prende il sentiero per forcella Segnata e lo si abbandona a metà del grande catino ai piedi degli Spalti.
   Da lì abbiamo attraversato un nevaio per approcciare la ripida forcella Alta di Collalto (tracce). SI prosegue aggirando Torrioni e anche a difficoltà tra i mughi fino
   alla massima elevazione, che offre un ripagante panorama sulle più note cime d'attorno.`
  
@@ -770,7 +770,7 @@ export default function Oltrepiave() {
   Il passaggio chiave è proprio all'imbocco del canale, non tanto per le difficoltà, 10m di II- solido, quanto per l'esposizione notevole
   che consiglia l'uso della corda, sia salendo che al ritorno. Il canale poi comporta un 150m di divertente arrampicata sul I+ continuo, ma ben
   incassati tra le pareti. Sbucati nel Cadin Alto si raggiunge in breve la cima senza più difficoltà. Da considerare che la via più semplice
-  di salita risulta essere invece per la Val dei Cantoni e forc. Compol.`
+  di salita risulta essere invece per la Val dei Cantoni e forcella Compol.`
   
 return (
   <Layout>

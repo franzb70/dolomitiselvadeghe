@@ -25,7 +25,7 @@ export default function Alpago() {
     fotoColNudo.push(foto5)
     let descColNudo = `Percorso faticoso ed elementare sino all'anticima. Dopo bisogna 
     percorrere un centinaio di metri in cresta (roccia martoriata dai 
-    fulmini). C'e' un passaggio di 3m da fare in arrampicata scendendo in 
+    fulmini). C'è un passaggio di 3m da fare in arrampicata scendendo in 
     una fessura (I+) e dopo la cresta presenta tratti aerei con in 
     particolare un passaggio alquanto esposto (sconsigliabile a chi soffre 
     di vertigini).`
@@ -36,7 +36,7 @@ export default function Alpago() {
     fotoColombera.push(foto6)
     fotoColombera.push(foto7)
     let descColombera = `Percorso elementare, Tentativo di cresta nord verso il Cimon di Palantina.
-    Tornato indietro a metà perchè troppo esposta da farsi in solitaria.`
+    Tornato indietro a metà perché troppo esposta da farsi in solitaria.`
 
     let fotoSestier = []
     let foto8 = {path: 'alpago/Sestier_2012-a.jpg', desc: 'Discesa dal Sestier'}
@@ -50,7 +50,7 @@ export default function Alpago() {
 
     let descSestier = `Da Malga Cate si percorre 
     tutta la lunga Val Salatis, puntando la testata a destra del Monte 
-    Sestier. Si abbandona quindi il sentiero che conduce al Rif. Semenza e, 
+    Sestier. Si abbandona quindi il sentiero che conduce al Rifugio Semenza e, 
     attraversando anche un po' di mughi, si perviene 
     in cresta incrociando l'Alta via Nr 7. Si prosegue in direzione nord 
     ovest, abbassandosi ove la cresta non risulta percorribile. Si raggiunge 
@@ -74,7 +74,7 @@ export default function Alpago() {
     nord di Messer e Antander. Dall'alta via N.6 ci si stacca in 
     corrispondenza di un canale erboso che appare facilmente percorribile. 
     Si perviene in cima dopo circa 250md con nessuna difficolta', prestando 
-    pero' attenzione alle loppe ripide pensili sopra i saltini rocciosi 
+    però attenzione alle loppe ripide pensili sopra i saltini rocciosi 
     appena aggirati.`
 
     let fotoCresteColNudo = []

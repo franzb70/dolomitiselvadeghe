@@ -36,7 +36,7 @@ export default function Bellunesi() {
     foto3Pietre.push(foto7)
     foto3Pietre.push(foto8)
   
-    let desc3Pietre = `Partiti dalle Marianne si sale verso il Palmar, lasciandolo pero' a sinistra per poi
+    let desc3Pietre = `Partiti dalle Marianne si sale verso il Palmar, lasciandolo però a sinistra per poi
     risalire in van erboso ripido che porta alla cresta del Cimone. Si giunge in
     cima senza difficolta' ma su pendenze rispettabili (1330 dislivello fin qui,
     2h e mezza). Poi in direzione del Tre Pietre per cresta senza difficolta'. Occorre perdere
@@ -238,8 +238,8 @@ export default function Bellunesi() {
     fotoTalvena.push(foto41)
   
     let descTalvena = `Avvicinamento 
-    lungo dalla Val Pramper per la Costa del Barancion, forc. de Zita' Sud, 
-    forc. degli Erbandoi. La cresta e' facile (forse qualche passo di I-) 
+    lungo dalla Val Pramper per la Costa del Barancion, forcella de Zita' Sud, 
+    forcella degli Erbandoi. La cresta e' facile (forse qualche passo di I-) 
     ma un po' malsicura per le roccette instabili. Panorama grandioso.`
 
     let fotoTanzon = []

@@ -12,7 +12,7 @@ export default function Fassa() {
   let foto5 = {path: 'fassa/TorreNordVajolet_05.jpg', desc: 'Croda di Re Laurino'}
   let foto6 = {path: 'fassa/TorreNordVajolet_06.jpg', desc: 'Passaggio sulla normale'}
   let foto7 = {path: 'fassa/TorreNordVajolet_07.jpg', desc: 'Sotto il masso incastrato'}
-  let foto8 = {path: 'fassa/TorreNordVajolet_08.jpg', desc: 'Cengia da Forc. Nord'}
+  let foto8 = {path: 'fassa/TorreNordVajolet_08.jpg', desc: 'Cengia da forcella Nord'}
   let foto9 = {path: 'fassa/TorreNordVajolet_09.jpg', desc: 'Verso sud dalla cima'}
   let foto10 = {path: 'fassa/TorreNordVajolet_10.jpg', desc: 'Catinaccio d\'Antermoia'}
   fotoTooreNord.push(foto1)
@@ -25,7 +25,7 @@ export default function Fassa() {
   fotoTooreNord.push(foto8)
   fotoTooreNord.push(foto9)
   fotoTooreNord.push(foto10)
-  let descTooreNord = `Dal rif. Vajolet si prosegue verso il Passo Principe (nord) fino in corrispondenza del ghiaione che scende
+  let descTooreNord = `Dal Rifugio Vajolet si prosegue verso il Passo Principe (nord) fino in corrispondenza del ghiaione che scende
   da sinsitra (est) dal Passo del Vajolet. Lo si risale quasi tutto per prendere la cengia che si genera a sinistra. Si percorre abbastanza lungamente
   la facile cengia sino all'evidente canalone che separa la Torre Nord dalla Torre Est (ometto). Qui si inizia a scalare seguendo gli ometti
   sempre sul I/I+ continuo ma solido. Il tratto chiave è un muretto di circa 5/6m di II a metà del canale e poi il superamento
@@ -138,7 +138,7 @@ export default function Fassa() {
   fotoRodaDiaol.push(foto31)
   fotoRodaDiaol.push(foto33)
   fotoRodaDiaol.push(foto32)
-  let descRodaDiaol = `Dal rif. Roda di Vael si seguono le indicazioni per la ferrata che si superà con modeste difficoltà. 
+  let descRodaDiaol = `Dal Rifugio Roda di Vael si seguono le indicazioni per la ferrata che si superà con modeste difficoltà. 
   In vista della Torre finestra si piega a nord puntando la forcella a destra. 
   Da lì si risale la cresta est della Roda con qualche passaggio massimo di I+ senza esposizione.`
 

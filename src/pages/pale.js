@@ -81,7 +81,7 @@ export default function Pale() {
   fotoAgner.push(foto12)
   fotoAgner.push(foto31)
   fotoAgner.push(foto38)
-  let descAgner = `Dal Rif. Scarpa saliti per la normale originaria (nè canalone, nè ferrata), con tratti di I sulle placche
+  let descAgner = `Dal Rifugio Scarpa saliti per la normale originaria (nè canalone, nè ferrata), con tratti di I sulle placche
   prima del Biv. Biasin. Il secondo giorno, all'epoca di fine anni '90 c'era un solo breve tratto di corda metallica esposta.
   Poi la via si svolge sul versante ovest con tratti di I e una paretina di II- dopo una fessura da superare con passo deciso.`
 

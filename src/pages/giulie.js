@@ -80,7 +80,7 @@ export default function Giulie() {
   fotoTerzaPiccola.push(foto17)
   let descTerzaPiccola = `Via normale 
 	per il canalone est da Lerpa. Dopo lungo percorso su strada sterrata nel 
-	bosco si percorre l'ampio cadin che conduce a Forc. Terza Piccola. La via 
+	bosco si percorre l'ampio cadin che conduce a forcella Terza Piccola. La via 
 	inizia aggirando a destra un caratteristico dente roccioso per poi infilarsi 
 	in un canale detritico che va risalito per un centinaio di metri, solo un 
 	passaggio di I in una strozzatura a metà. Si perviene quindi al masso 
@@ -107,8 +107,8 @@ export default function Giulie() {
   fotoPeralba.push(foto20)
   fotoPeralba.push(foto21)
   fotoPeralba.push(foto22)
-  let descPeralba = `Dal Rif. Sorgenti del Piave, salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. 
-  Discesa per la facile ferrata Sartor e rientro per il Rif. Calvi.`
+  let descPeralba = `Dal Rifugio Sorgenti del Piave, salita la via normale per lo spallone ovest che presenta frequenti tratti di I, mai esposti. 
+  Discesa per la facile ferrata Sartor e rientro per il Rifugio Calvi.`
 
 return (
   <Layout>

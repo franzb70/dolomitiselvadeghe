@@ -42,8 +42,8 @@ export default function Zoldano() {
   fotoPramperet.push(foto10)
   fotoPramperet.push(foto11)
   fotoPramperet.push(foto12)  
-  let descPramperet = `Dal Rif. Sommariva al Pramperet si segue il sent. 521 diretto a casera di Cornia. 
-  Da Forc. piccola puntare decisamente a sinistra per tracce e tra mughi, e risalire faticosamente il
+  let descPramperet = `Dal Rifugio Sommariva al Pramperet si segue il sent. 521 diretto a casera di Cornia. 
+  Da forcella piccola puntare decisamente a sinistra per tracce e tra mughi, e risalire faticosamente il
   ghiaione che si chiude alla forcella tra Pramper e Pramperet. Aggirato un torrione per cengia verso sud,
   si perviene all'attacco della via, spostandosi a destra di una paretina ed aggirandola per cengia esile
   ed espostissima (II, passaggio chiave). Si prosegue poi in salita tra massi e canalini fino all'ultima forcelletta
@@ -51,7 +51,7 @@ export default function Zoldano() {
   utilizzo di corda per sicura (massimo I+).`
 
   let fotoToanella = []
-  let foto13 = {path: 'zoldano/toanella01.jpg', desc: 'Sul ripido verso forc. Toanella'}
+  let foto13 = {path: 'zoldano/toanella01.jpg', desc: 'Sul ripido verso forcella Toanella'}
   let foto14 = {path: 'zoldano/toanella02.jpg', desc: 'Il canale da affrontare'}
   let foto15 = {path: 'zoldano/toanella03.jpg', desc: 'Gendarmi lungo la via di salita'}
   let foto16 = {path: 'zoldano/toanella04.jpg', desc: 'Verso gli Sfornioi'}
@@ -65,7 +65,7 @@ export default function Zoldano() {
   Biv. Toanella, costeggiando le pareti ed ignorando un primo canale che sale
   alla cima. Si sceglie invece il secondo, prima largo e ghiaioso, poi per
   massi fino a che si stringe in un primo salto di 3m II-. La salita e' sempre
-  avvincente con tratti discontinui di I e I+ sempre pero' chiusi nel canale.
+  avvincente con tratti discontinui di I e I+ sempre però chiusi nel canale.
   Ad una diramazione si segue per il ramo di sinistra, ometto alla base.
   Guadagnando quota, con difficolta' paragonabili, la roccia si fa
   moderatamente piu' friabile. Usciti su un'aerea forcelletta si prosegue per
@@ -99,7 +99,7 @@ export default function Zoldano() {
   intaglio di forcella (alternativamente salire direttamente a destra per
   gradoni pochi metri prima della forcella (I+). La cima e' in vista sulla
   destra e la si raggiunge facilmente senza percorso obbligato, magari usando le mani su qualche placca appoggiata.
-  Salita nel complesso abbordabile anche perche' breve, ma in ambiente
+  Salita nel complesso abbordabile anche perché' breve, ma in ambiente
   abbastanza vergine una volta lasciato il sentiero che del biv. Carnielli. Bella
   visione d'infilata verso le cime che a sud-est vanno verso il Pramper e
   ottimo balcone panoramico per le pareti degli Spiz.`
@@ -123,7 +123,7 @@ export default function Zoldano() {
   fotoGardesana.push(foto26)
   fotoGardesana.push(foto27)  
   let descGardesana = `Da Pian de Caleda, dopo lungo avvicinamento in 
-  falsopiano si risale la ripida f.lla Larga. Quindi ci gira il massiccio 
+  falsopiano si risale la ripida forcella Larga. Quindi ci gira il massiccio 
   della Gardesana verso est (val Pramper) fino a giungere alla cresta. Da 
   qui si prosegue per cenge e pendii detritici sul versante nord-est (1 
   passaggio esposto, anche evitabile). Si perviene quindi sotto una 
@@ -137,7 +137,7 @@ export default function Zoldano() {
   arrampicando su roccia abbastanza buona (alcuni passaggi II-). La cima 
   e' estremamente panoramica e la salita e' nel complesso abbastanza 
   vergine e solitaria. Tornando siamo saliti sino a F.lla Forzelete, e 
-  c'e' chi ha fatto anche questa cima (65m dislivello dalla forcella)..`
+  c'è chi ha fatto anche questa cima (65m dislivello dalla forcella)..`
 
   let fotoSpiz = []
   let foto28 = {path: 'zoldano/Spiz01.jpg', desc: 'Spiz di Mezzo da Spiz Sud'}
@@ -178,7 +178,7 @@ export default function Zoldano() {
   fotoSpigolDelPalon.push(foto34)
   fotoSpigolDelPalon.push(foto35)
   fotoSpigolDelPalon.push(foto36)  
-  let descSpigolDelPalon = `Il rif. Pramperet è il punto di partenza ideale. Si segue il 521 abbassandosi 
+  let descSpigolDelPalon = `Il Rifugio Pramperet è il punto di partenza ideale. Si segue il 521 abbassandosi 
   non poco in val Costa dei Nass, per poi risalire a forcella Piccola che 
   offre una splendida apertura sulla conca di Cornia. In vista della cima 
   si segue una traccia tra i mughi che consente di stare in quota sino ad 
@@ -239,11 +239,11 @@ export default function Zoldano() {
   Antelao a nord-est con bei scorci sui vicini Tamer piccolo e grande.`
 
   let fotoPramper = []
-  let foto47 = {path: 'zoldano/pramper01.jpg', desc: 'Verso Forc. Palon'}
+  let foto47 = {path: 'zoldano/pramper01.jpg', desc: 'Verso forcella Palon'}
   let foto48 = {path: 'zoldano/pramper02.jpg', desc: 'La cresta, a scendere'}
   fotoPramper.push(foto47)
   fotoPramper.push(foto48)  
-  let descPramper = `Dal Rif. Pramperet si prende il sentiero 521 sino a Forcella Piccola. Da qui
+  let descPramper = `Dal Rifugio Pramperet si prende il sentiero 521 sino a Forcella Piccola. Da qui
   si scende per pochi metri e si segue subito una evidente traccia verso
   sinistra che, attraverso mughi prima e poi su bancate misto erbose, ci porta
   in direzione della forcella del Palon. Poche decine di metri prima della
@@ -288,7 +288,7 @@ export default function Zoldano() {
   fotoCrestaSanSebastiano.push(foto56)
   fotoCrestaSanSebastiano.push(foto57)  
   let descCrestaSanSebastiano = `Il percorso si stacca dal 
-  sentiero che porta alla forc. di San Sebastiano all'altezza di un ampio 
+  sentiero che porta alla forcella di San Sebastiano all'altezza di un ampio 
   canalone ghiaioso che appare subito evidente sulla destra. Si risale 
   tutto il canale scegliendo il percorso a piacimento con eventuali 
   passaggi di I evitabili. Dalla forcella per raggiungere la quota 
@@ -357,12 +357,12 @@ export default function Zoldano() {
   fotoFonch.push(foto68)  
   let descFonch = `Da passo Cibiana per forcella Ciavazole e poi seguendo la normale allo
   Sfornioi Nord si arriva all'attacco del Viaz. Si scende per decine di metri,
-  poi la cengia diventa pressochè orizzontale. Nella discesa occorre
+  poi la cengia diventa pressoché orizzontale. Nella discesa occorre
   scendere un 3m circa di II . più avanti ci sono un paio di passaggi critici, anche
   esposti con scarsa possibilità di assicurazione. Si risale poi con passaggi di I alla Forcella Dantre Sfornioi.
   Abbiamo poi proseguito in discesa per il versante Campestrin in direzione
   Forcella del Matt. Anche in questo tratto di percorso ci sono passaggi un po' delicati. La risalita a forcella del Matt 
-  è piuttosto faticosa nelcanalone rotto di massi. Discesa poi al rif. Bosconero.`
+  è piuttosto faticosa nelcanalone rotto di massi. Discesa poi al Rifugio Bosconero.`
 
   let fotoSfornioiNord = []
   let foto69 = {path: 'zoldano/sfornioiNord01.jpg', desc: 'Dalla cima dello Sfornioi Nord'}
@@ -390,7 +390,7 @@ export default function Zoldano() {
   let foto73 = {path: 'zoldano/MontAltoPelsa02.jpg', desc: 'Torre Venezia'}
   fotoMontAltoPelsa.push(foto72)
   fotoMontAltoPelsa.push(foto73)  
-  let descMontAltoPelsa = `Da Capanna Trieste a Casera di Pelsa per sentiero 555 e 560, passando per il rif. Vazzoler.
+  let descMontAltoPelsa = `Da Capanna Trieste a Casera di Pelsa per sentiero 555 e 560, passando per il Rifugio Vazzoler.
   Quindi si sale per tracce in direzione nord forzando frequentemente attraversamenti di mughi, fino a sbucare
   nelle alte e ripide zone prative e proseguendo per ante-cime fino alla sommità principale. Al rientro siamo scesi per ripidi alla Sella di Pelsa.`
 
@@ -429,7 +429,7 @@ export default function Zoldano() {
   fotoSpizSanPiero.push(foto85)
   fotoSpizSanPiero.push(foto86)
   fotoSpizSanPiero.push(foto87)  
-  let descSpizSanPiero = `Dal Passo Cibiana si segue il sentiero verso sud diretto al Rif. Bosconero, prendendo poi la deviazione a destra per casera Darè-Copada.
+  let descSpizSanPiero = `Dal Passo Cibiana si segue il sentiero verso sud diretto al Rifugio Bosconero, prendendo poi la deviazione a destra per casera Darè-Copada.
   Si inizia ad aggirare lo Spiz da sud per sentiero molto panoramico e pianeggiante fino alla Casera. Si prosegue quindi, anche in lieve discesa per un 10min
   fino ad incontrare un ometto e bollo rosso che indica la partenza della via normale sul versante ovest dello Spiz. A quel punto la salita tra i mughi è piuttosto ripida, 
   ma senza difficoltà, fino all'imbocco del canalino di vetta in versante nord. Si tratta di una decina di metri con passaggi di I mai esposti. Il panorama a 360° di vetta,

@@ -78,7 +78,7 @@ export default function Cadore() {
   restringersi e gli ultimi 100/150m sono piuttosto su terreno esile e
   stretto. Solo un paio di passaggi richiedono attenzione. Girato l'ultimo
   spigolo si perviene al salto del mago. Si devono scalare per 6m due gradoni
-  (II) e poi c'e' il passaggio chiave, 4m IV, che porta ad una cengia
+  (II) e poi c'è il passaggio chiave, 4m IV, che porta ad una cengia
   abbastanza comoda con sosta però spostata un 5m a destra rispetto al punto
   chiave. Da qui non abbiam più usato la corda e l'arrampicata risulta
   piacevole sul I continuo con un paio di passaggi di II-, uno dei quali
@@ -199,7 +199,7 @@ export default function Cadore() {
 
 
   let fotoPopena = []
-  let foto41 = {path: 'cadore/popena00.jpg', desc: 'Ruderi rif. Popena'}
+  let foto41 = {path: 'cadore/popena00.jpg', desc: 'Ruderi Rifugio Popena'}
   let foto42 = {path: 'cadore/popena01.jpg', desc: 'Nel canalone con neve perenne'}
   let foto43 = {path: 'cadore/popena02.jpg', desc: 'In parete tra le nebbie'}
   let foto44 = {path: 'cadore/popena03.jpg', desc: 'Dalla cima verso Sorapiss ed Antelao'}
@@ -212,7 +212,7 @@ export default function Cadore() {
   fotoPopena.push(foto45)
   fotoPopena.push(foto46)
   let descPopena = `Via normale lunga ed impegnativa. Consigliato materiale alpinistico, ramponi e piccozza.
-  Da Misurina si prende il sentiero che porta ai ruderi del rif. Popena. In vista della montagna si perde quota in Val popena 
+  Da Misurina si prende il sentiero che porta ai ruderi del Rifugio Popena. In vista della montagna si perde quota in Val popena 
   per affrontare il lungo ghiaione, al termine del quale si imbocca a sinistra la prima cengia della parete da percorrere
   fino in corrispondenza dell'ampio canalone innevato che divide la parete. Lo si risale in sicura e al termine si prende ancora a sinistra
   la seconda cengia che ci conduce ad un ampio anfiteatro di parete appoggiata da scalare sul I/I+ continuo.
@@ -265,11 +265,11 @@ export default function Cadore() {
 		diedro di una ventina di metri, già più detritico, comunque stando sulle 
 		scaglie del diedro si sale bene (I+). 
 		Quindi si esce in cresta che fortunatamente non e' mai esposta. Si alternano tratti meno ripidi su sfasciumi 
-		(occorre non muovere sassi per evitare finiscano in testa a quelli che risalgono la f.lla Valdarcia) o su 
+		(occorre non muovere sassi per evitare finiscano in testa a quelli che risalgono la forcella Valdarcia) o su 
 		placchette di pochi metri, appoggiate, da scalare anche in aderenza con 
 		gli scarponi. Gli ultimi metri sono 
 		su cresta molto solida. 30/40 min dalla forcella. Panorama ottimo, 
-		pochi ometti e roccia pressochè vergine.`
+		pochi ometti e roccia pressoché vergine.`
 
     let fotoPuntaNera = []
     let foto61 = {path: 'cadore/PuntaNera_01.jpg', desc: 'Attacco della breve via'}
@@ -297,7 +297,7 @@ export default function Cadore() {
     fotoSassolungoCibiana.push(foto68)
   
     let descSassolungoCibiana = `Via normale 
-    per la dorsale sud. Dl passo di Cibiana si sale a Forc. Bela per poi perdere 
+    per la dorsale sud. Dl passo di Cibiana si sale a forcella Bela per poi perdere 
     quota in versante Campestrin. Puntando una traccia sotto le pareti della 
     bastionata sud del Sassolungo si contorna il catino ghiaioso e si prosegue 
     in leggera pendenza sotto i canaloni che scendono dalla linea di cresta. 
