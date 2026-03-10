@@ -75,14 +75,14 @@ export default function Pale() {
   let fotoAgner = []
   let foto11 = {path: 'pale/agner01.jpg', desc: 'Dalla cima dell\'Agner Civetta e Moiazza'}
   let foto12 = {path: 'pale/agner02.jpg', desc: 'Dalla cima dell\'Agner, Marmolada'}
-  let foto31 = {path: 'pale/bivaccoBiasin.jpg', desc: 'Pale dal Biv. Biasin all\'alba'}
-  let foto38 = {path: 'pale/agner10.jpg', desc: 'Pale dal Biv. Biasin al tramonto'}
+  let foto31 = {path: 'pale/bivaccoBiasin.jpg', desc: 'Pale dal bivacco Biasin all\'alba'}
+  let foto38 = {path: 'pale/agner10.jpg', desc: 'Pale dal bivacco Biasin al tramonto'}
   fotoAgner.push(foto11)
   fotoAgner.push(foto12)
   fotoAgner.push(foto31)
   fotoAgner.push(foto38)
   let descAgner = `Dal Rifugio Scarpa saliti per la normale originaria (nè canalone, nè ferrata), con tratti di I sulle placche
-  prima del Biv. Biasin. Il secondo giorno, all'epoca di fine anni '90 c'era un solo breve tratto di corda metallica esposta.
+  prima del bivacco Biasin. Il secondo giorno, all'epoca di fine anni '90 c'era un solo breve tratto di corda metallica esposta.
   Poi la via si svolge sul versante ovest con tratti di I e una paretina di II- dopo una fessura da superare con passo deciso.`
 
   let fotoOrtiga = []

@@ -23,7 +23,7 @@ export default function Varie() {
   abbandonarla quasi alla fine e scendere a destra in direzione del
   ghiacciaio. Montata l'attrezzatura da ghiaccio si risale un primo costone
   piu' ripido per poi seguire lungamente la pista che porta alla base della
-  cresta rocciosa finale. La si scala senza difficolta' segnalabili su misto
+  cresta rocciosa finale. La si scala senza difficoltà segnalabili su misto
   ghiaccio roccia incrociando le probabili altre cordate. A 15 metri dalla
   vetta occorre superare un masso di cresta esposto sul ghiacciao della
   Tribolazione, operazione che sarebbe consigliabile fare in sicurezza. Salita

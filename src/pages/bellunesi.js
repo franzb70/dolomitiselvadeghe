@@ -38,8 +38,8 @@ export default function Bellunesi() {
   
     let desc3Pietre = `Partiti dalle Marianne si sale verso il Palmar, lasciandolo però a sinistra per poi
     risalire in van erboso ripido che porta alla cresta del Cimone. Si giunge in
-    cima senza difficolta' ma su pendenze rispettabili (1330 dislivello fin qui,
-    2h e mezza). Poi in direzione del Tre Pietre per cresta senza difficolta'. Occorre perdere
+    cima senza difficoltà ma su pendenze rispettabili (1330 dislivello fin qui,
+    2h e mezza). Poi in direzione del Tre Pietre per cresta senza difficoltà. Occorre perdere
     circa 100m sempre sul versante sud e poi si risale per facili canali misto
     erba-roccia. Ci si cala per 2m nel versante nord poco prima della vetta
     macchiata di mughi nei paraggi (3h e 10min). Grande visione su Pizzocco e
@@ -150,7 +150,7 @@ export default function Bellunesi() {
     scendono dalle pale dei Pinei. Occorreva scendere una rampa molto ripida 
     e friabile senza alcuna possibilita' di assicurazione e con circa 100m 
     di salto sotto. Probabilmente affrontando il giro dal lato opposto si 
-    alleviano le difficolta' (partendo dal VII Alpini). Al ritorno siamo 
+    alleviano le difficoltà (partendo dal VII Alpini). Al ritorno siamo 
     scesi direttamente per bosco in val d'Art, trovando una gola che ha 
     consentito di evitare dei salti rocciosi. Dieci ore di cammino quasi 
     ininterrotte.`
@@ -195,7 +195,7 @@ export default function Bellunesi() {
     let descPaleMola = `La salita 
 	inizia a Ponte Mariano in val d'Art a circa mezz'ora da case Bortot. 
 	Risaliamo la Pala Bernarda per bosco di faggi e conifere fino a sbucare nei 
-	paraggi del Biv. Medassa. Dal ricovero, incassato nella roccia, si 
+	paraggi del bivacco Medassa. Dal ricovero, incassato nella roccia, si 
 	stacca il sentiero che porta alla forcella Pis Pilon. Lo si segue fino ad un 
 	evidente abete rosso, ove conviene virare a sinistra su per l'invitante pala 
 	erbosa. Si mantiene la destra del declivio piuttosto ripido per poi puntare 

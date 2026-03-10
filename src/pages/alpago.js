@@ -14,7 +14,7 @@ export default function Alpago() {
     fotoAntander.push(foto3)
     fotoAntander.push(foto4)
     let descAntander = `Da Pian di Formosa si segue il sentiero 979. Prima del 
-    biv.Toffolon si prende l'ampio ghiaione sulla sinistra. Si risale fino 
+    bivaccoToffolon si prende l'ampio ghiaione sulla sinistra. Si risale fino 
     in cresta, puntando leggermente a destra della cima per ripidi pendii 
     erbosi intervallati da qualche roccetta. Poi brevemente in cima sulla 
     cresta (50m). Salita facile ma incontaminata. Qualche passaggio di I 
@@ -73,7 +73,7 @@ export default function Alpago() {
     let descVenal = `Elegante cima a 
     nord di Messer e Antander. Dall'alta via N.6 ci si stacca in 
     corrispondenza di un canale erboso che appare facilmente percorribile. 
-    Si perviene in cima dopo circa 250md con nessuna difficolta', prestando 
+    Si perviene in cima dopo circa 250md con nessuna difficoltà, prestando 
     però attenzione alle loppe ripide pensili sopra i saltini rocciosi 
     appena aggirati.`
 

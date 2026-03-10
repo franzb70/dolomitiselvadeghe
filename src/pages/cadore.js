@@ -104,7 +104,7 @@ export default function Cadore() {
   fotoCesta.push(foto29)
   fotoCesta.push(foto30)
   let descCesta = `Dal Passo Tre Croci si 
-  imbocca la carrareccia (sent. 213) che sale molto dolcemente in versante 
+  imbocca la carrareccia (sentiero 213) che sale molto dolcemente in versante 
   Faloria. Al bivio con il sentiero 216 si prende a destra in 
   direzione forcella del Ciadin, che non si raggiunge, dovendo scartare a 
   destra nell'ampio cadin che si apre tra il versante nord della Cesta e 
@@ -167,7 +167,7 @@ export default function Cadore() {
   fotoDoge.push(foto40)
 
   let descDoge = `Da Ponte degli 
-	Alberi presso Palus San Marco Si imbocca la sterrata, sentiero CAI 226, che 
+	Alberi, presso Palus San Marco, si imbocca la sterrata, sentiero CAI 226, che 
 	per oltre un chilometro e mezzo scorre pianeggiante nel bosco e si seguono 
 	ai bivii le indicazioni per il Bivacco Voltolina. Risalita una ripida 
 	faggeta con percorso a zig-zag si perde poi un po' di quota prima della 

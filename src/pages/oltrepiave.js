@@ -91,7 +91,7 @@ export default function Oltrepiave() {
   fotoCimaToro.push(foto28)
   fotoCimaToro.push(foto29)
   fotoCimaToro.push(foto30)  
-  let descCimaToro = `Stupenda Cima, la maggiore tra gli Spalti di Toro, affiancata a sud dalla sinuosa Punta Pia. Dal Biv. Perugini 
+  let descCimaToro = `Stupenda Cima, la maggiore tra gli Spalti di Toro, affiancata a sud dalla sinuosa Punta Pia. Dal bivacco Perugini 
   si prende il sentiero diretto a forcella segnata e lo si abbandona poche decine di metri prima della stessa piegando a 
   sinistra per uno scosceso canale. Superate alcune strettoie e dei saliscendi si attacca la normale sotto la cengia principale, 
   che si guadagna scalando con attenzione 10m appoggiati con detrito (I delicato). La cengia avvolge tutto il versante est e sud del monte, 
@@ -178,7 +178,7 @@ export default function Oltrepiave() {
   fotoPecoli.push(foto51)
   fotoPecoli.push(foto52)  
   let descPecoli = `Interessante salita di media difficoltà, affrontabile senza l&#39;utilizzo di materiale 
-  con la giusta dose di accortezza. Si abbandona il sentiero che porta al biv. Marchi Granzotto quando, in 
+  con la giusta dose di accortezza. Si abbandona il sentiero che porta al bivacco Marchi Granzotto quando, in 
   prossimità di due laghetti alla sinistra, si nota ben stagliata la finestra naturale che segna l'inizio della via normale. 
   Raggiunto l'arco con dura salita per ghiaione non segnato si individua subito la cengia di attacco, che merita attenzione 
   nei primi 5/10 metri. Si entra quindi in un canale franoso e si supera il passaggio chiave con un masso strapiombante, 
@@ -441,7 +441,7 @@ export default function Oltrepiave() {
 	Marini dal parcheggio del Rifugio Pordenone. Il sentiero presenta alcuni brevi 
 	passaggi in cengia un po' esposti, ma il tratto più scabroso è in 
 	corrispondenza dei canali franati di sabbia cementata che scendono dai 
-	Cadini, nella parte finale del percorso già prossimi al biv. Gervasutti. Da 
+	Cadini, nella parte finale del percorso già prossimi al bivacco Gervasutti. Da 
 	forcella Spe la salita alla cima non presenta ne problemi di orientamento, 
 	sempre in cresta fino al testone finale, ne difficoltà di rilievo. 
 	Arrivati in prossimità della cupola terminale ci si sposta a destra sul 
@@ -484,7 +484,7 @@ export default function Oltrepiave() {
   fotoForni.push(foto108)
   fotoForni.push(foto109)
   let descForni = `Dal Rifugio Pordenone si perviene a Forcella Cimoliana seguendo
-  il sentiero per il biv. Marchi-Granzotto. Da qui a sinistra verso il
+  il sentiero per il bivacco Marchi-Granzotto. Da qui a sinistra verso il
   Monfalcon di Cimoliana si sale un 50 m, per poi ridiscendere e puntare la
   forcella del Leone. Quindi si scende verso nord-ovest in versante d'Arade,
   seguendo le tracce che costeggiano la parete del Monfalcon di Forni. Si
@@ -500,7 +500,7 @@ export default function Oltrepiave() {
   variante precedente.
   Quindi si sale liberamente verso la torretta terminale
   (sentiero e I). Qui attenzione che ad una quindicina di metri dalla vetta si
-  presentano difficolta' superiori a quelle descritte in letteratura. I segni
+  presentano difficoltà superiori a quelle descritte in letteratura. I segni
   rossi portano verso sinistra ad infilare un canalino, 7m di I friablie fin
   dove si chiude e si deve arrampicare una fessura per 3m di III-. In
   alternativa si puo' scalare direttamente la crestina con un 4/5m iniziali di
@@ -712,7 +712,7 @@ export default function Oltrepiave() {
   fotoMontanel.push(foto151)
   fotoMontanel.push(foto152)
   fotoMontanel.push(foto153)
-  let descMontanel = `Dal Rifugio Cercenà si prende per il Biv. Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
+  let descMontanel = `Dal Rifugio Cercenà si prende per il bivacco Montanel, e superato questo si prosegue a nord nell'anfiteatro tra Montanel e Cima Herberg.
   Risalito lo spallone puntando a sinistra si raggiungono i ripidi prati che danno sulla val del Piave, e al termine degli stessi si volge a destra per cengia
   facile fino alla frastagliata serie di torrette finali, da scalare con qualche passo di I e I+.` 
 
@@ -764,7 +764,7 @@ export default function Oltrepiave() {
   fotoCimaPreti.push(foto168)
   fotoCimaPreti.push(foto169)
   fotoCimaPreti.push(foto170)
-  let descCimaPreti = `Salita per la via considerata come normale classica dalla Val Compol, Costa dei Tass e Biv. Greselin, dove si pernotta.
+  let descCimaPreti = `Salita per la via considerata come normale classica dalla Val Compol, Costa dei Tass e bivacco Greselin, dove si pernotta.
   Si risale il pendio erboso alle spalle del bivacco, puntando un canalone, verso sinistra che intaglia la bastionata che protegge il Cadin Basso.
   Un volta raggiunto lo si aggira lungamente in senso orario per accedere all'evidente canale di salita (ignorare bolli rossi presenti prima).
   Il passaggio chiave è proprio all'imbocco del canale, non tanto per le difficoltà, 10m di II- solido, quanto per l'esposizione notevole

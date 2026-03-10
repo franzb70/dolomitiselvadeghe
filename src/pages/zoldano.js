@@ -42,7 +42,7 @@ export default function Zoldano() {
   fotoPramperet.push(foto10)
   fotoPramperet.push(foto11)
   fotoPramperet.push(foto12)  
-  let descPramperet = `Dal Rifugio Sommariva al Pramperet si segue il sent. 521 diretto a casera di Cornia. 
+  let descPramperet = `Dal Rifugio Sommariva al Pramperet si segue il sentiero 521 diretto a casera di Cornia. 
   Da forcella piccola puntare decisamente a sinistra per tracce e tra mughi, e risalire faticosamente il
   ghiaione che si chiude alla forcella tra Pramper e Pramperet. Aggirato un torrione per cengia verso sud,
   si perviene all'attacco della via, spostandosi a destra di una paretina ed aggirandola per cengia esile
@@ -62,12 +62,12 @@ export default function Zoldano() {
   let descToanella = `Escursione fantastica. Da Pontesei si punta al il rifugio Bosconero e oltrepassatolo si
   procede alla forcella della Toanella (m 2100 circa, 1300 dislivello). Da qui
   si scende verso destra, abbandonando subito il sentiero che porterebbe al
-  Biv. Toanella, costeggiando le pareti ed ignorando un primo canale che sale
+  bivacco Toanella, costeggiando le pareti ed ignorando un primo canale che sale
   alla cima. Si sceglie invece il secondo, prima largo e ghiaioso, poi per
   massi fino a che si stringe in un primo salto di 3m II-. La salita e' sempre
   avvincente con tratti discontinui di I e I+ sempre però chiusi nel canale.
   Ad una diramazione si segue per il ramo di sinistra, ometto alla base.
-  Guadagnando quota, con difficolta' paragonabili, la roccia si fa
+  Guadagnando quota, con difficoltà paragonabili, la roccia si fa
   moderatamente piu' friabile. Usciti su un'aerea forcelletta si prosegue per
   una cengia di una cinquantina di metri, stretta ed abbastanza esposta, in
   vista della cima. Qui il percorso si fa articolato per cenge ed occorre
@@ -79,7 +79,7 @@ export default function Zoldano() {
   let fotoDenteFopa = []
   let foto17 = {path: 'zoldano/denteFopa01.jpg', desc: 'Il Moschesin'}
   let foto18 = {path: 'zoldano/denteFopa02.jpg', desc: 'Il Dente'}
-  let foto19 = {path: 'zoldano/denteFopa03.jpg', desc: 'Biv. Carnielli'}
+  let foto19 = {path: 'zoldano/denteFopa03.jpg', desc: 'bivacco Carnielli'}
   let foto20 = {path: 'zoldano/denteFopa04.jpg', desc: 'Nel canale'}
   fotoDenteFopa.push(foto17)
   fotoDenteFopa.push(foto18)
@@ -87,27 +87,27 @@ export default function Zoldano() {
   fotoDenteFopa.push(foto20)  
   let descDenteFopa = `Si
   lascia l'auto in val Pramper al parcheggio a 1200m e si prende il ripido
-  sentiero che va al biv. Carnielli. La nostra cima e' ben visibile col suo
+  sentiero che va al bivacco Carnielli. La nostra cima e' ben visibile col suo
   profilo triangolare a chiudere la valle verso est. Si perviene alla base
   della parete che porta al Carnielli (un passaggio di I un centinaio di
   metri piu' sotto). Si prende quindi una cengia verso destra che conduce
   all'imbocco del canalone alla sinistra del Dent dela Fopa. Subito occorre
-  superare una difficolta' sul I+ o a sinistra scivolando su un masso lisciato
+  superare una difficoltà sul I+ o a sinistra scivolando su un masso lisciato
   o piu' a destra su paretina scalinata e poi cengetta friabile. Poi si risale
-  lungamente il canale per massi senza difficolta' e, ad una biforcazione, si
+  lungamente il canale per massi senza difficoltà e, ad una biforcazione, si
   prende la strettoia di desta. Qui con qualche passo di I si perviene a un piccolo
   intaglio di forcella (alternativamente salire direttamente a destra per
   gradoni pochi metri prima della forcella (I+). La cima e' in vista sulla
   destra e la si raggiunge facilmente senza percorso obbligato, magari usando le mani su qualche placca appoggiata.
   Salita nel complesso abbordabile anche perché' breve, ma in ambiente
-  abbastanza vergine una volta lasciato il sentiero che del biv. Carnielli. Bella
+  abbastanza vergine una volta lasciato il sentiero che del bivacco Carnielli. Bella
   visione d'infilata verso le cime che a sud-est vanno verso il Pramper e
   ottimo balcone panoramico per le pareti degli Spiz.`
 
   let fotoSasse = []
   let foto21 = {path: 'zoldano/sasse01.jpg', desc: 'Arrampicando sulla parete appoggiata'}
   let foto22 = {path: 'zoldano/sasse02.jpg', desc: 'Cengioni detritici'}
-  let foto23 = {path: 'zoldano/sasse03.jpg', desc: 'Biv. Carnielli'}
+  let foto23 = {path: 'zoldano/sasse03.jpg', desc: 'bivacco Carnielli'}
   let foto24 = {path: 'zoldano/sasse04.jpg', desc: 'Piccolo Civetta e Civetta'}
   let foto25 = {path: 'zoldano/sasse05.jpg', desc: 'Pelmo e Antelao dalla vetta'}
   fotoSasse.push(foto21)
@@ -148,7 +148,7 @@ export default function Zoldano() {
   fotoSpiz.push(foto29)
   fotoSpiz.push(foto30)
   fotoSpiz.push(foto31)  
-  let descSpiz = `Al biv. Carnielli si perviene affrontando qualche passo esposto in cengia e 
+  let descSpiz = `Al bivacco Carnielli si perviene affrontando qualche passo esposto in cengia e 
   rimontando circa 200m di rocce sul I grado discontinuo (1 passaggio I+). 
   Dal bivacco si risale l'intaglio tra i due Spiz verso sinistra, 
   guadagnado qualche decina di metri su sentiero. Poi si puo' continuare a 
@@ -157,13 +157,13 @@ export default function Zoldano() {
   passaggio (III). Alternativamente alla base del canalone si segue la 
   traccia verso destra e quindi si rimonta una parete di circa 30m. Anche 
   qui piu' varianti, passaggi anche di II+ esposti. Raggiunto un gendarme 
-  si risale con difficolta' minori sino ad un'altra paretina in vista 
+  si risale con difficoltà minori sino ad un'altra paretina in vista 
   della cengia di salita. Si puo' scalare la paretina o piu' a sinistra 
   dentro il canale (10m, II). Poi la cengia si presenta stretta solo in un 
   paio di punti. La cresta finale e' sul I grado o terreno inclinato e 
   friabile che richiede molta attenzione. Il concatenamento allo Spiz di 
   Mezzo prevede di risalire un canale sulla zona nord-est del torrione. 
-  Ancora piu' friabile dello Spiz Sud, difficolta' max I+. Per la discesa 
+  Ancora piu' friabile dello Spiz Sud, difficoltà max I+. Per la discesa 
   si trovano anelli di cordino per calate su un pino mugo, con varie altre 
   possibilità di assicurazione su spuntoni o clessidre.`
 
@@ -316,7 +316,7 @@ export default function Zoldano() {
   fotoCimaVenier.push(foto61)
   fotoCimaVenier.push(foto62)  
   let descCimaVenier = `Via di salita 
-	per il Viaz sora la Fopa che si attacca al bivio per il biv. Carnielli de 
+	per il Viaz sora la Fopa che si attacca al bivio per il bivacco Carnielli de 
 	Marchi rimontando la rampa ghiaiosa verso destra. Giunti su uno spallone, in 
 	presenza di un grosso gendarme, gli ometti fanno perdere quota fino ad un 
 	fitto di mughi. qui serve calarsi per una decina di metri, i primi con 
@@ -414,7 +414,7 @@ export default function Zoldano() {
   fotoTorreDaCamp.push(foto81)
   fotoTorreDaCamp.push(foto82)
   fotoTorreDaCamp.push(foto83)  
-  let descTorreDaCamp = `Da Malga Framont si prosegue sul 552 in direzione della Moiazza (Biv. Ghedini) e lo
+  let descTorreDaCamp = `Da Malga Framont si prosegue sul 552 in direzione della Moiazza (bivacco Ghedini) e lo
   si lascia per piegare a sinistra già in prossimità delle pareti. La via inizia con un canalino stretto che oppone passaggi di I e I+
   fino a guadagnare una cengia verso sinistra (umido) che si segue attorniando la Terza e Seconda Torre da Camp, con un passaggio
   molto esposto aiutato da un cordino. La via si conclude con una breve arrampicata della torretta finale, anche qui aiutata da un
