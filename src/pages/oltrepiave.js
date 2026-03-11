@@ -63,7 +63,7 @@ export default function Oltrepiave() {
   fotoVacalizza.push(foto19)  
   let descVacalizza = `Cima isolata in ambiente 
   selvaggio, nonostante il percorso sia segnalato da sbiaditi bolli rossi 
-  fino all'anticima principale. Impegno ai limiti dell'escursionismo, con 
+  fino all'antecima principale. Impegno ai limiti dell'escursionismo, con 
   un salto di 5m di III- obbligatorio e 3 brevi tratti di II anche molto 
   esposti nella cresta finale. Salita grandiosa, in grado di appagare i 
   più esigenti amanti del genere.`
@@ -177,12 +177,12 @@ export default function Oltrepiave() {
   fotoPecoli.push(foto48)
   fotoPecoli.push(foto51)
   fotoPecoli.push(foto52)  
-  let descPecoli = `Interessante salita di media difficoltà, affrontabile senza l&#39;utilizzo di materiale 
+  let descPecoli = `Interessante salita di media difficoltà, affrontabile senza l'utilizzo di materiale 
   con la giusta dose di accortezza. Si abbandona il sentiero che porta al bivacco Marchi Granzotto quando, in 
   prossimità di due laghetti alla sinistra, si nota ben stagliata la finestra naturale che segna l'inizio della via normale. 
   Raggiunto l'arco con dura salita per ghiaione non segnato si individua subito la cengia di attacco, che merita attenzione 
   nei primi 5/10 metri. Si entra quindi in un canale franoso e si supera il passaggio chiave con un masso strapiombante, 
-  scalando la paretina di destra (II-, 4m) comunque non esposta. Il resto del percorso, un po&#39; da cercare ma con limitati 
+  scalando la paretina di destra (II-, 4m) comunque non esposta. Il resto del percorso, un po' da cercare ma con limitati 
   pericoli, oppone solo qualche ulteriore passo sul I grado.`
 
   let fotoMonfalconDM = []
@@ -313,7 +313,7 @@ export default function Oltrepiave() {
   fotoBrica.push(foto75)
   fotoBrica.push(foto76)  
   let descBrica = `Dal parcheggio sotto il Rifugio Pordenone (quota 1160) si prosegue in
-  piano per quasi 1h lungo la val Meluzzo (dir. Nord). Quindi si sale a destra
+  piano per quasi 1h lungo la val Meluzzo (direzione Nord). Quindi si sale a destra
   (indicazioni Cason di Brica) che si raggiunge dopo 500m dislivello. Da qui
   il percorso si fa parecchio selvaggio. Occorre salire per un centinaio di
   metri dietro il cason tra mughi fitti praticamente senza traccia. Pervenuti
@@ -338,7 +338,7 @@ export default function Oltrepiave() {
   fotoCentenere.push(foto78)
   fotoCentenere.push(foto79)
   fotoCentenere.push(foto80)
-  let descCentenere = `Dal Rifugio Maniago si sale alla forcella Duranno (2220), superando qualche breve passaggio di I nel tratto conclusivo. 
+  let descCentenere = `Dal Rifugio Maniago si sale alla forcella Duranno (2220m), superando qualche breve passaggio di I nel tratto conclusivo. 
   Quindi per portarsi sulla prima quota (la piu' elevata) delle cime Centenere si risale la cresta erbosa a destra che in pochi minuti porta alla vetta (palo con ometto). 
   Si  può a questo punto anche raggiungere l'altra quota leggermente inferiore 
   più a sud. Occorre scendere con cautela fino al sentiero che porta a casera Lodina (2m I+ forse evitabili) per poi rimontare 
@@ -364,7 +364,7 @@ export default function Oltrepiave() {
   cappello ad un costone roccioso. Da li (1930m) si piega a sinistra 
   infilando un canalone articolato in roccia (I frequante con qualche 
   passaggio I+), puntando ormai l'evidente cresta. Giunti in vista della 
-  val Compol si piega a sinistra seguendo la cresta fino all'anticima 
+  val Compol si piega a sinistra seguendo la cresta fino all'antecima 
   (2240) ove iniziano le difficolta su massi seghettati, verso la Cima 
   delle Ciazze alte (sud-est). Noi ci siamo fermati qui, vista la 
   esposizione elevatissima del tratto finale, che consigliava sicurezza di 
@@ -553,7 +553,7 @@ export default function Oltrepiave() {
   indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'anti-cima sud. 
   Ancora pochi minuti per la cima principale. Per abbreviare il ritorno si può proseguire sccendendo verso la cresta nord 
   in direzione della fisibile forcella S'ciol de Mont. Dopo alcune decine di metri si abbandona la linea di cresta e 
-  ci si districa tra mughi anche fitti indovinando i passaggi pi� convenienti. Talora si incrocia qualche confortante ometto, 
+  ci si districa tra mughi anche fitti indovinando i passaggi più convenienti. Talora si incrocia qualche confortante ometto, 
   benchè la forcella di destinazione resti quasi sempre visibile il che riduce i patemi di sbagliare completamente percorso. 
   Guadagnata la forcella si torna a pian di Meluzzo discendendo il dissestato vallone, parzialmente invaso da nevaio, 
   senza grandi opportunità di accelerare i movimenti.`
@@ -649,7 +649,7 @@ export default function Oltrepiave() {
   fotoToc.push(foto137)
   fotoToc.push(foto138)
   let descToc = `Lasciata l'auto poco dopo l'imbocco della 
-  strada che porta in val Mesaz (dopo la diga del Vajont) abbiamo risalito 
+  strada che porta in val Mesaz, dopo la diga del Vajont, abbiamo risalito 
   il fianco destro detritico delle ultime placche della frana verso ovest. 
   Alla fine dei blocchi franati siamo saliti per un 20m su placche per poi 
   entrare nel bosco evitando inutili pericoli. Ripreso poi il sentiero 
@@ -676,7 +676,7 @@ export default function Oltrepiave() {
   fotoPalazzaZemola.push(foto143)
   fotoPalazzaZemola.push(foto144)
   let descPalazzaZemola = `Dopo la galleria verso Casera Bedin si prende a destra
-  ripidamente su per la pala erbosa puntando i massi bianchi dell'anticima.
+  ripidamente su per la pala erbosa puntando i massi bianchi dell'antecima.
   Giunti li si scende per un 20 metri e poi si aggira a sinstra (ovest) la
   piramide finale, passando per una brevissima cengetta.`
 

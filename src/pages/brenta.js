@@ -21,7 +21,7 @@ export default function Brenta() {
   fotoTosa.push(foto8)
   fotoTosa.push(foto9)
   fotoTosa.push(foto10)
-  let descTosa = `Lo zoccolo prima del camino I grado un 
+  let descTosa = `La via normale inizia con lo zoccolo prima del camino chiave, I grado un 
   passaggio II, poi il camino/spigolo 25 metri II e passaggi II+ sul 
   verticale, appigli abbondanti ma lisciati dall'uso. Sopra solo passi di 
   I divertenti, calotta di neve innocua (non portare i ramponi). A 

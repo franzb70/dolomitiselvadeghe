@@ -161,7 +161,7 @@ export default function Pale() {
   let foto32 = {path: 'pale/Bureloni_00.jpg', desc: 'Bureloni a sinistra'}
   let foto33 = {path: 'pale/Bureloni_01.jpg', desc: 'Residui di ghiacciaio delle Zirocole'}
   let foto34 = {path: 'pale/Bureloni_02.jpg', desc: 'Cima di Valgrande'}
-  let foto35 = {path: 'pale/Bureloni_03.jpg', desc: 'Cima di Valgrande e anticima'}
+  let foto35 = {path: 'pale/Bureloni_03.jpg', desc: 'Cima di Valgrande e antecima'}
   let foto36 = {path: 'pale/Bureloni_04.jpg', desc: 'Vezzana e Cimon dalla vetta'}
   let foto37 = {path: 'pale/Bureloni_05.jpg', desc: 'Campido e Focobon'}
   fotoBureloni.push(foto32)

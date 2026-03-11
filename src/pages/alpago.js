@@ -23,7 +23,7 @@ export default function Alpago() {
     let fotoColNudo = []
     let foto5 = {path: 'alpago/ColNudo01.jpg', desc: 'Cresta del Col Nudo'}
     fotoColNudo.push(foto5)
-    let descColNudo = `Percorso faticoso ed elementare sino all'anticima. Dopo bisogna 
+    let descColNudo = `Percorso faticoso ed elementare sino all'antecima. Dopo bisogna 
     percorrere un centinaio di metri in cresta (roccia martoriata dai 
     fulmini). C'è un passaggio di 3m da fare in arrampicata scendendo in 
     una fessura (I+) e dopo la cresta presenta tratti aerei con in 

@@ -20,7 +20,7 @@ export default function Zoldano() {
   Il canale giusto e quello centrale, spostato leggermente a sinistra, roccioso fin dalla base. 
   Raggiunto l'attacco si risale il canale: due alternative, tutto a sinistra per terriccio ripido adiacente le rocce, oppure verso destra con facili passi di I grado. 
   In pochi minuti si raggiunge lo stretto intaglio di forcella da dove si attacca la breve via normale, 0,45h da F.lla Larga. 
-  Superato un muretto iniziale si aggira verso sinistra un'anticima fino in vista del conoide detritico finale che si risale su traccia mantenendosi al centro, lontani dall'esposizione. 
+  Superato un muretto iniziale si aggira verso sinistra un'antecima fino in vista del conoide detritico finale che si risale su traccia mantenendosi al centro, lontani dall'esposizione. 
   Preoccupano un po' gli ultimi metri, aggirando a destra il blocco di vetta, dovendo passare in esposizione su terreno ripido. Conviene stare ben attaccati alla roccia, I. 
   La vetta e' molto stretta, ci stanno al massimo 3/4 persone. Discesa per la stessa via, senza 
   possibilità di guadagnare gran che sul tempo di salita (poco meno di 6h complessive).`
@@ -149,7 +149,7 @@ export default function Zoldano() {
   fotoSpiz.push(foto30)
   fotoSpiz.push(foto31)  
   let descSpiz = `Al bivacco Carnielli si perviene affrontando qualche passo esposto in cengia e 
-  rimontando circa 200m di rocce sul I grado discontinuo (1 passaggio I+). 
+  rimontando circa 200m di rocce sul I grado discontinuo (un passaggio I+). 
   Dal bivacco si risale l'intaglio tra i due Spiz verso sinistra, 
   guadagnado qualche decina di metri su sentiero. Poi si puo' continuare a 
   sinistra nel fondo del canalone con difficolta max I+ fin sotto un masso 
@@ -185,7 +185,7 @@ export default function Zoldano() {
   imboccare la ripida rampa erbosa che porta alla forcella Sagretta a nord dello 
   Spigol. Da qui si prosegue per cenge e piccoli risalti, con passaggi di 
   I anche esposto. Si perviene ad un'ampia cupola rocciosa che fa da 
-  anticima. Quindi occorre scendere per una ventina di metri, ancora su 
+  antecima. Quindi occorre scendere per una ventina di metri, ancora su 
   terreno delicato e friabile, per poi imboccare una cengia sempre più 
   larga che conduce sino in cresta. Gli ultimi 50 m sono ancora meritevoli 
   di attenzione, su cresta rotta dalle intemperie. Rientro avventuroso, sino a 
