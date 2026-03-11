@@ -1,9 +1,11 @@
-import React from 'react'
 import Gita from "../Components/Gita"
 import Layout from '../Components/Layout'
+import SectionList from '../Components/SectionList'
+import React, { useState } from 'react';
 
 export default function Fassa() {
-  
+  const [isOpen, setIsOpen] = useState(false)    
+
   let fotoTooreNord = []
   let foto1 = {path: 'fassa/TorreNordVajolet_01.jpg', desc: 'In vista della cengia'}
   let foto2 = {path: 'fassa/TorreNordVajolet_02.jpg', desc: 'All\'attacco del canale'}
@@ -177,10 +179,23 @@ export default function Fassa() {
 
 return (
   <Layout>
-  <div className='row App'>
-    <div className='col-sm-2 colLeft'>
-        </div>
-        <div className='col-sm-10'>          
+        <div id="top" className='row App'>
+            <div className='col-sm-2 colLeft' style={{ borderRight: '1px solid #eee', paddingTop: '20px' }}>
+                <button 
+                    className={`btn ${isOpen ? 'btn-outline-secondary' : 'btn-primary'} btn-sm w-100 mb-3`}
+                    onClick={() => setIsOpen(!isOpen)}
+                    style={{ textAlign: 'left', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                >
+                    <span>{isOpen ? '✕ Chiudi' : '☰ Indice'}</span>
+                </button>
+
+                {isOpen && (
+                    <div className="animate__animated animate__fadeIn">
+                        <SectionList />
+                    </div>
+                )}
+            </div>
+        <div className='col-sm-10' style={{ position: 'relative' }}>          
         <span id="1"></span>
         <Gita title='Torre Nord del Vajolet' quota='2810m' dislivello='~900m' difficolta='II-' descrizione={descTooreNord} foto={fotoTooreNord} ></Gita>
         <span id="2"></span>

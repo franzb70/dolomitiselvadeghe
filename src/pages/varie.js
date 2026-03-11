@@ -1,8 +1,10 @@
-import React from 'react'
 import Gita from "../Components/Gita"
 import Layout from '../Components/Layout'
+import SectionList from '../Components/SectionList'
+import React, { useState } from 'react';
 
 export default function Varie() {
+  const [isOpen, setIsOpen] = useState(false)    
 
   let fotoGranPa = []
   let foto1 = {path: 'varie/granPa01.jpg', desc: 'Verso sud, 5 di mattina'}
@@ -67,10 +69,23 @@ export default function Varie() {
 
   return (
     <Layout>
-    <div className='row App'>
-    <div className='col-sm-2 colLeft'>
-        </div>
-        <div className='col-sm-10'>          
+        <div id="top" className='row App'>
+            <div className='col-sm-2 colLeft' style={{ borderRight: '1px solid #eee', paddingTop: '20px' }}>
+                <button 
+                    className={`btn ${isOpen ? 'btn-outline-secondary' : 'btn-primary'} btn-sm w-100 mb-3`}
+                    onClick={() => setIsOpen(!isOpen)}
+                    style={{ textAlign: 'left', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                >
+                    <span>{isOpen ? '✕ Chiudi' : '☰ Indice'}</span>
+                </button>
+
+                {isOpen && (
+                    <div className="animate__animated animate__fadeIn">
+                        <SectionList />
+                    </div>
+                )}
+            </div>
+        <div className='col-sm-10' style={{ position: 'relative' }}>          
         <span id="1"></span>
         <Gita title='Gran Paradiso' quota='4061m' dislivello='780+1350m' difficolta='EE/F' descrizione={descGranPa} foto={fotoGranPa} ></Gita>
         <span id="2"></span>

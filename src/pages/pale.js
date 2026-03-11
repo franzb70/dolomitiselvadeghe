@@ -1,8 +1,10 @@
-import React from 'react'
 import Gita from "../Components/Gita"
 import Layout from '../Components/Layout'
+import SectionList from '../Components/SectionList'
+import React, { useState } from 'react';
 
 export default function Pale() {
+  const [isOpen, setIsOpen] = useState(false)    
 
   let fotoBeta = []
   let foto0 = {path: 'pale/Beta00.jpg', desc: 'Attacco'}
@@ -174,10 +176,23 @@ export default function Pale() {
 
 return (
   <Layout>
-  <div className='row App'>
-    <div className='col-sm-2 colLeft'>
-        </div>
-        <div className='col-sm-10'>     
+        <div id="top" className='row App'>
+            <div className='col-sm-2 colLeft' style={{ borderRight: '1px solid #eee', paddingTop: '20px' }}>
+                <button 
+                    className={`btn ${isOpen ? 'btn-outline-secondary' : 'btn-primary'} btn-sm w-100 mb-3`}
+                    onClick={() => setIsOpen(!isOpen)}
+                    style={{ textAlign: 'left', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+                >
+                    <span>{isOpen ? '✕ Chiudi' : '☰ Indice'}</span>
+                </button>
+
+                {isOpen && (
+                    <div className="animate__animated animate__fadeIn">
+                        <SectionList />
+                    </div>
+                )}
+            </div>
+        <div className='col-sm-10' style={{ position: 'relative' }}>          
         <span id="1"></span>
         <Gita title='Cima della Beta' quota='2723m' dislivello='1600m' difficolta='II+/III-/PD+' descrizione={descBeta} foto={fotoBeta} ></Gita>
         <span id="2"></span>

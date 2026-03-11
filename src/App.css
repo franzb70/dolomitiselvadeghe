@@ -128,3 +128,102 @@ body {
   font-weight: bold;
   width: 150px;
 }
+
+/* Container della colonna sinistra per lo sticky */
+.sidebar-container {
+    position: sticky;
+    top: 20px;
+    z-index: 10;
+}
+
+/* Il bottone Indice */
+.btn-indice {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1.15rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 1020px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+    margin-bottom: 15px;
+}
+
+.btn-indice:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn-indice.active {
+    background-color: #004a99;
+}
+
+.sticky-nav-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Sta sopra tutto il resto */
+    background-color: #0f2755; /* Stesso blu del tuo bottone */
+    width: 100%;
+    padding: 10px 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+/* Rimuoviamo ogni sfondo bianco dai contenitori */
+.section-results-box {
+    background-color: #0f2755; /* Blu solido per coprire le gite sotto */
+    max-height: 60vh; /* Se l'indice è lungo, diventa scorrevole */
+    overflow-y: auto;
+    padding-top: 2px;
+}
+
+/* Forza la visibilità della lista */
+.section-results-box {
+    display: block !important;
+    width: 100%;
+}
+
+/* Stile delle righe (Gite) */
+.section-result-item {
+    background: rgba(107, 104, 226, 0.185) !important; /* Grigio scuro trasparente */
+    margin-bottom: 5px !important;
+    padding: 12px 15px !important;
+    border-radius: 6px !important;
+    transition: all 0.2s;
+    position: relative;
+    z-index: 5; /* Assicura che stia sopra eventuali layer bianchi */
+}
+
+.section-result-item:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* REGOLE PER I LINK (Fondamentali per farli funzionare) */
+.section-result-item a {
+    color: #ffffff !important; /* Testo bianco */
+    text-decoration: none !important;
+    display: block !important; /* Rende cliccabile tutta la riga */
+    width: 100% !important;
+    height: 100% !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+}
+
+/* Layout della SectionList */
+.section-main-layout {
+    display: flex;
+    background-color: transparent !important; 
+}
+
+[id] {
+    scroll-margin-top: 70px; /* Regola questo valore in base all'altezza del bottone */
+}
+@media (max-width: 1200px) {
+    .section-main-layout { flex-direction: column; }
+}

@@ -15,7 +15,8 @@ import Bellunesi from "./pages/bellunesi.js"
 import Brenta from "./pages/brenta.js"
 import Fassa from "./pages/fassa.js"
 import Varie from "./pages/varie.js"
-import Search from "./pages/search.js"
+import Search from './Components/search.js';
+import SectionList from './Components/SectionList.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,6 +36,7 @@ root.render(
         <Route path="/fassa" element={<Fassa />} />
         <Route path="/varie" element={<Varie />} />
         <Route path="/search" element={<Search />} />
+        <Route path="/content" element={<SectionList />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

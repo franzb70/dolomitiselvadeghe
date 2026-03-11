@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
-import Sidebar from '../Components/Sidebar';
+import Sidebar from './Sidebar';
 import { HashLink } from 'react-router-hash-link';
 import '../App.css';
 
@@ -43,7 +43,6 @@ const StyledInput = styled.input`
   &::placeholder { color: rgba(255,255,255,0.4); }
 `;
 
-// Bottone Moderno
 const ModernButton = styled.button`
   margin-top: 20px;
   padding: 10px 35px;

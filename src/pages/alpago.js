@@ -1,8 +1,10 @@
-import React from 'react'
 import Gita from "../Components/Gita"
 import Layout from '../Components/Layout'
+import SectionList from '../Components/SectionList'
+import React, { useState } from 'react';
 
 export default function Alpago() {
+    const [isOpen, setIsOpen] = useState(false)    
 
     let fotoAntander = []
     let foto1 = {path: 'alpago/antander01.jpg', desc: 'Bivacco Toffolon'}
@@ -94,10 +96,21 @@ export default function Alpago() {
 
     return (
     <Layout>
-        <div className='row App'>
-            <div className='col-sm-2 colLeft'>
-            </div>
-            <div className='col-sm-10'>          
+        <div className="sticky-nav-container">
+            <button 
+                className={`btn-indice ${isOpen ? 'active' : ''}`}
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span>{isOpen ? '✕ Chiudi Indice' : '☰ Indice Gite'}</span>
+            </button>
+
+            {isOpen && (
+                /* Passiamo la funzione di chiusura */
+                <SectionList onSelect={() => setIsOpen(false)} />
+            )}
+        </div>      
+        <div id="top" className='row App'>
+            <div className='col-sm-9' style={{ paddingLeft: '30px' }}>           
             <span id="1"></span>
             <Gita title='Monte Antander' quota='1987m' dislivello='920m' difficolta='EE' descrizione={descAntander} foto={fotoAntander} ></Gita>
             <span id="2"></span>
