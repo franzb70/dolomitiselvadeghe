@@ -114,23 +114,21 @@ export default function Giulie() {
 
 return (
   <Layout>
-        <div id="top" className='row App'>
-            <div className='col-sm-2 colLeft' style={{ borderRight: '1px solid #eee', paddingTop: '20px' }}>
-                <button 
-                    className={`btn ${isOpen ? 'btn-outline-secondary' : 'btn-primary'} btn-sm w-100 mb-3`}
-                    onClick={() => setIsOpen(!isOpen)}
-                    style={{ textAlign: 'left', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
-                >
-                    <span>{isOpen ? '✕ Chiudi' : '☰ Indice'}</span>
-                </button>
+        <div className="sticky-nav-container">
+            <button 
+                className={`btn-indice ${isOpen ? 'active' : ''}`}
+                onClick={() => setIsOpen(!isOpen)}
+            >
+                <span>{isOpen ? '✕ Chiudi Indice' : '☰ Indice Gite'}</span>
+            </button>
 
-                {isOpen && (
-                    <div className="animate__animated animate__fadeIn">
-                        <SectionList />
-                    </div>
-                )}
-            </div>
-        <div className='col-sm-10' style={{ position: 'relative' }}>          
+            {isOpen && (
+                /* Passiamo la funzione di chiusura */
+                <SectionList onSelect={() => setIsOpen(false)} />
+            )}
+        </div>      
+        <div id="top" className='row App'>
+            <div className='col-sm-9' style={{ paddingLeft: '30px' }}>            
         <span id="1"></span>
         <Gita title='Monte Mangart' quota='2677m' dislivello='680m' difficolta='I/EEA' descrizione={descMangart} foto={fotoMangart} ></Gita>
         <span id="2"></span>
