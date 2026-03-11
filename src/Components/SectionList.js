@@ -6,10 +6,10 @@ import '../App.css'
 // Aggiungi { onSelect } come parametro
 export default function SectionList({ onSelect }) { 
     const [found, setFound] = useState([])
-    const searchMap = require('../searchMap.json')
     const location = useLocation()
 
     const handleLoad = () => {
+      const searchMap = require('../searchMap.json')
       const currentRoute = location.pathname.replace(/^\//, "").toLowerCase()
       const results = searchMap.Gite
           .filter(gita => gita.page.toLowerCase().includes(currentRoute))
