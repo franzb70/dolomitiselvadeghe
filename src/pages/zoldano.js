@@ -109,8 +109,8 @@ export default function Zoldano() {
   let fotoSasse = []
   let foto21 = {path: 'zoldano/sasse01.jpg', desc: 'Arrampicando sulla parete appoggiata'}
   let foto22 = {path: 'zoldano/sasse02.jpg', desc: 'Cengioni detritici'}
-  let foto23 = {path: 'zoldano/sasse03.jpg', desc: 'bivacco Carnielli'}
-  let foto24 = {path: 'zoldano/sasse04.jpg', desc: 'Piccolo Civetta e Civetta'}
+  let foto23 = {path: 'zoldano/sasse03.jpg', desc: 'Vista sul Pelmo dalla normale'}
+  let foto24 = {path: 'zoldano/sasse04.jpg', desc: 'Piccola Civetta e Civetta'}
   let foto25 = {path: 'zoldano/sasse05.jpg', desc: 'Pelmo e Antelao dalla vetta'}
   fotoSasse.push(foto21)
   fotoSasse.push(foto22)
