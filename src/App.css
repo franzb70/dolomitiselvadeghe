@@ -129,12 +129,6 @@ body {
   width: 150px;
 }
 
-/* Container della colonna sinistra per lo sticky */
-.sidebar-container {
-    position: sticky;
-    top: 20px;
-    z-index: 10;
-}
 
 /* Il bottone Indice */
 .btn-indice {

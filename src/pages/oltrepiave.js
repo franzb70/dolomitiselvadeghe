@@ -552,7 +552,7 @@ export default function Oltrepiave() {
   fotoFerrara.push(foto117)
   fotoFerrara.push(foto118)
   let descFerrara = `Dalla forcella che precede forcella Savalons si prende a sinistra, 
-  indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'anti-cima sud. 
+  indicazioni in rosso, risalendo facilmente prima far mughi e poi su terreno a zig zag per raggiungerel'antecima sud. 
   Ancora pochi minuti per la cima principale. Per abbreviare il ritorno si può proseguire sccendendo verso la cresta nord 
   in direzione della fisibile forcella S'ciol de Mont. Dopo alcune decine di metri si abbandona la linea di cresta e 
   ci si districa tra mughi anche fitti indovinando i passaggi più convenienti. Talora si incrocia qualche confortante ometto, 

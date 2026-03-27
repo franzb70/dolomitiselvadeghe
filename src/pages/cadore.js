@@ -85,7 +85,7 @@ export default function Cadore() {
   chiave. Da qui non abbiam più usato la corda e l'arrampicata risulta
   piacevole sul I continuo con un paio di passaggi di II-, uno dei quali
   esposto ma solido. Gli ultimi metri di dislivello sono più facili, su
-  sentiero che scavalca una forcelletta di un'anti-cima. 5h.15 alla cima, 3h a
+  sentiero che scavalca una forcelletta di un'antecima. 5h.15 alla cima, 3h a
   scendere con rapida discesa per i ghiaioni della fissura.`
 
   let fotoCesta = []

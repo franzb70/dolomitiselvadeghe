@@ -117,7 +117,14 @@ export default function Zoldano() {
   fotoSasse.push(foto23)
   fotoSasse.push(foto24)
   fotoSasse.push(foto25)  
-  let descSasse = `Salita molto divertente con una lunga parete di I/I+ continuo priva di reale esposizione.`
+  let descSasse = `Da Casera della Grava si segue prima su strada bianca il sentiero 557 in direzione nord-ovest
+  e poi il 558 diretto a forcella delle Sasse. Lo si abbandona piegando a sinistra ben prima della forcella
+  per imboccare l'accesso al Van della Moiazzetta della Grava. Ci si sposta in quota
+  bordeggiando la parete della Cima delle Sasse (possibili nevaietti) fino quasi al termine dell'anfiteatro,
+  non lasciandosi tentare da alcuni canalini di accesso alla parete, pur affrontabili.
+  Si sceglie invece l'utimo della serie, ometti, iniziando ad arrampicare per intagli e cenge.
+  La salita è molto divertente con una lunga parete di I/I+ continuo priva di reale esposizione, ed affrontabile
+  in assetto escursionistico.`
 
   let fotoGardesana = []
   let foto26 = {path: 'zoldano/gardesana01.jpg', desc: 'Per cenge'}
