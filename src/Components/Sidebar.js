@@ -151,7 +151,7 @@ const Sidebar = () => {
       </BrandSection>
 
       <PromoBox>
-        <a target="_blank" href="http://www.vividolomiti.it" rel="noreferrer">
+        <a target="_blank" href="https://www.amazon.it/s?k=wild+dolomiti+losso" rel="noreferrer">
           <img src={VD} alt='ViviDolomiti' />
         </a>
         <p>{disclaimer}</p>
